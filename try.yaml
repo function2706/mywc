@@ -30,3 +30,110 @@ try:
       hand:
       bags:
       one-points:
+back:
+  - airport terminal
+  - alleyway,walls,dumpsters,fire escapes,pipes,streetlights,stray cats,garbage bags
+  - amusement park
+  - antarctic,arctic,ice,iceberg,ocean
+  - antique shop,display cases,shelves,racks,pedestals,antique furniture,collectibles
+  - aquarium,fish,tanks,exhibits
+  - art gallery,exhibition rooms,gallery walls,pedestals,display cases
+  - art museum,gallery,artworks
+  - bakery,bread
+  - bamboo grove
+  - beach
+  - beach
+  - bicycle lane
+  - book store,shelves,bookcases
+  - botanical garden
+  - bus stop
+  - canyon,deep gorge,steep cliffs
+  - cargo ship,vessel,hull,bow,stern,superstructure,cargo holds,deck,bridge,navigation equipment
+  - casino,gaming floor,slot machines,card tables,roulette wheel,craps table
+  - cave,caverns,natural underground cavity,rock formation
+  - city
+  - cityscape,streets,roads,sidewalks,pedestrians
+  - clock tower,elizabeth tower
+  - coffee shop
+  - concert hall,auditorium,stage
+  - construction site
+  - convenience store,shelves,products,cashier,customer,shopping baskets
+  - coral reef,coral colonies,coral polyps,coral formations,reef-building corals,coral skeletons
+  - crosswalk,sidewalks,curb ramps,crosswalk signs
+  - desert,sand dunes,cacti,tumbleweeds
+  - electronics store,product showcases,electronic devices,laptop,televisions,home appliances
+  - emergency ward,triage area,waiting room,reception desk,registration forms,medical,medical equipment,stretchers,examination rooms
+  - farm,fields,barn,farmhouse
+  - farmers' market,stalls,tents,canopies,tables,produce displays
+  - fashion store,apparel store,jewelry shop
+  - fast food chain,drive-thru lanes,dining areas,order counters,menus,cash registers,kitchen,food preparation stations,cooking equipment,grills,fryers,ovens
+  - ferris wheel
+  - fire station,fire truck
+  - fjord,glacial valley,fjord walls,snow-capped mountains,glacial meltwater
+  - flower shop,storefront,display windows,flower arrangements,potted plants,flower buckets
+  - food court,area,seating,tables,chairs,food stalls
+  - food truck,mobile kitchen,serving window,menu board
+  - fountain
+  - garden
+  - geothermal area,geysers,fumaroles,mud pots,steam vents,geothermal power plants
+  - glacier,icebergs,crevasses,icefalls,ice shelves
+  - grocery store,meat and seafood counter,frozen food section,canned goods section,dry goods section,checkout counters,shopping carts,shopping baskets
+  - hardware store,aisles,shelves,tool section,hardware section,paint section
+  - helicopter,cabin,doors,windows,seats
+  - highway,road,lanes,pavement,dividers
+  - home decor store,wall fixtures,furniture,lighting fixtures,home accessories,rugs,curtains,bedding,pillows,decorative accents,mirrors,artwork,picture frames,clocks
+  - hospital,operating rooms,emergency rooms,waiting rooms,pharmacy,laboratory
+  - hot air balloon,heated air balloon,thermal balloon
+  - hotel,hotel room,luggage
+  - island,coves,sand dunes,tidal pools
+  - jungle
+  - lake
+  - library
+  - marina,docks,piers,pontoons
+  - meadow,vegetation,open field
+  - mountain
+  - movie theater,cinema,seats
+  - music store,display cases,instrument sections,sheet music racks,audio equipment,speakers
+  - night club,dance floor,dj booth,bouncer,security
+  - oasis,palm trees,pond
+  - ocean
+  - office building
+  - onsen,hot spring,soaking tubs
+  - orchard,fruit trees
+  - outdoor concert,stage,outdoors,audience
+  - park bench,seat,park,greenery
+  - park,trees
+  - parking lot,vehicles,parking spaces,parking lines,parking barriers
+  - pasture,fences,gates,water troughs,hay bales
+  - pedestrian crossing,traffic lights,pavement,signage
+  - pet store,display cages,bird cages,reptile terrariums,small mammal enclosures,grooming station,pet food section
+  - plaza,open space,paved area
+  - police office,reception desk,waiting area,security checkpoint,security personnel
+  - post office,mail slots,postal counter,stamps,envelopes,packaging materials,weighing scale,mailing labels,address verification system,postal forms
+  - radio tower,antennas,climbing ladder,beacon lights
+  - restaurant,dining area,booths,stand menu
+  - river
+  - roller coaster
+  - savannah,grassland,open plains,shrubs,acacia trees,baobab trees
+  - shopping mall
+  - skyscrapers,tall buildings,steel frames,glass windows,concrete,apartments
+  - stanford,oxfords,university
+  - steppe,grassland,semi-arid region,vast plain,grassy terrain
+  - street corner,sidewalks,roads,crosswalks,stoplights,street signs,lamp posts,trash cans,newspaper stands,benches,phone booths
+  - street festival,stages,tents,food stalls,beverage stands,vendor booths,live performers
+  - subway station
+  - taiga,evergreen trees,spruce,pine,fir,larch,moss,lichens
+  - taxi stand,waiting,waiting area,taxi stand sign
+  - toy store,toy sections,playsets,action figures,dolls,stuffed animals,board games,puzzles
+  - traffic jam,cars,accidents,emergency vehicles,roadwork
+  - train interior,seats,windows,doors,luggage racks,overhead compartments,aisles
+  - train tracks
+  - valley,mountains,hills,rivers,creeks
+  - village,houses,public buildings,village green
+  - vineyard,grapevines,trellises,grape varieties
+  - vintage clothing store,clothing hangers,clothing racks,display shelves,mannequins
+  - volcano,lava,magma chamber,crater
+  - waterfall
+  - waterfront,shoreline,pier,boardwalk
+  - wetland,marsh,swamp,bog
+  - zoo,animal enclosures,exhibits,habitats,cages,feeding areas,watering holes
