@@ -6,6 +6,7 @@ copyright:
     - __mywc/subject/copyright/blue-archive__
     - __mywc/subject/copyright/bocchi-the-rock__
     - __mywc/subject/copyright/boku-no-hero-academia__
+    - __mywc/subject/copyright/ardcaptor-sakura__
     - __mywc/subject/copyright/chainsaw-man__
     - __mywc/subject/copyright/code-geass__
     - __mywc/subject/copyright/digimon__
@@ -15,6 +16,7 @@ copyright:
     - __mywc/subject/copyright/fate__
     - __mywc/subject/copyright/final-fantasy__
     - __mywc/subject/copyright/fire-emblem__
+    - __mywc/subject/copyright/fujiko-f__
     - __mywc/subject/copyright/fullmetal-alchemist__
     - __mywc/subject/copyright/genshin-impact__
     - __mywc/subject/copyright/go-toubun-no-hanayome__
@@ -274,6 +276,9 @@ copyright:
     - uraraka ochako
     - utsushimi kemii
     - yaoyorozu momo
+  cardcaptor-sakura:
+    - daidouji tomoyo
+    - kinomoto sakura
   chainsaw-man:
     - cosmo \(chainsaw man\)
     - falling devil \(chainsaw man\)
@@ -545,6 +550,8 @@ copyright:
     - tharja \(fire emblem\)
     - tiki \(fire emblem\)
     - veronica \(fire emblem\)
+  fujiko-f:
+    - minamoto shizuka
   fullmetal-alchemist:
     - lust \(fma\)
     - may chang
