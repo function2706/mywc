@@ -428,59 +428,55 @@ pose:
           - thumbs up
     touching:
       do:
-        - __mywc/pose/upper/touching/hand/one-hand/do__
-        - __mywc/pose/upper/touching/hand/both-hands/do__
+        - __mywc/pose/upper/touching/one-hand/do__
+        - __mywc/pose/upper/touching/both-hands/do__
         - __mywc/pose/upper/touching/misc__
-      hand:
+      one-hand:
         do:
-          - __mywc/pose/upper/touching/one-hand/do__
-          - __mywc/pose/upper/touching/both-hands/do__
-        one-hand:
-          do:
-            - hand __mywc/pose/upper/touching/hand/one-hand/parts__
-          parts:
-            - between legs
-            - in own hair
-            - on own arm
-            - on own breast
-            - on own cheek
-            - on own chest
-            - on own chin
-            - on own ear
-            - on own face
-            - on own forehead
-            - on own head
-            - on own hip
-            - on own knee
-            - on own leg
-            - on own neck
-            - on own shoulder
-            - on own stomach
-            - on own thigh
-            - over eye
-            - over own mouth
-            - to own mouth
-        both-hands:
-          do:
-            - hands __mywc/pose/upper/touching/hand/both-hands/parts__
-          parts:
-            - between legs
-            - in own hair
-            - on own breasts
-            - on own cheeks
-            - on own chest
-            - on own chin
-            - on own face
-            - on own head
-            - on own hip
-            - on own knees
-            - on own legs
-            - on own neck
-            - on own shoulders
-            - on own stomach
-            - on own thighs
-            - over eyes
-            - over own mouth
+          - hand __mywc/pose/upper/touching/one-hand/parts__
+        parts:
+          - between legs
+          - in own hair
+          - on own arm
+          - on own breast
+          - on own cheek
+          - on own chest
+          - on own chin
+          - on own ear
+          - on own face
+          - on own forehead
+          - on own head
+          - on own hip
+          - on own knee
+          - on own leg
+          - on own neck
+          - on own shoulder
+          - on own stomach
+          - on own thigh
+          - over eye
+          - over own mouth
+          - to own mouth
+      both-hands:
+        do:
+          - hands __mywc/pose/upper/touching/both-hands/parts__
+        parts:
+          - between legs
+          - in own hair
+          - on own breasts
+          - on own cheeks
+          - on own chest
+          - on own chin
+          - on own face
+          - on own head
+          - on own hip
+          - on own knees
+          - on own legs
+          - on own neck
+          - on own shoulders
+          - on own stomach
+          - on own thighs
+          - over eyes
+          - over own mouth
       misc:
         - breast lift
         - breast suppress
