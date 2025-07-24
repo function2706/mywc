@@ -20,8 +20,8 @@ foot-fetish:
     of:
       - __mywc/nsfw/foot-fetish/socks/foot-state__,(perfect feet:1.5),(soles:1.1),__mywc/nsfw/foot-fetish/socks/pose__,__mywc/nsfw/foot-fetish/core__
     foot-state:
-      - ({|beige|brown|black|white} pantyhose:1.21),{|spread toes}
-      - ({|black|white} {ankle socks|kneehighs|over-kneehighs|socks|thighhighs}:1.21),{|spread toes}
+      - ({|beige |brown |black |white }pantyhose:1.21),{|spread toes}
+      - ({|black |white }{ankle socks|kneehighs|over-kneehighs|socks|thighhighs}:1.21),{|spread toes}
     pose:
       - __mywc/nsfw/foot-fetish/pose/standing/do__
       - __mywc/nsfw/foot-fetish/pose/sitting/do__
@@ -34,8 +34,8 @@ foot-fetish:
     of:
       - __mywc/nsfw/foot-fetish/shoes/foot-state__,__mywc/nsfw/foot-fetish/shoes/pose__,__mywc/nsfw/foot-fetish/core__
     foot-state:
-      - ({|black|red|white} {short|long|thigh} {|braided|latex} boots:1.21),{|stiletto heels}
-      - ({|black|red|white} stiletto heels:1.21),{|pantyhose}
+      - ({|black |red |white }{short|long|thigh} {|braided |latex }boots:1.21),{|stiletto heels}
+      - ({|black |red |white }stiletto heels:1.21),{|pantyhose}
     pose:
       - __mywc/nsfw/foot-fetish/pose/standing/do__
       - __mywc/nsfw/foot-fetish/pose/sitting/do__
@@ -47,9 +47,7 @@ foot-fetish:
         - standing{| on one leg},__mywc/nsfw/foot-fetish/pose/standing/upper/do__,(from below:1.21)
       upper:
         do:
-          - __mywc/nsfw/foot-fetish/pose/standing/upper/pose__
-          - __mywc/nsfw/foot-fetish/pose/standing/upper/touching/do__
-          - __mywc/nsfw/foot-fetish/pose/standing/upper/misc__
+          - "{|{1::__mywc/nsfw/foot-fetish/pose/standing/upper/pose__|2::__mywc/nsfw/foot-fetish/pose/standing/upper/touching/do__|1::__mywc/nsfw/foot-fetish/pose/standing/upper/misc__}}"
         pose:
           - arm{|s} above head
           - arm{|s} at side
