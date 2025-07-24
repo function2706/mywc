@@ -47,7 +47,7 @@ foot-fetish:
         - standing{| on one leg},__mywc/nsfw/foot-fetish/pose/standing/upper/do__,(from below:1.21)
       upper:
         do:
-          - "{|{1::__mywc/nsfw/foot-fetish/pose/standing/upper/pose__|2::__mywc/nsfw/foot-fetish/pose/standing/upper/touching/do__|1::__mywc/nsfw/foot-fetish/pose/standing/upper/misc__}}"
+          - "{|{1::__mywc/nsfw/foot-fetish/pose/standing/upper/pose__|3::__mywc/nsfw/foot-fetish/pose/standing/upper/touching/do__|1::__mywc/nsfw/foot-fetish/pose/standing/upper/misc__}}"
         pose:
           - arm{|s} above head
           - arm{|s} at side
@@ -101,26 +101,18 @@ foot-fetish:
           - pointing at viewer
           - shushing
           - steepled fingers
+          - waving
     sitting:
       do:
         - sitting{|,crossed {ankles|legs}},__mywc/nsfw/foot-fetish/pose/sitting/upper/do__,(from below:1.21)
       upper:
         do:
-          - __mywc/nsfw/foot-fetish/pose/sitting/upper/pose__
-          - __mywc/nsfw/foot-fetish/pose/sitting/upper/touching/do__
-          - __mywc/nsfw/foot-fetish/pose/sitting/upper/misc__
+          - "{|{1::__mywc/nsfw/foot-fetish/pose/sitting/upper/pose__|3::__mywc/nsfw/foot-fetish/pose/sitting/upper/touching/do__|1::__mywc/nsfw/foot-fetish/pose/sitting/upper/misc__}}"
         pose:
           - arm{|s} above head
-          - arm{|s} across waist
           - arm{|s} at side
-          - arm{|s} between legs
           - arm{|s} on knee
           - arm{|s} on own head
-          - arm{|s} up
-          - outstretched arm{|s}
-          - spread arm{|s}
-          - v arm{|s}
-          - w arm{|s}
         touching:
           do:
             - __mywc/nsfw/foot-fetish/pose/sitting/upper/touching/one-hand/do__
@@ -130,132 +122,52 @@ foot-fetish:
             do:
               - hand __mywc/nsfw/foot-fetish/pose/sitting/upper/touching/one-hand/parts__
             parts:
-              - between legs
               - in own hair
-              - on own arm
-              - on own breast
               - on own cheek
               - on own chest
-              - on own chin
-              - on own ear
-              - on own face
               - on own forehead
               - on own head
               - on own hip
               - on own knee
-              - on own leg
               - on own neck
-              - on own shoulder
-              - on own stomach
               - on own thigh
               - over eye
-              - over own mouth
-              - to own mouth
           both-hands:
             do:
               - hands __mywc/nsfw/foot-fetish/pose/sitting/upper/touching/both-hands/parts__
             parts:
               - between legs
-              - in own hair
-              - on own breasts
               - on own cheeks
               - on own chest
-              - on own chin
               - on own face
-              - on own head
-              - on own hip
-              - on own knees
               - on own legs
-              - on own neck
-              - on own shoulders
-              - on own stomach
-              - on own thighs
-              - over eyes
-              - over own mouth
           misc:
-            - breast lift
-            - breast suppress
-            - cheek rest
-            - covering breasts
-            - covering face
-            - covering one eye
-            - covering own ears
-            - covering own eyes
             - covering own mouth
             - finger to cheek
-            - finger to face
-            - finger to mouth
-            - finger to own chin
-            - fingers to cheeks
             - head rest
-            - holding hair
-            - holding own arm
             - holding own hair
-            - holding own wrist
-            - playing with own hair
             - scratching cheek
-            - scratching head
-            - stroking own chin
             - twirling hair
         misc:
-          - 4-finger heart hands
-          - arm rest
-          - arm{|s} behind back
           - arm{|s} behind head
           - claw pose
           - crossed arms
-          - cupping hands
-          - curled fingers
-          - double middle finger
-          - elbow rest
-          - finger frame
-          - finger heart
-          - fist pump
-          - flexing
-          - ghost pose
-          - hand rest
-          - index fingers together
-          - middle finger
-          - ok sign
-          - palms together
-          - paw pose
-          - pinky out
-          - pointing at self
           - pointing at viewer
-          - pointing up
-          - rabbit pose
-          - raised fist
-          - reaching towards viewer
-          - salute
           - shushing
           - steepled fingers
-          - surprised arms
-          - v over eye
-          - v over mouth
-          - victory pose
           - waving
-          - zombie pose
     extending:
       do:
         - (legs together:1.21),(feet together:1.21),{|(stretched legs out:1.21)},{|(extending legs:1.21)},{|crossed legs},both feet,both soles,__mywc/nsfw/foot-fetish/pose/extending/upper/do__
         - (knees apart:1.21),(feet together:1.21),both feet,both soles,__mywc/nsfw/foot-fetish/pose/extending/upper/do__
       upper:
         do:
-          - __mywc/nsfw/foot-fetish/pose/extending/upper/pose__
-          - __mywc/nsfw/foot-fetish/pose/extending/upper/touching/do__
-          - __mywc/nsfw/foot-fetish/pose/extending/upper/misc__
+          - "{|{1::__mywc/nsfw/foot-fetish/pose/extending/upper/pose__|3::__mywc/nsfw/foot-fetish/pose/extending/upper/touching/do__|1::__mywc/nsfw/foot-fetish/pose/extending/upper/misc__}}"
         pose:
           - arm{|s} above head
-          - arm{|s} across waist
-          - arm{|s} at side
-          - arm{|s} between legs
           - arm{|s} on knee
           - arm{|s} on own head
-          - arm{|s} up
           - outstretched arm{|s}
-          - spread arm{|s}
-          - v arm{|s}
-          - w arm{|s}
         touching:
           do:
             - __mywc/nsfw/foot-fetish/pose/extending/upper/touching/one-hand/do__
@@ -265,111 +177,45 @@ foot-fetish:
             do:
               - hand __mywc/nsfw/foot-fetish/pose/extending/upper/touching/one-hand/parts__
             parts:
-              - between legs
               - in own hair
-              - on own arm
-              - on own breast
               - on own cheek
               - on own chest
-              - on own chin
-              - on own ear
               - on own face
               - on own forehead
-              - on own head
-              - on own hip
               - on own knee
               - on own leg
               - on own neck
-              - on own shoulder
               - on own stomach
-              - on own thigh
-              - over eye
-              - over own mouth
-              - to own mouth
           both-hands:
             do:
               - hands __mywc/nsfw/foot-fetish/pose/extending/upper/touching/both-hands/parts__
             parts:
               - between legs
-              - in own hair
-              - on own breasts
               - on own cheeks
               - on own chest
               - on own chin
-              - on own face
-              - on own head
-              - on own hip
               - on own knees
-              - on own legs
               - on own neck
-              - on own shoulders
               - on own stomach
               - on own thighs
-              - over eyes
-              - over own mouth
           misc:
-            - breast lift
-            - breast suppress
-            - cheek rest
-            - covering breasts
-            - covering face
-            - covering one eye
-            - covering own ears
-            - covering own eyes
-            - covering own mouth
-            - finger to cheek
-            - finger to face
-            - finger to mouth
             - finger to own chin
-            - fingers to cheeks
             - head rest
             - holding hair
-            - holding own arm
-            - holding own hair
-            - holding own wrist
-            - playing with own hair
             - scratching cheek
             - scratching head
             - stroking own chin
             - twirling hair
         misc:
-          - 4-finger heart hands
           - arm rest
-          - arm{|s} behind back
+          - arms behind back
           - arm{|s} behind head
           - claw pose
           - crossed arms
-          - cupping hands
-          - curled fingers
-          - double middle finger
-          - elbow rest
-          - finger frame
-          - finger heart
-          - fist pump
-          - flexing
-          - ghost pose
           - hand rest
-          - index fingers together
-          - middle finger
-          - ok sign
-          - palms together
-          - paw pose
-          - pinky out
-          - pointing at self
           - pointing at viewer
-          - pointing up
-          - rabbit pose
-          - raised fist
-          - reaching towards viewer
-          - salute
           - shushing
-          - steepled fingers
-          - surprised arms
-          - v over eye
-          - v over mouth
-          - victory pose
           - waving
-          - zombie pose
   fashion:
     random:
       - " "
