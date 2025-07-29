@@ -1,58 +1,128 @@
 copyright:
   random:
+    #- __mywc/subject/copyright/alicetail__
+    #- __mywc/subject/copyright/angel-beats__
+    #- __mywc/subject/copyright/anohana__
+    #- __mywc/subject/copyright/ao-haru-ride__
     - __mywc/subject/copyright/arknights__
+    #- __mywc/subject/copyright/assassination-classroom__
     - __mywc/subject/copyright/atelier__
     - __mywc/subject/copyright/azur-lane__
+    #- __mywc/subject/copyright/bakemonogatari__
+    #- __mywc/subject/copyright/bakuman__
+    #- __mywc/subject/copyright/bayonetta__
     - __mywc/subject/copyright/bleach__
     - __mywc/subject/copyright/blue-archive__
     - __mywc/subject/copyright/bocchi-the-rock__
     - __mywc/subject/copyright/boku-no-hero-academia__
     - __mywc/subject/copyright/chainsaw-man__
+    #- __mywc/subject/copyright/chihayafuru__
+    #- __mywc/subject/copyright/cinderella-nine__
+    #- __mywc/subject/copyright/clannad__
     - __mywc/subject/copyright/code-geass__
+    #- __mywc/subject/copyright/dan-da-dan__
+    #- __mywc/subject/copyright/detective-conan__
     - __mywc/subject/copyright/digimon__
     - __mywc/subject/copyright/doki-doki-literature-club__
     - __mywc/subject/copyright/dragon-ball__
     - __mywc/subject/copyright/dragon-quest__
+    #- __mywc/subject/copyright/elfen-lied__
     - __mywc/subject/copyright/evangelion__
     - __mywc/subject/copyright/fate__
     - __mywc/subject/copyright/final-fantasy__
     - __mywc/subject/copyright/fire-emblem__
     - __mywc/subject/copyright/fullmetal-alchemist__
+    #- __mywc/subject/copyright/fullmetal-panic__
     - __mywc/subject/copyright/galaxy-angel__
     - __mywc/subject/copyright/genshin-impact__
+    #- __mywc/subject/copyright/ghibli__
+    #- __mywc/subject/copyright/girls-and-panzer__
     - __mywc/subject/copyright/go-toubun-no-hanayome__
     - __mywc/subject/copyright/goblin-slayer__
+    #- __mywc/subject/copyright/gochi-usa__
     - __mywc/subject/copyright/granblue-fantasy__
     - __mywc/subject/copyright/gundam__
+    #- __mywc/subject/copyright/haikyuu__
+    #- __mywc/subject/copyright/hayate-no-gotoku__
+    #- __mywc/subject/copyright/hibike-euphonium__
     - __mywc/subject/copyright/higurashi__
     - __mywc/subject/copyright/hunter-x-hunter__
+    #- __mywc/subject/copyright/hyouka__
     - __mywc/subject/copyright/idolmaster__
+    #- __mywc/subject/copyright/ikamusume__
     - __mywc/subject/copyright/jujutsu-kaisen__
     - __mywc/subject/copyright/k-on__
+    #- __mywc/subject/copyright/kaguya-sama__
+    #- __mywc/subject/copyright/kakegurui__
     - __mywc/subject/copyright/kancolle__
+    #- __mywc/subject/copyright/kanon__
+    #- __mywc/subject/copyright/kill-la-kill__
     - __mywc/subject/copyright/kimetsu-no-yaiba__
+    #- __mywc/subject/copyright/kino-no-tabi__
+    #- __mywc/subject/copyright/kirarin-revolution__
+    #- __mywc/subject/copyright/konosuba__
+    #- __mywc/subject/copyright/kuroneko-no-wiz__
+    #- __mywc/subject/copyright/league-of-legends__
     - __mywc/subject/copyright/love-live__
     - __mywc/subject/copyright/lycoris-recoil__
+    #- __mywc/subject/copyright/made-in-abyss__
+    #- __mywc/subject/copyright/magia-record__
     - __mywc/subject/copyright/mahou-shoujo-madoka-magica__
+    #- __mywc/subject/copyright/mahoujin-guru-guru__
+    #- __mywc/subject/copyright/maison-ikkoku__
+    #- __mywc/subject/copyright/maria-holic__
+    #- __mywc/subject/copyright/monster-musume-td__
     - __mywc/subject/copyright/mushoku-tensei__
     - __mywc/subject/copyright/naruto__
+    #- __mywc/subject/copyright/nichijou__
+    #- __mywc/subject/copyright/nier-automata__
+    #- __mywc/subject/copyright/nikke__
+    #- __mywc/subject/copyright/nintama__
     - __mywc/subject/copyright/nintendo__
+    #- __mywc/subject/copyright/nisekoi__
     - __mywc/subject/copyright/one-piece__
+    #- __mywc/subject/copyright/oshinoko__
     - __mywc/subject/copyright/overlord__
+    #- __mywc/subject/copyright/pani-poni-dash__
+    #- __mywc/subject/copyright/paranoia-agent__
     - __mywc/subject/copyright/persona__
+    #- __mywc/subject/copyright/phantasy-star-online__
     - __mywc/subject/copyright/pokemon__
     - __mywc/subject/copyright/precure__
     - __mywc/subject/copyright/princess-connect__
+    #- __mywc/subject/copyright/princess-maker__
+    #- __mywc/subject/copyright/ranma-nibun-no-ichi__
     - __mywc/subject/copyright/re-zero-kara-hajimeru-isekai-seikatsu__
+    #- __mywc/subject/copyright/revolutionary-girl-utena__
     - __mywc/subject/copyright/rozen-maiden__
     - __mywc/subject/copyright/sailor-moon__
+    #- __mywc/subject/copyright/sakura-wars__
+    #- __mywc/subject/copyright/shin-chan__
     - __mywc/subject/copyright/shingeki-no-kyojin__
     - __mywc/subject/copyright/spy-x-family__
+    #- __mywc/subject/copyright/steins-gate__
+    #- __mywc/subject/copyright/succubus-quest__
     - __mywc/subject/copyright/suzumiya-haruhi__
     - __mywc/subject/copyright/sword-art-online__
+    #- __mywc/subject/copyright/tales-of-the-abyss__
+    #- __mywc/subject/copyright/tamako-market__
+    #- __mywc/subject/copyright/tenshi-na-konamaiki__
     - __mywc/subject/copyright/to-love-ru__
     - __mywc/subject/copyright/toaru-majutsu-no-index__
+    #- __mywc/subject/copyright/tokimeki-memorial__
+    #- __mywc/subject/copyright/toradora__
     - __mywc/subject/copyright/touhou__
+    #- __mywc/subject/copyright/uma-musume__
+    #- __mywc/subject/copyright/urusei-yatsura__
+    #- __mywc/subject/copyright/valkyrie-profile__
+    #- __mywc/subject/copyright/violet-evergarden__
+    #- __mywc/subject/copyright/welcome-to-the-nhk__
+    #- __mywc/subject/copyright/white-cat-project__
+    #- __mywc/subject/copyright/your-name__
+    #- __mywc/subject/copyright/yu-yu-hakusho__
+    #- __mywc/subject/copyright/yugioh__
+    #- __mywc/subject/copyright/yuru-camp__
+    #- __mywc/subject/copyright/yuyushiki__
     - __mywc/subject/copyright/below-3/do__
   below-3:
     do:
@@ -77,6 +147,14 @@ copyright:
       - arle nadja
       - draco \(puyopuyo\)
       - witch \(puyopuyo\)
+  alicetail:
+    -
+  angel-beats:
+    -
+  anohana:
+    -
+  ao-haru-ride:
+    -
   arknights:
     - absinthe \(arknights\)
     - aciddrop{| \(afternoon teatime\)} \(arknights\)\
@@ -173,6 +251,8 @@ copyright:
     - w \(arknights\)
     - whislash \(arknights\)
     - zima \(arknights\)
+  assassination-classroom:
+    -
   atelier:
     - ayesha altugle
     - corrine
@@ -468,6 +548,12 @@ copyright:
     - zara{| \(poolside coincidence\)} \(azur lane\){|,eyewear on head}
     - zeppy \(azur lane\)
     - zuikaku{| \(ceremonial crane\)| \(the wind's true name\)} \(azur lane\)
+  bakemonogatari:
+    -
+  bakuman:
+    -
+  bayonetta:
+    -
   bleach:
     - arisawa tatsuki
     - bambietta basterbine
@@ -594,6 +680,12 @@ copyright:
     - sawatari akane \(chainsaw man\)
     - tanaka \(chainsaw man\)
     - yoru \(chainsaw man\)
+  chihayafuru:
+    -
+  cinderella-nine__:
+    -
+  clannad:
+    -
   code-geass:
     - anya alstreim
     - c.c.
@@ -614,6 +706,10 @@ copyright:
     - tianzi
     - villetta nu
     - zero \(code geass\)
+  dan-da-dan:
+    -
+  detective-conan:
+    -
   digimon:
     - akari hinomoto \(digimon\)
     - alice mccoy \(digimon\)
@@ -678,6 +774,8 @@ copyright:
     - sylvia \(dq11\)
     - tania \(dq6\)
     - veronica \(dq11\)
+  elfen-lied:
+    -
   evangelion:
     - akagi ritsuko
     - ayanami rei
@@ -860,6 +958,8 @@ copyright:
     - olivier mira armstrong
     - riza hawkeye
     - winry rockbell
+  fullmetal-panic:
+    -
   galaxy-angel:
     - forte stollen
     - milfeulle sakuraba
@@ -916,6 +1016,10 @@ copyright:
     - yelan \(genshin impact\)
     - yoimiya \(genshin impact\)
     - yun jin \(genshin impact\)
+  ghibli:
+    -
+  girls-and-panzer:
+    -
   go-toubun-no-hanayome:
     - nakano ichika
     - nakano itsuki
@@ -928,6 +1032,8 @@ copyright:
     - high elf archer \(goblin slayer!\)
     - priestess \(goblin slayer!\)
     - sword maiden
+  gochi-usa:
+    -
   granblue-fantasy:
     - andira \(granblue fantasy\)
     - anila \(granblue fantasy\)
@@ -1019,6 +1125,12 @@ copyright:
     - tiffa adill
     - wang liu mei
     - yashiro momoka
+  haikyuu:
+    -
+  hayate-no-gotoku:
+    -
+  hibike-euphonium:
+    -
   higurashi:
     - furude hanyuu
     - furude rika
@@ -1031,6 +1143,8 @@ copyright:
     - meruem
     - neferpitou
     - shizuku murasaki
+  hyouka:
+    -
   idolmaster:
     - abe nana
     - amami haruka
@@ -1125,6 +1239,8 @@ copyright:
     - yukoku kiriko
     - yumemi riamu
     - yusa kozue
+  ikamusume:
+    -
   jujutsu-kaisen:
     - ieiri shoko
     - iori utahime
@@ -1146,6 +1262,10 @@ copyright:
     - tainaka ritsu
     - wakaouji ichigo
     - yamanaka sawako
+  kaguya-sama:
+    -
+  kakegurui:
+    -
   kancolle:
     - abukuma \(kancolle\)
     - agano \(kancolle\)
@@ -1301,6 +1421,10 @@ copyright:
     - yuugumo \(kancolle\)
     - zara \(kancolle\)
     - zuikaku \(kancolle\)
+  kanon:
+    -
+  kill-la-kill:
+    -
   kimetsu-no-yaiba:
     - agatsuma zenitsu
     - daki \(kimetsu no yaiba\)
@@ -1311,6 +1435,16 @@ copyright:
     - kochou kanae
     - kochou shinobu
     - tsuyuri kanao
+  kino-no-tabi:
+    -
+  kirarin-revolution:
+    -
+  konosuba:
+    -
+  kuroneko-no-wiz:
+    -
+  league-of-legends:
+    -
   love-live:
     - arashi chisato
     - asaka karin
@@ -1346,12 +1480,24 @@ copyright:
     - kurumi \(lycoris recoil\)
     - nakahara mizuki
     - nishikigi chisato
+  made-in-abyss:
+    -
+  magia-record:
+    -
   mahou-shoujo-madoka-magica:
     - akemi homura
     - kaname madoka
     - miki sayaka
     - sakura kyoko
     - tomoe mami
+  mahoujin-guru-guru:
+    -
+  maison-ikkoku:
+    -
+  maria-holic:
+    -
+  monster-musume-td:
+    -
   mushoku-tensei:
     - eris greyrat
     - ghislaine dedoldia
@@ -1378,6 +1524,14 @@ copyright:
     - uzumaki kushina
     - yamanaka ino
     - yuuhi kurenai
+  nichijou:
+    -
+  nier-automata:
+    -
+  nikke:
+    -
+  nintama:
+    -
   nintendo:
     - ashley \(warioware\)
     - elma \(xenoblade x\)
@@ -1395,6 +1549,8 @@ copyright:
     - rosalina
     - samus aran
     - sharla \(xenoblade\)
+  nisekoi:
+    -
   one-piece:
     - boa hancock
     - carrot \(one piece\)
@@ -1416,6 +1572,8 @@ copyright:
     - uta \(one piece\)
     - vinsmoke reiju
     - yamato \(one piece\)
+  oshinoko:
+    -
   overlord:
     - ainz ooal gown
     - albedo  \(overlord\)
@@ -1424,6 +1582,10 @@ copyright:
     - lupusregina beta
     - narberal gamma
     - shalltear bloodfallen
+  pani-poni-dash:
+    -
+  paranoia-agent:
+    -
   persona:
     - aegis \(persona\)
     - amagi yukiko
@@ -1457,6 +1619,8 @@ copyright:
     - yoshino chidori
     - yoshizawa kasumi
     - yoshizawa sumire
+  phantasy-star-online:
+    -
   pokemon:
     - acerola \(pokemon\)
     - anabel \(pokemon\)
@@ -1543,6 +1707,10 @@ copyright:
     - saren \(summer\) \(princess connect!\)
     - yui \(princess connect!\)
     - yuni \(princess connect!\)
+  princess-maker:
+    -
+  ranma-nibun-no-ichi:
+    -
   re-zero-kara-hajimeru-isekai-seikatsu:
     - beatrice \(re:zero\)
     - crusch karsten
@@ -1557,6 +1725,8 @@ copyright:
     - ram \(re:zero\)
     - rem \(re:zero\)
     - shaula \(re:zero\)
+  revolutionary-girl-utena:
+    -
   rozen-maiden:
     - hinaichigo \(rozen maiden\)
     - kanaria
@@ -1574,6 +1744,10 @@ copyright:
     - mizuno ami
     - tomoe hotaru
     - tsukino usagi
+  sakura-wars:
+    -
+  shin-chan:
+    -
   shingeki-no-kyojin:
     - annie leonhardt
     - christa renz
@@ -1591,6 +1765,10 @@ copyright:
     - fiona frost
     - hayami saori
     - yor briar
+  steins-gate:
+    -
+  succubus-quest:
+    -
   suzumiya-haruhi:
     - asahina mikuru
     - nagato yuki
@@ -1627,6 +1805,12 @@ copyright:
     - yui \(sao\)
     - yuna \(sao\)
     - yuuki \(sao\)
+  tales-of-the-abyss:
+    -
+  tamako-market:
+    -
+  tenshi-na-konamaiki:
+    -
   to-love-ru:
     - konjiki no yami
     - kotegawa yui
@@ -1650,6 +1834,10 @@ copyright:
     - shirai kuroko
     - shokuhou misaki
     - uiharu kazari
+  tokimeki-memorial:
+    -
+  toradora:
+    -
   touhou:
     - aki minoriko
     - aki shizuha
@@ -1737,3 +1925,25 @@ copyright:
     - yayoi \(touhou\)
     - yorigami jo'on
     - yorigami shion
+  uma-musume:
+    -
+  urusei-yatsura:
+    -
+  valkyrie-profile:
+    -
+  violet-evergarden:
+    -
+  welcome-to-the-nhk:
+    -
+  white-cat-project:
+    -
+  your-name:
+    -
+  yu-yu-hakusho:
+    -
+  yugioh:
+    -
+  yuru-camp:
+    -
+  yuyushiki:
+    -
