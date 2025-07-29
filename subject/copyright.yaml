@@ -7,7 +7,6 @@ copyright:
     - __mywc/subject/copyright/blue-archive__
     - __mywc/subject/copyright/bocchi-the-rock__
     - __mywc/subject/copyright/boku-no-hero-academia__
-    - __mywc/subject/copyright/cardcaptor-sakura__
     - __mywc/subject/copyright/chainsaw-man__
     - __mywc/subject/copyright/code-geass__
     - __mywc/subject/copyright/digimon__
@@ -18,11 +17,9 @@ copyright:
     - __mywc/subject/copyright/fate__
     - __mywc/subject/copyright/final-fantasy__
     - __mywc/subject/copyright/fire-emblem__
-    - __mywc/subject/copyright/fujiko-f__
     - __mywc/subject/copyright/fullmetal-alchemist__
     - __mywc/subject/copyright/galaxy-angel__
     - __mywc/subject/copyright/genshin-impact__
-    - __mywc/subject/copyright/girlfriend-kari__
     - __mywc/subject/copyright/go-toubun-no-hanayome__
     - __mywc/subject/copyright/goblin-slayer__
     - __mywc/subject/copyright/granblue-fantasy__
@@ -41,13 +38,11 @@ copyright:
     - __mywc/subject/copyright/naruto__
     - __mywc/subject/copyright/nintendo__
     - __mywc/subject/copyright/one-piece__
-    - __mywc/subject/copyright/one-punch-man__
     - __mywc/subject/copyright/overlord__
     - __mywc/subject/copyright/persona__
     - __mywc/subject/copyright/pokemon__
     - __mywc/subject/copyright/precure__
     - __mywc/subject/copyright/princess-connect__
-    - __mywc/subject/copyright/puyopuyo__
     - __mywc/subject/copyright/re-zero-kara-hajimeru-isekai-seikatsu__
     - __mywc/subject/copyright/rozen-maiden__
     - __mywc/subject/copyright/sailor-moon__
@@ -58,6 +53,30 @@ copyright:
     - __mywc/subject/copyright/to-love-ru__
     - __mywc/subject/copyright/toaru-majutsu-no-index__
     - __mywc/subject/copyright/touhou__
+    - __mywc/subject/copyright/below-3/do__
+  below-3:
+    do:
+      - __mywc/subject/copyright/below-3/cardcaptor-sakura__
+      - __mywc/subject/copyright/below-3/doraemon__
+      - __mywc/subject/copyright/below-3/girlfriend-kari__
+      - __mywc/subject/copyright/below-3/one-punch-man__
+      - __mywc/subject/copyright/below-3/puyopuyo__
+    cardcaptor-sakura:
+      - daidouji tomoyo
+      - kinomoto sakura
+    doraemon:
+      - minamoto shizuka
+    girlfriend-kari:
+      - chloe lemaire
+      - sakurai akane \(girlfriend\)
+    one-punch-man:
+      - fubuki \(one-punch man\)
+      - kaijin hime do-s
+      - tatsumaki
+    puyopuyo:
+      - arle nadja
+      - draco \(puyopuyo\)
+      - witch \(puyopuyo\)
   arknights:
     - absinthe \(arknights\)
     - aciddrop{| \(afternoon teatime\)} \(arknights\)\
@@ -559,9 +578,6 @@ copyright:
     - uraraka ochako
     - utsushimi kemii
     - yaoyorozu momo
-  cardcaptor-sakura:
-    - daidouji tomoyo
-    - kinomoto sakura
   chainsaw-man:
     - cosmo \(chainsaw man\)
     - falling devil \(chainsaw man\)
@@ -838,8 +854,6 @@ copyright:
     - tharja \(fire emblem\)
     - tiki \(fire emblem\)
     - veronica \(fire emblem\)
-  fujiko-f:
-    - minamoto shizuka
   fullmetal-alchemist:
     - lust \(fma\)
     - may chang
@@ -902,9 +916,6 @@ copyright:
     - yelan \(genshin impact\)
     - yoimiya \(genshin impact\)
     - yun jin \(genshin impact\)
-  girlfriend-kari:
-    - chloe lemaire
-    - sakurai akane \(girlfriend\)
   go-toubun-no-hanayome:
     - nakano ichika
     - nakano itsuki
@@ -1405,10 +1416,6 @@ copyright:
     - uta \(one piece\)
     - vinsmoke reiju
     - yamato \(one piece\)
-  one-punch-man:
-    - fubuki \(one-punch man\)
-    - kaijin hime do-s
-    - tatsumaki
   overlord:
     - ainz ooal gown
     - albedo  \(overlord\)
@@ -1536,10 +1543,6 @@ copyright:
     - saren \(summer\) \(princess connect!\)
     - yui \(princess connect!\)
     - yuni \(princess connect!\)
-  puyopuyo:
-    - arle nadja
-    - draco \(puyopuyo\)
-    - witch \(puyopuyo\)
   re-zero-kara-hajimeru-isekai-seikatsu:
     - beatrice \(re:zero\)
     - crusch karsten
