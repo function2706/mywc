@@ -1,6 +1,5 @@
 copyright:
   random:
-    #- __mywc/subject/copyright/alicetail__
     #- __mywc/subject/copyright/angel-beats__
     #- __mywc/subject/copyright/anohana__
     #- __mywc/subject/copyright/ao-haru-ride__
@@ -80,6 +79,7 @@ copyright:
     #- __mywc/subject/copyright/nintama__
     - __mywc/subject/copyright/nintendo__
     #- __mywc/subject/copyright/nisekoi__
+    - __mywc/subject/copyright/one-punch-man__
     - __mywc/subject/copyright/one-piece__
     #- __mywc/subject/copyright/oshinoko__
     - __mywc/subject/copyright/overlord__
@@ -91,6 +91,7 @@ copyright:
     - __mywc/subject/copyright/precure__
     - __mywc/subject/copyright/princess-connect__
     #- __mywc/subject/copyright/princess-maker__
+    - __mywc/subject/copyright/puyopuyo__
     #- __mywc/subject/copyright/ranma-nibun-no-ichi__
     - __mywc/subject/copyright/re-zero-kara-hajimeru-isekai-seikatsu__
     #- __mywc/subject/copyright/revolutionary-girl-utena__
@@ -129,8 +130,6 @@ copyright:
       - __mywc/subject/copyright/below-3/cardcaptor-sakura__
       - __mywc/subject/copyright/below-3/doraemon__
       - __mywc/subject/copyright/below-3/girlfriend-kari__
-      - __mywc/subject/copyright/below-3/one-punch-man__
-      - __mywc/subject/copyright/below-3/puyopuyo__
     cardcaptor-sakura:
       - daidouji tomoyo
       - kinomoto sakura
@@ -139,16 +138,6 @@ copyright:
     girlfriend-kari:
       - chloe lemaire
       - sakurai akane \(girlfriend\)
-    one-punch-man:
-      - fubuki \(one-punch man\)
-      - kaijin hime do-s
-      - tatsumaki
-    puyopuyo:
-      - arle nadja
-      - draco \(puyopuyo\)
-      - witch \(puyopuyo\)
-  alicetail:
-    -
   angel-beats:
     -
   anohana:
@@ -1744,6 +1733,11 @@ copyright:
     - sharla \(xenoblade\)
   nisekoi:
     -
+  one-punch-man:
+    - fubuki \(one-punch man\)
+    - kaijin hime do-s
+    - lin lin \(one-punch man\)
+    - tatsumaki
   one-piece:
     - boa hancock
     - carrot \(one piece\)
@@ -1902,6 +1896,16 @@ copyright:
     - yuni \(princess connect!\)
   princess-maker:
     -
+  puyopuyo:
+    - amitie \(puyopuyo\)
+    - arle nadja
+    - draco \(puyopuyo\)
+    - feli \(puyopuyo\)
+    - harpy \(puyopuyo\)
+    - lidelle \(puyopuyo\)
+    - raffina \(puyopuyo\)
+    - rulue \(puyopuyo\)
+    - witch \(puyopuyo\)
   ranma-nibun-no-ichi:
     -
   re-zero-kara-hajimeru-isekai-seikatsu:
