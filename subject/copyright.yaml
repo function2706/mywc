@@ -99,6 +99,7 @@ copyright:
     - __mywc/subject/copyright/rozen-maiden__
     - __mywc/subject/copyright/sailor-moon__
     #- __mywc/subject/copyright/sakura-wars__
+    #- __mywc/subject/copyright/shadowverse__
     #- __mywc/subject/copyright/shin-chan__
     - __mywc/subject/copyright/shingeki-no-kyojin__
     - __mywc/subject/copyright/spy-x-family__
@@ -1128,19 +1129,18 @@ copyright:
     - yui shousetsu{| \(first ascension\)| \(second ascension\)| \(third ascension\)} \(fate\)
     - zenobia \(fate\)
   final-fantasy:
-    - altera moontail \(final fantasy\)
-    - aranea highwind
-    - astrologian \(final fantasy\)
-    - bahamut \(final fantasy\)
     - elena \(ff7\)
-    - gunner \(final fantasy\)
+    - fran \(final fantasy\)
     - hilda ware
-    - hydaelyn
     - iris amicitia
+    - meteion \(final fantasy xiv\)
     - minfilia warde
-    - tifa lockhart \(cowgirl\)
-    - time mage
+    - red mage \(final fantasy\)
+    - rikku \(final fantasy\)
+    - tifa lockhart
     - trance terra branford
+    - white mage \(final fantasy\)
+    - yuna \(final fantasy{| x}\)
   fire-emblem:
     - byleth \(fire emblem\)
     - caeda \(fire emblem\)
@@ -1987,6 +1987,8 @@ copyright:
     - tomoe hotaru
     - tsukino usagi
   sakura-wars:
+    -
+  shadowverse:
     -
   shin-chan:
     -
