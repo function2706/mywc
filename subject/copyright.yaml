@@ -45,7 +45,6 @@ copyright:
     #- __mywc/subject/copyright/hayate-no-gotoku__
     #- __mywc/subject/copyright/hibike-euphonium__
     - __mywc/subject/copyright/higurashi__
-    - __mywc/subject/copyright/hunter-x-hunter__
     #- __mywc/subject/copyright/hyouka__
     - __mywc/subject/copyright/idolmaster__
     #- __mywc/subject/copyright/ikamusume__
@@ -119,6 +118,7 @@ copyright:
     #- __mywc/subject/copyright/urusei-yatsura__
     #- __mywc/subject/copyright/valkyrie-profile__
     #- __mywc/subject/copyright/violet-evergarden__
+    #- __mywc/subject/copyright/vocaloid__
     #- __mywc/subject/copyright/welcome-to-the-nhk__
     #- __mywc/subject/copyright/white-cat-project__
     #- __mywc/subject/copyright/your-name__
@@ -132,6 +132,7 @@ copyright:
       - __mywc/subject/copyright/below-3/cardcaptor-sakura__
       - __mywc/subject/copyright/below-3/doraemon__
       - __mywc/subject/copyright/below-3/girlfriend-kari__
+      - __mywc/subject/copyright/below-3/hunter-x-hunter__
     cardcaptor-sakura:
       - daidouji tomoyo
       - kinomoto sakura
@@ -140,6 +141,10 @@ copyright:
     girlfriend-kari:
       - chloe lemaire
       - sakurai akane \(girlfriend\)
+    hunter-x-hunter:
+      - machi komacine
+      - neferpitou
+      - shizuku murasaki
   angel-beats:
     -
   anohana:
@@ -1547,107 +1552,207 @@ copyright:
     - ryuuguu rena
     - sonozaki mion
     - sonozaki shion
-  hunter-x-hunter:
-    - machi komacine
-    - meruem
-    - neferpitou
-    - shizuku murasaki
   hyouka:
     -
   idolmaster:
     - abe nana
+    - aiba yumi
+    - akagi miria
+    - akizuki ritsuko
+    - akizuki ryo
     - amami haruka
-    - araki hina
+    - anastasia \(idolmaster\)
+    - araki hina{|,glasses}
     - arisugawa natsuha
     - asakura toru
+    - asano fuka{|,glasses}
     - asari nanami
+    - baba konomi
+    - domyoji karin
+    - ebihara naho
+    - eve santaclaus
+    - fujii tomo
     - fujimoto rina
+    - fujiwara hajime
     - fukuda noriko
     - fukumaru koito
+    - fukuyama mai
     - futaba anzu
     - futami ami
     - futami mami
     - ganaha hibiki
     - hachimiya meguru
+    - hagiwara yukiho
     - hakozaki serika
     - hamaguchi ayame
+    - handa roco
+    - harada miyo
     - hayami kanade
+    - hayasaka mirei
+    - hidaka ai
     - higuchi madoka
+    - hiiragi shino
     - himekawa yuki
+    - hino akane \(idolmaster\)
+    - hojo karen
     - honda mio
+    - hori yuko
+    - hoshi syoko
     - hoshii miki
+    - hyodo rena
+    - ibuki tsubasa
     - ichihara nina
-    - ichikawa hinana
     - ichinose shiki
+    - igarashi kyoko
+    - ikebukuro akiha{|,glasses}
     - imai kana
     - izumi mei
+    - jougasaki mika
+    - jougasaki rika
+    - kamiya nao
     - kanzaki ranko
     - kasuga mirai
     - katagiri sanae
     - kawashima mizuki
     - kazano hiori
     - kikuchi makoto
-    - kirino aya
+    - kimura natsuki
+    - kinoshita hinata
     - kiryu tsukasa \(idolmaster\)
+    - kisaragi chihaya
     - kita hinako
     - kitakami reika
     - kitami yuzu
+    - kitazawa shiho
     - kobayakawa sae
+    - koga koharu
+    - kohinata miho
     - koizumi hanayo
-    - komatsu ibuki
     - komiya kaho
+    - koseki reina
+    - koshimizu sachiko
     - kousaka umi
     - kurokawa chiaki
     - kurosaki chitose
+    - kusakabe wakaba
     - kuwayama chiyuki
+    - layla \(idolmaster\)
     - maekawa miku
+    - maihama ayumu
+    - makabe mizuki
+    - matoba risa
     - matsuda arisa
+    - matsumoto sarina
+    - matsunaga ryo
+    - matsuo chizuru
     - mayuzumi fuyuko
+    - mifune miyu
     - mimura kanako
     - minase iori
     - miura azusa
-    - miura azusa
+    - miyamoto frederica
+    - miyao miya
+    - mizuki seira
+    - mizutani eri
+    - mochida arisa
+    - mochizuki anna
+    - mochizuki hijiri
     - mogami shizuka
+    - momose rio
     - morikubo nono
     - morino rinze
     - moroboshi kirari
     - mukai takumi
-    - nishikawa honami
+    - munakata atsumi
+    - murakami tomoe
+    - muramatsu sakura
+    - nagayoshi subaru
+    - nakano yuka
+    - nakatani iku
+    - namiki meiko
+    - nanakusa hazuki
+    - nanao yuriko
+    - nanjo hikaru
+    - narumiya yume
+    - natalia \(idolmaster\)
+    - ninomiya asuka
+    - nitta minami
+    - nonohara akane
+    - ogami tamaki
+    - ogata chieri
+    - ohishi izumi
+    - ohnuma kurumi
+    - ohtsuki yui
     - oikawa shizuku
+    - okazaki yasuha
     - osaki amana
     - osaki tenka
+    - otokura yuuki
+    - otonashi kotori
+    - ozaki reiko
+    - ryuzaki kaoru
     - sagisawa fumika
     - saijo juri
+    - saionji kotoka
+    - sajo yukimi
     - sakuma mayu
     - sakuragi mano
+    - sakurai momoka
+    - sakuramori kaori
+    - sasaki chie
+    - satake minako
     - sato shin
+    - seki hiromi
+    - senkawa chihiro
     - serizawa asahi
     - shibuya rin
+    - shiina noriko
     - shijou takane
+    - shimabara elena
     - shimamura uzuki
     - shinomiya karen
     - shiomi syuko
-    - shirakawa hotaru
-    - shirasaka chouko
+    - shiragiku hotaru
+    - shiraishi tsumugi
     - shirasaka koume
     - shirase sakuya
     - sonoda chiyoko
     - suou momoko
+    - tachibana arisu
+    - tada riina
+    - takafuji kako
     - takagaki kaede
+    - takahashi reiko
+    - takamori aiko
     - takatsuki yayoi
     - tanaka kotoha
     - tanaka mamimi
+    - tenkubashi tomoka
+    - tokoro megumi
+    - tokugawa matsuri
+    - totoki airi
+    - toyokawa fuka
+    - tsuchiya ako{|,glasses}
     - tsujino akari
     - tsukioka kogane
     - ueda suzuho
+    - umeki otoha
+    - wakabayashi tomoka
+    - wakiyama tamami
     - wakui rumi
-    - yagami makino
+    - yabuki kana
+    - yagami makino{|,glasses}
+    - yamato aki
+    - yanagi kiyora
     - yanase miyuki
+    - yokoyama chika
     - yokoyama nao
     - yorita yoshino
     - yukoku kiriko
     - yumemi riamu
     - yusa kozue
+    - yuuki haru
+    - zaizen tokiko
   ikamusume:
     -
   jujutsu-kaisen:
@@ -2375,6 +2480,8 @@ copyright:
   valkyrie-profile:
     -
   violet-evergarden:
+    -
+  vocaloid:
     -
   welcome-to-the-nhk:
     -
