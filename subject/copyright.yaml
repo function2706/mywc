@@ -30,7 +30,6 @@ copyright:
     - __mywc/subject/copyright/fate__
     - __mywc/subject/copyright/final-fantasy__
     - __mywc/subject/copyright/fire-emblem__
-    - __mywc/subject/copyright/fullmetal-alchemist__
     #- __mywc/subject/copyright/fullmetal-panic__
     - __mywc/subject/copyright/galaxy-angel__
     - __mywc/subject/copyright/genshin-impact__
@@ -132,6 +131,7 @@ copyright:
       - __mywc/subject/copyright/below-3/cardcaptor-sakura__
       - __mywc/subject/copyright/below-3/doraemon__
       - __mywc/subject/copyright/below-3/girlfriend-kari__
+      - __mywc/subject/copyright/below-3/fullmetal-alchemist__
     cardcaptor-sakura:
       - daidouji tomoyo
       - kinomoto sakura
@@ -140,6 +140,11 @@ copyright:
     girlfriend-kari:
       - chloe lemaire
       - sakurai akane \(girlfriend\)
+    fullmetal-alchemist:
+      - lust \(fma\)
+      - olivier mira armstrong
+      - sloth \(fma\)
+      - winry rockbell
   angel-beats:
     -
   anohana:
@@ -1301,69 +1306,81 @@ copyright:
     - yunaka{| \(fire emblem\)} \(spirited envoy\)
     - zelestia \(fire emblem\)
     - zephia \(fire emblem\)
-  fullmetal-alchemist:
-    - lust \(fma\)
-    - may chang
-    - olivier mira armstrong
-    - riza hawkeye
-    - winry rockbell
   fullmetal-panic:
     -
   galaxy-angel:
-    - forte stollen
+    - forte stollen{|,monocle}
     - milfeulle sakuraba
     - mint blancmanche
     - ranpha franboise
   genshin-impact:
-    - amber \(genshin impact\)
-    - arlecchino \(genshin impact\)
-    - barbara \(genshin impact\)
+    - amber{| \(pizza hut\)} \(genshin impact\)
+    - arlecchino{| \(cinder of two worlds' flames\)} \(genshin impact\)
+    - barbara{| \(summertime sparkle\)} \(genshin impact\)
     - beidou \(genshin impact\)
-    - boo tao \(genshin impact\)
+    - bonanus \(genshin impact\)
+    - candace \(genshin impact\)
+    - changsheng \(genshin impact\)
+    - charlotte \(genshin impact\)
+    - chevreuse \(genshin impact\)
+    - chiori \(genshin impact\)
     - clorinde \(genshin impact\)
-    - cloud retainer \(genshin impact\)
-    - collei \(genshin impact\)
-    - crystalfly \(genshin impact\)
-    - dehya \(genshin impact\)
-    - diona \(genshin impact\)
-    - dodoco \(genshin impact\)
-    - eula \(genshin impact\)
-    - fischl \(genshin impact\)
-    - furina \(genshin impact\)
-    - ganyu \(genshin impact\)
-    - hu tao \(genshin impact\)
-    - jean \(genshin impact\)
-    - jumpy dumpty \(genshin impact\)
+    - cloud retainer \(genshin impact\){|,glasses}
+    - collei{| \(kiehls'\)| \(young\)} \(genshin impact\)
+    - columbina \(genshin impact\)
+    - cyno \(genshin impact\)
+    - dehya \(genshin impact\)\
+    - diona \(genshin impact\)\
+    - dori \(genshin impact\)
+    - eula{| \(pizza hut\)} \(genshin impact\)
+    - faruzan{| \(genshin cafe in seoul\)} \(genshin impact\)
+    - fischl{| \(ein immernachtstraum\)| \(genshin cafe in seoul\)} \(genshin impact\)
+    - focalors \(genshin impact\)
+    - furina{| \(old design\)} \(genshin impact\)
+    - ganyu{| \(animate\)| \(china merchants bank\)| \(heytea\)| \(qilin\)| \(twilight blossom\)| \(young\)} \(genshin impact\)
+    - guizhong \(genshin impact\)
+    - hu tao{| \(galaxy store\)| \(lawson\)| \(oneplus\)| \(sweets paradise\)} \(genshin impact\)
+    - indarias \(genshin impact\)
+    - jean{| \(gunnhildr's legacy\)| \(sea breeze dandelion\)} \(genshin impact\)
+    - jeht \(genshin impact\)
     - kamisato ayaka \(genshin impact\)
-    - keqing \(genshin impact\)
-    - keqing \(opulent splendor\) \(genshin impact\)
-    - kirara \(genshin impact\)
-    - klee \(genshin impact\)
+    - keqing{| \(lantern rite\)| \(oneplus\)| \(opulent splendor\)} \(genshin impact\)
+    - kirara{| \(cat\)| \(phantom in boots\)| \(post office\)} \(genshin impact\)
+    - klee{| \(blossoming starlight\)} \(genshin impact\)
     - kujou sara \(genshin impact\)
     - kuki shinobu \(genshin impact\)
     - layla \(genshin impact\)
-    - lisa \(genshin impact\)
-    - lumine \(genshin impact\)
-    - lynette \(genshin impact\)
-    - mona \(genshin impact\)
+    - lisa{| \(a sobriquet under shade\)} \(genshin impact\)
+    - lumine{| \(hot springs\)| \(knight of flowers\)| \(sweets paradise\)| \(zhangjiajie\)} \(genshin impact\)
+    - lynette{| \(kfc\)} \(genshin impact\)
+    - mavuika \(genshin impact\)
+    - mona{| \(pact of stars and moon\)} \(genshin impact\)
     - nahida \(genshin impact\)
     - navia \(genshin impact\)
-    - nilou \(genshin impact\)
-    - ningguang \(genshin impact\)
-    - noelle \(genshin impact\)
-    - paimon \(genshin impact\)
+    - nilou{| \(breeze of sabaa\)} \(genshin impact\)
+    - ningguang{| \(orchid's evening gown\)| \(pizza hut\)} \(genshin impact\)
+    - noelle{| \(kfc\)} \(genshin impact\)
+    - paimon{| \(hot springs\)} \(genshin impact\)
     - qiqi \(genshin impact\)
     - raiden shogun \(genshin impact\)
-    - rosaria \(genshin impact\)
+    - rosaria{| \(to the church's free spirit\)} \(genshin impact\)
+    - rukkhadevata \(genshin impact\)
+    - sandrone \(genshin impact\)
     - sangonomiya kokomi \(genshin impact\)
-    - shenhe \(genshin impact\)
+    - sayu \(genshin impact\)
+    - shenhe{| \(frostflower dew\)| \(heytea\)| \(young\)} \(genshin impact\)
+    - sigewinne \(genshin impact\)
+    - signora{| \(crimson witch of embers\)} \(genshin impact\)
+    - skirk \(genshin impact\)
     - sucrose \(genshin impact\)
     - xiangling \(genshin impact\)
     - xianyun \(genshin impact\)
+    - xinyan \(genshin impact\)
     - yae miko \(genshin impact\)
     - yanfei \(genshin impact\)
-    - yelan \(genshin impact\)
-    - yoimiya \(genshin impact\)
+    - yaoyao \(genshin impact\)
+    - yelan{| \(pizza hut\)} \(genshin impact\)
+    - yoimiya{| \(lawson\)} \(genshin impact\)
     - yun jin \(genshin impact\)
   ghibli:
     -
