@@ -30,10 +30,11 @@ copyright:
     - __mywc/subject/copyright/fate__
     - __mywc/subject/copyright/final-fantasy__
     - __mywc/subject/copyright/fire-emblem__
+    - __mywc/subject/copyright/fullmetal-alchemist__
     #- __mywc/subject/copyright/fullmetal-panic__
     - __mywc/subject/copyright/galaxy-angel__
     - __mywc/subject/copyright/genshin-impact__
-    #- __mywc/subject/copyright/ghibli__
+    - __mywc/subject/copyright/ghibli__
     #- __mywc/subject/copyright/girls-and-panzer__
     - __mywc/subject/copyright/go-toubun-no-hanayome__
     - __mywc/subject/copyright/goblin-slayer__
@@ -131,7 +132,6 @@ copyright:
       - __mywc/subject/copyright/below-3/cardcaptor-sakura__
       - __mywc/subject/copyright/below-3/doraemon__
       - __mywc/subject/copyright/below-3/girlfriend-kari__
-      - __mywc/subject/copyright/below-3/fullmetal-alchemist__
     cardcaptor-sakura:
       - daidouji tomoyo
       - kinomoto sakura
@@ -140,11 +140,6 @@ copyright:
     girlfriend-kari:
       - chloe lemaire
       - sakurai akane \(girlfriend\)
-    fullmetal-alchemist:
-      - lust \(fma\)
-      - olivier mira armstrong
-      - sloth \(fma\)
-      - winry rockbell
   angel-beats:
     -
   anohana:
@@ -1306,6 +1301,11 @@ copyright:
     - yunaka{| \(fire emblem\)} \(spirited envoy\)
     - zelestia \(fire emblem\)
     - zephia \(fire emblem\)
+  fullmetal-alchemist:
+    - lust \(fma\)
+    - olivier mira armstrong
+    - sloth \(fma\)
+    - winry rockbell
   fullmetal-panic:
     -
   galaxy-angel:
@@ -1383,7 +1383,12 @@ copyright:
     - yoimiya{| \(lawson\)} \(genshin impact\)
     - yun jin \(genshin impact\)
   ghibli:
-    -
+    - arrietty
+    - kiki
+    - lisa \(ponyo\)
+    - nausicaa
+    - san {\(mononoke hime\)|\(princess mononoke\)}
+    - sheeta
   girls-and-panzer:
     -
   go-toubun-no-hanayome:
@@ -1393,7 +1398,6 @@ copyright:
     - nakano nino
     - nakano yotsuba
   goblin-slayer:
-    - cow girl \(goblin slayer!\)
     - guild girl \(goblin slayer!\)
     - high elf archer \(goblin slayer!\)
     - priestess \(goblin slayer!\)
