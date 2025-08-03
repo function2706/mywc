@@ -48,7 +48,6 @@ copyright:
     #- __mywc/subject/copyright/hyouka__
     - __mywc/subject/copyright/idolmaster__
     #- __mywc/subject/copyright/ikamusume__
-    - __mywc/subject/copyright/jujutsu-kaisen__
     - __mywc/subject/copyright/k-on__
     #- __mywc/subject/copyright/kaguya-sama__
     #- __mywc/subject/copyright/kakegurui__
@@ -133,6 +132,7 @@ copyright:
       - __mywc/subject/copyright/below-3/doraemon__
       - __mywc/subject/copyright/below-3/girlfriend-kari__
       - __mywc/subject/copyright/below-3/hunter-x-hunter__
+      - __mywc/subject/copyright/below-3/jujutsu-kaisen__
     cardcaptor-sakura:
       - daidouji tomoyo
       - kinomoto sakura
@@ -145,6 +145,9 @@ copyright:
       - machi komacine
       - neferpitou
       - shizuku murasaki
+    jujutsu-kaisen:
+      - kugisaki nobara
+      - mei mei \(jujutsu kaisen\)
   angel-beats:
     -
   anohana:
@@ -1755,27 +1758,17 @@ copyright:
     - zaizen tokiko
   ikamusume:
     -
-  jujutsu-kaisen:
-    - ieiri shoko
-    - iori utahime
-    - kugisaki nobara
-    - mei mei \(jujutsu kaisen\)
-    - miwa kasumi
-    - zen'in mai
-    - zen'in maki
   k-on:
     - akiyama mio
     - hirasawa ui
     - hirasawa yui
-    - kinoshita shizuka
     - kotobuki tsumugi
-    - manabe nodoka
+    - manabe nodoka{|,glasses}
     - nakano azusa
     - suzuki jun
     - tachibana himeko
     - tainaka ritsu
-    - wakaouji ichigo
-    - yamanaka sawako
+    - yamanaka sawako{|,glasses}
   kaguya-sama:
     -
   kakegurui:
