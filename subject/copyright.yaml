@@ -1,153 +1,6 @@
 copyright:
-  random:
-    #- __mywc/subject/copyright/angel-beats__
-    #- __mywc/subject/copyright/anohana__
-    #- __mywc/subject/copyright/ao-haru-ride__
-    - __mywc/subject/copyright/arknights__
-    #- __mywc/subject/copyright/assassination-classroom__
-    - __mywc/subject/copyright/atelier__
-    - __mywc/subject/copyright/azur-lane__
-    #- __mywc/subject/copyright/bakemonogatari__
-    #- __mywc/subject/copyright/bakuman__
-    #- __mywc/subject/copyright/bayonetta__
-    - __mywc/subject/copyright/bleach__
-    - __mywc/subject/copyright/blue-archive__
-    - __mywc/subject/copyright/bocchi-the-rock__
-    - __mywc/subject/copyright/boku-no-hero-academia__
-    - __mywc/subject/copyright/chainsaw-man__
-    #- __mywc/subject/copyright/chihayafuru__
-    #- __mywc/subject/copyright/cinderella-nine__
-    #- __mywc/subject/copyright/clannad__
-    - __mywc/subject/copyright/code-geass__
-    #- __mywc/subject/copyright/dan-da-dan__
-    #- __mywc/subject/copyright/detective-conan__
-    - __mywc/subject/copyright/digimon__
-    - __mywc/subject/copyright/doki-doki-literature-club__
-    - __mywc/subject/copyright/dragon-ball__
-    - __mywc/subject/copyright/dragon-quest__
-    #- __mywc/subject/copyright/elfen-lied__
-    - __mywc/subject/copyright/evangelion__
-    - __mywc/subject/copyright/fate__
-    - __mywc/subject/copyright/final-fantasy__
-    - __mywc/subject/copyright/fire-emblem__
-    - __mywc/subject/copyright/fullmetal-alchemist__
-    #- __mywc/subject/copyright/fullmetal-panic__
-    - __mywc/subject/copyright/galaxy-angel__
-    - __mywc/subject/copyright/genshin-impact__
-    - __mywc/subject/copyright/ghibli__
-    #- __mywc/subject/copyright/girls-and-panzer__
-    - __mywc/subject/copyright/go-toubun-no-hanayome__
-    - __mywc/subject/copyright/goblin-slayer__
-    #- __mywc/subject/copyright/gochi-usa__
-    - __mywc/subject/copyright/granblue-fantasy__
-    - __mywc/subject/copyright/gundam__
-    #- __mywc/subject/copyright/haikyuu__
-    #- __mywc/subject/copyright/hayate-no-gotoku__
-    #- __mywc/subject/copyright/hibike-euphonium__
-    - __mywc/subject/copyright/higurashi__
-    #- __mywc/subject/copyright/hyouka__
-    - __mywc/subject/copyright/idolmaster__
-    #- __mywc/subject/copyright/ikamusume__
-    - __mywc/subject/copyright/k-on__
-    #- __mywc/subject/copyright/kaguya-sama__
-    #- __mywc/subject/copyright/kakegurui__
-    - __mywc/subject/copyright/kancolle__
-    #- __mywc/subject/copyright/kanon__
-    #- __mywc/subject/copyright/kill-la-kill__
-    - __mywc/subject/copyright/kimetsu-no-yaiba__
-    #- __mywc/subject/copyright/kino-no-tabi__
-    #- __mywc/subject/copyright/kirarin-revolution__
-    #- __mywc/subject/copyright/konosuba__
-    #- __mywc/subject/copyright/kuroneko-no-wiz__
-    #- __mywc/subject/copyright/league-of-legends__
-    - __mywc/subject/copyright/love-live__
-    - __mywc/subject/copyright/lycoris-recoil__
-    - __mywc/subject/copyright/lyrical-nanoha__
-    #- __mywc/subject/copyright/made-in-abyss__
-    #- __mywc/subject/copyright/magia-record__
-    - __mywc/subject/copyright/mahou-shoujo-madoka-magica__
-    #- __mywc/subject/copyright/mahoujin-guru-guru__
-    #- __mywc/subject/copyright/maison-ikkoku__
-    #- __mywc/subject/copyright/maria-holic__
-    #- __mywc/subject/copyright/monster-musume-td__
-    - __mywc/subject/copyright/mushoku-tensei__
-    - __mywc/subject/copyright/naruto__
-    #- __mywc/subject/copyright/nichijou__
-    #- __mywc/subject/copyright/nier-automata__
-    #- __mywc/subject/copyright/nikke__
-    #- __mywc/subject/copyright/nintama__
-    - __mywc/subject/copyright/nintendo__
-    #- __mywc/subject/copyright/nisekoi__
-    - __mywc/subject/copyright/one-punch-man__
-    - __mywc/subject/copyright/one-piece__
-    #- __mywc/subject/copyright/oshinoko__
-    - __mywc/subject/copyright/overlord__
-    #- __mywc/subject/copyright/pani-poni-dash__
-    #- __mywc/subject/copyright/paranoia-agent__
-    - __mywc/subject/copyright/persona__
-    #- __mywc/subject/copyright/phantasy-star-online__
-    - __mywc/subject/copyright/pokemon__
-    - __mywc/subject/copyright/precure__
-    - __mywc/subject/copyright/princess-connect__
-    #- __mywc/subject/copyright/princess-maker__
-    - __mywc/subject/copyright/puyopuyo__
-    #- __mywc/subject/copyright/ranma-nibun-no-ichi__
-    - __mywc/subject/copyright/re-zero-kara-hajimeru-isekai-seikatsu__
-    #- __mywc/subject/copyright/revolutionary-girl-utena__
-    - __mywc/subject/copyright/rozen-maiden__
-    - __mywc/subject/copyright/sailor-moon__
-    #- __mywc/subject/copyright/sakura-wars__
-    #- __mywc/subject/copyright/shadowverse__
-    #- __mywc/subject/copyright/shin-chan__
-    - __mywc/subject/copyright/shingeki-no-kyojin__
-    - __mywc/subject/copyright/spy-x-family__
-    #- __mywc/subject/copyright/steins-gate__
-    #- __mywc/subject/copyright/succubus-quest__
-    - __mywc/subject/copyright/suzumiya-haruhi__
-    - __mywc/subject/copyright/sword-art-online__
-    #- __mywc/subject/copyright/tales-of-the-abyss__
-    #- __mywc/subject/copyright/tamako-market__
-    #- __mywc/subject/copyright/tenshi-na-konamaiki__
-    - __mywc/subject/copyright/to-love-ru__
-    - __mywc/subject/copyright/toaru-majutsu-no-index__
-    #- __mywc/subject/copyright/tokimeki-memorial__
-    #- __mywc/subject/copyright/toradora__
-    - __mywc/subject/copyright/touhou__
-    #- __mywc/subject/copyright/uma-musume__
-    #- __mywc/subject/copyright/urusei-yatsura__
-    #- __mywc/subject/copyright/valkyrie-profile__
-    #- __mywc/subject/copyright/violet-evergarden__
-    #- __mywc/subject/copyright/vocaloid__
-    #- __mywc/subject/copyright/welcome-to-the-nhk__
-    #- __mywc/subject/copyright/white-cat-project__
-    #- __mywc/subject/copyright/your-name__
-    #- __mywc/subject/copyright/yu-yu-hakusho__
-    #- __mywc/subject/copyright/yugioh__
-    #- __mywc/subject/copyright/yuru-camp__
-    #- __mywc/subject/copyright/yuyushiki__
-    - __mywc/subject/copyright/below-3/do__
-  below-3:
-    do:
-      - __mywc/subject/copyright/below-3/cardcaptor-sakura__
-      - __mywc/subject/copyright/below-3/doraemon__
-      - __mywc/subject/copyright/below-3/girlfriend-kari__
-      - __mywc/subject/copyright/below-3/hunter-x-hunter__
-      - __mywc/subject/copyright/below-3/jujutsu-kaisen__
-    cardcaptor-sakura:
-      - daidouji tomoyo
-      - kinomoto sakura
-    doraemon:
-      - minamoto shizuka
-    girlfriend-kari:
-      - chloe lemaire
-      - sakurai akane \(girlfriend\)
-    hunter-x-hunter:
-      - machi komacine
-      - neferpitou
-      - shizuku murasaki
-    jujutsu-kaisen:
-      - kugisaki nobara
-      - mei mei \(jujutsu kaisen\)
+  - __mywc/subject/copyright-list/*__
+copyright-list:
   angel-beats:
     -
   anohana:
@@ -840,6 +693,9 @@ copyright:
     - uraraka ochako
     - utsushimi kemii
     - yaoyorozu momo
+  cardcaptor-sakura:
+    - daidouji tomoyo
+    - kinomoto sakura
   chainsaw-man:
     - fami \(chainsaw man\)
     - himeno \(chainsaw man\)
@@ -887,6 +743,8 @@ copyright:
     - natsuki \(doki doki literature club\)
     - sayori \(doki doki literature club\)
     - yuri \(doki doki literature club\)
+  doraemon:
+    - minamoto shizuka
   dragon-ball:
     - android 18
     - android 21
@@ -1397,6 +1255,9 @@ copyright:
     - nausicaa
     - san {\(mononoke hime\)|\(princess mononoke\)}
     - sheeta
+  girlfriend-kari:
+    - chloe lemaire
+    - sakurai akane \(girlfriend\)
   girls-and-panzer:
     -
   go-toubun-no-hanayome:
@@ -1555,6 +1416,10 @@ copyright:
     - ryuuguu rena
     - sonozaki mion
     - sonozaki shion
+  hunter-x-hunter:
+    - machi komacine
+    - neferpitou
+    - shizuku murasaki
   hyouka:
     -
   idolmaster:
@@ -1758,6 +1623,9 @@ copyright:
     - zaizen tokiko
   ikamusume:
     -
+  jujutsu-kaisen:
+    - kugisaki nobara
+    - mei mei \(jujutsu kaisen\)
   k-on:
     - akiyama mio
     - hirasawa ui
