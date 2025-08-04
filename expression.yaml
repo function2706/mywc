@@ -1,71 +1,67 @@
 expression:
   random:
-    - __mywc/expression/anger__
-    - __mywc/expression/happiness__
-    - __mywc/expression/misc__
-    - __mywc/expression/sadness__
-    - __mywc/expression/surprise__
-    - __mywc/expression/face/random__
-  anger:
-    - angry
-    - annoyed
-    - bored
-    - cranky
-    - disappointed
-    - disgusted
-    - frustrated
-    - grimace
-    - grumpy
-    - skeptical
-  happiness:
-    - \:p
-    - \:q
-    - excited
-    - giggle
-    - grin
-    - happy
-    - laugh
-    - loving
-    - smile
-    - smirk
-    - smug
-  misc:
-    - \:<
-    - \:|
-    - \:o
-    - afterglow
-    - crazy
-    - curious
-    - dominant expression
-    - evil expression
-    - expressionless
-    - in heat
-    - naughty face
-    - seductive smile
-    - sleepy
-    - thoughtful
-    - tired
-    - yawning
-  sadness:
-    - brokenhearted
-    - cry
-    - depressed
-    - distressed
-    - heartbroken
-    - sad
-    - sad smile
-    - tearful
-  surprise:
-    - ashamed
-    - embarrassed
-    - flustered
-    - frightened
-    - nervous
-    - panicking
-    - scared
-    - shocked
-    - surprised
-    - worried
+    - "{5::__mywc/expression/set/*__|1::__mywc/expression/face/random__}"
+  set:
+    anger:
+      - angry
+      - annoyed
+      - bored
+      - cranky
+      - disappointed
+      - disgusted
+      - frustrated
+      - grimace
+      - grumpy
+      - skeptical
+    happiness:
+      - \:p
+      - \:q
+      - excited
+      - giggle
+      - grin
+      - happy
+      - laugh
+      - loving
+      - smile
+      - smirk
+      - smug
+    sadness:
+      - brokenhearted
+      - cry
+      - depressed
+      - distressed
+      - heartbroken
+      - sad
+      - sad smile
+      - tearful
+    surprise:
+      - ashamed
+      - embarrassed
+      - flustered
+      - frightened
+      - nervous
+      - panicking
+      - scared
+      - shocked
+      - surprised
+      - worried
+    misc:
+      - \:<
+      - \:|
+      - \:o
+      - afterglow
+      - crazy
+      - curious
+      - dominant expression
+      - evil expression
+      - expressionless
+      - in heat
+      - naughty face
+      - seductive smile
+      - sleepy
+      - thoughtful
+      - tired
+      - yawning
   face:
     random:
       - "{0-4$$__mywc/expression/face/list__}"
