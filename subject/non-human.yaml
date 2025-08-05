@@ -203,8 +203,7 @@ non-human:
         - yeti girl,furry,furry female
     demi-human:
       do:
-        - __mywc/subject/non-human/monster/demi-human/species/do__,{0-5$$__mywc/subject/non-human/monster/demi-human/list__}
-        - __mywc/subject/non-human/monster/demi-human/unreal-species__,{0-5$$__mywc/subject/non-human/monster/demi-human/list__}
+        - __mywc/subject/non-human/monster/demi-human/type/*__,{0-5$$__mywc/subject/non-human/monster/demi-human/list__}
         - __mywc/subject/profiles/hair/do__,__mywc/subject/profiles/eye/demi-human__,__mywc/subject/profiles/ear__,__mywc/subject/profiles/breasts__,__mywc/subject/profiles/skin/demi-human__,__mywc/subject/profiles/height__,__mywc/subject/profiles/width__,__mywc/subject/profiles/age/do__,__mywc/subject/profiles/misc/do__
       list:
         - __mywc/subject/profiles/hair/do__
@@ -212,39 +211,39 @@ non-human:
         - __mywc/subject/profiles/height__
         - __mywc/subject/profiles/width__
         - __mywc/subject/profiles/age/do__
-      species:
-        do:
+      type:
+        species:
           - alpaca girl
           - ant girl,antennae
           - antelope girl
-          - bat girl,__mywc/subject/non-human/monster/demi-human/species/fangs__
-          - bear girl,__mywc/subject/non-human/monster/demi-human/species/fangs__
+          - bat girl{|,fangs}
+          - bear girl{|,fangs}
           - bee girl,antennae
           - buffalo girl,horns
-          - cat girl,__mywc/subject/non-human/monster/demi-human/species/fangs__
+          - cat girl{|,fangs}
           - cow girl
-          - coyote girl,__mywc/subject/non-human/monster/demi-human/species/fangs__
+          - coyote girl{|,fangs}
           - crow girl
           - deer girl
-          - dog girl,__mywc/subject/non-human/monster/demi-human/species/fangs__
+          - dog girl{|,fangs}
           - donkey girl
           - dormouse girl
           - eagle girl
           - ferret girl
           - fish girl
-          - fox girl,__mywc/subject/non-human/monster/demi-human/species/fangs__
+          - fox girl{|,fangs}
           - goat girl,horns
           - grasshopper girl,antennae
           - hare girl
           - horse girl
-          - hyena girl,__mywc/subject/non-human/monster/demi-human/species/fangs__
+          - hyena girl{|,fangs}
           - impala girl
-          - jackal girl,__mywc/subject/non-human/monster/demi-human/species/fangs__
+          - jackal girl{|,fangs}
           - kangaroo girl
-          - leopard girl,__mywc/subject/non-human/monster/demi-human/species/fangs__
-          - lion girl,__mywc/subject/non-human/monster/demi-human/species/fangs__
+          - leopard girl{|,fangs}
+          - lion girl{|,fangs}
           - llama girl
-          - lynx girl,__mywc/subject/non-human/monster/demi-human/species/fangs__
+          - lynx girl{|,fangs}
           - moose girl
           - moth girl,antennae
           - mouse girl
@@ -256,43 +255,40 @@ non-human:
           - sheep girl,horns
           - skunk girl
           - squirrel girl
-          - tiger girl,__mywc/subject/non-human/monster/demi-human/species/fangs__
+          - tiger girl{|,fangs}
           - wasp girl
           - weasel girl
-          - wildcat girl,__mywc/subject/non-human/monster/demi-human/species/fangs__
-          - wolf girl,__mywc/subject/non-human/monster/demi-human/species/fangs__
+          - wildcat girl{|,fangs}
+          - wolf girl{|,fangs}
           - yak girl,horns
-        fangs:
-          - " "
-          - fangs
-      unreal-species:
-        - angel girl
-        - archdemon girl,horns
-        - archfey girl,pointy ears
-        - cyclops girl,monoeye
-        - dark elf girl,pointy ears
-        - demon girl,slit pupils
-        - devil girl
-        - dryad girl
-        - dwarf girl
-        - elf girl,pointy ears
-        - fairy girl
-        - gnome girl
-        - goblin girl
-        - hobgoblin girl
-        - ifrit girl
-        - imp girl
-        - kitsune girl,fox ears
-        - lich girl
-        - mummy girl
-        - necromancer girl
-        - nymph girl
-        - ogre girl,horns
-        - orc girl
-        - pixie girl
-        - quetzalcoatl girl,horns
-        - satyr girl
-        - succubus girl,horns
-        - vampire girl,slit pupils,pointy ears
-        - witch girl
-        - zombie girl
+        unreal-species:
+          - angel girl
+          - archdemon girl,horns
+          - archfey girl,pointy ears
+          - cyclops girl,monoeye
+          - dark elf girl,pointy ears
+          - demon girl,slit pupils
+          - devil girl
+          - dryad girl
+          - dwarf girl
+          - elf girl,pointy ears
+          - fairy girl
+          - gnome girl
+          - goblin girl
+          - hobgoblin girl
+          - ifrit girl
+          - imp girl
+          - kitsune girl,fox ears
+          - lich girl
+          - mummy girl
+          - necromancer girl
+          - nymph girl
+          - ogre girl,horns
+          - orc girl
+          - pixie girl
+          - quetzalcoatl girl,horns
+          - satyr girl
+          - succubus girl,horns
+          - vampire girl,slit pupils,pointy ears
+          - witch girl
+          - zombie girl

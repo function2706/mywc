@@ -1,42 +1,43 @@
 unis:
   random:
-    - "__mywc/color__ {6::__mywc/fashion/unis/flippable__|2::__mywc/fashion/unis/unflippable__|1::__mywc/fashion/unis/nsfw__}"
-  flippable:
-    - casual dress
-    - cocktail dress
-    - evening dress
-    - funeral dress
-    - halter dress
-    - high slit dress
-    - highleg dress
-    - overall skirt
-    - party dress
-    - pencil dress
-    - pinafore dress
-    - prom dress
-    - sailor dress
-    - satin dress
-    - sequined dress
-    - smock
-    - sundress
-    - suspender skirt
-    - sweater dress
-    - tabard
-    - tube dress
-    - turtleneck dress
-    - v neck dress
-    - velvet dress
-    - __mywc/fashion/unis/make-dress/do__
-  unflippable:
-    - academic gown
-    - ball gown
-    - dungarees
-    - leotard
-    - overalls
-    - robe
-    - suspender {pants|shorts}
-    - tabard
-    - tuxedo
+    - "__mywc/color__ {9::__mywc/fashion/unis/made/*__|1::__mywc/fashion/unis/nsfw__}"
+  made:
+    flippable:
+      - casual dress
+      - cocktail dress
+      - evening dress
+      - funeral dress
+      - halter dress
+      - high slit dress
+      - highleg dress
+      - overall skirt
+      - party dress
+      - pencil dress
+      - pinafore dress
+      - prom dress
+      - sailor dress
+      - satin dress
+      - sequined dress
+      - smock
+      - sundress
+      - suspender skirt
+      - sweater dress
+      - tabard
+      - tube dress
+      - turtleneck dress
+      - v neck dress
+      - velvet dress
+      - __mywc/fashion/unis/make-dress/do__
+    unflippable:
+      - academic gown
+      - ball gown
+      - dungarees
+      - leotard
+      - overalls
+      - robe
+      - suspender {pants|shorts}
+      - tabard
+      - tuxedo
   make-dress:
     do:
       - __mywc/fashion/unis/make-dress/size__ {|__mywc/fashion/unis/make-dress/structions__ }__mywc/fashion/unis/make-dress/type__ dress,__mywc/fashion/unis/make-dress/decorations/do__
@@ -76,5 +77,5 @@ unis:
         - dress flower
         - dress ribbon
   nsfw:
-    - __mywc/fashion/unis/flippable__,__mywc/fashion/bottoms/panties/do__,pantyshot
-    - __mywc/fashion/unis/flippable__,__mywc/fashion/bottoms/nsfw/option__
+    - __mywc/fashion/unis/made/flippable__,__mywc/fashion/bottoms/panties/do__,pantyshot
+    - __mywc/fashion/unis/made/flippable__,__mywc/fashion/bottoms/nsfw/option__
