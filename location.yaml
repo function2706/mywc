@@ -8,19 +8,25 @@ location:
       - __mywc/location/indoors/location/do__,__mywc/location/indoors/option/do__
     location:
       do:
+        - airport terminal
         - aquarium
         - arcade
         - casino
         - castle
         - church
         - cockpit
+        - concert stage
         - courtroom
         - gym
         - hospital
         - laboratory
         - library
         - museum
+        - night club,{0-2$$dance floor|dj booth}
+        - office building
         - pool
+        - restaurant
+        - subway station
         - theater
         - train station
         - voile
@@ -56,13 +62,18 @@ location:
           - __mywc/location/indoors/location/shop/location__,shop
         location:
           - " "
+          - antique shop
           - bakery
           - bar \(place\)
           - bookstore
           - cafe
           - clothes shop
+          - coffee shop
           - convenience store
+          - fashion store
+          - fast food chain
           - flower shop
+          - grocery store
           - maid cafe
           - restaurant
           - supermarket
@@ -91,38 +102,56 @@ location:
     location:
       artificial:
         - amusement park
+        - bus stop
         - castle
+        - construction site
         - farm
+        - fountain
         - garden
         - graveyard
         - harbor
+        - marina,{0-3$$docks|piers|pontoons}
         - market
         - market stall
         - onsen
+        - orchard
         - park
+        - parking lot,{0-2$$vehicles|parking lines}
+        - pasture,{0-2$$fences|hay bales}
         - pool
         - rooftop
         - shrine
         - stadium
+        - street festival,{0-2$$food stalls|vendor booths}
         - temple
+        - waterfront
         - __mywc/location/outdoors/location/city__
         - __mywc/location/outdoors/location/road__
         - __mywc/location/outdoors/location/school/do__
       nature:
+        - "{swamp|marsh|wetland|bog}"
+        - antarctic{|,arctic},{0-2$$iceberg|ocean}
         - bamboo forest
         - beach
+        - canyon,{0-2$$gorge|cliffs}
         - cave
-        - desert
+        - desert,{0-2$$sand dunes|cacti}
         - field
         - flower field
         - forest
         - hill
+        - jungle
         - lake
+        - meadow
         - mountain
         - nature
+        - oasis,{0-2$$palm trees|pond}
         - ocean
         - pond
         - river
+        - savannah{|,trees}
+        - valley
+        - volcano,{0-2$$lava|crater}
         - waterfall
         - wheat field
       city:
@@ -134,7 +163,8 @@ location:
         - urban
         - village
       road:
-        - alley
+        - alley,{0-3$$dumpsters|garbage bags|pipes}
+        - crosswalk
         - dirt road
         - path
         - road
