@@ -792,6 +792,8 @@ copyright-list:
     - katsuragi misato
     - makinami mari illustrious
     - souryuu asuka langley
+  evertale:
+    - rizette \(evertale\)
   fate:
     - abigail williams{| \(animejapan 2018\)| \(emerald float\)| \(event portrait\)| \(festival outfit\)| \(santa\)| \(second ascension\)| \(swimsuit foreigner\)| \(swimsuit foreigner\) \(first ascension\)| \(swimsuit foreigner\) \(second ascension\)| \(swimsuit foreigner\) \(third ascension\)| \(third ascension\)| \(tour outfit\)| \(traveling outfit\)} \(fate\)
     - adele \(fate\)
@@ -2074,6 +2076,8 @@ copyright-list:
     - zuikaku kai ni{| \(decisive battle\)} \(kancolle\)
   kanon:
     -
+  kid-icarus:
+    - palutena \(kid icarus\)
   kill-la-kill:
     -
   kimetsu-no-yaiba:
@@ -2089,6 +2093,11 @@ copyright-list:
     -
   kirarin-revolution:
     -
+  kirby:
+    - adeleine \(kirby\)
+    - flamberge \(kirby\)
+    - francisca \(kirby\)
+    - ribbon \(kirby\)
   konosuba:
     -
   kuroneko-no-wiz:
@@ -2177,8 +2186,16 @@ copyright-list:
     -
   maria-holic:
     -
+  mario:
+    - princess daisy
+    - princess peach
+    - rosalina
   monster-musume-td:
     -
+  mother:
+    - kumatora \(mother 3\)
+  metroid:
+    - samus aran
   mushoku-tensei:
     - aisha greyrat
     - elinalise dragonroad
@@ -2208,27 +2225,6 @@ copyright-list:
     -
   nintama:
     -
-  nintendo:
-    - adeleine \(kirby\)
-    - ashley \(warioware\)
-    - elma \(xenoblade x\)
-    - fiora \(xenoblade\)
-    - flamberge \(kirby\)
-    - francisca \(kirby\)
-    - krystal,furry,fox female,animal ears,fox mouth,fox nose
-    - kumatora \(mother 3\)
-    - malon,the legend of zelda
-    - marina \(splatoon\)
-    - palutena \(kid icarus\)
-    - princess daisy
-    - princess peach
-    - princess zelda
-    - pyra \(xenoblade\)
-    - ribbon \(kirby\)
-    - rizette \(evertale\)
-    - rosalina
-    - samus aran
-    - sharla \(xenoblade\)
   nisekoi:
     -
   one-punch-man:
@@ -2455,6 +2451,8 @@ copyright-list:
     - pieck finger
     - sasha braus
     - ymir \(shingeki no kyojin\)
+  splatoon:
+    - marina \(splatoon\)
   spy-x-family:
     - anya \(spy x family\)
     - becky blackbell
@@ -2462,6 +2460,8 @@ copyright-list:
     - fiona frost
     - hayami saori
     - yor briar
+  star-fox:
+    - krystal,furry,fox female,animal ears,fox mouth,fox nose
   steins-gate:
     -
   succubus-quest:
@@ -2632,10 +2632,17 @@ copyright-list:
     -
   vocaloid:
     -
+  warioware:
+    - ashley \(warioware\)
   welcome-to-the-nhk:
     -
   white-cat-project:
     -
+  xenoblade:
+    - elma \(xenoblade x\)
+    - fiora \(xenoblade\)
+    - pyra \(xenoblade\)
+    - sharla \(xenoblade\)
   your-name:
     -
   yu-yu-hakusho:
@@ -2646,3 +2653,6 @@ copyright-list:
     -
   yuyushiki:
     -
+  zelda:
+    - malon,the legend of zelda
+    - princess zelda
