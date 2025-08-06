@@ -1,32 +1,110 @@
 try:
-  sample:
-    do:
-      - sample,{0-6$$__mywc/fashion/setups/sample/list__}
-    list:
-      - __mywc/fashion/setups/sample/tops__
-      - __mywc/fashion/setups/sample/bottoms__
-      - __mywc/fashion/setups/sample/gloves__
-      - __mywc/fashion/setups/sample/socks__
-      - __mywc/fashion/setups/sample/footwears__
-      - __mywc/fashion/setups/sample/accessories/do__
-    tops:
-    bottoms:
-    gloves:
-    socks:
-    footwears:
-    accessories:
-      do:
-        - "{0-6$$__mywc/fashion/setups/sample/accessories/list__}"
-      list:
-        - __mywc/fashion/setups/sample/accessories/head/__
-        - __mywc/fashion/setups/sample/accessories/face/__
-        - __mywc/fashion/setups/sample/accessories/neck/__
-        - __mywc/fashion/setups/sample/accessories/hand/__
-        - __mywc/color__ __mywc/fashion/setups/sample/accessories/bags__
-        - __mywc/color__ __mywc/fashion/setups/sample/accessories/one-points__
-      head:
-      face:
-      neck:
-      hand:
-      bags:
-      one-points:
+  angle:
+    - bird's-eye angle
+    - bird's-eye view shot
+    - dutch angle
+    - eye-level shot
+    - high-angle shot
+    - low-angle shot
+    - overhead shot
+    - worm's-eye angle
+    - worm's-eye view shot
+  balance:
+    - asymmetrical balance
+    - centered composition
+    - close-up shot
+    - extreme close-up
+    - extreme long shot
+    - frontal shot
+    - full body shot
+    - full shot
+    - full-length shot
+    - half body shot
+    - medium close-up
+    - medium long shot
+    - medium shot
+    - off-center composition
+    - profile shot
+    - shoulder-up shot
+    - symmetrical balance
+    - symmetry
+    - three-quarters back shot
+    - three-quarters front shot
+    - three-quarters shot
+    - three-quarters side shot
+  composition:
+    - busy background
+    - color blocking
+    - color contrast
+    - color harmony
+    - diagonal composition
+    - foreground framing
+    - framing
+    - golden ratio
+    - golden spiral composition
+    - headroom and nose room
+    - leading lines
+    - leading room
+    - minimalist composition
+    - negative space
+    - nose-to-nose shot
+    - overlapping elements
+    - rule of odds
+    - rule of thirds
+    - shadow play
+    - simple background
+    - textured background
+    - tilted horizon
+  effects:
+    - deep depth of field
+    - depth of field
+    - focus stacking
+    - motion blur
+    - shallow depth of field
+  lighting:
+    type:
+      - ambient light
+      - diffused light
+      - direct light
+      - hard light
+      - natural light photography
+      - soft light
+      - indirect light
+    angle:
+      - backlighting
+      - bottom lighting
+      - broad lighting
+      - butterfly lighting
+      - cross lighting
+      - loop lighting
+      - rembrandt lighting
+      - rim lighting
+      - short lighting
+      - side lighting
+      - split lighting
+      - top lighting
+    effect:
+      - catchlight
+      - flash photography
+      - gels or filters
+      - high-key lighting
+      - lens flare
+      - low-key lighting
+      - reflector lighting
+      - remotely triggered lighting
+  styles:
+    - backlit shot
+    - black and white shot
+    - bokeh background
+    - bokeh effect
+    - candid moment
+    - candid shot
+    - environmental portrait
+    - high-contrast shot
+    - lifestyle photography
+    - panning shot
+    - posed shot
+    - silhouette shot
+    - studio photography
+    - zooming in
+    - zooming out
