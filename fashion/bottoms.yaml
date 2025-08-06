@@ -3,34 +3,34 @@ bottoms:
     - "{4::__mywc/fashion/bottoms/skirts/do__|4::__mywc/fashion/bottoms/pants/do__|1::__mywc/fashion/bottoms/nsfw/do__}"
   pants:
     do:
-      - __mywc/color__ __mywc/fashion/bottoms/pants/pants__
-      - __mywc/color__ __mywc/fashion/bottoms/pants/shorts__
+      - __mywc/color__ __mywc/fashion/bottoms/pants/made/*__
       - __mywc/color__ __mywc/fashion/bottoms/pants/random/do__
-    pants:
-      - baggy pants
-      - bell-bottoms
-      - cargo pants
-      - gaucho pants
-      - hakama pants
-      - harem pants
-      - jeans
-      - pleated pants
-      - sweatpants
-      - tight pants
-      - track pants
-      - yoga pants
-    shorts:
-      - baggy shorts
-      - bike shorts
-      - buruma
-      - cargo shorts
-      - denim shorts
-      - dolphin shorts
-      - hakama shorts
-      - hot pants
-      - ripped shorts
-      - sport shorts
-      - track shorts
+    made:
+      pants:
+        - baggy pants
+        - bell-bottoms
+        - cargo pants
+        - gaucho pants
+        - hakama pants
+        - harem pants
+        - jeans
+        - pleated pants
+        - sweatpants
+        - tight pants
+        - track pants
+        - yoga pants
+      shorts:
+        - baggy shorts
+        - bike shorts
+        - buruma
+        - cargo shorts
+        - denim shorts
+        - dolphin shorts
+        - hakama shorts
+        - hot pants
+        - ripped shorts
+        - sport shorts
+        - track shorts
     random:
       do:
         - __mywc/fashion/bottoms/pants/random/option/do__ __mywc/fashion/bottoms/pants/random/base__
