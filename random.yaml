@@ -8,6 +8,6 @@ random:
   base:
     - "{2::${subject:__mywc/subject/mob__},__mywc/at-random__|1::${subject:__mywc/subject/mob__},__mywc/at-special__}"
 at-random:
-  - "{0-5$$__mywc/fashion/random__|__mywc/expression/random__|__mywc/pose/general__|__mywc/location/random__|__mywc/meta/composition/random__}"
+  - "{0-5$$__mywc/fashion/random__|__mywc/expression/random__|__mywc/pose/general__|__mywc/location/random__|__mywc/meta/random__}"
 at-special:
-  - "__mywc/pose/action/special__,{0-2$$__mywc/expression/random__|__mywc/meta/composition/random__}"
+  - "__mywc/pose/action/special__,{0-2$$__mywc/expression/random__|__mywc/meta/random__}"

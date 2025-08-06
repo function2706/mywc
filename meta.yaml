@@ -1,10 +1,13 @@
 meta:
+  random:
+    - __mywc/meta/composition/random__{9::|2::,__mywc/meta/effect__|1::,__mywc/meta/artstyle__}
   composition:
     random:
-      - __mywc/meta/composition/pov/do__
       - __mywc/meta/composition/from-above/do__
       - __mywc/meta/composition/from-below/do__
       - __mywc/meta/composition/from-side/do__
+      - __mywc/meta/composition/pov/do__
+      - __mywc/meta/composition/shot/do__
     from-above:
       do:
         - from above{|,__mywc/meta/composition/from-above/los__}
@@ -42,6 +45,24 @@ meta:
         - " "
         - looking at another
         - looking at viewer
+    shot:
+      do:
+        - __mywc/meta/composition/shot/range__{|,__mywc/meta/composition/shot/los__}
+      range:
+        - dutch angle
+        - full body
+        - upper body
+      los:
+        - looking ahead
+        - looking at another
+        - looking at viewer
+        - looking away
+        - looking down
+        - looking up
+  effect:
+    - depth of field
+    - bokeh
+    - foreshortening
   artstyle:
     - 3d model
     - line art
