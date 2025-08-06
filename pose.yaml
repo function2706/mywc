@@ -79,7 +79,7 @@ pose:
       - writing
       - yawning
       - yelling
-      - __mywc/pose/action/holding/do__
+      - __mywc/pose/action/holding__
     dancing:
       - ballet
       - ballroom dance
