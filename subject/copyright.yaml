@@ -2261,36 +2261,31 @@ copyright-list:
   persona:
     - aegis \(persona\)
     - amagi yukiko
-    - amano maya
     - caroline \(persona 5\)
     - doujima nanako
     - elizabeth \(persona\)
-    - fushimi chihiro
-    - izanami \(persona\)
     - justine \(persona 5\)
     - kawakami sadayo
     - kirijou mitsuru
     - kujikawa rise
     - labrys \(persona\)
+    - lavenza \(persona 5\)
     - lisa silverman
     - margaret \(persona\)
+    - marie \(persona 4\)
     - metis \(persona\)
     - niijima makoto
     - niijima sae
     - okumura haru
-    - sakura futaba
+    - sakura futaba{|,glasses}
     - satonaka chie
     - shiomi kotone
-    - shirogane naoto
     - takamaki anne
     - takeba yukari
     - takemi tae
-    - theodore \(persona\)
-    - tougou hifumi
     - yamagishi fuuka
-    - yoshino chidori
     - yoshizawa kasumi
-    - yoshizawa sumire
+    - yoshizawa sumire{|,glasses}
   phantasy-star-online:
     -
   pokemon:
