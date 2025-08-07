@@ -1,14 +1,25 @@
 pose:
   random:
-    - __mywc/pose/action/do__
-    - "{1-3$$__mywc/pose/list__}"
+    - __mywc/pose/action/do__,__mywc/pose/los/do__
+    - "{1-3$$__mywc/pose/list__},__mywc/pose/los/do__"
   general:
-    - __mywc/pose/action/general__
-    - "{1-3$$__mywc/pose/list__}"
+    - __mywc/pose/action/general__,__mywc/pose/los/do__
+    - "{1-3$$__mywc/pose/list__},__mywc/pose/los/do__"
   list:
     - __mywc/pose/head__
     - __mywc/pose/upper/do__
     - __mywc/pose/lower/do__
+  los:
+    do:
+      - " "
+      - __mywc/pose/los/direction__
+    direction:
+      - looking ahead
+      - looking at another
+      - looking at viewer
+      - looking away
+      - looking down
+      - looking up
   action:
     do:
       - __mywc/pose/action/special__

@@ -1,75 +1,39 @@
 meta:
   random:
-    - __mywc/meta/composition/random__{9::|2::,__mywc/meta/effect__|1::,__mywc/meta/artstyle__}
+    - "{1-3$$__mywc/meta/composition/do__|__mywc/meta/effect/do__|__mywc/meta/style/do__}"
   composition:
-    random:
-      - __mywc/meta/composition/from-above/do__
-      - __mywc/meta/composition/from-below/do__
-      - __mywc/meta/composition/from-side/do__
-      - __mywc/meta/composition/pov/do__
-      - __mywc/meta/composition/shot/do__
-    from-above:
-      do:
-        - from above{|,__mywc/meta/composition/from-above/los__}
-      los:
-        - looking ahead
-        - looking at another
-        - looking at viewer
-        - looking up
-    from-below:
-      do:
-        - from below{|,__mywc/meta/composition/from-below/los__}
-      los:
-        - __mywc/meta/composition/from-below/pov-bool__
-        - looking ahead
-        - looking at another
-        - looking at viewer,__mywc/meta/composition/from-below/pov-bool__
-        - looking down,__mywc/meta/composition/from-below/pov-bool__
-      pov-bool:
+    do:
+      - __mywc/meta/composition/angle/x__,__mywc/meta/composition/range__
+      - __mywc/meta/composition/angle/y__
+    angle:
+      x:
         - " "
-        - pov
-    from-side:
-      do:
-        - from side{|,__mywc/meta/composition/from-side/los__}
-      los:
-        - looking ahead
-        - looking at another
-        - looking at viewer
-        - looking away
-        - looking down
-        - looking up
-    pov:
-      do:
-        - pov{|,__mywc/meta/composition/pov/los__}
-      los:
-        - " "
-        - looking at another
-        - looking at viewer
-    shot:
-      do:
-        - __mywc/meta/composition/shot/range__{|,__mywc/meta/composition/shot/los__}
-      range:
         - dutch angle
-        - full body
-        - upper body
-      los:
-        - looking ahead
-        - looking at another
-        - looking at viewer
-        - looking away
-        - looking down
-        - looking up
+        - from side
+      y:
+        - from above
+        - from below
+    range:
+      - " "
+      - full body
+      - upper body
   effect:
-    - depth of field
-    - bokeh
-    - foreshortening
-  artstyle:
-    - 3d model
-    - line art
-    - manga style
-    - oil painting
-    - photorealistic
-    - pixel art
-    - realistic
-    - vector art
-    - watercolor
+    do:
+      - "{10::|1::__mywc/meta/effect/list__}"
+    list:
+      - depth of field
+      - bokeh
+      - foreshortening
+  style:
+    do:
+      - "{50::|1::__mywc/meta/style/list__}"
+    list:
+      - 3d model
+      - line art
+      - manga style
+      - oil painting
+      - photorealistic
+      - pixel art
+      - realistic
+      - vector art
+      - watercolor
