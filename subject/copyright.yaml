@@ -2165,14 +2165,14 @@ copyright-list:
     - wendi \(nanoha\)
   made-in-abyss:
     -
-  magia-record:
-    -
-  mahou-shoujo-madoka-magica:
+  madoka-magica:
     - akemi homura
     - kaname madoka
     - miki sayaka
     - sakura kyoko
     - tomoe mami
+  magia-record:
+    -
   mahoujin-guru-guru:
     -
   maison-ikkoku:
@@ -2501,15 +2501,39 @@ copyright-list:
     - yotsuba alice
     - yukishiro honoka
   princess-connect:
-    - karyl \(princess connect!\)
-    - karyl \(summer\) \(princess connect!\)
-    - kokkoro \(princess connect!\)
-    - kyouka \(princess connect!\)
-    - pecorine \(princess connect!\)
-    - saren \(princess connect!\)
-    - saren \(summer\) \(princess connect!\)
-    - yui \(princess connect!\)
-    - yuni \(princess connect!\)
+    - chieru{| \(school festival\)} \(princess connect!\)
+    - chloe{| \(real\)| \(school festival\)| \(winter\)} \(princess connect!\)
+    - christina{| \(real\)} \(princess connect!\)
+    - eriko{| \(summer\)} \(princess connect!\)
+    - hatsune{| \(summer\)} \(princess connect!\)
+    - io{| \(summer\)} \(princess connect!\)
+    - kaori{| \(summer\)} \(princess connect!\)
+    - karyl{| \(new year\)| \(princess\)| \(real\)| \(summer\)} \(princess connect!\)
+    - kasumi{| \(magical girl\)| \(summer\)} \(princess connect!\)
+    - kokkoro{| \(ceremonial\)| \(new year\)| \(princess\)| \(real\)| \(summer\)} \(princess connect!\)
+    - kuka \(princess connect!\)
+    - kyoka{| \(halloween\)| \(real\)| \(summer\)} \(princess connect!\)
+    - lyrael \(princess connect!\)
+    - maho{| \(summer\)} \(princess connect!\)
+    - makoto{| \(summer\)} \(princess connect!\)
+    - mimi{| \(halloween\)| \(real\)| \(summer\)} \(princess connect!\)
+    - misato{| \(summer\)} \(princess connect!\)
+    - misogi{| \(halloween\)| \(real\)} \(princess connect!\)
+    - misora{| \(summer\)} \(princess connect!\)
+    - miyako{| \(halloween\)} \(princess connect!\)
+    - neneka{| \(new year\)| \(summer\)} \(princess connect!\)
+    - nozomi{| \(alchemist\)| \(summer\)} \(princess connect!\)
+    - pecorine{| \(new year\)| \(princess\)| \(real\)| \(summer\)} \(princess connect!\)
+    - rei{| \(summer\)} \(princess connect!\)
+    - rino{| \(wonderland\)} \(princess connect!\)
+    - saren{| \(christmas\)| \(real\)| \(sarasaria\)| \(summer\)} \(princess connect!\)
+    - shiori{| \(magical girl\)} \(princess connect!\)
+    - shizuru{| \(summer\)| \(valentines\)} \(princess connect!\)
+    - suzuna{| \(summer\)} \(princess connect!\)
+    - tamaki{| \(summer\)} \(princess connect!\)
+    - tsumugi{| \(halloween\)| \(summer\)} \(princess connect!\)
+    - yui{| \(astral\)| \(ceremonial\)| \(new year\)| \(princess\)| \(real\)| \(summer\)} \(princess connect!\)
+    - yuni{| \(real\)| \(school festival\)| \(winter\)} \(princess connect!\)
   princess-maker:
     -
   puyopuyo:
@@ -2524,7 +2548,7 @@ copyright-list:
     - witch \(puyopuyo\)
   ranma-nibun-no-ichi:
     -
-  re-zero-kara-hajimeru-isekai-seikatsu:
+  re-zero:
     - beatrice \(re:zero\)
     - crusch karsten
     - echidna \(re:zero\)
