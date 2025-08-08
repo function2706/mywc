@@ -2623,34 +2623,20 @@ copyright-list:
     - tsuruya
   sword-art-online:
     - alice zuberg
-    - argo the rat
     - asada shino
-    - asuna \(sao-alo\)
-    - asuna \(sao\)
-    - asuna \(stacia\)
+    - asuna {\(sao-alo\)|\(sao\)|\(stacia\) \(sao\)}
     - kirigaya suguha
-    - leafa
-    - leafa \(terraria\)
-    - lisbeth \(sao-alo\)
-    - lisbeth \(sao\)
+    - konno yuuki \(sao\)
+    - leafa {\(sao:im\)|\(sao\)|\(terraria\) \(sao\)}
+    - lisbeth {\(sao-alo\)|\(sao\)}
     - llenn \(sao\)
-    - mito \(sao\)
-    - philia \(sao\)
-    - pina \(sao\)
     - quinella
     - ronye arabel
     - sachi \(sao\)
-    - silica
     - silica \(sao-alo\)
-    - sinon
-    - sinon \(sao-alo\)
-    - sinon \(solus\)
+    - sinon {\(sao-alo\)|\(sao:hf\)}
     - strea \(sao\)
     - tiese schtrinen
-    - titania \(sao\)
-    - yui \(sao-alo\)
-    - yui \(sao\)
-    - yuna \(sao\)
     - yuuki \(sao\)
   tales-of-the-abyss:
     -
@@ -2661,19 +2647,14 @@ copyright-list:
   to-love-ru:
     - konjiki no yami
     - kotegawa yui
-    - kujou rin
     - lala satalin deviluke
     - momo velia deviluke
-    - nana asta deviluke
     - sairenji haruna
-    - sawada mio
     - tearju lunatique
     - yuuki mikan
   toaru-majutsu-no-index:
-    - accelerator \(toaru majutsu no index\)
     - frenda seivelun
     - index \(toaru majutsu no index\)
-    - kinuhata saiai
     - last order \(toaru majutsu no index\)
     - misaka mikoto
     - mugino shizuri
