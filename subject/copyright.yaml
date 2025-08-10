@@ -1,12 +1,9 @@
 copyright:
   - __mywc/subject/copyright-list/*__
 copyright-list:
-  angel-beats:
-    -
-  anohana:
-    -
-  ao-haru-ride:
-    -
+  #angel-beats:
+  #anohana:
+  #ao-haru-ride:
   arknights:
     - absinthe \(arknights\)
     - aciddrop{| \(afternoon teatime\)} \(arknights\)
@@ -208,8 +205,7 @@ copyright-list:
     - whisperain{| \(priory of abyss\)| \(tremble cold\)} \(arknights\)
     - yato \(arknights\)
     - zima{| \(ready to go\)| \(ursus\)} \(arknights\)
-  assassination-classroom:
-    -
+  #assassination-classroom:
   atelier:
     - ayesha altugle
     - corrine
@@ -505,12 +501,9 @@ copyright-list:
     - zara{| \(poolside coincidence\)} \(azur lane\){|,eyewear on head}
     - zeppy \(azur lane\)
     - zuikaku{| \(ceremonial crane\)| \(the wind's true name\)} \(azur lane\)
-  bakemonogatari:
-    -
-  bakuman:
-    -
-  bayonetta:
-    -
+  #bakemonogatari:
+  #bakuman:
+  #bayonetta:
   bleach:
     - arisawa tatsuki
     - bambietta basterbine
@@ -706,12 +699,9 @@ copyright-list:
     - reze \(chainsaw man\)
     - sawatari akane \(chainsaw man\)
     - yoru \(chainsaw man\)
-  chihayafuru:
-    -
-  cinderella-nine__:
-    -
-  clannad:
-    -
+  #chihayafuru:
+  #cinderella-nine__:
+  #clannad:
   code-geass:
     - anya alstreim
     - c.c.
@@ -724,10 +714,8 @@ copyright-list:
     - shirley fenette
     - tianzi
     - villetta nu
-  dan-da-dan:
-    -
-  detective-conan:
-    -
+  #dan-da-dan:
+  #detective-conan:
   digimon:
     - amano nene \(digimon xros wars\)
     - hinomoto akari \(digimon\)
@@ -783,8 +771,7 @@ copyright-list:
     - senya \(dq11\)
     - veronica \(dq11\)
     - warrior \(dq3\)
-  elfen-lied:
-    -
+  #elfen-lied:
   evangelion:
     - akagi ritsuko
     - ayanami rei
@@ -1172,8 +1159,7 @@ copyright-list:
     - olivier mira armstrong
     - sloth \(fma\)
     - winry rockbell
-  fullmetal-panic:
-    -
+  #fullmetal-panic:
   galaxy-angel:
     - forte stollen{|,monocle}
     - milfeulle sakuraba
@@ -1258,8 +1244,7 @@ copyright-list:
   girlfriend-kari:
     - chloe lemaire
     - sakurai akane \(girlfriend\)
-  girls-and-panzer:
-    -
+  #girls-and-panzer:
   go-toubun-no-hanayome:
     - nakano ichika
     - nakano itsuki
@@ -1271,8 +1256,7 @@ copyright-list:
     - high elf archer \(goblin slayer!\)
     - priestess \(goblin slayer!\)
     - sword maiden
-  gochi-usa:
-    -
+  #gochi-usa:
   granblue-fantasy:
     - alexiel{| \(summer\)} \(granblue fantasy\)
     - alicia \(granblue fantasy\)
@@ -1403,12 +1387,9 @@ copyright-list:
     - sophie pulone
     - suletta mercury
     - sumeragi lee noriega
-  haikyuu:
-    -
-  hayate-no-gotoku:
-    -
-  hibike-euphonium:
-    -
+  #haikyuu:
+  #hayate-no-gotoku:
+  #hibike-euphonium:
   higurashi:
     - furude hanyuu
     - furude rika
@@ -1420,8 +1401,7 @@ copyright-list:
     - machi komacine
     - neferpitou
     - shizuku murasaki
-  hyouka:
-    -
+  #hyouka:
   idolmaster:
     - abe nana
     - aiba yumi
@@ -1621,8 +1601,7 @@ copyright-list:
     - yusa kozue
     - yuuki haru
     - zaizen tokiko
-  ikamusume:
-    -
+  #ikamusume:
   jujutsu-kaisen:
     - kugisaki nobara
     - mei mei \(jujutsu kaisen\)
@@ -1637,10 +1616,8 @@ copyright-list:
     - tachibana himeko
     - tainaka ritsu
     - yamanaka sawako{|,glasses}
-  kaguya-sama:
-    -
-  kakegurui:
-    -
+  #kaguya-sama:
+  #kakegurui:
   kancolle:
     - abukuma{| \(halloween mode\)} \(kancolle\)
     - abukuma kai ni \(kancolle\)
@@ -2072,10 +2049,8 @@ copyright-list:
     - zuikaku{| \(christmas mode\)| \(jal\)} \(kancolle\)
     - zuikaku kai \(kancolle\)
     - zuikaku kai ni{| \(decisive battle\)} \(kancolle\)
-  kanon:
-    -
-  kill-la-kill:
-    -
+  #kanon:
+  #kill-la-kill:
   kimetsu-no-yaiba:
     - daki \(kimetsu no yaiba\)
     - kamado nezuko
@@ -2085,18 +2060,13 @@ copyright-list:
     - kochou shinobu
     - tamayo \(kimetsu no yaiba\)
     - tsuyuri kanao
-  kino-no-tabi:
-    -
-  kirarin-revolution:
-    -
+  #kino-no-tabi:
+  #kirarin-revolution:
   kirby:
     - adeleine \(kirby\)
-  konosuba:
-    -
-  kuroneko-no-wiz:
-    -
-  league-of-legends:
-    -
+  #konosuba:
+  #kuroneko-no-wiz:
+  #league-of-legends:
   love-live:
     - arashi chisato
     - asaka karin
@@ -2163,28 +2133,22 @@ copyright-list:
     - tsukimura suzuka
     - vita \(nanoha\)
     - wendi \(nanoha\)
-  made-in-abyss:
-    -
+  #made-in-abyss:
   madoka-magica:
     - akemi homura
     - kaname madoka
     - miki sayaka
     - sakura kyoko
     - tomoe mami
-  magia-record:
-    -
-  mahoujin-guru-guru:
-    -
-  maison-ikkoku:
-    -
-  maria-holic:
-    -
+  #magia-record:
+  #mahoujin-guru-guru:
+  #maison-ikkoku:
+  #maria-holic:
   mario:
     - princess daisy
     - princess peach
     - rosalina \(mario\)
-  monster-musume-td:
-    -
+  #monster-musume-td:
   mother:
     - paula \(mother 2\)
   metroid:
@@ -2210,16 +2174,12 @@ copyright-list:
     - uzumaki himawari
     - uzumaki kushina
     - yamanaka ino
-  nichijou:
-    -
-  nier-automata:
-    -
-  nikke:
-    -
-  nintama:
-    -
-  nisekoi:
-    -
+  #nichijou:
+  #nier-automata:
+  #nikke:
+  #nintama:
+  #nisekoi:
+  #ojamajo:
   one-punch-man:
     - fubuki \(one-punch man\)
     - kaijin hime do-s
@@ -2246,18 +2206,15 @@ copyright-list:
     - vinsmoke reiju
     - viola \(one piece\)
     - yamato \(one piece\)
-  oshinoko:
-    -
+  #oshinoko:
   overlord:
     - albedo \(overlord\)
     - clementine \(overlord\)
     - entoma vasilissa zeta
     - lupusregina beta
     - shalltear bloodfallen
-  pani-poni-dash:
-    -
-  paranoia-agent:
-    -
+  #pani-poni-dash:
+  #paranoia-agent:
   persona:
     - aegis \(persona\)
     - amagi yukiko
@@ -2286,8 +2243,7 @@ copyright-list:
     - yamagishi fuuka
     - yoshizawa kasumi
     - yoshizawa sumire{|,glasses}
-  phantasy-star-online:
-    -
+  #phantasy-star-online:
   pokemon:
     - acerola{| \(fall 2020\)| \(summer 2024\)| \(sygna suit\)} \(pokemon\)
     - akari \(pokemon\)
@@ -2534,8 +2490,7 @@ copyright-list:
     - tsumugi{| \(halloween\)| \(summer\)} \(princess connect!\)
     - yui{| \(astral\)| \(ceremonial\)| \(new year\)| \(princess\)| \(real\)| \(summer\)} \(princess connect!\)
     - yuni{| \(real\)| \(school festival\)| \(winter\)} \(princess connect!\)
-  princess-maker:
-    -
+  #princess-maker:
   puyopuyo:
     - amitie \(puyopuyo\)
     - arle nadja
@@ -2545,8 +2500,7 @@ copyright-list:
     - raffina \(puyopuyo\)
     - rulue \(puyopuyo\)
     - witch \(puyopuyo\)
-  ranma-nibun-no-ichi:
-    -
+  #ranma-nibun-no-ichi:
   re-zero:
     - beatrice \(re:zero\)
     - crusch karsten
@@ -2561,8 +2515,7 @@ copyright-list:
     - rem \(re:zero\)
     - satella \(re:zero\)
     - shaula \(re:zero\)
-  revolutionary-girl-utena:
-    -
+  #revolutionary-girl-utena:
   rozen-maiden:
     - hinaichigo \(rozen maiden\)
     - kanaria
@@ -2580,12 +2533,9 @@ copyright-list:
     - mizuno ami
     - tomoe hotaru
     - tsukino usagi
-  sakura-wars:
-    -
-  shadowverse:
-    -
-  shin-chan:
-    -
+  #sakura-wars:
+  #shadowverse:
+  #shin-chan:
   shingeki-no-kyojin:
     - annie leonhardt
     - christa renz
@@ -2612,10 +2562,8 @@ copyright-list:
     - yor {briar|forger}
   star-fox:
     - krystal,furry,fox female,animal ears,fox mouth,fox nose
-  steins-gate:
-    -
-  succubus-quest:
-    -
+  #steins-gate:
+  #succubus-quest:
   suzumiya-haruhi:
     - asahina mikuru
     - nagato yuki
@@ -2638,12 +2586,9 @@ copyright-list:
     - strea \(sao\)
     - tiese schtrinen
     - yuuki \(sao\)
-  tales-of-the-abyss:
-    -
-  tamako-market:
-    -
-  tenshi-na-konamaiki:
-    -
+  #tales-of-the-abyss:
+  #tamako-market:
+  #tenshi-na-konamaiki:
   to-love-ru:
     - konjiki no yami
     - kotegawa yui
@@ -2662,10 +2607,8 @@ copyright-list:
     - shirai kuroko
     - shokuhou misaki
     - uiharu kazari
-  tokimeki-memorial:
-    -
-  toradora:
-    -
+  #tokimeki-memorial:
+  #toradora:
   touhou:
     - aki minoriko
     - aki shizuha
@@ -2812,22 +2755,15 @@ copyright-list:
     - yorigami jo'on
     - yorigami shion
     - yumeko \(touhou\)
-  uma-musume:
-    -
-  urusei-yatsura:
-    -
-  valkyrie-profile:
-    -
-  violet-evergarden:
-    -
-  vocaloid:
-    -
+  #uma-musume:
+  #urusei-yatsura:
+  #valkyrie-profile:
+  #violet-evergarden:
+  #vocaloid:
   warioware:
     - ashley \(warioware\)
-  welcome-to-the-nhk:
-    -
-  white-cat-project:
-    -
+  #welcome-to-the-nhk:
+  #white-cat-project:
   xenoblade:
     - alexandria \(xenoblade\)
     - brighid{| \(water lily\)} \(xenoblade\)
@@ -2853,16 +2789,11 @@ copyright-list:
     - pyra{| \(pro swimmer\)} \(xenoblade\)
     - sena \(xenoblade\)
     - shania \(xenoblade\)
-  your-name:
-    -
-  yu-yu-hakusho:
-    -
-  yugioh:
-    -
-  yuru-camp:
-    -
-  yuyushiki:
-    -
+  #your-name:
+  #yu-yu-hakusho:
+  #yugioh:
+  #yuru-camp:
+  #yuyushiki:
   zelda:
     - malon
     - midna
