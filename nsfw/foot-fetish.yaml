@@ -1,55 +1,46 @@
 foot-fetish:
   barefeet:
-    random:
-      - |-
-        __mywc/nsfw/foot-fetish/barefeet/cosplay-of__,
-        __mywc/subject/for-nsfw__
-    cosplay-of:
-      - |-
-        __mywc/nsfw/foot-fetish/barefeet/of__,
-        __mywc/nsfw/foot-fetish/fashion/random__
-    of:
-      - |-
-        __mywc/nsfw/foot-fetish/barefeet/foot-state__,(perfect feet:1.5),(soles:1.1),toes,
-        __mywc/nsfw/foot-fetish/barefeet/pose__,
-        __mywc/nsfw/foot-fetish/core__
+    random: |-
+      __mywc/nsfw/foot-fetish/barefeet/cosplay-of__,
+      __mywc/subject/for-nsfw__
+    cosplay-of: |-
+      __mywc/nsfw/foot-fetish/barefeet/of__,
+      __mywc/nsfw/foot-fetish/fashion/random__
+    of: |-
+      __mywc/nsfw/foot-fetish/barefeet/foot-state__,(perfect feet:1.5),(soles:1.1),toes,
+      __mywc/nsfw/foot-fetish/barefeet/pose__,
+      __mywc/nsfw/foot-fetish/core__
     foot-state:
       - (barefoot:1.21),{|(spread toes:1.__mywc/weight/range/min0max3__)}
     pose:
       - "{3::__mywc/nsfw/foot-fetish/pose/standing/do__|2::__mywc/nsfw/foot-fetish/pose/sitting/do__|1::__mywc/nsfw/foot-fetish/pose/extending/do__}"
   socks:
-    random:
-      - |-
-        __mywc/nsfw/foot-fetish/socks/cosplay-of__,
-        __mywc/subject/for-nsfw__
-    cosplay-of:
-      - |-
-        __mywc/nsfw/foot-fetish/socks/of__,
-        __mywc/nsfw/foot-fetish/fashion/random__
-    of:
-      - |-
-        __mywc/nsfw/foot-fetish/socks/foot-state__,(perfect feet:1.5),(soles:1.1),
-        __mywc/nsfw/foot-fetish/socks/pose__,
-        __mywc/nsfw/foot-fetish/core__
+    random: |-
+      __mywc/nsfw/foot-fetish/socks/cosplay-of__,
+      __mywc/subject/for-nsfw__
+    cosplay-of: |-
+      __mywc/nsfw/foot-fetish/socks/of__,
+      __mywc/nsfw/foot-fetish/fashion/random__
+    of: |-
+      __mywc/nsfw/foot-fetish/socks/foot-state__,(perfect feet:1.5),(soles:1.1),
+      __mywc/nsfw/foot-fetish/socks/pose__,
+      __mywc/nsfw/foot-fetish/core__
     foot-state:
       - ({|beige |brown |black |white }pantyhose:1.21),{|spread toes}
       - ({|black |white }{ankle socks|kneehighs|over-kneehighs|socks|thighhighs}:1.21),{|spread toes}
     pose:
       - "{3::__mywc/nsfw/foot-fetish/pose/standing/do__|2::__mywc/nsfw/foot-fetish/pose/sitting/do__|1::__mywc/nsfw/foot-fetish/pose/extending/do__}"
   shoes:
-    random:
-      - |-
-        __mywc/nsfw/foot-fetish/shoes/cosplay-of__,
-        __mywc/subject/for-nsfw__
-    cosplay-of:
-      - |-
-        __mywc/nsfw/foot-fetish/shoes/of__,
-        __mywc/nsfw/foot-fetish/fashion/random__
-    of:
-      - |-
-        __mywc/nsfw/foot-fetish/shoes/foot-state__,
-        __mywc/nsfw/foot-fetish/shoes/pose__,
-        __mywc/nsfw/foot-fetish/core__
+    random: |-
+      __mywc/nsfw/foot-fetish/shoes/cosplay-of__,
+      __mywc/subject/for-nsfw__
+    cosplay-of: |-
+      __mywc/nsfw/foot-fetish/shoes/of__,
+      __mywc/nsfw/foot-fetish/fashion/random__
+    of: |-
+      __mywc/nsfw/foot-fetish/shoes/foot-state__,
+      __mywc/nsfw/foot-fetish/shoes/pose__,
+      __mywc/nsfw/foot-fetish/core__
     foot-state:
       - ({|black |red |white }{short|long|thigh} {|braided |latex }boots:1.21),{|stiletto heels}
       - ({|black |red |white }stiletto heels:1.21),{|pantyhose}
