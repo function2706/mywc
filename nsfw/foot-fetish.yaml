@@ -13,7 +13,7 @@ foot-fetish:
     foot-state:
       - (barefoot:1.21),{|(spread toes:1.__mywc/weight/range/min0max3__)}
     pose:
-      - "{3::__mywc/nsfw/foot-fetish/pose/standing/do__|2::__mywc/nsfw/foot-fetish/pose/sitting/do__|1::__mywc/nsfw/foot-fetish/pose/extending/do__}"
+      - "{3::__mywc/nsfw/foot-fetish/pose/standing/do__|2::__mywc/nsfw/foot-fetish/pose/sitting/do__|1::__mywc/nsfw/foot-fetish/pose/relaxing/do__}"
   socks:
     random: |-
       __mywc/nsfw/foot-fetish/socks/cosplay-of__,
@@ -29,7 +29,7 @@ foot-fetish:
       - ({|beige |brown |black |white }pantyhose:1.21),{|spread toes}
       - ({|black |white }{ankle socks|kneehighs|over-kneehighs|socks|thighhighs}:1.21),{|spread toes}
     pose:
-      - "{3::__mywc/nsfw/foot-fetish/pose/standing/do__|2::__mywc/nsfw/foot-fetish/pose/sitting/do__|1::__mywc/nsfw/foot-fetish/pose/extending/do__}"
+      - "{3::__mywc/nsfw/foot-fetish/pose/standing/do__|2::__mywc/nsfw/foot-fetish/pose/sitting/do__|1::__mywc/nsfw/foot-fetish/pose/relaxing/do__}"
   shoes:
     random: |-
       __mywc/nsfw/foot-fetish/shoes/cosplay-of__,
@@ -53,7 +53,7 @@ foot-fetish:
   pose:
     standing:
       do:
-        - standing{| on one leg},__mywc/nsfw/foot-fetish/pose/standing/upper/do__,(from below:1.21)
+        - standing{| on one leg},__mywc/nsfw/foot-fetish/pose/standing/upper/do__,{(from below:1.21)|(from behind:1.21){|,looking back}}
       upper:
         do:
           - "{|{1::__mywc/nsfw/foot-fetish/pose/standing/upper/pose__|3::__mywc/nsfw/foot-fetish/pose/standing/upper/touching/do__|1::__mywc/nsfw/foot-fetish/pose/standing/upper/misc__}}"
@@ -113,7 +113,7 @@ foot-fetish:
           - waving
     sitting:
       do:
-        - sitting{|,crossed {ankles|legs}},__mywc/nsfw/foot-fetish/pose/sitting/upper/do__,(from below:1.21)
+        - sitting{|,crossed {ankles|legs}},__mywc/nsfw/foot-fetish/pose/sitting/upper/do__,{(from below:1.21)|(from behind:1.21){|,looking back}}
       upper:
         do:
           - "{|{1::__mywc/nsfw/foot-fetish/pose/sitting/upper/pose__|3::__mywc/nsfw/foot-fetish/pose/sitting/upper/touching/do__|1::__mywc/nsfw/foot-fetish/pose/sitting/upper/misc__}}"
@@ -165,13 +165,13 @@ foot-fetish:
           - shushing
           - steepled fingers
           - waving
-    extending:
+    relaxing:
       do:
-        - (legs together:1.21),(feet together:1.21),{|(stretched legs out:1.21)},{|(extending legs:1.21)},{|crossed legs},both feet,both soles,__mywc/nsfw/foot-fetish/pose/extending/upper/do__
-        - (knees apart:1.21),(feet together:1.21),both feet,both soles,__mywc/nsfw/foot-fetish/pose/extending/upper/do__
+        - (legs together:1.21),(feet together:1.21),{|(stretched legs out:1.21)},{|(extending legs:1.21)},{|crossed legs},both feet,both soles,__mywc/nsfw/foot-fetish/pose/relaxing/upper/do__{2::|1::,(from behind:1.21){|,looking back}}
+        - (knees apart:1.21),(feet together:1.21),both feet,both soles,__mywc/nsfw/foot-fetish/pose/relaxing/upper/do__{2::|1::,(from behind:1.21){|,looking back}}
       upper:
         do:
-          - "{|{1::__mywc/nsfw/foot-fetish/pose/extending/upper/pose__|3::__mywc/nsfw/foot-fetish/pose/extending/upper/touching/do__|1::__mywc/nsfw/foot-fetish/pose/extending/upper/misc__}}"
+          - "{|{1::__mywc/nsfw/foot-fetish/pose/relaxing/upper/pose__|3::__mywc/nsfw/foot-fetish/pose/relaxing/upper/touching/do__|1::__mywc/nsfw/foot-fetish/pose/relaxing/upper/misc__}}"
         pose:
           - arm{|s} above head
           - arm{|s} on knee
@@ -179,12 +179,12 @@ foot-fetish:
           - outstretched arm{|s}
         touching:
           do:
-            - __mywc/nsfw/foot-fetish/pose/extending/upper/touching/one-hand/do__
-            - __mywc/nsfw/foot-fetish/pose/extending/upper/touching/both-hands/do__
-            - __mywc/nsfw/foot-fetish/pose/extending/upper/touching/misc__
+            - __mywc/nsfw/foot-fetish/pose/relaxing/upper/touching/one-hand/do__
+            - __mywc/nsfw/foot-fetish/pose/relaxing/upper/touching/both-hands/do__
+            - __mywc/nsfw/foot-fetish/pose/relaxing/upper/touching/misc__
           one-hand:
             do:
-              - hand __mywc/nsfw/foot-fetish/pose/extending/upper/touching/one-hand/parts__
+              - hand __mywc/nsfw/foot-fetish/pose/relaxing/upper/touching/one-hand/parts__
             parts:
               - in own hair
               - on own cheek
@@ -197,7 +197,7 @@ foot-fetish:
               - on own stomach
           both-hands:
             do:
-              - hands __mywc/nsfw/foot-fetish/pose/extending/upper/touching/both-hands/parts__
+              - hands __mywc/nsfw/foot-fetish/pose/relaxing/upper/touching/both-hands/parts__
             parts:
               - between legs
               - on own cheeks
