@@ -649,7 +649,7 @@ costumes:
     bottoms:
       - pants
     gloves:
-      - "{|leather{| cuirass}} gloves"
+      - "{|leather {|cuirass}} gloves"
     footwears:
       - socks,boots
       - socks,shoes
@@ -1806,7 +1806,7 @@ costumes:
         - witch hat
     color:
       do:
-        - black{| and __mywc/fashion/costumes/witch/color/list__}
+        - black {|and __mywc/fashion/costumes/witch/color/list__}
       list:
         - gold
         - green
@@ -1887,7 +1887,7 @@ costumes:
       do:
         - "{0-2$$__mywc/fashion/costumes/wizard/accessories/list__}"
       list:
-        - "{|leather{| cuirass}} gloves"
+        - "{|leather {|cuirass}} gloves"
         - hood up
   sample:
     do:

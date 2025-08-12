@@ -53,7 +53,7 @@ foot-fetish:
   pose:
     standing:
       do:
-        - standing{| on one leg},__mywc/nsfw/foot-fetish/pose/standing/upper/do__,{(from below:1.21)|(from behind:1.21){|,looking back}}
+        - standing {|on one leg},__mywc/nsfw/foot-fetish/pose/standing/upper/do__,{(from below:1.21)|(from behind:1.21){|,looking back}}
       upper:
         do:
           - "{|{1::__mywc/nsfw/foot-fetish/pose/standing/upper/pose__|3::__mywc/nsfw/foot-fetish/pose/standing/upper/touching/do__|1::__mywc/nsfw/foot-fetish/pose/standing/upper/misc__}}"
