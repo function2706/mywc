@@ -170,8 +170,11 @@ foot-fetish:
           - waving
     relaxing:
       do:
-        - (legs together:1.21),(feet together:1.21),{|(stretched legs out:1.21)},{|(extending legs:1.21)},{|crossed legs},both feet,both soles,__mywc/nsfw/foot-fetish/pose/relaxing/upper/do__{2::|1::,(from behind:1.21){|,looking back}}
-        - (knees apart:1.21),(feet together:1.21),both feet,both soles,__mywc/nsfw/foot-fetish/pose/relaxing/upper/do__{2::|1::,(from behind:1.21){|,looking back}}
+        - __mywc/nsfw/foot-fetish/pose/relaxing/lower__,__mywc/nsfw/foot-fetish/pose/relaxing/upper/do__{2::|1::,(from behind:1.21){|,looking back}}
+      lower:
+        - (legs together:1.21),(feet together:1.21),{|(stretched legs out:1.21)},{|(extending legs:1.21)},{|crossed legs},both feet,both soles
+        - (knees apart:1.21),(feet together:1.21),both feet,both soles
+        - (seiza:1.21)
       upper:
         do:
           - "{|{1::__mywc/nsfw/foot-fetish/pose/relaxing/upper/pose__|3::__mywc/nsfw/foot-fetish/pose/relaxing/upper/touching/do__|1::__mywc/nsfw/foot-fetish/pose/relaxing/upper/misc__}}"
