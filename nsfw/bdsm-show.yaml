@@ -1,0 +1,302 @@
+bdsm-show:
+  random: |-
+    __mywc/nsfw/bdsm-show/of__,
+    __mywc/subject/for-nsfw__
+  of: |-
+    __mywc/nsfw/bdsm-show/pose/random__,
+    __mywc/nsfw/bdsm-show/expression/random__{|,looking at {2::viewer|1::another}},
+    1girl,solo,{from below|},
+    __mywc/fashion/costumes/bdsm/do__
+  pose:
+    random:
+      - __mywc/nsfw/bdsm-show/pose/action__
+      - "{1-2$$__mywc/nsfw/bdsm-show/pose/upper__|__mywc/nsfw/bdsm-show/pose/lower/do__}"
+    action:
+      - all fours
+      - dynamic pose
+      - kicking
+    upper:
+      - arm{|s} above head
+      - arm{|s} across waist
+      - arm{|s} at side
+      - arm{|s} behind head
+      - arm{|s} between legs
+      - arm{|s} on knee
+      - arm{|s} rest
+      - arm{|s} up
+      - cheek rest
+      - crossed arms
+      - elbow rest
+      - hand between legs
+      - hand on own arm
+      - hand on own cheek
+      - hand on own chin
+      - hand on own ear
+      - hand on own face
+      - hand on own head
+      - hand on own knee
+      - hand on own neck
+      - hand rest
+      - hand{|s} in own hair
+      - hand{|s} on own hip
+      - head rest
+      - holding own arm
+      - pointing at viewer
+      - reaching towards viewer
+      - twirling hair
+    lower:
+      do:
+        - __mywc/nsfw/bdsm-show/pose/lower/standing__
+        - __mywc/nsfw/bdsm-show/pose/lower/sitting/do__
+      standing:
+        - contrapposto
+        - standing
+        - standing on one leg
+        - standing,crossed ankles
+        - standing,legs apart
+      sitting:
+        do:
+          - indian style
+          - kneeling,__mywc/nsfw/bdsm-show/pose/lower/sitting/splitting/do__
+          - on one knee
+          - sitting,__mywc/nsfw/bdsm-show/pose/lower/sitting/crossing/do__
+          - sitting{|,knee up},__mywc/nsfw/bdsm-show/pose/lower/sitting/splitting/do__
+          - squatting,__mywc/nsfw/bdsm-show/pose/lower/sitting/splitting/do__
+        crossing:
+          do:
+            - " "
+            - __mywc/nsfw/bdsm-show/pose/lower/sitting/crossing/option__
+          option:
+            - crossed ankles
+            - crossed legs
+        splitting:
+          do:
+            - " "
+            - __mywc/nsfw/bdsm-show/pose/lower/sitting/splitting/option__
+          option:
+            - spread legs
+            - wide spread legs
+  expression:
+    random:
+      - __mywc/nsfw/bdsm-show/expression/list__,__mywc/nsfw/bdsm-show/expression/option/do__
+    list:
+      - __mywc/nsfw/bdsm-show/expression/bored/do__
+      - __mywc/nsfw/bdsm-show/expression/excited/do__
+      - __mywc/nsfw/bdsm-show/expression/expressionless/do__
+      - __mywc/nsfw/bdsm-show/expression/giggle/do__
+      - __mywc/nsfw/bdsm-show/expression/grin/do__
+      - __mywc/nsfw/bdsm-show/expression/in-heat/do__
+      - __mywc/nsfw/bdsm-show/expression/naughty-face/do__
+      - __mywc/nsfw/bdsm-show/expression/sadistic/do__
+      - __mywc/nsfw/bdsm-show/expression/seductive-smile/do__
+      - __mywc/nsfw/bdsm-show/expression/smirk/do__
+      - __mywc/nsfw/bdsm-show/expression/smug/do__
+    bored:
+      do:
+        - bored,{0-3$$__mywc/nsfw/bdsm-show/expression/bored/list__}
+      list:
+        - __mywc/expression/face/eyebrow/do__
+        - __mywc/nsfw/bdsm-show/expression/bored/eye__
+        - __mywc/nsfw/bdsm-show/expression/bored/mouth__
+      eye:
+        - closed eyes
+        - narrowed eyes
+        - one eye closed
+      mouth:
+        - closed mouth
+        - open mouth
+        - parted lips
+    curious:
+      do:
+        - curious,{0-3$$__mywc/nsfw/bdsm-show/expression/curious/list__}
+      list:
+        - __mywc/expression/face/eyebrow/do__
+        - __mywc/nsfw/bdsm-show/expression/curious/eye__
+        - __mywc/nsfw/bdsm-show/expression/curious/mouth__
+      eye:
+        - half-closed eyes
+        - one eye closed
+        - wide-eyed
+      mouth:
+        - closed mouth
+        - dot mouth
+        - fang out
+        - licking lips
+        - open mouth
+        - parted lips
+    excited:
+      do:
+        - excited,{0-3$$__mywc/nsfw/bdsm-show/expression/excited/list__}
+      list:
+        - __mywc/expression/face/eyebrow/do__
+        - __mywc/nsfw/bdsm-show/expression/excited/eye__
+        - __mywc/nsfw/bdsm-show/expression/excited/mouth__
+      eye:
+        - half-closed eyes
+        - one eye closed
+        - wide-eyed
+      mouth:
+        - licking lips
+        - open mouth
+        - parted lips
+    expressionless:
+      do:
+        - expressionless,{0-3$$__mywc/nsfw/bdsm-show/expression/expressionless/list__}
+      list:
+        - __mywc/expression/face/eyebrow/do__
+        - __mywc/nsfw/bdsm-show/expression/expressionless/eye__
+        - __mywc/nsfw/bdsm-show/expression/expressionless/mouth__
+      eye:
+        - closed eyes
+        - narrowed eyes
+        - one eye closed
+      mouth:
+        - closed mouth
+        - fang out
+        - parted lips
+    giggle:
+      do:
+        - giggle,{0-3$$__mywc/nsfw/bdsm-show/expression/giggle/list__}
+      list:
+        - __mywc/expression/face/eyebrow/do__
+        - __mywc/nsfw/bdsm-show/expression/giggle/eye__
+        - __mywc/nsfw/bdsm-show/expression/giggle/mouth__
+      eye:
+        - closed eyes
+        - half-closed eyes
+        - one eye closed
+        - wide-eyed
+      mouth:
+        - closed mouth
+        - fang out
+        - licking lips
+        - open mouth
+        - parted lips
+        - tongue out
+    grin:
+      do:
+        - grin,{0-3$$__mywc/nsfw/bdsm-show/expression/grin/list__}
+      list:
+        - __mywc/expression/face/eyebrow/do__
+        - __mywc/nsfw/bdsm-show/expression/grin/eye__
+        - __mywc/nsfw/bdsm-show/expression/grin/mouth__
+      eye:
+        - closed eyes
+        - half-closed eyes
+        - one eye closed
+      mouth:
+        - fang out
+        - open mouth
+        - parted lips
+    in-heat:
+      do:
+        - in heat,{0-3$$__mywc/nsfw/bdsm-show/expression/in-heat/list__}
+      list:
+        - __mywc/expression/face/eyebrow/do__
+        - __mywc/nsfw/bdsm-show/expression/in-heat/eye__
+        - __mywc/nsfw/bdsm-show/expression/in-heat/mouth__
+      eye:
+        - half-closed eyes
+      mouth:
+        - licking lips
+        - open mouth
+        - parted lips
+        - tongue out
+    naughty-face:
+      do:
+        - naughty face,{0-3$$__mywc/nsfw/bdsm-show/expression/naughty-face/list__}
+      list:
+        - __mywc/expression/face/eyebrow/do__
+        - __mywc/nsfw/bdsm-show/expression/naughty-face/eye__
+        - __mywc/nsfw/bdsm-show/expression/naughty-face/mouth__
+      eye:
+        - half-closed eyes
+        - one eye closed
+      mouth:
+        - closed mouth
+        - dot mouth
+        - fang out
+        - licking lips
+        - open mouth
+        - parted lips
+        - tongue out
+    sadistic:
+      do:
+        - "{1-2$$__mywc/nsfw/bdsm-show/expression/sadistic/base__},{0-3$$__mywc/nsfw/bdsm-show/expression/sadistic/list__}"
+      base:
+        - dominant expression
+        - evil expression
+      list:
+        - __mywc/expression/face/eyebrow/do__
+        - __mywc/nsfw/bdsm-show/expression/sadistic/eye__
+        - __mywc/nsfw/bdsm-show/expression/sadistic/mouth__
+      eye:
+        - half-closed eyes
+        - one eye closed
+      mouth:
+        - closed mouth
+        - dot mouth
+        - fang out
+        - licking lips
+        - open mouth
+        - parted lips
+        - tongue out
+    seductive-smile:
+      do:
+        - seductive smile,{0-3$$__mywc/nsfw/bdsm-show/expression/seductive-smile/list__}
+      list:
+        - __mywc/expression/face/eyebrow/do__
+        - __mywc/nsfw/bdsm-show/expression/seductive-smile/eye__
+        - __mywc/nsfw/bdsm-show/expression/seductive-smile/mouth__
+      eye:
+        - half-closed eyes
+        - one eye closed
+      mouth:
+        - closed mouth
+        - fang out
+        - licking lips
+        - open mouth
+        - parted lips
+        - tongue out
+    smirk:
+      do:
+        - smirk,{0-3$$__mywc/nsfw/bdsm-show/expression/smirk/list__}
+      list:
+        - __mywc/expression/face/eyebrow/do__
+        - __mywc/nsfw/bdsm-show/expression/smirk/eye__
+        - __mywc/nsfw/bdsm-show/expression/smirk/mouth__
+      eye:
+        - half-closed eyes
+        - one eye closed
+      mouth:
+        - closed mouth
+        - fang out
+        - licking lips
+        - open mouth
+        - parted lips
+        - tongue out
+    smug:
+      do:
+        - smug,{0-3$$__mywc/nsfw/bdsm-show/expression/smug/list__}
+      list:
+        - __mywc/expression/face/eyebrow/do__
+        - __mywc/nsfw/bdsm-show/expression/smug/eye__
+        - __mywc/nsfw/bdsm-show/expression/smug/mouth__
+      eye:
+        - half-closed eyes
+        - one eye closed
+        - wide-eyed
+      mouth:
+        - closed mouth
+        - dot mouth
+        - fang out
+        - licking lips
+        - open mouth
+        - parted lips
+        - tongue out
+    option:
+      do:
+        - "{4::|1::{1-2$$__mywc/nsfw/bdsm-show/expression/option/list__}}"
+      list:
+        - blush
+        - breath
