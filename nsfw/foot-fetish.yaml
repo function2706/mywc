@@ -656,24 +656,22 @@ foot-fetish:
       - __mywc/nsfw/foot-fetish/expression/list__,__mywc/nsfw/foot-fetish/expression/option/do__
     list:
       - __mywc/nsfw/foot-fetish/expression/annoyed/do__
-      - __mywc/nsfw/foot-fetish/expression/ashamed/do__
       - __mywc/nsfw/foot-fetish/expression/bored/do__
       - __mywc/nsfw/foot-fetish/expression/curious/do__
       - __mywc/nsfw/foot-fetish/expression/depressed/do__
       - __mywc/nsfw/foot-fetish/expression/disappointed/do__
-      - __mywc/nsfw/foot-fetish/expression/disgusted/do__
+      - __mywc/nsfw/foot-fetish/expression/disgust/do__
       - __mywc/nsfw/foot-fetish/expression/embarrassed/do__
+      - __mywc/nsfw/foot-fetish/expression/evil-grin/do__
+      - __mywc/nsfw/foot-fetish/expression/evil-smile/do__
       - __mywc/nsfw/foot-fetish/expression/excited/do__
       - __mywc/nsfw/foot-fetish/expression/expressionless/do__
       - __mywc/nsfw/foot-fetish/expression/flustered/do__
-      - __mywc/nsfw/foot-fetish/expression/giggle/do__
+      - __mywc/nsfw/foot-fetish/expression/giggling/do__
       - __mywc/nsfw/foot-fetish/expression/grin/do__
       - __mywc/nsfw/foot-fetish/expression/in-heat/do__
-      - __mywc/nsfw/foot-fetish/expression/loving/do__
       - __mywc/nsfw/foot-fetish/expression/naughty-face/do__
       - __mywc/nsfw/foot-fetish/expression/nervous/do__
-      - __mywc/nsfw/foot-fetish/expression/sadistic/do__
-      - __mywc/nsfw/foot-fetish/expression/scared/do__
       - __mywc/nsfw/foot-fetish/expression/seductive-smile/do__
       - __mywc/nsfw/foot-fetish/expression/skeptical/do__
       - __mywc/nsfw/foot-fetish/expression/smile/do__
@@ -684,7 +682,7 @@ foot-fetish:
       do:
         - annoyed,{0-3$$__mywc/nsfw/foot-fetish/expression/annoyed/list__}
       list:
-        - __mywc/expression/face/eyebrow/do__
+        - "{raised|v-shaped} eyebrows"
         - __mywc/nsfw/foot-fetish/expression/annoyed/eye__
         - __mywc/nsfw/foot-fetish/expression/annoyed/mouth__
       eye:
@@ -695,26 +693,11 @@ foot-fetish:
         - closed mouth
         - open mouth
         - parted lips
-    ashamed:
-      do:
-        - ashamed,{0-3$$__mywc/nsfw/foot-fetish/expression/ashamed/list__}
-      list:
-        - __mywc/expression/face/eyebrow/do__
-        - __mywc/nsfw/foot-fetish/expression/ashamed/eye__
-        - __mywc/nsfw/foot-fetish/expression/ashamed/mouth__
-      eye:
-        - narrowed eyes
-        - one eye closed
-      mouth:
-        - closed mouth
-        - dot mouth
-        - open mouth
-        - parted lips
     bored:
       do:
         - bored,{0-3$$__mywc/nsfw/foot-fetish/expression/bored/list__}
       list:
-        - __mywc/expression/face/eyebrow/do__
+        - raised eyebrows
         - __mywc/nsfw/foot-fetish/expression/bored/eye__
         - __mywc/nsfw/foot-fetish/expression/bored/mouth__
       eye:
@@ -729,7 +712,7 @@ foot-fetish:
       do:
         - curious,{0-3$$__mywc/nsfw/foot-fetish/expression/curious/list__}
       list:
-        - __mywc/expression/face/eyebrow/do__
+        - raised eyebrows
         - __mywc/nsfw/foot-fetish/expression/curious/eye__
         - __mywc/nsfw/foot-fetish/expression/curious/mouth__
       eye:
@@ -747,7 +730,7 @@ foot-fetish:
       do:
         - depressed,{0-3$$__mywc/nsfw/foot-fetish/expression/depressed/list__}
       list:
-        - __mywc/expression/face/eyebrow/do__
+        - raised eyebrows
         - __mywc/nsfw/foot-fetish/expression/depressed/eye__
         - __mywc/nsfw/foot-fetish/expression/depressed/mouth__
       eye:
@@ -761,7 +744,7 @@ foot-fetish:
       do:
         - disappointed,{0-3$$__mywc/nsfw/foot-fetish/expression/disappointed/list__}
       list:
-        - __mywc/expression/face/eyebrow/do__
+        - "{raised|v-shaped} eyebrows"
         - __mywc/nsfw/foot-fetish/expression/disappointed/eye__
         - __mywc/nsfw/foot-fetish/expression/disappointed/mouth__
       eye:
@@ -773,13 +756,13 @@ foot-fetish:
         - closed mouth
         - open mouth
         - parted lips
-    disgusted:
+    disgust:
       do:
-        - disgusted,{0-3$$__mywc/nsfw/foot-fetish/expression/disgusted/list__}
+        - disgust,{0-3$$__mywc/nsfw/foot-fetish/expression/disgust/list__}
       list:
-        - __mywc/expression/face/eyebrow/do__
-        - __mywc/nsfw/foot-fetish/expression/disgusted/eye__
-        - __mywc/nsfw/foot-fetish/expression/disgusted/mouth__
+        - "{raised|v-shaped} eyebrows"
+        - __mywc/nsfw/foot-fetish/expression/disgust/eye__
+        - __mywc/nsfw/foot-fetish/expression/disgust/mouth__
       eye:
         - closed eyes
         - narrowed eyes
@@ -793,7 +776,7 @@ foot-fetish:
       do:
         - embarrassed,{0-3$$__mywc/nsfw/foot-fetish/expression/embarrassed/list__}
       list:
-        - __mywc/expression/face/eyebrow/do__
+        - "{raised|v-shaped} eyebrows"
         - __mywc/nsfw/foot-fetish/expression/embarrassed/eye__
         - __mywc/nsfw/foot-fetish/expression/embarrassed/mouth__
       eye:
@@ -806,11 +789,40 @@ foot-fetish:
         - dot mouth
         - open mouth
         - parted lips
+    evil-grin:
+      do:
+        - evil grin,{0-3$$__mywc/nsfw/foot-fetish/expression/evil-grin/list__}
+      list:
+        - raised eyebrows
+        - __mywc/nsfw/foot-fetish/expression/evil-grin/eye__
+        - __mywc/nsfw/foot-fetish/expression/evil-grin/mouth__
+      eye:
+        - half-closed eyes
+        - one eye closed
+      mouth:
+        - open mouth
+        - parted lips
+        - tongue out
+    evil-smile:
+      do:
+        - evil smile,{0-3$$__mywc/nsfw/foot-fetish/expression/evil-smile/list__}
+      list:
+        - raised eyebrows
+        - __mywc/nsfw/foot-fetish/expression/evil-smile/eye__
+        - __mywc/nsfw/foot-fetish/expression/evil-smile/mouth__
+      eye:
+        - half-closed eyes
+        - one eye closed
+      mouth:
+        - closed mouth
+        - open mouth
+        - parted lips
+        - tongue out
     excited:
       do:
         - excited,{0-3$$__mywc/nsfw/foot-fetish/expression/excited/list__}
       list:
-        - __mywc/expression/face/eyebrow/do__
+        - raised eyebrows
         - __mywc/nsfw/foot-fetish/expression/excited/eye__
         - __mywc/nsfw/foot-fetish/expression/excited/mouth__
       eye:
@@ -825,7 +837,7 @@ foot-fetish:
       do:
         - expressionless,{0-3$$__mywc/nsfw/foot-fetish/expression/expressionless/list__}
       list:
-        - __mywc/expression/face/eyebrow/do__
+        - raised eyebrows
         - __mywc/nsfw/foot-fetish/expression/expressionless/eye__
         - __mywc/nsfw/foot-fetish/expression/expressionless/mouth__
       eye:
@@ -840,7 +852,7 @@ foot-fetish:
       do:
         - flustered,{0-3$$__mywc/nsfw/foot-fetish/expression/flustered/list__}
       list:
-        - __mywc/expression/face/eyebrow/do__
+        - "{raised|v-shaped} eyebrows"
         - __mywc/nsfw/foot-fetish/expression/flustered/eye__
         - __mywc/nsfw/foot-fetish/expression/flustered/mouth__
       eye:
@@ -852,13 +864,13 @@ foot-fetish:
         - closed mouth
         - open mouth
         - parted lips
-    giggle:
+    giggling:
       do:
-        - giggle,{0-3$$__mywc/nsfw/foot-fetish/expression/giggle/list__}
+        - giggling,{0-3$$__mywc/nsfw/foot-fetish/expression/giggling/list__}
       list:
-        - __mywc/expression/face/eyebrow/do__
-        - __mywc/nsfw/foot-fetish/expression/giggle/eye__
-        - __mywc/nsfw/foot-fetish/expression/giggle/mouth__
+        - "{raised|v-shaped} eyebrows"
+        - __mywc/nsfw/foot-fetish/expression/giggling/eye__
+        - __mywc/nsfw/foot-fetish/expression/giggling/mouth__
       eye:
         - closed eyes
         - half-closed eyes
@@ -875,7 +887,7 @@ foot-fetish:
       do:
         - grin,{0-3$$__mywc/nsfw/foot-fetish/expression/grin/list__}
       list:
-        - __mywc/expression/face/eyebrow/do__
+        - "{raised|v-shaped} eyebrows"
         - __mywc/nsfw/foot-fetish/expression/grin/eye__
         - __mywc/nsfw/foot-fetish/expression/grin/mouth__
       eye:
@@ -888,9 +900,8 @@ foot-fetish:
         - parted lips
     in-heat:
       do:
-        - in heat,{0-3$$__mywc/nsfw/foot-fetish/expression/in-heat/list__}
+        - in heat,{0-2$$__mywc/nsfw/foot-fetish/expression/in-heat/list__}
       list:
-        - __mywc/expression/face/eyebrow/do__
         - __mywc/nsfw/foot-fetish/expression/in-heat/eye__
         - __mywc/nsfw/foot-fetish/expression/in-heat/mouth__
       eye:
@@ -900,29 +911,11 @@ foot-fetish:
         - open mouth
         - parted lips
         - tongue out
-    loving:
-      do:
-        - loving,{0-3$$__mywc/nsfw/foot-fetish/expression/loving/list__}
-      list:
-        - __mywc/expression/face/eyebrow/do__
-        - __mywc/nsfw/foot-fetish/expression/loving/eye__
-        - __mywc/nsfw/foot-fetish/expression/loving/mouth__
-      eye:
-        - half-closed eyes
-        - one eye closed
-        - wide-eyed
-      mouth:
-        - closed mouth
-        - dot mouth
-        - fang out
-        - licking lips
-        - open mouth
-        - parted lips
     naughty-face:
       do:
         - naughty face,{0-3$$__mywc/nsfw/foot-fetish/expression/naughty-face/list__}
       list:
-        - __mywc/expression/face/eyebrow/do__
+        - "{raised|v-shaped} eyebrows"
         - __mywc/nsfw/foot-fetish/expression/naughty-face/eye__
         - __mywc/nsfw/foot-fetish/expression/naughty-face/mouth__
       eye:
@@ -940,7 +933,7 @@ foot-fetish:
       do:
         - nervous,{0-3$$__mywc/nsfw/foot-fetish/expression/nervous/list__}
       list:
-        - __mywc/expression/face/eyebrow/do__
+        - "{raised|v-shaped} eyebrows"
         - __mywc/nsfw/foot-fetish/expression/nervous/eye__
         - __mywc/nsfw/foot-fetish/expression/nervous/mouth__
       eye:
@@ -952,49 +945,11 @@ foot-fetish:
         - closed mouth
         - open mouth
         - parted lips
-    sadistic:
-      do:
-        - "{1-2$$__mywc/nsfw/foot-fetish/expression/sadistic/base__},{0-3$$__mywc/nsfw/foot-fetish/expression/sadistic/list__}"
-      base:
-        - dominant expression
-        - evil expression
-      list:
-        - __mywc/expression/face/eyebrow/do__
-        - __mywc/nsfw/foot-fetish/expression/sadistic/eye__
-        - __mywc/nsfw/foot-fetish/expression/sadistic/mouth__
-      eye:
-        - half-closed eyes
-        - one eye closed
-      mouth:
-        - closed mouth
-        - dot mouth
-        - fang out
-        - licking lips
-        - open mouth
-        - parted lips
-        - tongue out
-    scared:
-      do:
-        - scared,{0-3$$__mywc/nsfw/foot-fetish/expression/scared/list__}
-      list:
-        - __mywc/expression/face/eyebrow/do__
-        - __mywc/nsfw/foot-fetish/expression/scared/eye__
-        - __mywc/nsfw/foot-fetish/expression/scared/mouth__
-      eye:
-        - closed eyes
-        - narrowed eyes
-        - one eye closed
-        - wide-eyed
-      mouth:
-        - closed mouth
-        - dot mouth
-        - open mouth
-        - parted lips
     seductive-smile:
       do:
         - seductive smile,{0-3$$__mywc/nsfw/foot-fetish/expression/seductive-smile/list__}
       list:
-        - __mywc/expression/face/eyebrow/do__
+        - "{raised|v-shaped} eyebrows"
         - __mywc/nsfw/foot-fetish/expression/seductive-smile/eye__
         - __mywc/nsfw/foot-fetish/expression/seductive-smile/mouth__
       eye:
@@ -1011,7 +966,7 @@ foot-fetish:
       do:
         - skeptical,{0-3$$__mywc/nsfw/foot-fetish/expression/skeptical/list__}
       list:
-        - __mywc/expression/face/eyebrow/do__
+        - v-shaped eyebrows
         - __mywc/nsfw/foot-fetish/expression/skeptical/eye__
         - __mywc/nsfw/foot-fetish/expression/skeptical/mouth__
       eye:
@@ -1028,7 +983,7 @@ foot-fetish:
       do:
         - smile,{0-3$$__mywc/nsfw/foot-fetish/expression/smile/list__}
       list:
-        - __mywc/expression/face/eyebrow/do__
+        - "{raised|v-shaped} eyebrows"
         - __mywc/nsfw/foot-fetish/expression/smile/eye__
         - __mywc/nsfw/foot-fetish/expression/smile/mouth__
       eye:
@@ -1042,7 +997,7 @@ foot-fetish:
       do:
         - smirk,{0-3$$__mywc/nsfw/foot-fetish/expression/smirk/list__}
       list:
-        - __mywc/expression/face/eyebrow/do__
+        - "{raised|v-shaped} eyebrows"
         - __mywc/nsfw/foot-fetish/expression/smirk/eye__
         - __mywc/nsfw/foot-fetish/expression/smirk/mouth__
       eye:
@@ -1059,7 +1014,7 @@ foot-fetish:
       do:
         - smug,{0-3$$__mywc/nsfw/foot-fetish/expression/smug/list__}
       list:
-        - __mywc/expression/face/eyebrow/do__
+        - "{raised|v-shaped} eyebrows"
         - __mywc/nsfw/foot-fetish/expression/smug/eye__
         - __mywc/nsfw/foot-fetish/expression/smug/mouth__
       eye:
@@ -1078,7 +1033,7 @@ foot-fetish:
       do:
         - worried,{0-3$$__mywc/nsfw/foot-fetish/expression/worried/list__}
       list:
-        - __mywc/expression/face/eyebrow/do__
+        - "{raised|v-shaped} eyebrows"
         - __mywc/nsfw/foot-fetish/expression/worried/eye__
         - __mywc/nsfw/foot-fetish/expression/worried/mouth__
       eye:
