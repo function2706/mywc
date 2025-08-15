@@ -1,75 +1,61 @@
 expression:
   random:
-    - "{5::__mywc/expression/set/*__|1::__mywc/expression/face/random__}"
+    - "{5::__mywc/expression/set/*__{4::|1::,__mywc/expression/make/do__}|1::__mywc/expression/make/do__}"
   set:
     anger:
       - angry
       - annoyed
       - bored
-      - cranky
       - disappointed
-      - disgusted
+      - disgust
       - frustrated
       - grimace
       - grumpy
       - skeptical
     happiness:
-      - \:p
-      - \:q
       - excited
-      - giggle
+      - giggling
       - grin
       - happy
-      - laugh
-      - loving
+      - laughing
+      - light smile
       - smile
       - smirk
       - smug
     sadness:
-      - brokenhearted
-      - cry
+      - crying
       - depressed
-      - distressed
-      - heartbroken
+      - distress
       - sad
       - sad smile
-      - tearful
+      - tears
     surprise:
-      - ashamed
       - embarrassed
       - flustered
-      - frightened
       - nervous
       - panicking
       - scared
-      - shocked
       - surprised
       - worried
     misc:
-      - \:<
-      - \:|
-      - \:o
       - afterglow
       - crazy
+      - crazy smile
       - curious
-      - dominant expression
-      - evil expression
+      - evil grin
+      - evil smile
       - expressionless
       - in heat
       - naughty face
       - seductive smile
       - sleepy
-      - thoughtful
-      - tired
-      - yawning
-  face:
-    random:
-      - "{0-4$$__mywc/expression/face/list__}"
+  make:
+    do:
+      - "{1-3$$__mywc/expression/make/list__}{3::|1::,__mywc/expression/make/misc__}"
     list:
-      - __mywc/expression/face/eye__
-      - __mywc/expression/face/eyebrow/do__
-      - __mywc/expression/face/mouth__
-      - __mywc/expression/face/misc/do__
+      - __mywc/expression/make/eye__
+      - __mywc/expression/make/eyebrow__
+      - __mywc/expression/make/mouth__
     eye:
       - closed eyes
       - constricted pupils
@@ -87,31 +73,18 @@ expression:
       - white pupils
       - wide-eyed
     eyebrow:
-      do:
-        - " "
-        - __mywc/expression/face/eyebrow/option__
-      option:
-        - raised eyebrows
-        - v-shaped eyebrows
+      - raised eyebrow{|s}
+      - v-shaped eyebrows
     mouth:
       - chestnut mouth
       - closed mouth
       - dot mouth
-      - fang out
-      - fangs out
+      - fang{|s} out
       - licking lips
       - open mouth
       - parted lips
       - split mouth
       - tongue out
     misc:
-      do:
-        - " "
-        - __mywc/expression/face/misc/option__
-      option:
-        - blush
-        - ear blush
-        - full-face blush
-        - nervous sweating
-        - nose blush
-        - sweat
+      - "{|ear|full-face|nose} blush"
+      - nervous sweating
