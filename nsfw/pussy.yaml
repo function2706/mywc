@@ -6,45 +6,45 @@ pussy:
     __mywc/nsfw/pussy/of__,
     __mywc/nsfw/pussy/fashion/random__
   of: |-
-    ({|beautiful |dirty }pussy:1.21){|,(small pussy hole)},__mywc/fashion/bottoms/nsfw/pubic/do__,
-    __mywc/nsfw/pussy/juice__,
-    {|spreading own pussy},{1-2$$__mywc/nsfw/pussy/pose/upper__|__mywc/nsfw/pussy/pose/lower__},
-    (pussy focus:1.21){|,(pov:1.21)}{|,foreshortening}{,from below|},
+    ({|beautiful }pussy:1.21){|,(small pussy hole)},__mywc/fashion/bottoms/nsfw/pubic/do__,
+    {|__mywc/nsfw/pussy/juice__},
+    {1-2$$__mywc/nsfw/pussy/pose/upper/do__|__mywc/nsfw/pussy/pose/lower__},
+    (pussy focus:1.21){|,(pov:1.21)}{|,foreshortening}{|,from below},
     1girl,solo,__mywc/nsfw/pussy/expression/random__{|,looking at {2::viewer|1::another}},
   juice:
     - (peeing:1.21),(pee to viewer:1.5),(pee from pee hole)
     - (pussy juice:1.21)
   pose:
     upper:
-      - arm{|s} above head
-      - arm{|s} across waist
-      - arm{|s} at side
-      - arm{|s} behind head
-      - arm{|s} between legs
-      - arm{|s} on knee
-      - arm{|s} rest
-      - arm{|s} up
-      - cheek rest
-      - crossed arms
-      - elbow rest
-      - hand between legs
-      - hand on own arm
-      - hand on own cheek
-      - hand on own chin
-      - hand on own ear
-      - hand on own face
-      - hand on own head
-      - hand on own knee
-      - hand on own neck
-      - hand rest
-      - hand{|s} in own hair
-      - hand{|s} on own hip
-      - head rest
-      - holding own arm
-      - holding whip
-      - pointing at viewer
-      - reaching towards viewer
-      - twirling hair
+      do:
+        - "{2::__mywc/nsfw/pussy/pose/upper/one-hand/do__|1::__mywc/nsfw/pussy/pose/upper/both-hands__}"
+      one-hand:
+        do:
+          - "{1-2$$__mywc/nsfw/pussy/pose/upper/one-hand/list__|spread pussy}"
+        list:
+          - arm above head
+          - arm at side
+          - arm behind head
+          - arm up
+          - cheek rest
+          - hand in own hair
+          - hand on own cheek
+          - hand on own chin
+          - hand on own head
+          - hand on own hip
+          - hand on own neck
+          - head rest
+          - pointing at viewer
+          - twirling hair
+      both-hands:
+        - arms above head
+        - arms at side
+        - arms behind head
+        - arms on knee
+        - arms up
+        - crossed arms
+        - hands in own hair
+        - hands on own hip
     lower:
       - kneeling,{|wide} spread legs
       - on one knee,{|wide} spread legs
