@@ -5,7 +5,7 @@ bdsm-show:
   of: |-
     __mywc/nsfw/bdsm-show/pose/random__,
     __mywc/nsfw/bdsm-show/expression/random__{|,looking at {2::viewer|1::another}},
-    1girl,solo,{from below|},
+    1girl,solo{,from below|},
     __mywc/fashion/costumes/bdsm/do__
   pose:
     random:
