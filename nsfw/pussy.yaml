@@ -6,14 +6,18 @@ pussy:
     __mywc/nsfw/pussy/of__,
     __mywc/nsfw/pussy/fashion/random__
   of: |-
+    {__mywc/nsfw/pussy/show__|__mywc/nsfw/pussy/peeing__},
+    __mywc/nsfw/pussy/core__,
+  show: |-
+    {|(pussy juice:1.21)},
+    {1-2$$__mywc/nsfw/pussy/pose/upper/do__|__mywc/nsfw/pussy/pose/lower/show__},
+  peeing: |-
+    (peeing:1.21),(pee to viewer:1.5),(pee from pee hole)
+    {1-2$$__mywc/nsfw/pussy/pose/upper/do__|__mywc/nsfw/pussy/pose/lower/peeing__},
+  core: |-
     ({|beautiful }pussy:1.21){|,(small pussy hole)},__mywc/fashion/bottoms/nsfw/pubic/do__,
-    {|__mywc/nsfw/pussy/juice__},
-    {1-2$$__mywc/nsfw/pussy/pose/upper/do__|__mywc/nsfw/pussy/pose/lower__},
-    (pussy focus:1.21){|,(pov:1.21)}{|,foreshortening}{|,from below},
-    1girl,solo,__mywc/nsfw/pussy/expression/random__{|,looking at {2::viewer|1::another}},
-  juice:
-    - (peeing:1.21),(pee to viewer:1.5),(pee from pee hole)
-    - (pussy juice:1.21)
+    1girl,solo,__mywc/nsfw/pussy/expression/random__{|,looking at {2::viewer|1::another}}
+    {0-4$$(pussy focus:1.21)|(pov:1.21)|foreshortening|from below}
   pose:
     upper:
       do:
@@ -46,12 +50,15 @@ pussy:
         - hands in own hair
         - hands on own hip
     lower:
-      - kneeling,{|wide} spread legs
-      - on one knee,{|wide} spread legs
-      - sitting {|on chair}{|,knee up}{|,{|wide} spread legs}
-      - squatting{|,{|wide} spread legs}
-      - standing
-      - standing,legs apart
+      show:
+        - kneeling,{|wide} spread legs
+        - on one knee,{|wide} spread legs
+        - sitting {|on chair}{|,knee up}{|,{|wide} spread legs}
+        - squatting{|,{|wide} spread legs}
+        - standing{|,legs apart}
+      peeing:
+        - squatting{|,{|wide} spread legs}
+        - standing{|,legs apart}
   fashion:
     random:
       - " "
