@@ -9,15 +9,15 @@ pussy:
     {__mywc/nsfw/pussy/show__|__mywc/nsfw/pussy/peeing__},
     __mywc/nsfw/pussy/core__,
   show: |-
-    {|(pussy juice:1.21)},
+    {|(pussy juice:1.21)}{|,(small pussy hole)},
     {1-2$$__mywc/nsfw/pussy/pose/upper/do__|__mywc/nsfw/pussy/pose/lower/show__},
   peeing: |-
     (peeing:1.21),
     {1-2$$__mywc/nsfw/pussy/pose/upper/do__|__mywc/nsfw/pussy/pose/lower/peeing__},
   core: |-
-    ({|beautiful }pussy:1.21){|,(small pussy hole)},__mywc/fashion/bottoms/nsfw/pubic/do__,
+    ({|beautiful }pussy:1.21){9::|1::,__mywc/fashion/bottoms/nsfw/pubic/style__ pubic hair},
     1girl,solo,__mywc/nsfw/pussy/expression/random__{|,looking at {2::viewer|1::another}}
-    {0-4$$pussy focus|pov|foreshortening|from below}
+    {|pussy focus}{|,from below,{0-2$$pov|foreshortening}}
   pose:
     upper:
       do:
@@ -508,7 +508,7 @@ pussy:
       - __mywc/nsfw/pussy/expression/worried/do__
     annoyed:
       do:
-        - annoyed,{0-3$$__mywc/nsfw/pussy/expression/annoyed/list__}
+        - (annoyed:1.21),{0-3$$__mywc/nsfw/pussy/expression/annoyed/list__}
       list:
         - "{raised|v-shaped} eyebrows"
         - __mywc/nsfw/pussy/expression/annoyed/eye__
@@ -523,7 +523,7 @@ pussy:
         - parted lips
     bored:
       do:
-        - bored,{0-3$$__mywc/nsfw/pussy/expression/bored/list__}
+        - (bored:1.21),{0-3$$__mywc/nsfw/pussy/expression/bored/list__}
       list:
         - raised eyebrows
         - __mywc/nsfw/pussy/expression/bored/eye__
@@ -538,7 +538,7 @@ pussy:
         - parted lips
     curious:
       do:
-        - curious,{0-3$$__mywc/nsfw/pussy/expression/curious/list__}
+        - (curious:1.21),{0-3$$__mywc/nsfw/pussy/expression/curious/list__}
       list:
         - raised eyebrows
         - __mywc/nsfw/pussy/expression/curious/eye__
@@ -556,7 +556,7 @@ pussy:
         - parted lips
     depressed:
       do:
-        - depressed,{0-3$$__mywc/nsfw/pussy/expression/depressed/list__}
+        - (depressed:1.21),{0-3$$__mywc/nsfw/pussy/expression/depressed/list__}
       list:
         - raised eyebrows
         - __mywc/nsfw/pussy/expression/depressed/eye__
@@ -570,7 +570,7 @@ pussy:
         - parted lips
     disappointed:
       do:
-        - disappointed,{0-3$$__mywc/nsfw/pussy/expression/disappointed/list__}
+        - (disappointed:1.21),{0-3$$__mywc/nsfw/pussy/expression/disappointed/list__}
       list:
         - "{raised|v-shaped} eyebrows"
         - __mywc/nsfw/pussy/expression/disappointed/eye__
@@ -586,7 +586,7 @@ pussy:
         - parted lips
     disgust:
       do:
-        - disgust,{0-3$$__mywc/nsfw/pussy/expression/disgust/list__}
+        - (disgust:1.21),{0-3$$__mywc/nsfw/pussy/expression/disgust/list__}
       list:
         - "{raised|v-shaped} eyebrows"
         - __mywc/nsfw/pussy/expression/disgust/eye__
@@ -602,7 +602,7 @@ pussy:
         - parted lips
     embarrassed:
       do:
-        - embarrassed,{0-3$$__mywc/nsfw/pussy/expression/embarrassed/list__}
+        - (embarrassed:1.21),{0-3$$__mywc/nsfw/pussy/expression/embarrassed/list__}
       list:
         - "{raised|v-shaped} eyebrows"
         - __mywc/nsfw/pussy/expression/embarrassed/eye__
@@ -619,7 +619,7 @@ pussy:
         - parted lips
     evil-grin:
       do:
-        - evil grin,{0-3$$__mywc/nsfw/pussy/expression/evil-grin/list__}
+        - (evil grin:1.21),{0-3$$__mywc/nsfw/pussy/expression/evil-grin/list__}
       list:
         - raised eyebrows
         - __mywc/nsfw/pussy/expression/evil-grin/eye__
@@ -633,7 +633,7 @@ pussy:
         - tongue out
     evil-smile:
       do:
-        - evil smile,{0-3$$__mywc/nsfw/pussy/expression/evil-smile/list__}
+        - (evil smile:1.21),{0-3$$__mywc/nsfw/pussy/expression/evil-smile/list__}
       list:
         - raised eyebrows
         - __mywc/nsfw/pussy/expression/evil-smile/eye__
@@ -648,7 +648,7 @@ pussy:
         - tongue out
     excited:
       do:
-        - excited,{0-3$$__mywc/nsfw/pussy/expression/excited/list__}
+        - (excited:1.21),{0-3$$__mywc/nsfw/pussy/expression/excited/list__}
       list:
         - raised eyebrows
         - __mywc/nsfw/pussy/expression/excited/eye__
@@ -663,7 +663,7 @@ pussy:
         - parted lips
     expressionless:
       do:
-        - expressionless,{0-3$$__mywc/nsfw/pussy/expression/expressionless/list__}
+        - (expressionless:1.21),{0-3$$__mywc/nsfw/pussy/expression/expressionless/list__}
       list:
         - raised eyebrows
         - __mywc/nsfw/pussy/expression/expressionless/eye__
@@ -678,7 +678,7 @@ pussy:
         - parted lips
     flustered:
       do:
-        - flustered,{0-3$$__mywc/nsfw/pussy/expression/flustered/list__}
+        - (flustered:1.21),{0-3$$__mywc/nsfw/pussy/expression/flustered/list__}
       list:
         - "{raised|v-shaped} eyebrows"
         - __mywc/nsfw/pussy/expression/flustered/eye__
@@ -694,7 +694,7 @@ pussy:
         - parted lips
     giggling:
       do:
-        - giggling,{0-3$$__mywc/nsfw/pussy/expression/giggling/list__}
+        - (giggling:1.21),{0-3$$__mywc/nsfw/pussy/expression/giggling/list__}
       list:
         - "{raised|v-shaped} eyebrows"
         - __mywc/nsfw/pussy/expression/giggling/eye__
@@ -713,7 +713,7 @@ pussy:
         - tongue out
     grin:
       do:
-        - grin,{0-3$$__mywc/nsfw/pussy/expression/grin/list__}
+        - (grin:1.21),{0-3$$__mywc/nsfw/pussy/expression/grin/list__}
       list:
         - "{raised|v-shaped} eyebrows"
         - __mywc/nsfw/pussy/expression/grin/eye__
@@ -728,7 +728,7 @@ pussy:
         - parted lips
     in-heat:
       do:
-        - in heat,{0-2$$__mywc/nsfw/pussy/expression/in-heat/list__}
+        - (in heat:1.21),{0-2$$__mywc/nsfw/pussy/expression/in-heat/list__}
       list:
         - __mywc/nsfw/pussy/expression/in-heat/eye__
         - __mywc/nsfw/pussy/expression/in-heat/mouth__
@@ -741,7 +741,7 @@ pussy:
         - tongue out
     naughty-face:
       do:
-        - naughty face,{0-3$$__mywc/nsfw/pussy/expression/naughty-face/list__}
+        - (naughty face:1.21),{0-3$$__mywc/nsfw/pussy/expression/naughty-face/list__}
       list:
         - "{raised|v-shaped} eyebrows"
         - __mywc/nsfw/pussy/expression/naughty-face/eye__
@@ -759,7 +759,7 @@ pussy:
         - tongue out
     nervous:
       do:
-        - nervous,{0-3$$__mywc/nsfw/pussy/expression/nervous/list__}
+        - (nervous:1.21),{0-3$$__mywc/nsfw/pussy/expression/nervous/list__}
       list:
         - "{raised|v-shaped} eyebrows"
         - __mywc/nsfw/pussy/expression/nervous/eye__
@@ -775,7 +775,7 @@ pussy:
         - parted lips
     seductive-smile:
       do:
-        - seductive smile,{0-3$$__mywc/nsfw/pussy/expression/seductive-smile/list__}
+        - (seductive smile:1.21),{0-3$$__mywc/nsfw/pussy/expression/seductive-smile/list__}
       list:
         - "{raised|v-shaped} eyebrows"
         - __mywc/nsfw/pussy/expression/seductive-smile/eye__
@@ -792,7 +792,7 @@ pussy:
         - tongue out
     skeptical:
       do:
-        - skeptical,{0-3$$__mywc/nsfw/pussy/expression/skeptical/list__}
+        - (skeptical:1.21),{0-3$$__mywc/nsfw/pussy/expression/skeptical/list__}
       list:
         - v-shaped eyebrows
         - __mywc/nsfw/pussy/expression/skeptical/eye__
@@ -809,7 +809,7 @@ pussy:
         - parted lips
     smile:
       do:
-        - smile,{0-3$$__mywc/nsfw/pussy/expression/smile/list__}
+        - (smile:1.21),{0-3$$__mywc/nsfw/pussy/expression/smile/list__}
       list:
         - "{raised|v-shaped} eyebrows"
         - __mywc/nsfw/pussy/expression/smile/eye__
@@ -823,7 +823,7 @@ pussy:
         - open mouth
     smirk:
       do:
-        - smirk,{0-3$$__mywc/nsfw/pussy/expression/smirk/list__}
+        - (smirk:1.21),{0-3$$__mywc/nsfw/pussy/expression/smirk/list__}
       list:
         - "{raised|v-shaped} eyebrows"
         - __mywc/nsfw/pussy/expression/smirk/eye__
@@ -840,7 +840,7 @@ pussy:
         - tongue out
     smug:
       do:
-        - smug,{0-3$$__mywc/nsfw/pussy/expression/smug/list__}
+        - (smug:1.21),{0-3$$__mywc/nsfw/pussy/expression/smug/list__}
       list:
         - "{raised|v-shaped} eyebrows"
         - __mywc/nsfw/pussy/expression/smug/eye__
@@ -859,7 +859,7 @@ pussy:
         - tongue out
     worried:
       do:
-        - worried,{0-3$$__mywc/nsfw/pussy/expression/worried/list__}
+        - (worried:1.21),{0-3$$__mywc/nsfw/pussy/expression/worried/list__}
       list:
         - "{raised|v-shaped} eyebrows"
         - __mywc/nsfw/pussy/expression/worried/eye__
@@ -875,8 +875,7 @@ pussy:
         - parted lips
     option:
       do:
-        - "{4::|1::{1-3$$__mywc/nsfw/pussy/expression/option/list__}}"
+        - "{4::|1::{1-2$$__mywc/nsfw/pussy/expression/option/list__}}"
       list:
         - blush
         - breath
-        - sweat
