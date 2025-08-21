@@ -8,57 +8,95 @@ pussy:
   of: |-
     {__mywc/nsfw/pussy/show__|__mywc/nsfw/pussy/peeing__},
     __mywc/nsfw/pussy/core__,
-  show: |-
-    {|(pussy juice:1.21)}{|,(small pussy hole)},
-    {1-2$$__mywc/nsfw/pussy/pose/upper/do__|__mywc/nsfw/pussy/pose/lower/show__},
-  peeing: |-
-    (peeing:1.21),pee from peehole,
-    {1-2$$__mywc/nsfw/pussy/pose/upper/do__|__mywc/nsfw/pussy/pose/lower/peeing__},
   core: |-
     ({|beautiful }pussy:1.21),(uncensored:1.5),{9::|1::,__mywc/fashion/bottoms/nsfw/pubic/style__ pubic hair},
-    1girl,solo,__mywc/nsfw/pussy/expression/random__{|,looking at {2::viewer|1::another}}
-    {|pussy focus}{|,from below,{0-2$$pov|foreshortening}}
-  pose:
-    upper:
-      do:
-        - "{2::__mywc/nsfw/pussy/pose/upper/one-hand/do__|1::__mywc/nsfw/pussy/pose/upper/both-hands__}"
-      one-hand:
+    1girl,solo,__mywc/nsfw/pussy/expression/random__{|,looking at {2::viewer|1::another}},
+    {|pussy focus}
+  show:
+    do: 
+      - |-
+        {|(pussy juice:1.21)}{|,(small pussy hole)},
+        {1::__mywc/nsfw/pussy/show/action__|10::{1-2$$__mywc/nsfw/pussy/show/pose/upper/do__|__mywc/nsfw/pussy/show/pose/lower__}}
+    action:
+      - contrapposto
+      - kicking
+    pose:
+      upper:
         do:
-          - "{1-2$$__mywc/nsfw/pussy/pose/upper/one-hand/list__|spread pussy}"
-        list:
-          - arm above head
-          - arm at side
-          - arm behind head
-          - arm up
-          - cheek rest
-          - hand in own hair
-          - hand on own cheek
-          - hand on own chin
-          - hand on own head
-          - hand on own hip
-          - hand on own neck
-          - head rest
-          - pointing at viewer
-          - twirling hair
-      both-hands:
-        - arms above head
-        - arms at side
-        - arms behind head
-        - arms on knee
-        - arms up
-        - crossed arms
-        - hands in own hair
-        - hands on own hip
-    lower:
-      show:
+          - "{2::__mywc/nsfw/pussy/show/pose/upper/one-hand/do__|1::__mywc/nsfw/pussy/show/pose/upper/both-hands__}"
+        one-hand:
+          do:
+            - "{1-2$$__mywc/nsfw/pussy/show/pose/upper/one-hand/list__|spread pussy}"
+          list:
+            - arm above head
+            - arm at side
+            - arm behind head
+            - arm up
+            - cheek rest
+            - hand in own hair
+            - hand on own cheek
+            - hand on own chin
+            - hand on own head
+            - hand on own hip
+            - hand on own neck
+            - head rest
+            - pointing at viewer
+            - twirling hair
+        both-hands:
+          - arms above head
+          - arms at side
+          - arms behind head
+          - arms on knee
+          - arms up
+          - crossed arms
+          - hands in own hair
+          - hands on own hip
+          - holding own arm
+      lower:
         - kneeling,{|wide} spread legs
         - on one knee,{|wide} spread legs
         - sitting {|on chair}{|,knee up}{|,{|wide} spread legs}
         - squatting{|,{|wide} spread legs}
         - standing{|,legs apart}
-      peeing:
+  peeing:
+    do:
+      - |-
+        (peeing:1.21),pee from peehole,
+        {1-2$$__mywc/nsfw/pussy/peeing/pose/upper/do__|__mywc/nsfw/pussy/peeing/pose/lower__}
+    pose:
+      upper:
+        do:
+          - "{2::__mywc/nsfw/pussy/peeing/pose/upper/one-hand/do__|1::__mywc/nsfw/pussy/peeing/pose/upper/both-hands__}"
+        one-hand:
+          do:
+            - "{1-2$$__mywc/nsfw/pussy/peeing/pose/upper/one-hand/list__|spread pussy}"
+          list:
+            - arm above head
+            - arm at side
+            - arm behind head
+            - arm up
+            - cheek rest
+            - hand in own hair
+            - hand on own cheek
+            - hand on own chin
+            - hand on own head
+            - hand on own hip
+            - hand on own neck
+            - head rest
+            - pointing at viewer
+            - twirling hair
+        both-hands:
+          - arms above head
+          - arms at side
+          - arms behind head
+          - arms on knee
+          - arms up
+          - crossed arms
+          - hands in own hair
+          - hands on own hip
+      lower:
         - squatting{|,{|wide} spread legs}
-        - standing{|,legs apart}
+        - standing{|,legs apart}{|,from below,{0-2$$pov|foreshortening}}
   fashion:
     random:
       - " "
