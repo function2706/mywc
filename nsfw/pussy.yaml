@@ -6,20 +6,19 @@ pussy:
     __mywc/nsfw/pussy/of__,
     __mywc/nsfw/pussy/fashion/random__
   of: |-
-    {__mywc/nsfw/pussy/show__|__mywc/nsfw/pussy/peeing__},
+    {__mywc/nsfw/pussy/show/do__|__mywc/nsfw/pussy/peeing/do__},
     __mywc/nsfw/pussy/core__,
   core: |-
-    ({|beautiful }pussy:1.21),(uncensored:1.5),{9::|1::,__mywc/fashion/bottoms/nsfw/pubic/style__ pubic hair},
-    1girl,solo,__mywc/nsfw/pussy/expression/random__{|,looking at {2::viewer|1::another}},
-    {|pussy focus}
+    __mywc/nsfw/pussy/expression/random__{|,looking at {2::viewer|1::another}},1girl,solo,
+    {|beautiful }pussy,(uncensored:1.5),{25::|1::,__mywc/fashion/bottoms/nsfw/pubic/style__ pubic hair},
+    {5::|1::pussy focus}
   show:
-    do: 
+    do:
       - |-
-        {|(pussy juice:1.21)}{|,(small pussy hole)},
-        {1::__mywc/nsfw/pussy/show/action__|10::{1-2$$__mywc/nsfw/pussy/show/pose/upper/do__|__mywc/nsfw/pussy/show/pose/lower__}}
+        {|pussy juice}{|,small pussy hole},
+        {1::__mywc/nsfw/pussy/show/action__|25::{1-2$$__mywc/nsfw/pussy/show/pose/upper/do__|__mywc/nsfw/pussy/show/pose/lower__}}
     action:
       - contrapposto
-      - kicking
     pose:
       upper:
         do:
