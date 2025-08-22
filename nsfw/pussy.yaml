@@ -160,362 +160,1838 @@ pussy:
       - __mywc/nsfw/pussy/fashion/witch/do__
       - __mywc/nsfw/pussy/fashion/winter/do__
       - __mywc/fashion/costumes/wizard/do__
+    artist:
+      do:
+        - artist painter,{brown|green} apron,{0-3$$__mywc/fashion/costumes/artist/list__}
+      list:
+        - __mywc/fashion/costumes/artist/tops__
+        - __mywc/fashion/costumes/artist/bottoms__
+        - __mywc/fashion/costumes/artist/accessories/do__
+      tops:
+        - shirt
+      bottoms:
+        - skirts
+        - pants
+      accessories:
+        do:
+          - "{1-2$$__mywc/fashion/costumes/artist/accessories/list__}"
+        list:
+          - beret
+          - glasses
+          - paint on clothes
     assassin:
       do:
-        - ${assassin-list={0-3$$__mywc/nsfw/pussy/fashion/assassin/list__}}__mywc/fashion/costumes/assassin/base__
+        - ${assassin-list={0-4$$__mywc/fashion/costumes/assassin/list__}}__mywc/fashion/costumes/assassin/base__
+      base:
+        - __mywc/fashion/costumes/assassin/color__ assassin,hood,${assassin-list:" "}
       list:
         - __mywc/fashion/costumes/assassin/tops__
         - __mywc/fashion/costumes/assassin/gloves__
+        - __mywc/fashion/costumes/assassin/footwears__
         - __mywc/fashion/costumes/assassin/accessories/do__
+      tops:
+        - long sleeves
+        - short sleeves
+        - sleeveless
+      gloves:
+        - gloves
+      footwears:
+        - boots
+      accessories:
+        do:
+          - "{1-4$$__mywc/fashion/costumes/assassin/accessories/list__}"
+        list:
+          - "{dagger|sword} on waist"
+          - cloak
+          - mask
+          - sash on waist
+      color:
+        - " "
+        - black
+        - purple
     ballerina:
       do:
-        - ${ballerina-list={0-3$$__mywc/nsfw/pussy/fashion/ballerina/list__}}__mywc/fashion/costumes/ballerina/base__
+        - ${ballerina-list={0-4$$__mywc/fashion/costumes/ballerina/list__}}__mywc/fashion/costumes/ballerina/base__
+      base:
+        - __mywc/fashion/costumes/ballerina/colors__ ballerina,${ballerina-list:" "}
       list:
         - __mywc/fashion/costumes/ballerina/cloths__
         - __mywc/fashion/costumes/ballerina/socks__
+        - __mywc/fashion/costumes/ballerina/footwears__
         - __mywc/fashion/costumes/ballerina/accessories__
+      cloths:
+        - ballet dress
+        - leotard{|,tutu}
+      socks:
+        - "{beige|white} pantyhose"
+      footwears:
+        - ballet {shoes|slippers}
+      accessories:
+        - tiara
+      colors:
+        - " "
+        - black
+        - white
+    barista:
+      do:
+        - barista,apron,{0-3$$__mywc/fashion/costumes/barista/list__}
+      list:
+        - __mywc/fashion/costumes/barista/tops__
+        - __mywc/fashion/costumes/barista/bottoms__
+        - __mywc/fashion/costumes/barista/accessories/do__
+      tops:
+        - shirt
+        - vest
+      bottoms:
+        - "{|skinny} jeans"
+        - pants
+      accessories:
+        do:
+          - "{1-3$$__mywc/fashion/costumes/barista/accessories/list__}"
+        list:
+          - "{bow|neck}tie"
+          - cap
+          - sleeves rolled up
+    bartender:
+      do:
+        - bartender,white shirt,pants,{0-2$$__mywc/fashion/costumes/bartender/list__}
+      list:
+        - __mywc/fashion/costumes/bartender/tops__
+        - __mywc/fashion/costumes/bartender/accessories/do__
+      tops:
+        - vest
+      accessories:
+        do:
+          - "{1-2$$__mywc/fashion/costumes/bartender/accessories/list__}"
+        list:
+          - "{bow|neck}tie"
+          - sleeves rolled up
     bdsm:
       do:
-        - ${bdsm-list={0-2$$__mywc/nsfw/pussy/fashion/bdsm/list__}}__mywc/fashion/costumes/bdsm/base__
+        - ${bdsm-list={0-4$$__mywc/fashion/costumes/bdsm/list__}}__mywc/fashion/costumes/bdsm/base__
+      base:
+        - ${bdsm-color=!__mywc/fashion/costumes/bdsm/color__}${bdsm-color:black} __mywc/fashion/costumes/bdsm/tops__,${bdsm-color:black} __mywc/fashion/costumes/bdsm/bottoms__,${bdsm-list:" "}
       list:
         - ${bdsm-color:black} __mywc/fashion/costumes/bdsm/gloves__
+        - __mywc/fashion/costumes/bdsm/socks__
+        - ${bdsm-color:black} __mywc/fashion/costumes/bdsm/footwears/do__
         - __mywc/fashion/costumes/bdsm/accessories/do__
+      tops:
+        - latex {|strapless} bra
+      bottoms:
+        - latex panties
+        - leather mini skirt
+      gloves:
+        - latex elbow gloves
+      socks:
+        - "{${bdsm-color:black}|black|brown} garter belt"
+        - "{${bdsm-color:black}|black|brown|fishnet} thighhighs"
+      footwears:
+        do:
+          - __mywc/fashion/costumes/bdsm/footwears/boots/do__
+          - __mywc/fashion/costumes/bdsm/footwears/heels__
+        boots:
+          do:
+            - latex __mywc/fashion/costumes/bdsm/footwears/boots/accessories/do__ __mywc/fashion/costumes/bdsm/footwears/boots/size__ __mywc/fashion/costumes/bdsm/footwears/boots/shape__
+          size:
+            - kneehigh
+            - long
+            - thighhigh
+          shape:
+            - boots
+            - boots,stiletto heels
+            - platform boots
+          accessories:
+            do:
+              - " "
+              - __mywc/fashion/costumes/bdsm/footwears/boots/accessories/list__
+            list:
+              - belt
+              - braided
+        heels:
+          - block heels
+          - platform heels
+          - stiletto heels
+          - strappy heels
+      accessories:
+        do:
+          - "{1-4$$__mywc/fashion/costumes/bdsm/accessories/list__}"
+        list:
+          - corset
+          - choker
+          - earrings
+          - pendant
+      color:
+        - "{|deep} red"
+        - black
+        - deep blue
     bunny-girl:
       do:
-        - ${bunny-girl-list={0-2$$__mywc/nsfw/pussy/fashion/bunny-girl/list__}}__mywc/fashion/costumes/bunny-girl/base__
+        - ${bunny-girl-list={0-4$$__mywc/fashion/costumes/bunny-girl/list__}}__mywc/fashion/costumes/bunny-girl/base__
+      base:
+        - __mywc/fashion/costumes/bunny-girl/colors__ bunny girl,${bunny-girl-list:" "}
       list:
         - __mywc/fashion/costumes/bunny-girl/cloths__
+        - __mywc/fashion/costumes/bunny-girl/socks__
+        - __mywc/fashion/costumes/bunny-girl/footwears__
         - __mywc/fashion/costumes/bunny-girl/accessories/do__
+      cloths:
+        - bustier
+        - tailcoat
+      socks:
+        - "{black|brown} garter belt"
+        - "{black|brown} pantyhose"
+        - fishnet pantyhose
+      footwears:
+        - heels
+      accessories:
+        do:
+          - "{1-2$$__mywc/fashion/costumes/bunny-girl/accessories/list__}"
+        list:
+          - bowtie
+          - wrist cuffs
+      colors:
+        - " "
+        - black
+        - blue
+        - red
     cheerleader:
       do:
-        - ${cheerleader-list={0-3$$__mywc/nsfw/pussy/fashion/cheerleader/list__}}__mywc/fashion/costumes/cheerleader/base__
+        - ${cheerleader-list={0-5$$__mywc/fashion/costumes/cheerleader/list__}}__mywc/fashion/costumes/cheerleader/base__
+      base:
+        - cheerleader,${cheerleader-list:" "}
       list:
         - __mywc/fashion/costumes/cheerleader/tops__
         - __mywc/fashion/costumes/cheerleader/bottoms__
+        - __mywc/fashion/costumes/cheerleader/socks__
+        - __mywc/fashion/costumes/cheerleader/footwears__
         - __mywc/fashion/costumes/cheerleader/accessories/do__
+      tops:
+        - crop top
+        - t-shirt
+      bottoms:
+        - pleated {|mini }skirt
+      socks:
+        - "{|ankle} socks"
+        - kneehighs
+        - thighhighs
+      footwears:
+        - sneakers
+      accessories:
+        do:
+          - "{1-2$$__mywc/fashion/costumes/cheerleader/accessories/list__}"
+        list:
+          - hair bow
+          - wristband
+    chef:
+      do:
+        - chef,__mywc/fashion/costumes/chef/accessories/do__
+      accessories:
+        do:
+          - "{1-5$$__mywc/fashion/costumes/chef/accessories/list__}"
+        list:
+          - "{clear gloves|mittens}"
+          - apron
+          - hat
+          - neckerchief
+          - white surgical mask
     china:
       do:
-        - ${china-list={0-2$$__mywc/nsfw/pussy/fashion/china/list__}}__mywc/fashion/costumes/china/base__
+        - ${china-list={0-3$$__mywc/fashion/costumes/china/list__}}__mywc/fashion/costumes/china/base__
+      base:
+        - __mywc/fashion/costumes/china/color__ china dress,${china-list:" "}
       list:
         - __mywc/fashion/costumes/china/gloves__
+        - __mywc/fashion/costumes/china/footwears__
         - __mywc/fashion/costumes/china/accessories/do__
+      gloves:
+        - white elbow gloves
+      footwears:
+        - chinese shoes
+        - heels
+      accessories:
+        do:
+          - "{1-4$$__mywc/fashion/costumes/china/accessories/list__}"
+        list:
+          - bracelet
+          - earrings
+          - hairpin
+          - necklace
+      color:
+        - " "
+        - blue
+        - green
+        - purple
+        - red
+    dancer:
+      do:
+        - dancer,__mywc/fashion/costumes/dancer/cloths__,{4-8$$__mywc/fashion/costumes/dancer/accessories__}
+      cloths:
+        - arabian clothes
+        - harem outfit
+      accessories:
+        - amulet
+        - anklet
+        - armlet
+        - bracelet
+        - choker
+        - earrings
+        - necklace
+        - pelvic curtain
+    detective:
+      do:
+        - detective,{0-2$$__mywc/fashion/costumes/detective/list__}
+      list:
+        - __mywc/fashion/costumes/detective/tops__
+        - __mywc/fashion/costumes/detective/accessories/do__
+      tops:
+        - capelet
+        - trench coat
+        - vest
+      accessories:
+        do:
+          - "{1-3$$__mywc/fashion/costumes/detective/accessories/list__}"
+        list:
+          - gloves
+          - hat
+          - pen in pocket
     doctor:
       do:
-        - ${doctor-list={0-2$$__mywc/nsfw/pussy/fashion/doctor/list__}}__mywc/fashion/costumes/doctor/base__
+        - ${doctor-list={0-2$$__mywc/fashion/costumes/doctor/list__}}__mywc/fashion/costumes/doctor/base__
+      base:
+        - doctor,lab coat,${doctor-list:" "}
       list:
-        - __mywc/nsfw/pussy/fashion/doctor/bottoms__
+        - __mywc/fashion/costumes/doctor/bottoms__
         - __mywc/fashion/costumes/doctor/accessories/do__
       bottoms:
-        - maxi skirt
+        - maxi skirt,{white|beige|black|brown} pantyhose,heels
+        - pants,socks,{heels|shoes}
+      accessories:
+        do:
+          - "{1-5$$__mywc/fashion/costumes/doctor/accessories/list__}"
+        list:
+          - "{|light blue|white} surgical mask"
+          - glasses
+          - lanyard
+          - medical gloves
+          - stethoscope on neck
+    employee:
+      do:
+        - employee uniform,{0-3$$__mywc/fashion/costumes/employee/list__}
+      list:
+        - __mywc/fashion/costumes/employee/tops__
+        - __mywc/fashion/costumes/employee/bottoms__
+        - __mywc/fashion/costumes/employee/accessories/do__
+      tops:
+        - "{|striped} shirt"
+        - polo shirt
+        - vest
+      bottoms:
         - pants
+      accessories:
+        do:
+          - "{1-5$$__mywc/fashion/costumes/employee/accessories/list__}"
+        list:
+          - "{lanyard|name tag}"
+          - apron
+          - cap
+          - sleeves rolled up
+          - watch
     explorer:
       do:
-        - ${explorer-list={0-2$$__mywc/nsfw/pussy/fashion/explorer/list__}}__mywc/fashion/costumes/explorer/base__
+        - ${explorer-list={0-3$$__mywc/fashion/costumes/explorer/list__}}__mywc/fashion/costumes/explorer/base__
+      base:
+        - __mywc/fashion/costumes/explorer/tops/do__,hat,${explorer-list:" "}
       list:
         - __mywc/fashion/costumes/explorer/bottoms__
+        - __mywc/fashion/costumes/explorer/footwears/do__
         - __mywc/fashion/costumes/explorer/accessories/do__
+      tops:
+        do:
+          - safari jacket,__mywc/fashion/costumes/explorer/tops/option__
+        option:
+          - long sleeves
+          - short sleeves
+          - sleeves {rolled|pushed} up
+      bottoms:
+        - half pants
+        - pants
+      footwears:
+        do:
+          - socks,__mywc/fashion/costumes/explorer/footwears/option__
+        option:
+          - "{|desert|hiking} boots"
+          - leather sneakers
+      accessories:
+        do:
+          - "{1-3$$__mywc/fashion/costumes/explorer/accessories/list__}"
+        list:
+          - "{{|waist} pouch|backpack|bag}"
+          - gloves
+          - neckerchief
     farmer:
       do:
-        - ${farmer-list={0-2$$__mywc/nsfw/pussy/fashion/farmer/list__}}__mywc/fashion/costumes/farmer/base__
+        - ${farmer-list={0-3$$__mywc/fashion/costumes/farmer/list__}}__mywc/fashion/costumes/farmer/base__
+      base:
+        - farmer,${farmer-list:" "}
       list:
         - __mywc/fashion/costumes/farmer/cloths__
+        - __mywc/fashion/costumes/farmer/footwears__
         - __mywc/fashion/costumes/farmer/accessories/do__
+      cloths:
+        - overalls
+        - t-shirt,{jeans|pants}
+      footwears:
+        - boots
+        - sneakers
+      accessories:
+        do:
+          - "{1-2$$__mywc/fashion/costumes/farmer/accessories/list__}"
+        list:
+          - gloves
+          - straw hat
     formal:
       do:
-        - ${formal-dress-list=__mywc/nsfw/pussy/fashion/formal/dress-list__}__mywc/fashion/costumes/formal/dress/base__
+        - __mywc/fashion/costumes/formal/dress/do__
         - __mywc/fashion/costumes/formal/suit/do__
-      dress-list:
-        - ball gown,{|__mywc/fashion/costumes/formal/dress/gloves/do__}
-        - cocktail dress,{|__mywc/fashion/costumes/formal/dress/gloves/do__}
-        - evening dress,{|__mywc/fashion/costumes/formal/dress/gloves/do__}
-        - funeral dress,{|__mywc/fashion/costumes/formal/dress/gloves/do__}
-        - halter dress
-        - high slit dress,{|__mywc/fashion/costumes/formal/dress/gloves/do__}
-        - party dress
-        - pencil dress
-        - prom dress,{|__mywc/fashion/costumes/formal/dress/gloves/do__}
-        - satin dress,{|__mywc/fashion/costumes/formal/dress/gloves/do__}
-        - sequined dress,{|__mywc/fashion/costumes/formal/dress/gloves/do__}
-        - tube dress,{|__mywc/fashion/costumes/formal/dress/gloves/do__}
-        - velvet dress,{|__mywc/fashion/costumes/formal/dress/gloves/do__}
-        - __mywc/fashion/unis/make-dress/do__,{|__mywc/fashion/costumes/formal/dress/gloves/do__}
+      dress:
+        do:
+          - ${formal-dress-list=__mywc/fashion/costumes/formal/dress/list__}__mywc/fashion/costumes/formal/dress/base__
+        base:
+          - ${dress-color=!__mywc/fashion/costumes/formal/dress/color__}${dress-color:black} ${formal-dress-list:" "}
+        list:
+          - ball gown,{|__mywc/fashion/costumes/formal/dress/gloves/do__}
+          - cocktail dress,{|__mywc/fashion/costumes/formal/dress/gloves/do__}
+          - evening dress,{0-2$$__mywc/fashion/costumes/formal/dress/gloves/do__|__mywc/fashion/costumes/formal/dress/footwears/do__}
+          - funeral dress,{0-3$$__mywc/fashion/costumes/formal/dress/gloves/do__|__mywc/fashion/costumes/formal/dress/socks/do__|__mywc/fashion/costumes/formal/dress/footwears/do__}
+          - halter dress,{|__mywc/fashion/costumes/formal/dress/footwears/do__}
+          - high slit dress,{0-2$$__mywc/fashion/costumes/formal/dress/gloves/do__|__mywc/fashion/costumes/formal/dress/footwears/do__}
+          - party dress,{|__mywc/fashion/costumes/formal/dress/footwears/do__}
+          - pencil dress,{|__mywc/fashion/costumes/formal/dress/footwears/do__}
+          - prom dress,{|__mywc/fashion/costumes/formal/dress/gloves/do__}
+          - satin dress,{0-2$$__mywc/fashion/costumes/formal/dress/gloves/do__|__mywc/fashion/costumes/formal/dress/footwears/do__}
+          - sequined dress,{0-2$$__mywc/fashion/costumes/formal/dress/gloves/do__|__mywc/fashion/costumes/formal/dress/footwears/do__}
+          - tube dress,{0-2$$__mywc/fashion/costumes/formal/dress/gloves/do__|__mywc/fashion/costumes/formal/dress/footwears/do__}
+          - velvet dress,{0-2$$__mywc/fashion/costumes/formal/dress/gloves/do__|__mywc/fashion/costumes/formal/dress/footwears/do__}
+          - __mywc/fashion/unis/make-dress/do__,{0-3$$__mywc/fashion/costumes/formal/dress/gloves/do__|__mywc/fashion/costumes/formal/dress/socks/do__|__mywc/fashion/costumes/formal/dress/footwears/do__}
+        gloves:
+          do:
+            - __mywc/fashion/costumes/formal/dress/gloves/color__ {|lace} {|elbow} gloves
+          color:
+            - " "
+            - ${dress-color:black}
+            - black
+            - white
+        socks:
+          do:
+            - __mywc/fashion/costumes/formal/dress/socks/color__ pantyhose
+          color:
+            - " "
+            - black
+            - brown
+            - white
+        footwears:
+          do:
+            - __mywc/fashion/costumes/formal/dress/footwears/color__ __mywc/fashion/footwears/heels/list__
+          color:
+            - " "
+            - ${dress-color:black}
+            - black
+            - white
+        accessories:
+          do:
+            - "{1-5$$__mywc/fashion/costumes/formal/dress/accessories/list__}"
+          list:
+            - __mywc/fashion/costumes/formal/dress/accessories/head__
+            - __mywc/fashion/costumes/formal/dress/accessories/face__
+            - __mywc/fashion/costumes/formal/dress/accessories/ear__
+            - __mywc/fashion/costumes/formal/dress/accessories/neck__
+            - __mywc/fashion/costumes/formal/dress/accessories/one-points__
+          head:
+            - "{|sun} hat"
+            - tiara
+            - veil
+          face:
+            - glasses
+          ear:
+            - earrings
+          neck:
+            - ascot
+            - brooch
+            - locket
+            - pendant
+            - scarf
+            - shawl
+          one-points:
+            - badge
+            - bag
+            - corsage
+        color:
+          - black
+          - deep blue
+          - deep green
+          - deep orange
+          - deep purple
+          - deep red
+          - scarlet
+          - white
+      suit:
+        do:
+          - __mywc/fashion/costumes/formal/suit/color__ formal cloths,pants,{0-3$$__mywc/fashion/costumes/formal/suit/list__}
+        list:
+          - __mywc/fashion/costumes/formal/suit/tops__
+          - __mywc/fashion/costumes/formal/suit/gloves__
+          - __mywc/fashion/costumes/formal/suit/accessories/do__
+        tops:
+          - "{|butler} tailcoat"
+          - pant suit
+          - suit jacket
+          - tailored jacket
+          - trench coat
+          - tuxedo jacket
+          - vest,{|sleeves pushed up|sleeves rolled up}
+          - waistcoat
+        gloves:
+          - white gloves
+        accessories:
+          do:
+            - "{1-4$$__mywc/fashion/costumes/formal/suit/accessories/list__}"
+          list:
+            - "{|fedora|top} hat"
+            - "{bow|neck}tie"
+            - "{glasses|monocle}"
+            - pocket square
+        color:
+          - black
+          - white
     goth-roli:
       do:
-        - ${goth-roli-list={0-4$$__mywc/nsfw/pussy/fashion/goth-roli/list__}}__mywc/fashion/costumes/goth-roli/base__
+        - ${goth-roli-list={0-6$$__mywc/fashion/costumes/goth-roli/list__}}__mywc/fashion/costumes/goth-roli/base__
+      base:
+        - gothic lolita,${goth-roli-list:" "}
       list:
         - __mywc/fashion/costumes/goth-roli/tops__
         - __mywc/fashion/costumes/goth-roli/bottoms__
         - __mywc/fashion/costumes/goth-roli/gloves__
+        - __mywc/fashion/costumes/goth-roli/socks__
+        - __mywc/fashion/costumes/goth-roli/footwears__
         - __mywc/fashion/costumes/goth-roli/accessories/do__
+      tops:
+        - "{|high-neck collar} blouse"
+        - corset
+      bottoms:
+        - bell skirt
+        - jumper skirt
+      gloves:
+        - lace gloves
+      socks:
+        - "{|striped} thighhighs"
+        - "{|white} pantyhose"
+      footwears:
+        - platform boots
+        - mary jane
+      accessories:
+        do:
+          - "{1-4$$__mywc/fashion/costumes/goth-roli/accessories/list__}"
+        list:
+          - brooch
+          - choker
+          - lace headband
+          - ribbons
     gym:
       do:
-        - ${gym-list={0-3$$__mywc/nsfw/pussy/fashion/gym/list__}}__mywc/fashion/costumes/gym/base__
+        - ${gym-list={0-5$$__mywc/fashion/costumes/gym/list__}}__mywc/fashion/costumes/gym/base__
+      base:
+        - gym uniform,${gym-list:" "}
       list:
         - __mywc/fashion/costumes/gym/tops__
         - __mywc/fashion/costumes/gym/bottoms__
+        - __mywc/fashion/costumes/gym/socks__
+        - __mywc/fashion/costumes/gym/footwears__
         - __mywc/fashion/costumes/gym/accessories/do__
+      tops:
+        - "{|white} t-shirt"
+        - __mywc/fashion/costumes/gym/color__ jersey
+        - __mywc/fashion/costumes/gym/color__ track{ jacket|suit}
+      bottoms:
+        - "{bike|gym} shorts"
+        - "{gym |sweat}pants"
+        - buruma
+      socks:
+        - "{|ankle} socks"
+        - kneehighs
+        - thighhighs
+      footwears:
+        - sneakers
+      accessories:
+        do:
+          - "{1-3$$__mywc/fashion/costumes/gym/accessories/list__}"
+        list:
+          - headband
+          - towel on neck
+          - wristband
+      color:
+        - " "
+        - blue
+        - red
+        - white
     hunter:
       do:
-        - ${hunter-list={0-4$$__mywc/nsfw/pussy/fashion/hunter/list__}}__mywc/fashion/costumes/hunter/base__
+        - ${hunter-list={0-5$$__mywc/fashion/costumes/hunter/list__}}__mywc/fashion/costumes/hunter/base__
+      base:
+        - hunter,${hunter-list:" "}
       list:
         - __mywc/fashion/costumes/hunter/tops__
         - __mywc/fashion/costumes/hunter/bottoms__
         - __mywc/fashion/costumes/hunter/gloves__
+        - __mywc/fashion/costumes/hunter/footwears__
         - __mywc/fashion/costumes/hunter/accessories/do__
+      tops:
+        - cloak
+        - tunic
+      bottoms:
+        - pants
+      gloves:
+        - "{|leather {|cuirass}} gloves"
+      footwears:
+        - socks,boots
+        - socks,shoes
+      accessories:
+        do:
+          - "{1-6$$__mywc/fashion/costumes/hunter/accessories/list__}"
+        list:
+          - "{{bi|tri}corne|hat}"
+          - capelet
+          - binoculars on neck
+          - knife on waist
+          - quiver
     idol:
       do:
-        - ${idol-list={0-4$$__mywc/nsfw/pussy/fashion/idol/list__}}__mywc/fashion/costumes/idol/base__
+        - ${idol-list={0-6$$__mywc/fashion/costumes/idol/list__}}__mywc/fashion/costumes/idol/base__
+      base:
+        - __mywc/fashion/costumes/idol/color__ idol clothes,${idol-list:" "}
       list:
         - __mywc/fashion/costumes/idol/tops/do__
         - __mywc/fashion/costumes/idol/bottoms__
         - __mywc/fashion/costumes/idol/gloves__
+        - __mywc/fashion/costumes/idol/socks__
+        - __mywc/fashion/costumes/idol/footwears__
         - __mywc/fashion/costumes/idol/accessories/do__
+      tops:
+        do:
+          - crop top,__mywc/fashion/costumes/idol/tops/sleeves__
+          - frilled blouse,__mywc/fashion/costumes/idol/tops/sleeves__
+          - stage dress,__mywc/fashion/costumes/idol/tops/sleeves__
+        sleeves:
+          - puffy {|short} sleeves
+      bottoms:
+        - "{long|short} {frilled|pleated} skirt"
+      gloves:
+        - "{|elbow} gloves"
+      socks:
+        - kneehighs
+        - thighhighs
+      footwears:
+        - "{|ankle|braided|long|platform|short|thighhigh} boots"
+        - flat shoes
+        - mary janes
+      accessories:
+        do:
+          - "{1-6$$__mywc/fashion/costumes/idol/accessories/list__}"
+        list:
+          - "hair{ ornament|pin}"
+          - "{|mini} hat"
+          - "{bow|neck}tie"
+          - choker
+          - headset
+          - ribbons
+      color:
+        - "{|light} blue"
+        - "{|light} green"
+        - "{|light} magenta"
+        - "{|light} orange"
+        - "{|light} pink"
+        - "{|light} purple"
+        - "{|light} yellow"
+        - black
+        - red
+        - white
     japan:
       do:
-        - ${japan-list=__mywc/nsfw/pussy/fashion/japan/list__}__mywc/fashion/costumes/japan/base__
-      list:
-        - miko,red hakama
-        - __mywc/fashion/costumes/japan/color__ furisode,{|kanzashi}
-        - __mywc/fashion/costumes/japan/color__ jinbei
-        - __mywc/fashion/costumes/japan/color__ kimono,{|kanzashi}
-        - __mywc/fashion/costumes/japan/color__ yukata
+        - ${japan-list=__mywc/fashion/costumes/japan/cloths__}__mywc/fashion/costumes/japan/base__
+      base:
+        - ${japan-list:" "}
+      cloths:
+        - miko,red hakama,{|tabi,zori}
+        - __mywc/fashion/costumes/japan/color__ furisode,{|tabi,sandal},{|kanzashi}
+        - __mywc/fashion/costumes/japan/color__ jinbei,{|sandal}
+        - __mywc/fashion/costumes/japan/color__ kimono,{|tabi,sandal},{|kanzashi}
+        - __mywc/fashion/costumes/japan/color__ yukata,{|geta}
+      color:
+        - " "
+        - "{|light} blue"
+        - "{|light} green"
+        - "{|light} pink"
+        - "{|light} purple"
+        - "{|light} red"
+        - "{|light} yellow"
     magical:
       do:
-        - ${magical-list={0-4$$__mywc/nsfw/pussy/fashion/magical/list__}}__mywc/fashion/costumes/magical/base__
+        - ${magical-list={0-6$$__mywc/fashion/costumes/magical/list__}}__mywc/fashion/costumes/magical/base__
+      base:
+        - __mywc/fashion/costumes/magical/color__ magical girl,${magical-list:" "}
       list:
         - __mywc/fashion/costumes/magical/tops__
         - __mywc/fashion/costumes/magical/bottoms__
         - __mywc/fashion/costumes/magical/gloves__
+        - __mywc/fashion/costumes/magical/socks__
+        - __mywc/fashion/costumes/magical/footwears__
         - __mywc/fashion/costumes/magical/accessories/do__
+      tops:
+        - frilled dress
+      bottoms:
+        - layered skirt
+      gloves:
+        - gloves
+        - elbow gloves
+      socks:
+        - "{|striped} kneehighs"
+        - "{|white} pantyhose"
+        - "{|striped} tighthighs"
+      footwears:
+        - ankle boots
+        - flats
+        - heels
+        - loafers
+        - long boots
+        - mary janes
+        - thighhigh boots
+      accessories:
+        do:
+          - "{1-8$$__mywc/fashion/costumes/magical/accessories/list__}"
+        list:
+          - amulet
+          - beret
+          - brooch
+          - capelet
+          - choker
+          - earrings
+          - hair{ ornament|pin}
+          - tiara
+      color:
+        - "{|light} blue"
+        - "{|light} green"
+        - "{|light} magenta"
+        - "{|light} orange"
+        - "{|light} pink"
+        - "{|light} purple"
+        - "{|light} yellow"
+        - black
+        - red
+        - white
     maid:
       do:
-        - ${maid-list={0-4$$__mywc/nsfw/pussy/fashion/maid/list__}}__mywc/fashion/costumes/maid/base__
+        - ${maid-list={0-6$$__mywc/fashion/costumes/maid/list__}}__mywc/fashion/costumes/maid/base__
+      base:
+        - maid,apron,${maid-list:" "}
       list:
         - __mywc/fashion/costumes/maid/tops__
         - __mywc/fashion/costumes/maid/bottoms__
         - __mywc/fashion/costumes/maid/gloves__
+        - __mywc/fashion/costumes/maid/socks__
+        - __mywc/fashion/costumes/maid/footwears__
         - __mywc/fashion/costumes/maid/accessories/do__
+      tops:
+        - blouse
+        - maid dress,{|puffy sleeves}
+      bottoms:
+        - frilled skirt
+      gloves:
+        - "{|lace }{|elbow }gloves"
+      socks:
+        - "{black|brown|white} garter belt"
+        - "{black|brown|white} pantyhose"
+        - "{black|brown|white} thighhighs"
+        - white socks
+      footwears:
+        - braided {ankle|short} boots
+        - heels
+        - mary janes
+      accessories:
+        do:
+          - "{1-3$$__mywc/fashion/costumes/maid/accessories/list__}"
+        list:
+          - choker
+          - headdress
+          - ribbon
     marching-band:
       do:
-        - ${marching-band-list={0-4$$__mywc/nsfw/pussy/fashion/marching-band/list__}}__mywc/fashion/costumes/marching-band/base__
+        - ${marching-band-list={0-4$$__mywc/fashion/costumes/marching-band/list__}}__mywc/fashion/costumes/marching-band/base__
+      base:
+        - marching band,${marching-band-list:" "}
       list:
         - __mywc/fashion/costumes/marching-band/tops__
-        - __mywc/nsfw/pussy/fashion/marching-band/bottoms__
+        - __mywc/fashion/costumes/marching-band/bottoms__
         - __mywc/fashion/costumes/marching-band/gloves__
         - __mywc/fashion/costumes/marching-band/accessories/do__
+      tops:
+        - shirt
+        - tunic
       bottoms:
-        - "{|mini} skirt"
-        - pants
+        - "{|mini} skirt,{{|long} boots|flat shoes}"
+        - pants,flat shoes
+      gloves:
+        - gloves
+      accessories:
+        do:
+          - "{1-3$$__mywc/fashion/costumes/marching-band/accessories/list__}"
+        list:
+          - plume
+          - sash
+          - shako cap
     military:
       do:
-        - ${military-commander-list={0-4$$__mywc/nsfw/pussy/fashion/military/commander-list__}}__mywc/fashion/costumes/military/commander/base__
-        - ${military-soldier-list={0-4$$__mywc/nsfw/pussy/fashion/military/soldier-list__}}__mywc/fashion/costumes/military/soldier/base__
-      commander-list:
-        - __mywc/fashion/costumes/military/commander/tops__
-        - __mywc/fashion/costumes/military/commander/bottoms__
-        - __mywc/fashion/costumes/military/commander/gloves__
-        - __mywc/fashion/costumes/military/commander/accessories/do__
-      soldier-list:
-        - __mywc/fashion/costumes/military/soldier/tops__
-        - __mywc/fashion/costumes/military/soldier/bottoms__
-        - __mywc/fashion/costumes/military/soldier/gloves__
-        - __mywc/fashion/costumes/military/soldier/accessories/do__
+        - ${military-commander-list={0-5$$__mywc/fashion/costumes/military/commander/list__}}__mywc/fashion/costumes/military/commander/base__
+        - ${military-soldier-list={0-5$$__mywc/fashion/costumes/military/soldier/list__}}__mywc/fashion/costumes/military/soldier/base__
+      commander:
+        base:
+          - military,commander,${military-commander-list:" "}
+        list:
+          - __mywc/fashion/costumes/military/commander/tops__
+          - __mywc/fashion/costumes/military/commander/bottoms__
+          - __mywc/fashion/costumes/military/commander/gloves__
+          - __mywc/fashion/costumes/military/commander/footwears__
+          - __mywc/fashion/costumes/military/commander/accessories/do__
+        tops:
+          - fatigues
+          - suit
+        bottoms:
+          - skirt,{|pantyhose}
+          - pants
+        gloves:
+          - gloves
+        footwears:
+          - flats
+          - heels
+          - loafers
+        accessories:
+          do:
+            - "{1-5$$__mywc/fashion/costumes/military/commander/accessories/list__}"
+          list:
+            - aiguillette
+            - badge
+            - epaulettes
+            - peaked cap
+            - ribbon bar
+      soldier:
+        base:
+          - military,soldier,${military-soldier-list:" "}
+        list:
+          - __mywc/fashion/costumes/military/soldier/tops__
+          - __mywc/fashion/costumes/military/soldier/bottoms__
+          - __mywc/fashion/costumes/military/soldier/gloves__
+          - __mywc/fashion/costumes/military/soldier/footwears__
+          - __mywc/fashion/costumes/military/soldier/accessories/do__
+        tops:
+          - fatigues
+          - __mywc/fashion/costumes/military/soldier/pattern__ uniform
+        bottoms:
+          - pants
+        gloves:
+          - gloves
+        footwears:
+          - combat boots
+        accessories:
+          do:
+            - "{1-4$$__mywc/fashion/costumes/military/soldier/accessories/list__}"
+          list:
+            - "{garrison cap|helmet}"
+            - gun on back
+            - name tag
+            - waist pouch
+        pattern:
+          - brown
+          - camouflage
+          - green
     musician:
       do:
-        - ${musician-list={0-3$$__mywc/nsfw/pussy/fashion/musician/list__}}__mywc/fashion/costumes/musician/base__
+        - ${musician-list={0-3$$__mywc/fashion/costumes/musician/list__}}__mywc/fashion/costumes/musician/base__
+      base:
+        - musician costume,${musician-list:" "}
       list:
         - __mywc/fashion/costumes/musician/tops__
-        - __mywc/nsfw/pussy/fashion/musician/bottoms__
+        - __mywc/fashion/costumes/musician/bottoms/do__
         - __mywc/fashion/costumes/musician/accessories/do__
+      tops:
+        - "{|print} t-shirt"
+        - leather jacket
+        - vest
       bottoms:
-        - "{|leather|torn} {jeans|pants}"
-        - "{|leather|torn} {shorts|skirt}"
+        do:
+          - "{|leather|torn} {jeans|pants},__mywc/fashion/costumes/musician/bottoms/footwears/shoes__"
+          - "{|leather|torn} {shorts|skirt},{__mywc/fashion/costumes/musician/bottoms/footwears/boots/do__|__mywc/fashion/costumes/musician/bottoms/footwears/shoes__}"
+        footwears:
+          boots:
+            do:
+              - "{0-2$$ $$__mywc/fashion/costumes/musician/bottoms/footwears/boots/option__} {long|short|thighhigh} boots"
+            option:
+              - braided
+              - platform
+          shoes:
+            - " "
+            - shoes
+      accessories:
+        do:
+          - "{1-3$$__mywc/fashion/costumes/musician/accessories/list__}"
+        list:
+          - choker
+          - headset
+          - wristbands
     ninja:
       do:
-        - ${ninja-list={0-3$$__mywc/nsfw/pussy/fashion/ninja/list__}}__mywc/fashion/costumes/ninja/base__
+        - ${ninja-list={0-4$$__mywc/fashion/costumes/ninja/list__}}__mywc/fashion/costumes/ninja/base__
+      base:
+        - __mywc/fashion/costumes/ninja/color__ ninja,${ninja-list:" "}
       list:
         - __mywc/fashion/costumes/ninja/tops__
         - __mywc/fashion/costumes/ninja/bottoms__
+        - __mywc/fashion/costumes/ninja/footwears__
         - __mywc/fashion/costumes/ninja/accessories/do__
+      tops:
+        - long sleeves
+        - short sleeves
+        - sleeveless
+      bottoms:
+        - hakama
+      footwears:
+        - tabi,{|sandal}
+      accessories:
+        do:
+          - "{1-4$$__mywc/fashion/costumes/ninja/accessories/list__}"
+        list:
+          - "{dagger|sword} on waist"
+          - cloak
+          - hood
+          - mask
+      color:
+        - " "
+        - black
+        - blue
+        - purple
+        - red
     nun:
       do:
-        - ${nun-list={0-3$$__mywc/nsfw/pussy/fashion/nun/list__}}__mywc/fashion/costumes/nun/base__
+        - ${nun-list={0-4$$__mywc/fashion/costumes/nun/list__}}__mywc/fashion/costumes/nun/base__
+      base:
+        - __mywc/fashion/costumes/nun/color__ nun,${nun-list:" "}
       list:
         - __mywc/fashion/costumes/nun/gloves__
         - __mywc/fashion/costumes/nun/socks__
+        - __mywc/fashion/costumes/nun/footwears__
         - __mywc/fashion/costumes/nun/accessories/do__
+      gloves:
+        - "{|elbow} gloves"
+      socks:
+        - "{|white} pantyhose"
+      footwears:
+        - heels
+        - sandals
+        - shoes
+      accessories:
+        do:
+          - "{1-2$$__mywc/fashion/costumes/nun/accessories/list__}"
+        list:
+          - cross pendant
+          - rosary
+      color:
+        - black
+        - blue
+        - white
     nurse:
       do:
-        - ${nurse-list={0-3$$__mywc/nsfw/pussy/fashion/nurse/list__}}__mywc/fashion/costumes/nurse/base__
+        - ${nurse-list={0-4$$__mywc/fashion/costumes/nurse/list__}}__mywc/fashion/costumes/nurse/base__
+      base:
+        - ${nurse-color=!__mywc/fashion/costumes/nurse/color__}nurse,${nurse-list:" "}
       list:
         - ${nurse-color:white} __mywc/fashion/costumes/nurse/tops__
-        - ${nurse-color:white} __mywc/nsfw/pussy/fashion/nurse/bottoms__
+        - ${nurse-color:white} __mywc/fashion/costumes/nurse/bottoms__
+        - __mywc/fashion/costumes/nurse/footwears__
         - __mywc/fashion/costumes/nurse/accessories/do__
+      tops:
+        - lab coat
+        - scrub suit
       bottoms:
-        - maxi skirt
-        - pants
+        - maxi skirt,{white|beige|black|brown} pantyhose
+        - pants,socks
+      footwears:
+        - sandals
+      accessories:
+        do:
+          - "{1-6$$__mywc/fashion/costumes/nurse/accessories/list__}"
+        list:
+          - "{|light blue|white} surgical mask"
+          - glasses
+          - lanyard
+          - medical gloves
+          - ${nurse-color:white} nurse cap
+          - stethoscope on neck
+      color:
+        - white
+        - light pink
+        - light green
     office-lady:
       do:
-        - ${office-lady-list={0-3$$__mywc/nsfw/pussy/fashion/office-lady/list__}}__mywc/fashion/costumes/office-lady/base__
+        - ${office-lady-list={0-4$$__mywc/fashion/costumes/office-lady/list__}}__mywc/fashion/costumes/office-lady/base__
+      base:
+        - office lady,${office-lady-list:" "}
       list:
         - __mywc/fashion/costumes/office-lady/tops__
         - __mywc/fashion/costumes/office-lady/bottoms__
+        - __mywc/fashion/costumes/office-lady/footwears__
         - __mywc/fashion/costumes/office-lady/accessories/do__
+      tops:
+        - blazer jacket
+        - blouse
+        - office-lady suit
+        - cardigan
+      bottoms:
+        - pencil skirt,{beige|brown|black} pantyhose
+        - pants
+      footwears:
+        - pumps
+        - high heels
+      accessories:
+        do:
+          - "{1-4$$__mywc/fashion/costumes/office-lady/accessories/list__}"
+        list:
+          - bag
+          - glasses
+          - lanyard
+          - watch
+    pilot:
+      do:
+        - pilot,pants,{0-3$$__mywc/fashion/costumes/pilot/list__}
+      list:
+        - __mywc/fashion/costumes/pilot/tops__
+        - __mywc/fashion/costumes/pilot/gloves__
+        - __mywc/fashion/costumes/pilot/accessories/do__
+      tops:
+        - blazer jacket,epaulettes
+        - flight suit
+      gloves:
+        - gloves
+      accessories:
+        do:
+          - "{1-5$$__mywc/fashion/costumes/pilot/accessories/list__}"
+        list:
+          - aviator cap
+          - aviator glasses
+          - badge
+          - hat
+          - necktie
     pirate:
       do:
-        - ${pirate-list={0-3$$__mywc/nsfw/pussy/fashion/pirate/list__}}__mywc/fashion/costumes/pirate/base__
+        - ${pirate-list={0-4$$__mywc/fashion/costumes/pirate/list__}}__mywc/fashion/costumes/pirate/base__
+      base:
+        - pirate,${pirate-list:" "}
       list:
         - __mywc/fashion/costumes/pirate/headwears__
         - __mywc/fashion/costumes/pirate/tops__
+        - __mywc/fashion/costumes/pirate/footwears__
         - __mywc/fashion/costumes/pirate/accessories/do__
+      headwears:
+        - bandana
+        - pirate hat
+      tops:
+        - "{|striped} shirt"
+        - waistcoat
+      footwears:
+        - boots
+      accessories:
+        do:
+          - "{1-3$$__mywc/fashion/costumes/pirate/accessories/list__}"
+        list:
+          - "{pistol|sword} on waist"
+          - eye patch
+          - sash
     police:
       do:
-        - ${police-list={0-4$$__mywc/nsfw/pussy/fashion/police/list__}}__mywc/fashion/costumes/police/base__
+        - ${police-list={0-4$$__mywc/fashion/costumes/police/list__}}__mywc/fashion/costumes/police/base__
+      base:
+        - police,${police-list:" "}
       list:
         - __mywc/fashion/costumes/police/tops__
-        - __mywc/nsfw/pussy/fashion/police/bottoms__
+        - __mywc/fashion/costumes/police/bottoms__
         - __mywc/fashion/costumes/police/gloves__
         - __mywc/fashion/costumes/police/accessories/do__
+      tops:
+        - blazer jacket
+        - shirt,{long|short} sleeves
       bottoms:
-        - pencil skirt
+        - pencil skirt,{|{black|brown} pantyhose}
         - pants
+      gloves:
+        - white gloves
+      accessories:
+        do:
+          - "{1-4$$__mywc/fashion/costumes/police/accessories/list__}"
+        list:
+          - "{baton|pistol} on waist"
+          - "{hat|peaked cap}"
+          - badge
+          - necktie
+    priest:
+      do:
+        - priest,{0-2$$__mywc/fashion/costumes/priest/list__}
+      list:
+        - __mywc/fashion/costumes/priest/cloths__
+        - __mywc/fashion/costumes/priest/accessories/do__
+      cloths:
+        - cassock
+        - surplice
+      accessories:
+        do:
+          - "{1-3$$__mywc/fashion/costumes/priest/accessories/list__}"
+        list:
+          - cross pendant
+          - mitre
+          - rosary
+    prince:
+      do:
+        - prince costume,{deep green|white|wine red} jacket,epaulettes,pants,__mywc/fashion/costumes/prince/accessories/do__
+      accessories:
+        do:
+          - "{0-3$$__mywc/fashion/costumes/prince/accessories/list__}"
+        list:
+          - aiguillette
+          - ascot
+          - gloves
+    princess:
+      do:
+        - princess,__mywc/fashion/costumes/princess/tops/do__,{0-3$$__mywc/fashion/costumes/princess/list__}
+      list:
+        - __mywc/fashion/costumes/princess/bottoms__
+        - __mywc/fashion/costumes/princess/gloves__
+        - __mywc/fashion/costumes/princess/accessories/do__
+      tops:
+        do:
+          - __mywc/fashion/costumes/princess/tops/decorations__ __mywc/fashion/costumes/princess/tops/base__,__mywc/fashion/costumes/princess/tops/sleeves__
+        base:
+          - dress
+          - gown
+        sleeves:
+          - "{|puffy} long sleeves"
+          - "{|puffy} short sleeves"
+        decorations:
+          - " "
+          - frilled
+          - fur trimmed
+          - lace trimmed
+      bottoms:
+        - layered skirt
+        - long skirt
+        - short skirt
+      gloves:
+        - "{|elbow} gloves"
+      accessories:
+        do:
+          - "{1-2$$__mywc/fashion/costumes/princess/accessories/list__}"
+        list:
+          - "{tiara|crown}"
+          - jewelry
     race-queen:
       do:
-        - ${race-queen-list={0-2$$__mywc/nsfw/pussy/fashion/race-queen/list__}}__mywc/fashion/costumes/race-queen/base__
+        - ${race-queen-list={0-3$$__mywc/fashion/costumes/race-queen/list__}}__mywc/fashion/costumes/race-queen/base__
+      base:
+        - race queen,mini skirt,${race-queen-list:" "}
       list:
         - __mywc/fashion/costumes/race-queen/tops__
+        - __mywc/fashion/costumes/race-queen/footwears__
         - __mywc/fashion/costumes/race-queen/accessories/do__
+      tops:
+        - crop top
+        - halter dress
+        - sleeveless shirt
+      footwears:
+        - heels
+        - thighhigh boots
+      accessories:
+        do:
+          - "{1-3$$__mywc/fashion/costumes/race-queen/accessories/list__}"
+        list:
+          - belt
+          - gloves
+          - sunglasses on head
     rainy:
-      - raincoat
+      - raincoat,{|rain boots}
     roomwear:
       do:
         - __mywc/fashion/costumes/roomwear/bathing__
         - __mywc/fashion/costumes/roomwear/bedding/do__
         - __mywc/fashion/costumes/roomwear/cooking__
-        - __mywc/nsfw/pussy/fashion/roomwear/lounging/do__
+        - __mywc/fashion/costumes/roomwear/lounging/do__
+      bathing:
+        - bathrobe,towel on {head|neck}
+        - naked towel,towel on {head|neck}
+      bedding:
+        do:
+          - __mywc/fashion/costumes/roomwear/bedding/cloths__,{4::|1::__mywc/fashion/costumes/roomwear/bedding/caps__}
+        cloths:
+          - negligee
+          - nightwear
+          - pajamas
+        caps:
+          - mob cap
+          - nightcap
+      cooking:
+        - apron,{|__mywc/fashion/costumes/roomwear/lounging/warm-sets/do__}
       lounging:
         do:
-          - __mywc/fashion/costumes/roomwear/lounging/unis__,__mywc/nsfw/pussy/fashion/roomwear/lounging/cool-sets/accessories/do__
-          - __mywc/nsfw/pussy/fashion/roomwear/lounging/cool-sets/do__
-          - __mywc/nsfw/pussy/fashion/roomwear/lounging/warm-sets/do__
+          - __mywc/fashion/costumes/roomwear/lounging/unis__,__mywc/fashion/costumes/roomwear/lounging/cool-sets/accessories/do__
+          - __mywc/fashion/costumes/roomwear/lounging/cool-sets/do__
+          - __mywc/fashion/costumes/roomwear/lounging/warm-sets/do__
+        unis:
+          - babydoll
+          - camisole
         cool-sets:
           do:
-            - __mywc/fashion/costumes/roomwear/lounging/cool-sets/tops__,__mywc/fashion/costumes/roomwear/lounging/cool-sets/bottoms__,__mywc/nsfw/pussy/fashion/roomwear/lounging/cool-sets/accessories/do__
+            - __mywc/fashion/costumes/roomwear/lounging/cool-sets/tops__,__mywc/fashion/costumes/roomwear/lounging/cool-sets/bottoms__,__mywc/fashion/costumes/roomwear/lounging/cool-sets/accessories/do__
+          tops:
+            - blouse,short sleeves
+            - t-shirt,short sleeves
+            - tank top
+          bottoms:
+            - denim shorts
+            - dolphin shorts
+            - shorts,{|drawstring}
           accessories:
             do:
-              - "{0-1$$__mywc/nsfw/pussy/fashion/roomwear/lounging/cool-sets/accessories/list__}"
+              - "{0-2$$__mywc/fashion/costumes/roomwear/lounging/cool-sets/accessories/list__}"
             list:
               - "{|glasses}"
+              - slippers
         warm-sets:
           do:
-            - __mywc/fashion/costumes/roomwear/lounging/warm-sets/tops__,__mywc/fashion/costumes/roomwear/lounging/warm-sets/bottoms__,__mywc/nsfw/pussy/fashion/roomwear/lounging/warm-sets/accessories/do__
+            - __mywc/fashion/costumes/roomwear/lounging/warm-sets/tops__,__mywc/fashion/costumes/roomwear/lounging/warm-sets/bottoms__,__mywc/fashion/costumes/roomwear/lounging/warm-sets/accessories/do__
+          tops:
+            - cardigan,{|sleeves {pushed|rolled} up}
+            - hooded shirt,{|sleeves {pushed|rolled} up}
+            - loungewear,{|sleeves {pushed|rolled} up}
+            - polo shirt,{|sleeves {pushed|rolled} up}
+            - sweater,{|sleeves {pushed|rolled} up}
+            - turtleneck shirt,{|sleeves {pushed|rolled} up}
+          bottoms:
+            - jeans
+            - pants,{|drawstring}
+            - sweatpants
           accessories:
             do:
-              - "{0-1$$__mywc/nsfw/pussy/fashion/roomwear/lounging/warm-sets/accessories/list__}"
+              - "{0-3$$__mywc/fashion/costumes/roomwear/lounging/warm-sets/accessories/list__}"
             list:
               - "{|glasses}"
+              - slippers
+              - socks
+    sailor:
+      do:
+        - "{naval|sailor} uniform,__mywc/fashion/costumes/sailor/tops__,naval pants,__mywc/fashion/costumes/sailor/accessories/do__"
+      tops:
+        - "{|blazer} jacket,{|epaulettes}"
+        - shirt
+      accessories:
+        do:
+          - "{1-2$$__mywc/fashion/costumes/sailor/accessories/list__}"
+        list:
+          - insignia
+          - sailor cap
     santa:
       do:
-        - ${santa-list={0-1$$__mywc/nsfw/pussy/fashion/santa/list__}}__mywc/fashion/costumes/santa/base__
+        - ${santa-list={0-3$$__mywc/fashion/costumes/santa/list__}}__mywc/fashion/costumes/santa/base__
+      base:
+        - ${santa-color=!__mywc/fashion/costumes/santa/color__}${santa-color:red} santa costume,${santa-list:" "}
       list:
+        - __mywc/fashion/costumes/santa/socks__
+        - __mywc/fashion/costumes/santa/footwears__
         - __mywc/fashion/costumes/santa/accessories/do__
+      socks:
+        - "{black|brown|white} pantyhose"
+      footwears:
+        - ${santa-color:red} fur boots
+      accessories:
+        do:
+          - "{1-2$$__mywc/fashion/costumes/santa/accessories/list__}"
+        list:
+          - "${santa-color:red} {|elbow} gloves"
+          - "${santa-color:red} hat"
+      color:
+        - red
+        - black
     school:
       do:
-        - ${school-list={0-3$$__mywc/nsfw/pussy/fashion/school/list__}}__mywc/fashion/costumes/school/base__
+        - ${school-list={0-4$$__mywc/fashion/costumes/school/list__}}__mywc/fashion/costumes/school/base__
+      base:
+        - school uniform,${school-list:" "}
       list:
         - __mywc/fashion/costumes/school/tops/do__
         - __mywc/fashion/costumes/school/bottoms__
+        - __mywc/fashion/costumes/school/footwears/do__
         - __mywc/fashion/costumes/school/accessories/do__
-    scientist:
-      do:
-        - ${scientist-list={0-2$$__mywc/nsfw/pussy/fashion/scientist/list__}}__mywc/fashion/costumes/scientist/base__
-      list:
-        - __mywc/nsfw/pussy/fashion/scientist/bottoms__
-        - __mywc/fashion/costumes/scientist/accessories/do__
+      tops:
+        do:
+          - shirt,__mywc/fashion/costumes/school/tops/ties__,__mywc/fashion/costumes/school/tops/sleeves__
+          - blazer jacket,shirt,__mywc/fashion/costumes/school/tops/ties__
+          - sailor collar,neckerchief,__mywc/fashion/costumes/school/tops/sleeves__
+          - sailor collar,neckerchief,cardigan
+        sleeves:
+          - long sleeves,{|sleeves pushed up|sleeves rolled up}
+          - short sleeves
+        ties:
+          - "{|loose} necktie"
+          - bowtie
       bottoms:
-        - maxi skirt
-        - pants
-    summer:
-      do:
-        - ${summer-list={0-1$$__mywc/nsfw/pussy/fashion/summer/list__}}__mywc/fashion/costumes/summer/base__
-      list:
-        - __mywc/fashion/costumes/summer/accessories/do__
-    swimwear:
-      do:
-        - __mywc/nsfw/pussy/fashion/swimwear/bikini__
-        - __mywc/nsfw/pussy/fashion/swimwear/swimsuit__
-      bikini:
-        - ${swimwear-bikini-list=__mywc/nsfw/pussy/fashion/swimwear/accessories/do__}__mywc/fashion/costumes/swimwear/bikini/base__
-      swimsuit:
-        - ${swimwear-swimsuit-list=__mywc/nsfw/pussy/fashion/swimwear/accessories/do__}__mywc/fashion/costumes/swimwear/swimsuit/base__
+        - long pleated skirt
+        - short pleated skirt
+      footwears:
+        do:
+          - __mywc/fashion/costumes/school/footwears/socks__,__mywc/fashion/costumes/school/footwears/shoes__
+        socks:
+          - "{|black|white} kneehighs"
+          - "{|beige|black|brown} pantyhose"
+          - ankle socks
+          - loose socks
+          - socks
+        shoes:
+          - loafers
+          - mary janes
+          - sneakers
+          - uwabaki
       accessories:
         do:
-          - "{1-5$$__mywc/nsfw/pussy/fashion/swimwear/accessories/list__}"
+          - "{1-5$$__mywc/fashion/costumes/school/accessories/list__}"
+        list:
+          - "{|black|white} surgical mask"
+          - backpack
+          - glasses
+          - name tag
+          - school bag
+    scientist:
+      do:
+        - ${scientist-list={0-3$$__mywc/fashion/costumes/scientist/list__}}__mywc/fashion/costumes/scientist/base__
+      base:
+        - scientist,lab coat,${scientist-list:" "}
+      list:
+        - __mywc/fashion/costumes/scientist/bottoms__
+        - __mywc/fashion/costumes/scientist/footwears__
+        - __mywc/fashion/costumes/scientist/accessories/do__
+      bottoms:
+        - maxi skirt,{black|brown|white} pantyhose
+        - pants
+      footwears:
+        - heels
+        - pumps
+      accessories:
+        do:
+          - "{1-4$$__mywc/fashion/costumes/scientist/accessories/list__}"
+        list:
+          - glasses
+          - lanyard
+          - medical gloves
+          - safety goggles
+    sports:
+      do:
+        - "{6::__mywc/fashion/costumes/sports/type__ uniform|1::leotard},__mywc/fashion/costumes/sports/accessories__"
+      type:
+        - baseball
+        - basketball
+        - soccer
+        - tennis
+        - track
+        - volleyball
+      accessories:
+        - " "
+        - towel on neck
+    summer:
+      do:
+        - ${summer-list={0-2$$__mywc/fashion/costumes/summer/list__}}__mywc/fashion/costumes/summer/base__
+      base:
+        - __mywc/fashion/costumes/summer/tops/do__,__mywc/fashion/costumes/summer/bottoms__,${summer-list:" "}
+        - __mywc/fashion/costumes/summer/unis__,${summer-list:" "}
+      list:
+        - __mywc/fashion/costumes/summer/footwears/do__
+        - __mywc/fashion/costumes/summer/accessories/do__
+      unis:
+        - casual dress,__mywc/fashion/costumes/summer/tops/structions__
+        - pinafore dress,__mywc/fashion/costumes/summer/tops/structions__
+        - sailor dress
+        - sundress
+      tops:
+        do:
+          - "{|camouflage|plaid|polka dot|striped} strapless shirt"
+          - "{|camouflage|plaid|polka dot|striped} tank top"
+          - camisole
+          - __mywc/fashion/costumes/summer/tops/color__ {|__mywc/fashion/costumes/summer/tops/patterns__} t-shirt,__mywc/fashion/costumes/summer/tops/structions__
+          - __mywc/fashion/tops/inners/with-buttons/shirts/decorations__ blouse,__mywc/fashion/costumes/summer/tops/structions__
+        structions:
+          - short sleeves
+          - sleeves {rolled|pushed} up
+          - sleeveless
+        patterns:
+          - camouflage
+          - polka dot
+          - striped
+          - vertical-striped
+        color:
+          - " "
+          - black
+          - white
+      bottoms:
+        - "{|short} {shorts|skirt}"
+        - hot pants
+        - pleated skirt
+      footwears:
+        do:
+          - "{flip-flops|{|ankle strap|mule|wedge} sandals}"
+          - sneakers,__mywc/fashion/costumes/summer/footwears/socks/do__
+        socks:
+          do:
+            - __mywc/fashion/costumes/summer/footwears/socks/color__ __mywc/fashion/costumes/summer/footwears/socks/type__
+          type:
+            - ankle socks
+            - knee socks
+            - kneehighs
+            - thighhighs
+          color:
+            - " "
+            - black
+            - white
+      accessories:
+        do:
+          - "{0-2$$__mywc/fashion/costumes/summer/accessories/list__}"
+        list:
+          - __mywc/fashion/costumes/summer/accessories/head__
+          - __mywc/fashion/costumes/summer/accessories/face__
+        head:
+          - "{{|visor} cap|snapback}"
+          - "{|straw|sun} hat,{|hat {bow|flower}}"
+          - bandana
+          - boater
+          - bucket hat
+          - headpin
+          - panama hat
+        face:
+          - "{|{|sun}glasses}"
+    swimwear:
+      do:
+        - __mywc/fashion/costumes/swimwear/bikini/do__
+        - __mywc/fashion/costumes/swimwear/swimsuit/do__
+      bikini:
+        do:
+          - ${swimwear-bikini-list=__mywc/fashion/costumes/swimwear/accessories/do__}__mywc/fashion/costumes/swimwear/bikini/base__
+        base:
+          - __mywc/fashion/costumes/swimwear/option/do__ __mywc/fashion/costumes/swimwear/bikini/cloths__ bikini,{|${swimwear-bikini-list:" "}}
+        cloths:
+          - " "
+          - "{|front-tie} {|side-tie}"
+          - cross halter neck
+          - micro
+          - o-ring
+          - sailor
+          - sarong
+          - slingshot
+          - sports
+          - strapless
+          - string
+      swimsuit:
+        do:
+          - ${swimwear-swimsuit-list=__mywc/fashion/costumes/swimwear/accessories/do__}__mywc/fashion/costumes/swimwear/swimsuit/base__
+        base:
+          - __mywc/fashion/costumes/swimwear/option/do__ __mywc/fashion/costumes/swimwear/swimsuit/cloths__,{|${swimwear-swimsuit-list:" "}}
+        cloths:
+          - "{|casual|strapless|off-shoulder} one-piece swimsuit"
+          - "{|competition|old|new} school swimsuit"
+          - backless swimsuit
+          - bikini shorts,swimsuit
+          - competition swimsuit
+          - dress swimsuit
+          - front zipper swimsuit
+          - monokini
+          - o-ring swimsuit
+          - side-tie swimsuit
+          - slingshot swimsuit
+          - swim briefs,swimsuit
+          - swimsuit
+          - swimsuit skirt,swimsuit
+          - tankini
+      option:
+        do:
+          - "{0-2$$ $$__mywc/fashion/costumes/swimwear/option/list__}"
+        list:
+          - __mywc/fashion/costumes/swimwear/option/decorations__
+          - __mywc/fashion/costumes/swimwear/option/patterns__
+        decorations:
+          - bow
+          - frilled
+        patterns:
+          - plaid
+          - polka dot
+          - striped
+      accessories:
+        do:
+          - "{1-7$$__mywc/fashion/costumes/swimwear/accessories/list__}"
         list:
           - "{necklace|pendant}"
+          - anklet
           - bracelet
           - earrings
+          - flip-flops
           - open jacket,{|hood up}
           - __mywc/fashion/costumes/swimwear/accessories/head/do__
+        head:
+          do:
+            - "{|sun|straw} hat"
+            - flower ornament
+            - swim cap
+            - __mywc/fashion/costumes/swimwear/accessories/head/glasses__ {|on head}
+          glasses:
+            - "{|heart-shaped|star-shaped} sunglasses"
+            - glasses
     teacher:
       do:
-        - ${teacher-list={0-3$$__mywc/nsfw/pussy/fashion/teacher/list__}}__mywc/fashion/costumes/teacher/base__
+        - ${teacher-list={0-4$$__mywc/fashion/costumes/teacher/list__}}__mywc/fashion/costumes/teacher/base__
+      base:
+        - teacher,${teacher-list:" "}
       list:
         - __mywc/fashion/costumes/teacher/tops__
-        - __mywc/nsfw/pussy/fashion/teacher/bottoms__
+        - __mywc/fashion/costumes/teacher/bottoms__
+        - __mywc/fashion/costumes/teacher/footwears__
         - __mywc/fashion/costumes/teacher/accessories/do__
+      tops:
+        - formal jacket
+        - shirt
+        - vest
       bottoms:
-        - pencil skirt
-        - pants
+        - pencil skirt,{|{beige|black|brown} pantyhose}
+        - pants,{|{black|grey|white} socks}
+      footwears:
+        - heels
+        - pumps
+        - sandals
+        - shoes
+      accessories:
+        do:
+          - "{1-3$$__mywc/fashion/costumes/teacher/accessories/list__}"
+        list:
+          - glasses
+          - lanyard
+          - necktie
     thief:
       do:
-        - ${thief-list={0-1$$__mywc/nsfw/pussy/fashion/thief/list__}}__mywc/fashion/costumes/thief/base__
+        - ${thief-list={0-2$$__mywc/fashion/costumes/thief/list__}}__mywc/fashion/costumes/thief/base__
+      base:
+        - thief,__mywc/fashion/costumes/thief/color__ __mywc/fashion/costumes/thief/tops__,${thief-list:" "}
       list:
+        - __mywc/fashion/costumes/thief/footwears__
         - __mywc/fashion/costumes/thief/accessories/do__
+      tops:
+        - cape
+        - cloak
+        - tunic
+      footwears:
+        - boots
+        - shoes
+      accessories:
+        do:
+          - "{1-7$$__mywc/fashion/costumes/wizard/accessories/list__}"
+        list:
+          - dagger on waist
+          - gloves
+          - hood
+          - mask
+          - sash on waist
+          - scarf
+          - waist pouch
+      color:
+        - black
+        - brown
     travel-attendant:
       do:
-        - ${travel-attendant-list={0-2$$__mywc/nsfw/pussy/fashion/travel-attendant/list__}}__mywc/fashion/costumes/travel-attendant/base__
+        - ${travel-attendant-list={0-4$$__mywc/fashion/costumes/travel-attendant/list__}}__mywc/fashion/costumes/travel-attendant/base__
+      base:
+        - travel attendant,pencil skirt,${travel-attendant-list:" "}
       list:
         - __mywc/fashion/costumes/travel-attendant/gloves__
+        - __mywc/fashion/costumes/travel-attendant/socks__
+        - __mywc/fashion/costumes/travel-attendant/footwears__
         - __mywc/fashion/costumes/travel-attendant/accessories/do__
+      gloves:
+        - white {|elbow }gloves
+      socks:
+        - "{black|brown} pantyhose"
+      footwears:
+        - heels
+        - pumps
+      accessories:
+        do:
+          - "{1-6$$__mywc/fashion/costumes/travel-attendant/accessories/list__}"
+        list:
+          - badge
+          - corsage
+          - hat
+          - name tag
+          - neckerchief
+          - sash on waist
     traveling-marchant:
       do:
-        - ${traveling-marchant-list={0-2$$__mywc/nsfw/pussy/fashion/traveling-marchant/list__}}__mywc/fashion/costumes/traveling-marchant/base__
+        - ${traveling-marchant-list={0-3$$__mywc/fashion/costumes/traveling-marchant/list__}}__mywc/fashion/costumes/traveling-marchant/base__
+      base:
+        - marchant,__mywc/fashion/costumes/traveling-marchant/color__ __mywc/fashion/costumes/traveling-marchant/tops__,__mywc/fashion/costumes/traveling-marchant/bags/do__,${traveling-marchant-list:" "}
       list:
         - __mywc/fashion/costumes/traveling-marchant/bottoms__
+        - __mywc/fashion/costumes/traveling-marchant/footwears__
         - __mywc/fashion/costumes/traveling-marchant/accessories/do__
+      tops:
+        - "medieval {cape|cloak},{|tunik}"
+      bottoms:
+        - long skirt
+        - pants
+      footwears:
+        - socks,boots
+        - socks,shoes
+      bags:
+        do:
+          - huge backpack,{0-2$$__mywc/fashion/costumes/traveling-marchant/bags/option__}
+        option:
+          - pouch
+          - satchel
+      accessories:
+        do:
+          - "{1-3$$__mywc/fashion/costumes/traveling-marchant/accessories/list__}"
+        list:
+          - sash on waist
+          - scarf
+      color:
+        - " "
+        - green
+        - blue
+        - brown
     waitress:
       do:
-        - ${waitress-list={0-3$$__mywc/nsfw/pussy/fashion/waitress/list__}}__mywc/fashion/costumes/waitress/base__
+        - ${waitress-list={0-4$$__mywc/fashion/costumes/waitress/list__}}__mywc/fashion/costumes/waitress/base__
+      base:
+        - waitress,apron,${waitress-list:" "}
       list:
         - __mywc/fashion/costumes/waitress/tops__
-        - __mywc/nsfw/pussy/fashion/waitress/bottoms__
+        - __mywc/fashion/costumes/waitress/bottoms__
+        - __mywc/fashion/costumes/waitress/footwears__
         - __mywc/fashion/costumes/waitress/accessories/do__
+      tops:
+        - blouse
+        - shirt
+        - vest
       bottoms:
-        - "{|frilled} skirt"
-        - pants
+        - "{|frilled} skirt,{|{black|brown|white} pantyhose}"
+        - pants,socks
+      footwears:
+        - heels
+        - mary janes
+      accessories:
+        do:
+          - "{1-3$$__mywc/fashion/costumes/waitress/accessories/list__}"
+        list:
+          - "{bow|neck}tie"
+          - name tag
+          - sleeves rolled up
     warrior:
       do:
-        - ${warrior-list={0-3$$__mywc/nsfw/pussy/fashion/warrior/list__}}__mywc/fashion/costumes/warrior/base__
+        - ${warrior-list={0-4$$__mywc/fashion/costumes/warrior/list__}}__mywc/fashion/costumes/warrior/base__
+      base:
+        - __mywc/fashion/costumes/warrior/color__ warrior,__mywc/fashion/costumes/warrior/armors/do__,${warrior-list:" "}
       list:
         - __mywc/fashion/costumes/warrior/headwears__
         - __mywc/fashion/costumes/warrior/gloves__
+        - __mywc/fashion/costumes/warrior/footwears__
         - __mywc/fashion/costumes/warrior/accessories/do__
+      armors:
+        do:
+          - __mywc/fashion/costumes/warrior/armors/type__ armor
+        type:
+          - bikini
+          - iron {|breastplate}
+          - leather
+          - plated {|breastplate}
+          - scale {|breastplate}
+          - steel {|breastplate}
+      headwears:
+        - gorget,{|helmet}
+      gloves:
+        - gauntlets
+      footwears:
+        - boots,{|heel}
+      accessories:
+        do:
+          - "{1-3$$__mywc/fashion/costumes/warrior/accessories/list__}"
+        list:
+          - capelet
+          - faulds
+          - pauldrons
+      color:
+        - black
+        - gold
+        - silver
+        - white
+    wedding:
+      do:
+        - "{0-2$$ $$__mywc/fashion/costumes/wedding/list__} __mywc/fashion/costumes/wedding/color__ wedding dress,__mywc/fashion/costumes/wedding/accessories/do__"
+      list:
+        - __mywc/fashion/costumes/wedding/structions__
+        - __mywc/fashion/costumes/wedding/decorations__
+      structions:
+        - backless
+        - halter neck
+        - off-shoulder
+        - strapless
+      decorations:
+        - frilled
+        - lace trimmed
+      accessories:
+        do:
+          - "{0-2$$__mywc/fashion/costumes/wedding/accessories/list__}"
+        list:
+          - "{|elbow} gloves"
+          - veil
+      color:
+        - light blue
+        - light magenta
+        - light pink
+        - light yellow
+        - white
     witch:
       do:
-        - ${witch-list={0-1$$__mywc/nsfw/pussy/fashion/witch/list__}}__mywc/fashion/costumes/witch/base__
+        - ${witch-list={0-2$$__mywc/fashion/costumes/witch/list__}}__mywc/fashion/costumes/witch/base__
+      base:
+        - witch,__mywc/fashion/costumes/witch/cloths/do__,${witch-list:" "}
       list:
+        - __mywc/fashion/costumes/witch/footwears/do__
         - __mywc/fashion/costumes/witch/accessories/do__
+      cloths:
+        do:
+          - "{|__mywc/fashion/costumes/witch/cloths/option__} __mywc/fashion/costumes/witch/color/do__ __mywc/fashion/costumes/witch/cloths/list__,{|__mywc/fashion/costumes/witch/cloths/structions__}"
+        list:
+          - cocktail dress
+          - evening dress
+          - long dress
+        option:
+          - latex
+          - satin
+          - taut
+          - velvet
+        structions:
+          - long sleeves
+          - off-shoulder
+          - puffy {|long|short} sleeves
+          - short sleeves
+          - sleeveless
+      footwears:
+        do:
+          - __mywc/fashion/costumes/witch/footwears/socks__ {|short|long|thighhigh} boots
+        socks:
+          - " "
+          - fishnet pantyhose
+          - pantyhose
+          - thighhighs
+      accessories:
+        do:
+          - "{1-5$$__mywc/fashion/costumes/witch/accessories/list__}"
+        list:
+          - "{|elbow} gloves"
+          - choker
+          - hoop earrings
+          - pentagram charm
+          - witch hat
+      color:
+        do:
+          - black {|and __mywc/fashion/costumes/witch/color/list__}
+        list:
+          - gold
+          - green
+          - purple
+          - red
     winter:
       do:
-        - ${winter-bottoms=__mywc/nsfw/pussy/fashion/winter/bottoms__}${winter-list={0-1$$__mywc/nsfw/pussy/fashion/winter/list__}}__mywc/fashion/costumes/winter/base__
+        - ${winter-bottoms=__mywc/fashion/costumes/winter/bottoms__}${winter-list={0-2$$__mywc/fashion/costumes/winter/list__}}__mywc/fashion/costumes/winter/base__
+      base:
+        - __mywc/fashion/costumes/winter/tops__,${winter-bottoms:" "},${winter-list:" "}
       list:
+        - __mywc/fashion/costumes/winter/footwears/do__
         - __mywc/fashion/costumes/winter/accessories/do__
+      tops:
+        - collared coat
+        - down jacket
+        - duffel coat
+        - fur{|-trimmed} coat
+        - fur{|-trimmed} jacket
+        - hooded coat
+        - leather jacket
+        - long coat
+        - overcoat
+        - padded jacket
+        - parka
+        - quilted jacket
+        - trench coat
+        - winter coat
       bottoms:
-        - "{|long} {pants|skirt}"
-        - "pleated {pants|skirt}"
+        - "{|long} {pants|skirt,{|pantyhose}}"
+        - "pleated {pants|skirt,{|pantyhose}}"
         - jeans
-        - layered skirt
+        - layered skirt,{|pantyhose}
+      footwears:
+        do:
+          - __mywc/fashion/costumes/winter/footwears/color__ __mywc/fashion/costumes/winter/footwears/type__
+        type:
+          - "{|ankle|knee|long|middle|short} {|braided|fur{|-trimmed}} boots"
+          - "{snow|boots} boots"
+          - loafers
+          - shoes
+        color:
+          - " "
+          - black
+          - brown
+      accessories:
+        do:
+          - "{0-4$$__mywc/fashion/costumes/winter/accessories/list__}"
+        list:
+          - "{1-2$$__mywc/fashion/costumes/winter/accessories/face__}"
+          - __mywc/fashion/costumes/winter/accessories/head__
+          - __mywc/fashion/costumes/winter/accessories/neck__
+          - __mywc/fashion/costumes/winter/accessories/body__
+        head:
+          - beanie
+          - earmuffs
+          - fur hat
+          - paddy cap
+          - ushanka
+        face:
+          - "{|glasses}"
+          - "{|white|black} surgical mask"
+        neck:
+          - capelet
+          - scarf
+          - shawl
+        body:
+          - mittens
+    wizard:
+      do:
+        - wizard,__mywc/fashion/costumes/wizard/tops__,__mywc/fashion/costumes/wizard/accessories/do__
+      tops:
+        - hooded robe
+        - hooded cape
+        - hooded cloak
+        - hooded tunic
+      accessories:
+        do:
+          - "{0-2$$__mywc/fashion/costumes/wizard/accessories/list__}"
+        list:
+          - "{|leather {|cuirass}} gloves"
+          - hood up
   expression:
     random:
       - __mywc/nsfw/pussy/expression/list__,__mywc/nsfw/pussy/expression/option/do__
