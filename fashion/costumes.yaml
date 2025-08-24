@@ -1864,58 +1864,6 @@ costumes:
       - light pink
       - light yellow
       - white
-  witch:
-    do: >
-      ${witch-list={0-2$$__mywc/fashion/costumes/witch/list__}}
-      __mywc/fashion/costumes/witch/base__
-    base:
-      - witch,__mywc/fashion/costumes/witch/cloths/do__,${witch-list:" "}
-    list:
-      - __mywc/fashion/costumes/witch/footwears/do__
-      - __mywc/fashion/costumes/witch/accessories/do__
-    cloths:
-      do:
-        - "{|__mywc/fashion/costumes/witch/cloths/option__} __mywc/fashion/costumes/witch/color/do__ __mywc/fashion/costumes/witch/cloths/list__,{|__mywc/fashion/costumes/witch/cloths/structions__}"
-      list:
-        - cocktail dress
-        - evening dress
-        - long dress
-      option:
-        - latex
-        - satin
-        - taut
-        - velvet
-      structions:
-        - long sleeves
-        - off-shoulder
-        - puffy {|long|short} sleeves
-        - short sleeves
-        - sleeveless
-    footwears:
-      do:
-        - __mywc/fashion/costumes/witch/footwears/socks__ {|short|long|thighhigh} boots
-      socks:
-        - " "
-        - fishnet pantyhose
-        - pantyhose
-        - thighhighs
-    accessories:
-      do:
-        - "{1-5$$__mywc/fashion/costumes/witch/accessories/list__}"
-      list:
-        - "{|elbow} gloves"
-        - choker
-        - hoop earrings
-        - pentagram charm
-        - witch hat
-    color:
-      do:
-        - black {|and __mywc/fashion/costumes/witch/color/list__}
-      list:
-        - gold
-        - green
-        - purple
-        - red
   winter:
     do: >
       ${winter-bottoms=__mywc/fashion/costumes/winter/bottoms__}
@@ -1981,6 +1929,58 @@ costumes:
         - shawl
       body:
         - mittens
+  witch:
+    do: >
+      ${witch-list={0-2$$__mywc/fashion/costumes/witch/list__}}
+      __mywc/fashion/costumes/witch/base__
+    base:
+      - witch,__mywc/fashion/costumes/witch/cloths/do__,${witch-list:" "}
+    list:
+      - __mywc/fashion/costumes/witch/footwears/do__
+      - __mywc/fashion/costumes/witch/accessories/do__
+    cloths:
+      do:
+        - "{|__mywc/fashion/costumes/witch/cloths/option__} __mywc/fashion/costumes/witch/color/do__ __mywc/fashion/costumes/witch/cloths/list__,{|__mywc/fashion/costumes/witch/cloths/structions__}"
+      list:
+        - cocktail dress
+        - evening dress
+        - long dress
+      option:
+        - latex
+        - satin
+        - taut
+        - velvet
+      structions:
+        - long sleeves
+        - off-shoulder
+        - puffy {|long|short} sleeves
+        - short sleeves
+        - sleeveless
+    footwears:
+      do:
+        - __mywc/fashion/costumes/witch/footwears/socks__ {|short|long|thighhigh} boots
+      socks:
+        - " "
+        - fishnet pantyhose
+        - pantyhose
+        - thighhighs
+    accessories:
+      do:
+        - "{1-5$$__mywc/fashion/costumes/witch/accessories/list__}"
+      list:
+        - "{|elbow} gloves"
+        - choker
+        - hoop earrings
+        - pentagram charm
+        - witch hat
+    color:
+      do:
+        - black {|and __mywc/fashion/costumes/witch/color/list__}
+      list:
+        - gold
+        - green
+        - purple
+        - red
   wizard:
     do: >
       ${wizard-list=__mywc/fashion/costumes/wizard/tops__,{0-1$$__mywc/fashion/costumes/wizard/list__}}
@@ -2001,36 +2001,56 @@ costumes:
         - "{|leather {|cuirass}} gloves"
         - hood up
   sample:
-    do: >
-      ${sample-list={0-6$$__mywc/fashion/setups/sample/list__}}
-      __mywc/fashion/costumes/sample/base__
+    do:
+      - __mywc/fashion/costumes/sample/base__
     base:
-      - sample,${sample-list:" "}
+      - sample,${sample-list:{0-6$$__mywc/fashion/costumes/sample/list__}}
     list:
-      - __mywc/fashion/setups/sample/tops__
-      - __mywc/fashion/setups/sample/bottoms__
-      - __mywc/fashion/setups/sample/gloves__
-      - __mywc/fashion/setups/sample/socks__
-      - __mywc/fashion/setups/sample/footwears__
-      - __mywc/fashion/setups/sample/accessories/do__
+      - ${sample-tops:__mywc/fashion/costumes/sample/tops__}
+      - ${sample-bottoms:__mywc/fashion/costumes/sample/bottoms__}
+      - ${sample-gloves:__mywc/fashion/costumes/sample/gloves__}
+      - ${sample-socks:__mywc/fashion/costumes/sample/socks__}
+      - ${sample-footwears:__mywc/fashion/costumes/sample/footwears__}
+      - ${sample-accessories:__mywc/fashion/costumes/sample/accessories/do__}
     tops:
+      - shirt
+      - sweater
     bottoms:
+      - pants
+      - skirt
     gloves:
+      - gloves
     socks:
+      - pantyhose
+      - socks
     footwears:
+      - boots
+      - sneakers
     accessories:
       do:
-        - "{0-6$$__mywc/fashion/setups/sample/accessories/list__}"
+        - "{0-6$$__mywc/fashion/costumes/sample/accessories/list__}"
       list:
-        - __mywc/fashion/setups/sample/accessories/head/__
-        - __mywc/fashion/setups/sample/accessories/face/__
-        - __mywc/fashion/setups/sample/accessories/neck/__
-        - __mywc/fashion/setups/sample/accessories/hand/__
-        - __mywc/color__ __mywc/fashion/setups/sample/accessories/bags__
-        - __mywc/color__ __mywc/fashion/setups/sample/accessories/one-points__
+        - __mywc/fashion/costumes/sample/accessories/head/__
+        - __mywc/fashion/costumes/sample/accessories/face/__
+        - __mywc/fashion/costumes/sample/accessories/neck/__
+        - __mywc/fashion/costumes/sample/accessories/hand/__
+        - __mywc/color__ __mywc/fashion/costumes/sample/accessories/bags__
+        - __mywc/color__ __mywc/fashion/costumes/sample/accessories/one-points__
       head:
+        - headpin
+        - hut
       face:
+        - glasses
+        - surgical mask
       neck:
+        - necklace
+        - pendant
       hand:
+        - armlet
+        - bracelet
       bags:
+        - bags
+        - shoulder bag
       one-points:
+        - belt
+        - corsage
