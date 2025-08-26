@@ -42,7 +42,7 @@ costumes:
     - __mywc/fashion/costumes/prince/do__
     - __mywc/fashion/costumes/princess/do__
     - __mywc/fashion/costumes/race-queen/do__
-    - __mywc/fashion/costumes/rainy__
+    - __mywc/fashion/costumes/rainy/do__
     - __mywc/fashion/costumes/sailor/do__
     - __mywc/fashion/costumes/santa/do__
     - __mywc/fashion/costumes/school/do__
@@ -120,7 +120,7 @@ costumes:
       - ${ballerina-cloths:__mywc/fashion/costumes/ballerina/cloths__}
       - ${ballerina-socks:__mywc/fashion/costumes/ballerina/socks__}
       - ${ballerina-footwears:__mywc/fashion/costumes/ballerina/footwears__}
-      - ${ballerina-accessories:__mywc/fashion/costumes/ballerina/accessories__}
+      - ${ballerina-accessories:__mywc/fashion/costumes/ballerina/accessories/do__}
     cloths:
       - ballet dress
       - leotard{|,tutu}
@@ -129,7 +129,10 @@ costumes:
     footwears:
       - ballet {shoes|slippers}
     accessories:
-      - tiara
+      do:
+        - "{1-1$$__mywc/fashion/costumes/ballerina/accessories/list__}"
+      list:
+        - tiara
     colors:
       - " "
       - black
@@ -415,7 +418,7 @@ costumes:
       bottoms:
         - denim shorts
         - dolphin shorts
-        - shorts,{|drawstring}
+        - shorts{|,drawstring}
       unis:
         - babydoll
         - camisole
