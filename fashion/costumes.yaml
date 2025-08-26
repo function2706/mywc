@@ -333,6 +333,7 @@ costumes:
       chef,
       ${chef-list:{0-1$$__mywc/fashion/costumes/chef/list__}}
     list:
+      - " "
       - ${chef-accessories:__mywc/fashion/costumes/chef/accessories/do__}
     accessories:
       do:
@@ -406,6 +407,7 @@ costumes:
       ${cool-sets-minimum:${cool-sets-cloths:__mywc/fashion/costumes/cool-sets/cloths/do__}},
       ${cool-sets-list:{0-1$$__mywc/fashion/costumes/cool-sets/list__}}
     list:
+      - " "
       - ${cool-sets-accessories:__mywc/fashion/costumes/cool-sets/accessories/do__}
     cloths:
       do:
@@ -464,6 +466,7 @@ costumes:
       ${dancer-minimum:${dancer-cloths:__mywc/fashion/costumes/dancer/cloths__}},
       ${dancer-list:{0-1$$__mywc/fashion/costumes/dancer/list__}}
     list:
+      - " "
       - ${dancer-accessories:__mywc/fashion/costumes/dancer/accessories/do__}
     cloths:
       - arabian clothes
@@ -1213,6 +1216,7 @@ costumes:
       ${prince-minimum:{deep green|white|wine red} jacket,epaulettes,pants},
       ${prince-list:{0-1$$__mywc/fashion/costumes/prince/list__}}
     list:
+      - " "
       - __mywc/fashion/costumes/prince/accessories/do__
     accessories:
       do:
@@ -1284,6 +1288,7 @@ costumes:
       raincoat,
       ${rainy-list:{0-1$$__mywc/fashion/costumes/rainy/list__}}
     list:
+      - " "
       - ${rainy-footwears:__mywc/fashion/costumes/rainy/footwears__}
     footwears:
       - rain boots
@@ -1293,6 +1298,7 @@ costumes:
       ${sailor-minimum:${sailor-tops:__mywc/fashion/costumes/sailor/tops__},naval pants},
       ${sailor-list:{0-1$$__mywc/fashion/costumes/sailor/list__}}
     list:
+      - " "
       - ${sailor-accessories:__mywc/fashion/costumes/sailor/accessories/do__}
     tops:
       - "{|blazer} jacket,{|epaulettes}"
@@ -1428,9 +1434,10 @@ costumes:
       - green
   sports:
     do: >-
-      {6::__mywc/fashion/costumes/sports/type__ uniform|1::leotard},
+      __mywc/fashion/costumes/sports/type__ uniform,
       ${sports-list:{0-1$$__mywc/fashion/costumes/sports/list__}}
     list:
+      - " "
       - ${sports-accessories:__mywc/fashion/costumes/sports/accessories/do__}
     type:
       - baseball
@@ -1521,7 +1528,7 @@ costumes:
       ${swimwear-minimum:${swimwear-cloths:__mywc/fashion/costumes/swimwear/cloths/do__}},
       ${swimwear-list:{0-2$$__mywc/fashion/costumes/swimwear/list__}}
     list:
-      - ${swimwear-footwears:__mywc/fashion/costumes/swimwear/footwears/do__}
+      - ${swimwear-footwears:__mywc/fashion/costumes/swimwear/footwears__}
       - ${swimwear-accessories:__mywc/fashion/costumes/swimwear/accessories/do__}
     cloths:
       do:
@@ -1737,6 +1744,7 @@ costumes:
       ${warm-sets-minimum:${warm-sets-tops:__mywc/fashion/costumes/warm-sets/tops__},${warm-sets-bottoms:__mywc/fashion/costumes/warm-sets/bottoms__}},
       ${warm-sets-list:{0-1$$__mywc/fashion/costumes/warm-sets/list__}}
     list:
+      - " "
       - ${warm-sets-accessories:__mywc/fashion/costumes/warm-sets/accessories/do__}
     tops:
       - cardigan,{|sleeves {pushed|rolled} up}
@@ -1800,6 +1808,7 @@ costumes:
       ${wedding-minimum:${wedding-cloths:__mywc/fashion/costumes/wedding/cloths/do__}},
       ${wedding-list:{0-1$$__mywc/fashion/costumes/wedding/list__}}
     list:
+      - " "
       - ${wedding-accessories:__mywc/fashion/costumes/wedding/accessories/do__}
     cloths:
       do:
@@ -1946,6 +1955,7 @@ costumes:
       ${wizard-minimum:${wizard-tops:__mywc/fashion/costumes/wizard/tops__}},
       ${wizard-list:{0-1$$__mywc/fashion/costumes/wizard/list__}}
     list:
+      - " "
       - ${wizard-accessories:__mywc/fashion/costumes/wizard/accessories/do__}
     tops:
       - hooded robe

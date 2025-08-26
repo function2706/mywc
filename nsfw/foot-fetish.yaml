@@ -320,6 +320,7 @@ foot-fetish:
         ${bathing-list={0-1$$__mywc/nsfw/foot-fetish/fashion/bathing/list__}}
         __mywc/fashion/costumes/bathing/do__
       list:
+        - " "
         - __mywc/fashion/costumes/bathing/accessories/do__
     bdsm:
       do: >-
@@ -330,9 +331,10 @@ foot-fetish:
         - __mywc/fashion/costumes/bdsm/accessories/do__
     bedding:
       do: >-
-        ${bedding-list={0-2$$__mywc/nsfw/foot-fetish/fashion/bedding/list__}}
+        ${bedding-list={0-1$$__mywc/nsfw/foot-fetish/fashion/bedding/list__}}
         __mywc/fashion/costumes/bedding/do__
       list:
+        - " "
         - __mywc/fashion/costumes/bedding/accessories/do__
     bunny-girl:
       do: >-
@@ -367,7 +369,7 @@ foot-fetish:
     cool-sets:
       do: >-
         ${cool-sets-accessories=__mywc/nsfw/foot-fetish/fashion/cool-sets/accessories/do__}
-        __mywc/fashion/costumes/commander/do__
+        __mywc/fashion/costumes/cool-sets/do__
       accessories:
         do:
           - "{1-1$$__mywc/fashion/costumes/cool-sets/accessories/list__}"
@@ -441,6 +443,7 @@ foot-fetish:
         ${japan-list={0-1$$__mywc/nsfw/foot-fetish/fashion/japan/list__}}
         __mywc/fashion/costumes/japan/do__
       list:
+        - " "
         - __mywc/fashion/costumes/japan/accessories/do__
     magical:
       do: >-
@@ -506,8 +509,11 @@ foot-fetish:
         __mywc/fashion/costumes/office-lady/do__
       list:
         - __mywc/fashion/costumes/office-lady/tops__
-        - __mywc/fashion/costumes/office-lady/bottoms__
+        - __mywc/nsfw/foot-fetish/fashion/office-lady/bottoms__
         - __mywc/fashion/costumes/office-lady/accessories/do__
+      bottoms:
+        - pencil skirt
+        - pants
     pirate:
       do: >-
         ${pirate-list={0-3$$__mywc/nsfw/foot-fetish/fashion/pirate/list__}}
@@ -538,6 +544,7 @@ foot-fetish:
         ${santa-list={0-1$$__mywc/nsfw/foot-fetish/fashion/santa/list__}}
         __mywc/fashion/costumes/santa/do__
       list:
+        - " "
         - __mywc/fashion/costumes/santa/accessories/do__
     school:
       do: >-
@@ -571,12 +578,14 @@ foot-fetish:
         ${summer-list={0-1$$__mywc/nsfw/foot-fetish/fashion/summer/list__}}
         __mywc/fashion/costumes/summer/do__
       list:
+        - " "
         - __mywc/fashion/costumes/summer/accessories/do__
     swimwear:
       do: >-
         ${swimwear-list={0-1$$__mywc/nsfw/foot-fetish/fashion/swimwear/list__}}
         __mywc/fashion/costumes/swimwear/do__
       list:
+        - " "
         - __mywc/fashion/costumes/swimwear/accessories/do__
     teacher:
       do: >-
@@ -594,6 +603,7 @@ foot-fetish:
         ${thief-list={0-1$$__mywc/nsfw/foot-fetish/fashion/thief/list__}}
         __mywc/fashion/costumes/thief/do__
       list:
+        - " "
         - __mywc/fashion/costumes/thief/accessories/do__
     travel-attendant:
       do: >-
@@ -622,7 +632,7 @@ foot-fetish:
         - pants
     warm-sets:
       do: >-
-        ${warm-sets-accessories:__mywc/nsfw/foot-fetish/fashion/warm-sets/accessories/do__}
+        ${warm-sets-accessories=__mywc/nsfw/foot-fetish/fashion/warm-sets/accessories/do__}
         __mywc/fashion/costumes/warm-sets/do__
       accessories:
         do:
@@ -644,6 +654,7 @@ foot-fetish:
         ${winter-list={0-1$$__mywc/nsfw/foot-fetish/fashion/winter/list__}}
         __mywc/fashion/costumes/winter/do__
       list:
+        - " "
         - __mywc/fashion/costumes/winter/accessories/do__
       bottoms:
         - "{|long} {pants|skirt}"
@@ -655,6 +666,7 @@ foot-fetish:
         ${witch-list={0-1$$__mywc/nsfw/foot-fetish/fashion/witch/list__}}
         __mywc/fashion/costumes/witch/do__
       list:
+        - " "
         - __mywc/fashion/costumes/witch/accessories/do__
   expression:
     random:
