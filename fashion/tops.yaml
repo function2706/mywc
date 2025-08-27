@@ -106,13 +106,13 @@ tops:
         - bustier
         - camisole
         - compression shirt
-        - gym shirt,{|{long|short} sleeves|sleeves {pushed|rolled} up}
+        - gym shirt{|,{long|short} sleeves|sleeves {pushed|rolled} up}
         - mesh top
         - tunic
-        - turtleneck shirt,{|sleeveless|sleeves {pushed|rolled} up}
+        - turtleneck shirt{|,sleeveless|sleeves {pushed|rolled} up}
       t-shirts:
         do:
-          - "{0-2$$ $$__mywc/fashion/tops/inners/without-buttons/t-shirts/list__} {t-|__mywc/fashion/tops/inners/without-buttons/t-shirts/type__ }shirt,{|__mywc/fashion/tops/inners/without-buttons/t-shirts/structions__}"
+          - "{0-2$$ $$__mywc/fashion/tops/inners/without-buttons/t-shirts/list__} {t-|__mywc/fashion/tops/inners/without-buttons/t-shirts/type__ }shirt{|,__mywc/fashion/tops/inners/without-buttons/t-shirts/structions__}"
         list:
           - __mywc/fashion/tops/inners/without-buttons/t-shirts/decorations__
           - __mywc/fashion/tops/inners/without-buttons/t-shirts/patterns__
@@ -147,7 +147,7 @@ tops:
           - vertical-striped
       sweaters:
         do:
-          - "__mywc/fashion/tops/inners/without-buttons/sweaters/type__ sweater,{|__mywc/fashion/tops/inners/without-buttons/sweaters/structions__}"
+          - "__mywc/fashion/tops/inners/without-buttons/sweaters/type__ sweater{|,__mywc/fashion/tops/inners/without-buttons/sweaters/structions__}"
         type:
           - cropped
           - knit
@@ -165,7 +165,7 @@ tops:
         - sideless shirt,__mywc/fashion/tops/inners/with-buttons/shirts/structions__
       shirts:
         do:
-          - "{0-2$$ $$__mywc/fashion/tops/inners/with-buttons/shirts/list__} collared shirt,{|__mywc/fashion/tops/inners/with-buttons/shirts/structions__}"
+          - "{0-2$$ $$__mywc/fashion/tops/inners/with-buttons/shirts/list__} collared shirt{|,__mywc/fashion/tops/inners/with-buttons/shirts/structions__}"
         list:
           - __mywc/fashion/tops/inners/with-buttons/shirts/decorations__
           - __mywc/fashion/tops/inners/with-buttons/shirts/patterns__
@@ -229,7 +229,7 @@ tops:
   nsfw:
     do:
       - topless
-      - __mywc/fashion/tops/bras/do__,{|breast slip}
+      - __mywc/fashion/tops/bras/do__{|,breast slip}
       - __mywc/fashion/tops/nsfw/outers__
       - __mywc/fashion/tops/nsfw/inners__
     outers:
