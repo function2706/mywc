@@ -101,28 +101,10 @@ pussy:
       - " "
       - "{1-3$$__mywc/fashion/tops/random__|__mywc/fashion/bottoms/random__|__mywc/fashion/accessories/random__}"
       - "{1-2$$__mywc/fashion/unis/random__|__mywc/fashion/accessories/random__}"
-      - __mywc/nsfw/pussy/fashion/costumes__
-    costumes:
-      - __mywc/fashion/costumes/artist/do__
-    artist:
-      do:
-        - artist painter,{brown|green} apron,{0-3$$__mywc/fashion/costumes/artist/list__}
-      list:
-        - __mywc/fashion/costumes/artist/tops__
-        - __mywc/fashion/costumes/artist/bottoms__
-        - __mywc/fashion/costumes/artist/accessories/do__
-      tops:
-        - shirt
-      bottoms:
-        - skirts
-        - pants
-      accessories:
-        do:
-          - "{1-2$$__mywc/fashion/costumes/artist/accessories/list__}"
-        list:
-          - beret
-          - glasses
-          - paint on clothes
+      - __mywc/fashion/costumes/random__
+    #  - __mywc/nsfw/pussy/fashion/costumes__
+    #costumes:
+    #  - __mywc/fashion/costumes/artist/do__
   expression:
     random:
       - __mywc/nsfw/pussy/expression/list__,__mywc/nsfw/pussy/expression/option/do__
