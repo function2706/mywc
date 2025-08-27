@@ -1,12 +1,12 @@
 color:
-  - "{|deep|light} blue"
-  - "{|deep|light} green"
-  - "{|deep|light} magenta"
-  - "{|deep|light} orange"
-  - "{|deep|light} pink"
-  - "{|deep|light} purple"
-  - "{|deep|light} red"
-  - "{|deep|light} yellow"
+  - "{|deep |light }blue"
+  - "{|deep |light }green"
+  - "{|deep |light }magenta"
+  - "{|deep |light }orange"
+  - "{|deep |light }pink"
+  - "{|deep |light }purple"
+  - "{|deep |light }red"
+  - "{|deep |light }yellow"
   - amber
   - amethyst
   - aqua

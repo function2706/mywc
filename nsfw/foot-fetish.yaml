@@ -468,15 +468,15 @@ foot-fetish:
         ${marching-band-bottoms=__mywc/nsfw/foot-fetish/fashion/marching-band/bottoms__}
         __mywc/fashion/costumes/marching-band/do__
       bottoms:
-        - "{|mini} skirt"
+        - "{|mini }skirt"
         - pants
     musician:
       do: >-
         ${musician-bottoms=__mywc/nsfw/foot-fetish/fashion/musician/bottoms__}
         __mywc/fashion/costumes/musician/do__
       bottoms:
-        - "{|leather|torn} {jeans|pants}"
-        - "{|leather|torn} {shorts|skirt}"
+        - "{|leather |torn }{jeans|pants}"
+        - "{|leather |torn }{shorts|skirt}"
     ninja:
       do: >-
         ${ninja-list={0-3$$__mywc/nsfw/foot-fetish/fashion/ninja/list__}}
@@ -628,7 +628,7 @@ foot-fetish:
         - __mywc/nsfw/foot-fetish/fashion/waitress/bottoms__
         - __mywc/fashion/costumes/waitress/accessories/do__
       bottoms:
-        - "{|frilled} skirt"
+        - "{|frilled }skirt"
         - pants
     warm-sets:
       do: >-
@@ -657,7 +657,7 @@ foot-fetish:
         - " "
         - __mywc/fashion/costumes/winter/accessories/do__
       bottoms:
-        - "{|long} {pants|skirt}"
+        - "{|long }{pants|skirt}"
         - "pleated {pants|skirt}"
         - jeans
         - layered skirt

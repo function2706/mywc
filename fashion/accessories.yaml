@@ -19,11 +19,11 @@ accessories:
         - __mywc/color__ __mywc/fashion/accessories/head/hats/list__
         - __mywc/color__ __mywc/fashion/accessories/head/hats/list__,__mywc/fashion/accessories/head/hats/arrangements__
       list:
-        - "{|bow|frilled|lolita} headband"
-        - "{|mini} crown"
-        - "{|mini} hat"
-        - "{|mini} top hat"
-        - "{|triangular} headpiece"
+        - "{|bow |frilled |lolita }headband"
+        - "{|mini }crown"
+        - "{|mini }hat"
+        - "{|mini }top hat"
+        - "{|triangular }headpiece"
         - "{witch|wizard} hat"
         - backwards hat
         - bandana
@@ -77,13 +77,13 @@ accessories:
         - veil
         - visor cap
       arrangements:
-        - "{|crescent|heart|star} hat ornament"
+        - "{|crescent |heart |star }hat ornament"
         - hat bow
         - hat feather
         - hat flower
         - hat ribbon
     ornaments:
-      - "{|crescent|heart|star} head ornament"
+      - "{|crescent |heart |star }head ornament"
       - "{eyewear|goggles} on head"
       - head bow
       - head flower
@@ -114,19 +114,19 @@ accessories:
       - sunglasses
       - tinted glasses
     face:
-      - "{|white|black} surgical mask"
+      - "{|white |black }surgical mask"
       - bandaid on {cheek|nose}
       - bindi
     ear:
-      - "{|cross|hoop|star|heart|stud} earrings"
+      - "{|cross |hoop |star |heart |stud }earrings"
   neck:
     do:
       - __mywc/color__ __mywc/fashion/accessories/neck/list__
     list:
-      - "{|bead|chain|cross|heart|pearl} necklace"
-      - "{|bell|belt|spiked} collar"
-      - "{|frilled} choker"
-      - "{|loose} necktie"
+      - "{|bead |chain |cross |heart |pearl }necklace"
+      - "{|bell |belt |spiked }collar"
+      - "{|frilled }choker"
+      - "{|loose }necktie"
       - ascot
       - bow tie
       - brooch
@@ -146,7 +146,7 @@ accessories:
       - __mywc/fashion/accessories/hand/barehand/do__
     gloves:
       do:
-        - "{|elbow} gloves"
+        - "{|elbow }gloves"
         - cleaning gloves
         - evening gloves,__mywc/fashion/accessories/hand/gloves/elbow__
         - fingerless gloves
@@ -186,7 +186,7 @@ accessories:
           - red
           - yellow
   bags:
-    - "{|belt|waist} pouch"
+    - "{|belt |waist }pouch"
     - bag
     - clutch bag
     - handbag

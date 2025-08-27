@@ -12,7 +12,7 @@ tops:
       do:
         - __mywc/fashion/tops/outers/jackets/list__,__mywc/fashion/tops/outers/jackets/state__
       list:
-        - "{|butler} tailcoat"
+        - "{|butler }tailcoat"
         - blazer jacket
         - bomber jacket
         - cardigan
@@ -97,11 +97,11 @@ tops:
         - __mywc/fashion/tops/inners/without-buttons/t-shirts/do__
         - __mywc/fashion/tops/inners/without-buttons/sweaters/do__
       list:
-        - "{|camouflage|polka dot|striped} hooded shirt"
-        - "{|camouflage|polka dot|striped} parka"
-        - "{|camouflage|plaid|polka dot|striped} strapless shirt"
-        - "{|camouflage|plaid|polka dot|striped} tank top"
-        - "{|camouflage|plaid|polka dot|striped} taut shirt"
+        - "{|camouflage |polka dot |striped }hooded shirt"
+        - "{|camouflage |polka dot |striped }parka"
+        - "{|camouflage |plaid |polka dot |striped }strapless shirt"
+        - "{|camouflage |plaid |polka dot |striped }tank top"
+        - "{|camouflage |plaid |polka dot |striped }taut shirt"
         - babydoll
         - bustier
         - camisole
@@ -200,12 +200,12 @@ tops:
       - __mywc/color__ __mywc/fashion/tops/bras/list__
       - __mywc/color__ __mywc/fashion/tops/bras/random/do__
     list:
-      - "{|heart|star|cross|bandaids on} pasties"
+      - "{|heart |star |cross |bandaids on }pasties"
       - bandeau
       - cupless bra
       - latex bra
       - tube top
-      - "{|__mywc/fashion/tops/bras/random/patterns__} {sports|training} bra"
+      - "{|__mywc/fashion/tops/bras/random/patterns__ }{sports |training }bra"
     random:
       do:
         - "{0-2$$ $$__mywc/fashion/tops/bras/random/list__} __mywc/fashion/tops/bras/random/base__"

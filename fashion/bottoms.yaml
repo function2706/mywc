@@ -35,8 +35,8 @@ bottoms:
       do:
         - __mywc/fashion/bottoms/pants/random/option/do__ __mywc/fashion/bottoms/pants/random/base__
       base:
-        - "{|capri} pants"
-        - "{|micro|short} shorts"
+        - "{|capri }pants"
+        - "{|micro |short }shorts"
       option:
         do:
           - "{0-3$$ $$__mywc/fashion/bottoms/pants/random/option/list__}"
