@@ -123,11 +123,11 @@ pussy:
       - __mywc/nsfw/pussy/fashion/bartender/do__
       - __mywc/fashion/costumes/bathing/do__
       - __mywc/nsfw/pussy/fashion/bdsm/do__
-      - __mywc/fashion/costumes/bedding/do__
-      - __mywc/fashion/costumes/bunny-girl/do__
-      - __mywc/fashion/costumes/cheerleader/do__
-      - __mywc/fashion/costumes/chef/do__
-      - __mywc/fashion/costumes/china/do__
+      - __mywc/nsfw/pussy/fashion/bedding/do__
+      - __mywc/nsfw/pussy/fashion/bunny-girl/do__
+      - __mywc/nsfw/pussy/fashion/cheerleader/do__
+      - __mywc/fashion/costumes/chef/do__,__mywc/nsfw/pussy/fashion/panty-state__
+      - __mywc/fashion/costumes/china/do__,__mywc/nsfw/pussy/fashion/panty-state__
       - __mywc/fashion/costumes/commander/do__
       - __mywc/fashion/costumes/cool-sets/do__
       - __mywc/fashion/costumes/cross-dressing/do__
@@ -213,7 +213,7 @@ pussy:
         - __mywc/fashion/costumes/bartender/tops__
         - __mywc/fashion/costumes/bartender/accessories/do__
       bottoms:
-        - __mywc/fashion/bottoms/panties/do__,panty {aside|pull}
+        - __mywc/fashion/bottoms/panties/do__,__mywc/nsfw/pussy/fashion/panty-state__
     bdsm:
       do: >-
         ${bdsm-color=!__mywc/fashion/costumes/bdsm/color__}
@@ -226,12 +226,30 @@ pussy:
         - __mywc/fashion/costumes/bdsm/accessories/do__
     bedding:
       do: >-
-        ${bedding-cloths=__mywc/fnsfw/pussy/fashion/bedding/cloths__},
+        ${bedding-cloths=__mywc/fnsfw/pussy/fashion/bedding/cloths__}
         __mywc/fashion/costumes/bedding/do__
       cloths:
         - negligee,__mywc/nsfw/pussy/fashion/panty-state__
         - nightwear,__mywc/nsfw/pussy/fashion/panty-state__
         - pajamas,__mywc/nsfw/pussy/fashion/pants-state__
+    bunny-girl:
+      do: >-
+        ${bunny-girl-list={0-3$$__mywc/nsfw/pussy/fashion/bunny-girl/list__}}
+      list:
+        - __mywc/fashion/costumes/bunny-girl/cloths__
+        - __mywc/fashion/costumes/bunny-girl/footwears__
+        - __mywc/fashion/costumes/bunny-girl/accessories/do__
+    cheerleader:
+      do: >-
+        ${cheerleader-list={0-4$$__mywc/nsfw/pussy/fashion/cheerleader/list__}}
+        __mywc/fashion/costumes/barista/do__
+      list:
+        - __mywc/fashion/costumes/cheerleader/tops__
+        - __mywc/nsfw/pussy/fashion/cheerleader/bottoms__
+        - __mywc/fashion/costumes/cheerleader/footwears__
+        - __mywc/fashion/costumes/cheerleader/accessories/do__
+      bottoms:
+        - pleated {|mini }skirt,__mywc/nsfw/pussy/fashion/panty-state__
 
   expression:
     random:
