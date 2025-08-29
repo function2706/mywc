@@ -117,12 +117,12 @@ pussy:
       - __mywc/fashion/footwears/barefeet/do__
     costumes:
       - __mywc/nsfw/pussy/fashion/artist/do__
-      - __mywc/fashion/costumes/assassin/do__
+      - __mywc/fashion/costumes/assassin/do__,__mywc/nsfw/pussy/fashion/panty-state__
       - __mywc/nsfw/pussy/fashion/ballerina/do__
-      - __mywc/fashion/costumes/barista/do__
-      - __mywc/fashion/costumes/bartender/do__
+      - __mywc/nsfw/pussy/fashion/barista/do__
+      - __mywc/nsfw/pussy/fashion/bartender/do__
       - __mywc/fashion/costumes/bathing/do__
-      - __mywc/fashion/costumes/bdsm/do__
+      - __mywc/nsfw/pussy/fashion/bdsm/do__
       - __mywc/fashion/costumes/bedding/do__
       - __mywc/fashion/costumes/bunny-girl/do__
       - __mywc/fashion/costumes/cheerleader/do__
@@ -178,20 +178,61 @@ pussy:
       - __mywc/fashion/costumes/winter/do__
       - __mywc/fashion/costumes/witch/do__
       - __mywc/fashion/costumes/wizard/do__
+    panty-state:
+      - " "
+      - panty {aside|pull}
+    pants-state:
+      - pants pull,__mywc/nsfw/pussy/fashion/panty-state__
     artist:
       do: >-
-        ${artist-bottoms=__mywc/nsfw/pussy/fashion/artist/bottoms__},
+        ${artist-bottoms=__mywc/nsfw/pussy/fashion/artist/bottoms__}
         __mywc/fashion/costumes/artist/do__
       bottoms:
-        - skirts{|,__mywc/fashion/bottoms/panties/do__,panty {aside|pull}}
+        - skirts,__mywc/nsfw/pussy/fashion/panty-state__
+        - pants,__mywc/nsfw/pussy/fashion/pants-state__
     ballerina:
       do: >-
-        ${ballerina-list={0-3$$__mywc/nsfw/pussy/fashion/ballerina/list__}},
+        ${ballerina-list={0-3$$__mywc/nsfw/pussy/fashion/ballerina/list__}}
         __mywc/fashion/costumes/ballerina/do__
       list:
-        - __mywc/fashion/costumes/ballerina/cloths__
+        - __mywc/nsfw/pussy/fashion/ballerina/cloths__
         - __mywc/fashion/costumes/ballerina/footwears__
         - __mywc/fashion/costumes/ballerina/accessories/do__
+      cloths:
+        - ballet dress
+        - leotard{|,tutu},__mywc/nsfw/pussy/fashion/panty-state__
+    barista:
+      do: >-
+        ${barista-bottoms=__mywc/fashion/costumes/barista/bottoms__,__mywc/nsfw/pussy/fashion/pants-state__}}
+        __mywc/fashion/costumes/barista/do__
+    bartender:
+      do: >-
+        ${bartender-minimum=white shirt,pants,__mywc/nsfw/pussy/fashion/pants-state__}
+        __mywc/fashion/costumes/barista/do__
+      list:
+        - __mywc/fashion/costumes/bartender/tops__
+        - __mywc/fashion/costumes/bartender/accessories/do__
+      bottoms:
+        - __mywc/fashion/bottoms/panties/do__,panty {aside|pull}
+    bdsm:
+      do: >-
+        ${bdsm-color=!__mywc/fashion/costumes/bdsm/color__}
+        ${bdsm-bottoms=__mywc/fashion/costumes/bdsm/bottoms__,__mywc/nsfw/pussy/fashion/panty-state__}
+        ${bdsm-list={0-3$$__mywc/nsfw/pussy/fashion/bdsm/list__}}
+        __mywc/fashion/costumes/bdsm/do__
+      list:
+        - ${bdsm-color:black} __mywc/fashion/costumes/bdsm/gloves__
+        - ${bdsm-color:black} __mywc/fashion/costumes/bdsm/footwears/do__
+        - __mywc/fashion/costumes/bdsm/accessories/do__
+    bedding:
+      do: >-
+        ${bedding-cloths=__mywc/fnsfw/pussy/fashion/bedding/cloths__},
+        __mywc/fashion/costumes/bedding/do__
+      cloths:
+        - negligee,__mywc/nsfw/pussy/fashion/panty-state__
+        - nightwear,__mywc/nsfw/pussy/fashion/panty-state__
+        - pajamas,__mywc/nsfw/pussy/fashion/pants-state__
+
   expression:
     random:
       - __mywc/nsfw/pussy/expression/list__,__mywc/nsfw/pussy/expression/option/do__
