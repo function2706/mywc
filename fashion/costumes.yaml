@@ -420,6 +420,7 @@ costumes:
       bottoms:
         - denim shorts
         - dolphin shorts
+        - skirt
         - shorts{|,drawstring}
       unis:
         - babydoll
@@ -433,7 +434,8 @@ costumes:
   cross-dressing:
     do: >-
       __mywc/fashion/costumes/cross-dressing/color__ formal cloths,
-      ${suit-list:{0-3$$pants,__mywc/fashion/costumes/cross-dressing/list__}}
+      ${cross-dressing-minimum:pants},
+      ${closs-dressing-list:{0-3$$__mywc/fashion/costumes/cross-dressing/list__}}
     list:
       - ${closs-dressing-tops:__mywc/fashion/costumes/cross-dressing/tops__}
       - ${closs-dressing-gloves:__mywc/fashion/costumes/cross-dressing/gloves__}
@@ -753,9 +755,9 @@ costumes:
   hunter:
     do: >-
       hunter,
+      ${hunter-minimum:${hunter-tops:__mywc/fashion/costumes/hunter/tops__}},
       ${hunter-list:{0-5$$__mywc/fashion/costumes/hunter/list__}}
     list:
-      - ${hunter-tops:__mywc/fashion/costumes/hunter/tops__}
       - ${hunter-bottoms:__mywc/fashion/costumes/hunter/bottoms__}
       - ${hunter-gloves:__mywc/fashion/costumes/hunter/gloves__}
       - ${hunter-footwears:__mywc/fashion/costumes/hunter/footwears__}
@@ -1173,10 +1175,10 @@ costumes:
       police,
       ${police-list:{0-4$$__mywc/fashion/costumes/police/list__}}
     list:
-      - __mywc/fashion/costumes/police/tops__
-      - __mywc/fashion/costumes/police/bottoms__
-      - __mywc/fashion/costumes/police/gloves__
-      - __mywc/fashion/costumes/police/accessories/do__
+      - ${police-tops:__mywc/fashion/costumes/police/tops__}
+      - ${police-bottoms:__mywc/fashion/costumes/police/bottoms__}
+      - ${police-gloves:__mywc/fashion/costumes/police/gloves__}
+      - ${police-accessories:__mywc/fashion/costumes/police/accessories/do__}
     tops:
       - blazer jacket
       - shirt,{long|short} sleeves
@@ -1357,7 +1359,7 @@ costumes:
       - short pleated skirt
     footwears:
       do:
-        - __mywc/fashion/costumes/school/footwears/socks__,__mywc/fashion/costumes/school/footwears/shoes__
+        - ${school-socks:__mywc/fashion/costumes/school/footwears/socks__},{school-shoes:__mywc/fashion/costumes/school/footwears/shoes__}
       socks:
         - "{|black |white }kneehighs"
         - "{|beige |black |brown }pantyhose"
