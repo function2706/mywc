@@ -11,7 +11,7 @@ foot-fetish:
       __mywc/nsfw/foot-fetish/barefeet/pose__,
       __mywc/nsfw/foot-fetish/core__
     foot-state:
-      - ({30::|1::dirty }barefoot:1.21){|,(spread toes:1.__mywc/weight/range/min0max3__)}
+      - ({30::|1::dirty }barefoot:1.21){5::|1::,(spread toes:1.__mywc/weight/range/min0max3__)}
     pose: >
       ${foot-fetish-angle={4::(from below:1.21)|1::(from behind:1.21){|,looking back}}}
       {3::__mywc/nsfw/foot-fetish/pose/standing/do__|2::__mywc/nsfw/foot-fetish/pose/sitting/do__|1::__mywc/nsfw/foot-fetish/pose/relaxing/do__}
@@ -27,7 +27,7 @@ foot-fetish:
       __mywc/nsfw/foot-fetish/socks/pose__,
       __mywc/nsfw/foot-fetish/core__
     foot-state:
-      - ({|beige |brown |black |white }pantyhose:1.21){|,spread toes}
+      - ({|beige |brown |black |white }pantyhose:1.21){5::|1::,spread toes}
       - ({|black |white }{ankle socks|kneehighs|over-kneehighs|socks|thighhighs}:1.21){|,spread toes}
     pose: >
       ${foot-fetish-angle={(from below:1.21)|(from behind:1.21){|,looking back}}}
