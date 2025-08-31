@@ -1862,9 +1862,9 @@ costumes:
         - winter coat
       bottoms:
         - "{|long }{pants|skirt{|,pantyhose}}"
-        - "pleated {pants|skirt{|,pantyhose}}"
         - jeans
         - layered skirt{|,pantyhose}
+        - pleated {pants|skirt{|,pantyhose}}
     footwears:
       do:
         - __mywc/fashion/costumes/winter/footwears/color__ __mywc/fashion/costumes/winter/footwears/type__
@@ -1928,7 +1928,7 @@ costumes:
         - sleeveless
     footwears:
       do:
-        - __mywc/fashion/costumes/witch/footwears/socks__ {|short |long |thighhigh }boots
+        - __mywc/fashion/costumes/witch/footwears/socks__,{|short |long |thighhigh }boots
       socks:
         - " "
         - fishnet pantyhose
