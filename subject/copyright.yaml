@@ -2370,6 +2370,10 @@ copyright-list:
     - wicke \(pokemon\)
     - winona \(pokemon\)
     - zinnia {|\(special costume\) }\(pokemon\)
+  powerpuff-girls:
+    - blossom \(powerpuff girls\)
+    - bubbles \(powerpuff girls\)
+    - buttercup \(powerpuff girls\)
   precure:
     - aida mana
     - aino megumi
@@ -3064,6 +3068,10 @@ copyright-pickup-list:
     - sonia {|\(special costume\) }\(pokemon\)
     - whitney {|\(holiday 2022\) }\(pokemon\)
     - winona \(pokemon\)
+  powerpuff-girls:
+    - blossom \(powerpuff girls\)
+    - bubbles \(powerpuff girls\)
+    - buttercup \(powerpuff girls\)
   precure:
     - aida mana
     - eas \(fresh precure!\)
