@@ -12,6 +12,9 @@ at-random:
 at-special:
   - "__mywc/pose/action/special__,{0-2$$__mywc/expression/random__|__mywc/meta/random__}"
 set-of:
-  - ${set-expression:__mywc/expression/set/*__},__mywc/fashion/costumes/random__{|,__mywc/pose/general__}
-  - ${set-expression:__mywc/expression/set/*__},{__mywc/location/indoors/do__|__mywc/location/outdoors/do__}
-  - ${set-expression:__mywc/expression/set/*__},__mywc/pose/action/special__
+  do:
+    - ${set-expression:__mywc/expression/set/*__},__mywc/set-of/list__,{|__mywc/artist__}
+  list:
+    - "{__mywc/location/indoors/do__|__mywc/location/outdoors/do__}"
+    - __mywc/fashion/costumes/random__{|,__mywc/pose/general__}
+    - __mywc/pose/action/special__
