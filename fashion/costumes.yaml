@@ -1359,7 +1359,7 @@ costumes:
       - short pleated skirt
     footwears:
       do:
-        - ${school-socks:__mywc/fashion/costumes/school/footwears/socks__},{school-shoes:__mywc/fashion/costumes/school/footwears/shoes__}
+        - ${school-socks:__mywc/fashion/costumes/school/footwears/socks__},${school-shoes:__mywc/fashion/costumes/school/footwears/shoes__}
       socks:
         - "{|black |white }kneehighs"
         - "{|beige |black |brown }pantyhose"
