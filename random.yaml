@@ -13,7 +13,7 @@ at-special:
   - "__mywc/pose/action/special__,{0-2$$__mywc/expression/random__|__mywc/meta/random__}"
 set-of:
   do:
-    - ${set-expression:__mywc/expression/set/*__},__mywc/set-of/list__,{|__mywc/artist__}
+    - ${set-expression:__mywc/expression/set/*__},__mywc/set-of/list__,__mywc/meta/style/do__
   list:
     - "{__mywc/location/indoors/do__|__mywc/location/outdoors/do__}"
     - __mywc/fashion/costumes/random__{|,__mywc/pose/general__}
