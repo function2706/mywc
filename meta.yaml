@@ -28,6 +28,7 @@ meta:
     do:
       - "{50::|1::__mywc/meta/style/list__}"
       - __mywc/style/artist/quality/*__
+      - __mywc/style/production/quality/*__
     list:
       - 3d model
       - line art
