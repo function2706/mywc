@@ -10,8 +10,8 @@ pussy:
     __mywc/nsfw/pussy/core__,
   core: |-
     __mywc/nsfw/pussy/expression/random__{|,looking at {2::viewer|1::another}},1girl,solo,
-    {|beautiful }pussy,(uncensored:1.5),
-    {5::|1::pussy focus}
+    {|beautiful }pussy,(uncensored:1.5){5::|1::,pussy focus},
+    __mywc/meta/quality__
   show:
     do:
       - |-

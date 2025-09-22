@@ -1,20 +1,22 @@
 random:
   full:
-    - ${subject=!__mywc/subject/full__}__mywc/random/base__
+    - ${random-subject=!__mywc/subject/full__}__mywc/random/base__
   mob:
-    - ${subject=!__mywc/subject/mob__}__mywc/random/base__
+    - ${random-subject=!__mywc/subject/mob__}__mywc/random/base__
   copyright:
-    - ${subject=!__mywc/subject/copyright__}__mywc/random/base__
-  base:
-    - "{2::${subject:__mywc/subject/mob__},__mywc/at-random__|1::${subject:__mywc/subject/mob__},__mywc/at-special__}"
+    - ${random-subject=!__mywc/subject/copyright__}__mywc/random/base__
+  base: |-
+    {2::${random-subject:__mywc/subject/full__},__mywc/at-random__|1::${random-subject:__mywc/subject/full__},__mywc/at-special__}{10::|1::,__mywc/pose/general__},
+    __mywc/meta/quality__
 at-random:
   - "{0-5$$__mywc/fashion/random__|__mywc/expression/random__|__mywc/pose/general__|__mywc/location/random__|__mywc/meta/random__}"
 at-special:
   - "__mywc/pose/action/special__,{0-2$$__mywc/expression/random__|__mywc/meta/random__}"
-set-of:
-  do:
-    - ${set-expression:__mywc/expression/set/*__},__mywc/set-of/list__,__mywc/meta/style/do__
+make:
+  do: |-
+    ${make-expression:__mywc/expression/make/*__},__mywc/make/list__{|,__mywc/meta/style/do__},
+    __mywc/meta/quality__
   list:
     - "{__mywc/location/indoors/do__|__mywc/location/outdoors/do__}"
-    - __mywc/fashion/costumes/random__{|,__mywc/pose/general__}
+    - __mywc/fashion/costumes/random__{10::|1::,__mywc/pose/general__},
     - __mywc/pose/action/special__
