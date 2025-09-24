@@ -713,7 +713,9 @@ copyright-list:
     - tianzi
     - villetta nu
   #dan-da-dan:
-  #detective-conan:
+  detective-conan:
+    - haibara ai
+    - mouri ran
   digimon:
     - amano nene \(digimon xros wars\)
     - hinomoto akari \(digimon\)
@@ -1241,7 +1243,85 @@ copyright-list:
   girlfriend-kari:
     - chloe lemaire
     - sakurai akane \(girlfriend\)
-  #girls-and-panzer:
+  girls-and-panzer:
+    - akaboshi koume
+    - aki \(girls und panzer\)
+    - akiyama yukari
+    - alisa \(girls und panzer\)
+    - amaretto \(girls und panzer\)
+    - anchovy \(girls und panzer\)
+    - andou \(girls und panzer\)
+    - asparagus \(girls und panzer\)
+    - assam \(girls und panzer\)
+    - azumi \(girls und panzer\)
+    - caesar \(girls und panzer\)
+    - carpaccio \(girls und panzer\)
+    - chouno ami
+    - clara \(girls und panzer\)
+    - cutlass \(girls und panzer\)
+    - darjeeling \(girls und panzer\)
+    - earl grey \(girls und panzer\)
+    - el \(girls und panzer\)
+    - erwin \(girls und panzer\)
+    - flint \(girls und panzer\)
+    - fukuda haru
+    - gotou moyoko
+    - hoshino \(girls und panzer\)
+    - isabe \(girls und panzer\)
+    - isobe noriko
+    - isuzu hana
+    - itsumi erika
+    - jajka \(girls und panzer\)
+    - kadotani anzu
+    - katyusha \(girls und panzer\)
+    - kawanishi shinobu
+    - kawashima momo
+    - kay \(girls und panzer\)
+    - kilimanjaro \(girls und panzer\)
+    - kojima emi
+    - kondou taeko
+    - koyama yuzu
+    - maiko \(girls und panzer\)
+    - marie \(girls und panzer\)
+    - megumi \(girls und panzer\)
+    - mika \(girls und panzer\)
+    - mikko \(girls und panzer\)
+    - momogaa \(girls und panzer\){|,eyepatch}
+    - murakami \(girls und panzer\)
+    - nakajima \(girls und panzer\)
+    - naomi \(girls und panzer\)
+    - nekonyaa \(girls und panzer\){|,glasses}
+    - nishi kinuyo
+    - nishizumi maho
+    - nishizumi miho
+    - nishizumi shiho
+    - nonna \(girls und panzer\)
+    - ogin \(girls und panzer\)
+    - oono aya{|,glasses}
+    - orange pekoe \(girls und panzer\)
+    - oryou \(girls und panzer\){|,glasses}
+    - oshida \(girls und panzer\)
+    - pepperoni \(girls und panzer\)
+    - piyotan \(girls und panzer\)
+    - reizei mako
+    - rosehip \(girls und panzer\)
+    - rukuriri \(girls und panzer\)
+    - rumi \(girls und panzer\){|,glasses}
+    - saemonza \(girls und panzer\)
+    - sakaguchi karina
+    - sawa azusa
+    - shimada arisu
+    - shimada chiyo
+    - sofue \(girls und panzer\)
+    - sono midoriko
+    - suzuki \(girls und panzer\)
+    - takebe saori
+    - tsuchiya \(girls und panzer\)
+    - utsugi yuuki
+    - vanilla \(girls und panzer\)
+    - wallaby \(girls und panzer\)
+    - yamagou ayumi
+    - youko \(girls und panzer\)
   go-toubun-no-hanayome:
     - nakano ichika
     - nakano itsuki
@@ -1253,7 +1333,14 @@ copyright-list:
     - high elf archer \(goblin slayer!\)
     - priestess \(goblin slayer!\)
     - sword maiden
-  #gochi-usa:
+  gochi-usa:
+    - hoto cocoa
+    - hoto mocha
+    - jouga maya
+    - kafuu chino
+    - kirima syaro
+    - tedeza rize
+    - ujimatsu chiya
   granblue-fantasy:
     - alexiel {|\(summer\) }\(granblue fantasy\)
     - alicia \(granblue fantasy\)
@@ -1399,6 +1486,9 @@ copyright-list:
     - neferpitou
     - shizuku murasaki
   #hyouka:
+  ichigo-mashimaro:
+    - ana coppola
+    - itou chika
   idolmaster:
     - abe nana
     - aiba yumi
@@ -1614,8 +1704,14 @@ copyright-list:
     - tachibana himeko
     - tainaka ritsu
     - yamanaka sawako{|,glasses}
-  #kaguya-sama:
-  #kakegurui:
+  kaguya-sama:
+    - fujiwara chika
+    - hayasaka ai
+    - iino miko
+    - shinomiya kaguya
+    - shirogane kei
+  kakegurui:
+    - jabami yumeko
   kancolle:
     - abukuma {|\(halloween mode\) }\(kancolle\)
     - abukuma kai ni \(kancolle\)
@@ -2058,13 +2154,33 @@ copyright-list:
     - kochou shinobu
     - tamayo \(kimetsu no yaiba\)
     - tsuyuri kanao
-  #kino-no-tabi:
+  kino-no-tabi:
+    - kino \(kino no tabi\)
   #kirarin-revolution:
   kirby:
     - adeleine \(kirby\)
   #konosuba:
   #kuroneko-no-wiz:
-  #league-of-legends:
+  league-of-legends:
+    - ahri \(league of legends\)
+    - annie \(league of legends\)
+    - ashe \(league of legends\)
+    - caitlyn \(league of legends\)
+    - evelynn \(league of legends\)
+    - gwen \(league of legends\)
+    - jinx \(league of legends\)
+    - katarina \(league of legends\)
+    - leblanc \(league of legends\)
+    - lillia \(league of legends\)
+    - lux \(league of legends\)
+    - miss fortune \(league of legends\)
+    - morgana \(league of legends\)
+    - neeko \(league of legends\)
+    - qiyana \(league of legends\)
+    - seraphine \(league of legends\)
+    - sona \(league of legends\)
+    - vi \(league of legends\)
+    - zeri \(league of legends\)
   love-live:
     - arashi chisato
     - asaka karin
@@ -2184,7 +2300,6 @@ copyright-list:
   #nichijou:
   #nier-automata:
   #nikke:
-  #nintama:
   #nisekoi:
   #ojamajo:
   one-punch-man:
@@ -2573,6 +2688,36 @@ copyright-list:
   star-fox:
     - krystal,furry,fox female,animal ears,fox mouth,fox nose
   #steins-gate:
+  strike-witches:
+    - amelie planchard
+    - anabuki tomoko
+    - aurora e. juutilainen
+    - charlotte e. yeager
+    - edytha rossmann
+    - eila ilmatar juutilainen
+    - erica hartmann
+    - fernandia malvezzi
+    - francesca lucchini
+    - georgette lemare
+    - gertrud barkhorn
+    - gundula rall
+    - hanna-justina marseille
+    - heidimarie w. schnaufer
+    - helma lennartz
+    - kanno naoe
+    - karibuchi hikari
+    - lynette bishop
+    - minna-dietlinde wilcke
+    - miyafuji yoshika
+    - nikka edvardine katajainen
+    - perrine h. clostermann
+    - raisa pottgen
+    - rosalie de hemricourt de grunne
+    - sakamoto mio{|,eyepatch}
+    - sanya v. litvyak
+    - ursula hartmann{|,glasses}
+    - waltrud krupinski
+    - wilma bishop
   #succubus-quest:
   suzumiya-haruhi:
     - asahina mikuru
@@ -2597,7 +2742,9 @@ copyright-list:
     - tiese schtrinen
     - yuuki \(sao\)
   #tales-of-the-abyss:
-  #tamako-market:
+  tamako-market:
+    - kitashirakawa anko
+    - kitashirakawa tamako
   #tenshi-na-konamaiki:
   to-love-ru:
     - konjiki no yami
@@ -2617,7 +2764,6 @@ copyright-list:
     - shirai kuroko
     - shokuhou misaki
     - uiharu kazari
-  #tokimeki-memorial:
   #toradora:
   touhou:
     - aki minoriko
@@ -2836,6 +2982,7 @@ copyright-list:
   yumenikki:
     - madotsuki
   #yuru-camp:
+  #yuruyuri
   #yuyushiki:
   zelda:
     - malon
@@ -2862,6 +3009,9 @@ copyright-pickup-list:
     - makima \(chainsaw man\)
   code-geass:
     - c.c.
+  detective-conan:
+    - haibara ai
+    - mouri ran
   digimon:
     - makino ruki \(digimon\)
     - renamon \(digimon\),digimon \(creature\)
@@ -2921,6 +3071,8 @@ copyright-pickup-list:
     - kiki \(majo no takkyuubin\)
     - nausicaa
     - san {\(mononoke hime\)|\(princess mononoke\)}
+  gochi-usa:
+    - kafuu chino
   granblue-fantasy:
     - djeeta {|\(summer\) }\(granblue fantasy\)
     - narmaya {|\(holiday\) |\(summer\) |\(the black butterfly\) |\(valentine\) }\(granblue fantasy\)
@@ -2936,6 +3088,8 @@ copyright-pickup-list:
     - ryuuguu rena
   hunter-x-hunter:
     - neferpitou
+  ichigo-mashimaro:
+    - ana coppola
   idolmaster:
     - akizuki ritsuko
     - akizuki ryo
@@ -2958,6 +3112,11 @@ copyright-pickup-list:
     - suzuki jun
     - tainaka ritsu
     - yamanaka sawako{|,glasses}
+  kaguya-sama:
+    - fujiwara chika
+    - shinomiya kaguya
+  kakegurui:
+    - jabami yumeko
   kancolle:
     - atago \(kancolle\)
     - kaga {|\(battleship\) |\(lawson\) }\(kancolle\)
@@ -2974,8 +3133,13 @@ copyright-pickup-list:
     - kamado nezuko
     - kochou shinobu
     - tsuyuri kanao
+  kino-no-tabi:
+    - kino \(kino no tabi\)
   kirby:
     - adeleine \(kirby\)
+  league-of-legends:
+    - ahri \(league of legends\)
+    - qiyana \(league of legends\)
   love-live:
     - hoshizora rin
     - hoshizora yukiho
@@ -3114,7 +3278,12 @@ copyright-pickup-list:
     - anya \(spy x family\)
     - yor briar
   star-fox:
-    - krystal,furry,fox female,animal ears,fox mouth,fox nose
+    - krystal,furry,fox girl,fox ears,fox mouth,fox nose,[claws],[toe claws]
+  strike-witches:
+    - erica hartmann
+    - gertrud barkhorn
+    - miyafuji yoshika
+    - ursula hartmann{|,glasses}
   suzumiya-haruhi:
     - asahina mikuru
     - nagato yuki
@@ -3185,7 +3354,7 @@ copyright-pickup-list:
     - komeiji koishi
     - komeiji satori
     - konpaku youmu
-    - kudamaki tsukasa
+    - kudamaki tsukasa,fox ears,fox tail,yellow eyes,[small breasts]
     - kumoi ichirin
     - kurodani yamame
     - letty whiterock
@@ -3205,7 +3374,7 @@ copyright-pickup-list:
     - murasa minamitsu
     - mystia lorelei
     - nagae iku
-    - nazrin
+    - nazrin,mouse ears,mouse tail,[small breasts]
     - niwatari kutaka
     - okazaki yumemi
     - onozuka komachi
@@ -3213,7 +3382,7 @@ copyright-pickup-list:
     - reisen \(touhou bougetsushou\)
     - reisen udongein inaba
     - reiuji utsuho
-    - remilia scarlet
+    - remilia scarlet,slit pupils,bat wings,[small breasts],[toe claws],[sharp toenails]
     - ringo \(touhou\)
     - rumia
     - saigyouji yuyuko
@@ -3233,7 +3402,7 @@ copyright-pickup-list:
     - teireida mai
     - tokiko \(touhou\)
     - toramaru shou
-    - toutetsu yuuma
+    - toutetsu yuuma,horizontal pupils,[sharp teeth],[small breasts]
     - toyosatomimi no miko
     - tsukumo benben
     - tsukumo yatsuhashi
