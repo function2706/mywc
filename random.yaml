@@ -1,22 +1,24 @@
 random:
   full:
-    - ${random-subject=!__mywc/subject/full__}__mywc/random/base__
-  mob:
-    - ${random-subject=!__mywc/subject/mob__}__mywc/random/base__
-  copyright:
-    - ${random-subject=!__mywc/subject/copyright__}__mywc/random/base__
-  base: |-
-    {2::${random-subject:__mywc/subject/full__},__mywc/at-random__|1::${random-subject:__mywc/subject/full__},__mywc/at-special__}{10::|1::,__mywc/pose/general__},
+    - __mywc/random/of__,__mywc/subject/full__
+  of: |-
+    {2::__mywc/random/general-pose__|1::__mywc/random/special-pose__},
     __mywc/meta/quality__
-at-random:
-  - "{0-5$$__mywc/fashion/random__|__mywc/expression/random__|__mywc/pose/general__|__mywc/location/random__|__mywc/meta/random__}"
-at-special:
-  - "__mywc/pose/action/special__,{0-2$$__mywc/expression/random__|__mywc/meta/random__}"
-make:
-  do: |-
-    ${make-expression:__mywc/expression/make/*__},__mywc/make/list__{|,__mywc/meta/style/do__},
+  general-pose:
+    - "{0-5$$__mywc/fashion/random__|__mywc/expression/random__|__mywc/pose/general__|__mywc/location/random__|__mywc/meta/random__}"
+  special-pose:
+    - "{0-3$$__mywc/expression/random__|__mywc/pose/action/special__|__mywc/meta/random__}"
+consistent:
+  of: |-
+    __mywc/consistent/list__,${consistent-expression:__mywc/expression/set/*__},{3::|1::,{__mywc/meta/style/do__}},
     __mywc/meta/quality__
   list:
     - "{__mywc/location/indoors/do__|__mywc/location/outdoors/do__}"
-    - __mywc/fashion/costumes/random__{10::|1::,__mywc/pose/general__},
+    - __mywc/fashion/costumes/random__{10::|1::,__mywc/pose/general__}
     - __mywc/pose/action/special__
+usual:
+  of: |-
+    __mywc/usual/list__,${usual-expression:__mywc/expression/set/*__},
+    __mywc/meta/quality__
+  list:
+    - __mywc/fashion/costumes/usually__
