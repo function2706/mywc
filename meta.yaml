@@ -39,5 +39,10 @@ meta:
       - realistic
       - vector art
       - watercolor
-  quality:
-    - best quality,masterpiece,absurdres
+  boilerplate:
+    code:
+      - __mywc/meta/boilerplate/quality__,__mywc/meta/boilerplate/numof-subjects__,
+    quality:
+      - best quality,masterpiece,absurdres
+    numof-subjects:
+      - 1girl,solo
