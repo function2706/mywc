@@ -302,12 +302,11 @@ foot-fetish:
       - __mywc/fashion/costumes/wizard/do__
     assassin:
       do: >-
-        ${assassin-list={0-3$$__mywc/nsfw/foot-fetish/fashion/assassin/list__}}
+        ${assassin-list={0-2$$__mywc/nsfw/foot-fetish/fashion/assassin/list__}}
         __mywc/fashion/costumes/assassin/do__
       list:
         - __mywc/fashion/costumes/assassin/tops__
         - __mywc/fashion/costumes/assassin/gloves__
-        - __mywc/fashion/costumes/assassin/accessories/do__
     ballerina:
       do: >-
         ${ballerina-list={0-2$$__mywc/nsfw/foot-fetish/fashion/ballerina/list__}}
@@ -391,17 +390,17 @@ foot-fetish:
         - __mywc/fashion/costumes/dress/accessories/do__
     explorer:
       do: >-
-        ${explorer-list={0-2$$__mywc/nsfw/foot-fetish/fashion/explorer/list__}}
+        ${explorer-list={0-1$$__mywc/nsfw/foot-fetish/fashion/explorer/list__}}
         __mywc/fashion/costumes/explorer/do__
       list:
-        - __mywc/fashion/costumes/explorer/bottoms__
+        - " "
         - __mywc/fashion/costumes/explorer/accessories/do__
     farmer:
       do: >-
-        ${farmer-list={0-2$$__mywc/nsfw/foot-fetish/fashion/farmer/list__}}
+        ${farmer-list={0-1$$__mywc/nsfw/foot-fetish/fashion/farmer/list__}}
         __mywc/fashion/costumes/farmer/do__
       list:
-        - __mywc/fashion/costumes/farmer/cloths__
+        - " "
         - __mywc/fashion/costumes/farmer/accessories/do__
     goth-roli:
       do: >-
@@ -431,11 +430,9 @@ foot-fetish:
         - __mywc/fashion/costumes/hunter/accessories/do__
     idol:
       do: >-
-        ${idol-list={0-4$$__mywc/nsfw/foot-fetish/fashion/idol/list__}}
+        ${idol-list={0-2$$__mywc/nsfw/foot-fetish/fashion/idol/list__}}
         __mywc/fashion/costumes/idol/do__
       list:
-        - __mywc/fashion/costumes/idol/tops/do__
-        - __mywc/fashion/costumes/idol/bottoms__
         - __mywc/fashion/costumes/idol/gloves__
         - __mywc/fashion/costumes/idol/accessories/do__
     japan:
@@ -447,13 +444,12 @@ foot-fetish:
         - __mywc/fashion/costumes/japan/accessories/do__
     magical:
       do: >-
-        ${magical-list={0-4$$__mywc/nsfw/foot-fetish/fashion/magical/list__}}
+        ${magical-list={0-3$$__mywc/nsfw/foot-fetish/fashion/magical/list__}}
         __mywc/fashion/costumes/magical/do__
       list:
         - __mywc/fashion/costumes/magical/tops__
         - __mywc/fashion/costumes/magical/bottoms__
         - __mywc/fashion/costumes/magical/gloves__
-        - __mywc/fashion/costumes/magical/accessories/do__
     maid:
       do: >-
         ${maid-list={0-4$$__mywc/nsfw/foot-fetish/fashion/maid/list__}}
@@ -479,12 +475,11 @@ foot-fetish:
         - "{|leather |torn }{shorts|skirt}"
     ninja:
       do: >-
-        ${ninja-list={0-3$$__mywc/nsfw/foot-fetish/fashion/ninja/list__}}
+        ${ninja-list={0-2$$__mywc/nsfw/foot-fetish/fashion/ninja/list__}}
         __mywc/fashion/costumes/ninja/do__
       list:
         - __mywc/fashion/costumes/ninja/tops__
         - __mywc/fashion/costumes/ninja/bottoms__
-        - __mywc/fashion/costumes/ninja/accessories/do__
     nun:
       do: >-
         ${nun-list={0-2$$__mywc/nsfw/foot-fetish/fashion/nun/list__}}
@@ -494,10 +489,9 @@ foot-fetish:
         - __mywc/fashion/costumes/nun/accessories/do__
     nurse:
       do: >-
-        ${nurse-list={0-3$$__mywc/nsfw/foot-fetish/fashion/nurse/list__}}
+        ${nurse-list={0-2$$__mywc/nsfw/foot-fetish/fashion/nurse/list__}}
         __mywc/fashion/costumes/nurse/do__
       list:
-        - ${nurse-color:white} __mywc/fashion/costumes/nurse/tops__
         - ${nurse-color:white} __mywc/nsfw/foot-fetish/fashion/nurse/bottoms__
         - __mywc/fashion/costumes/nurse/accessories/do__
       bottoms:
@@ -516,11 +510,10 @@ foot-fetish:
         - pants
     pirate:
       do: >-
-        ${pirate-list={0-3$$__mywc/nsfw/foot-fetish/fashion/pirate/list__}}
+        ${pirate-list={0-1$$__mywc/nsfw/foot-fetish/fashion/pirate/list__}}
         __mywc/fashion/costumes/pirate/do__
       list:
-        - __mywc/fashion/costumes/pirate/headwears__
-        - __mywc/fashion/costumes/pirate/tops__
+        - " "
         - __mywc/fashion/costumes/pirate/accessories/do__
     police:
       do: >-
@@ -548,11 +541,10 @@ foot-fetish:
         - __mywc/fashion/costumes/santa/accessories/do__
     school:
       do: >-
-        ${school-list={0-3$$__mywc/nsfw/foot-fetish/fashion/school/list__}}
+        ${school-list={0-1$$__mywc/nsfw/foot-fetish/fashion/school/list__}}
         __mywc/fashion/costumes/school/do__
       list:
-        - __mywc/fashion/costumes/school/tops/do__
-        - __mywc/fashion/costumes/school/bottoms__
+        - " "
         - __mywc/fashion/costumes/school/accessories/do__
     scientist:
       do: >-
@@ -589,11 +581,11 @@ foot-fetish:
         - __mywc/fashion/costumes/swimwear/accessories/do__
     teacher:
       do: >-
-        ${teacher-list={0-3$$__mywc/nsfw/foot-fetish/fashion/teacher/list__}}
+        ${teacher-bottoms=__mywc/nsfw/foot-fetish/fashion/teacher/bottoms__}
+        ${teacher-list={0-1$$__mywc/nsfw/foot-fetish/fashion/teacher/list__}}
         __mywc/fashion/costumes/teacher/do__
       list:
-        - __mywc/fashion/costumes/teacher/tops__
-        - __mywc/nsfw/foot-fetish/fashion/teacher/bottoms__
+        - " "
         - __mywc/fashion/costumes/teacher/accessories/do__
       bottoms:
         - pencil skirt

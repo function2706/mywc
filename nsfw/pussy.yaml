@@ -184,10 +184,10 @@ pussy:
         __mywc/fashion/costumes/artist/do__
     ballerina:
       do: >-
-        ${ballerina-list={0-3$$__mywc/nsfw/pussy/fashion/ballerina/list__}}
+        ${ballerina-cloths=__mywc/nsfw/pussy/fashion/ballerina/cloths__}
+        ${ballerina-list={0-2$$__mywc/nsfw/pussy/fashion/ballerina/list__}}
         __mywc/fashion/costumes/ballerina/do__
       list:
-        - __mywc/nsfw/pussy/fashion/ballerina/cloths__
         - __mywc/fashion/costumes/ballerina/footwears__
         - __mywc/fashion/costumes/ballerina/accessories/do__
       cloths:
@@ -342,7 +342,7 @@ pussy:
         __mywc/fashion/costumes/office-lady/do__
     pilot:
       do: >-
-        ${pilot-minimum={|,panties aside}}
+        ${pilot-minimum=${pilot-tops:__mywc/fashion/costumes/pilot/tops__}{|,panties aside}}
         __mywc/fashion/costumes/pilot/do__
     police:
       do: >-
@@ -379,16 +379,8 @@ pussy:
         __mywc/fashion/costumes/scientist/do__
     soldier:
       do: >-
-        ${soldier-list={0-5$$__mywc/nsfw/pussy/fashion/soldier/list__}}
+        ${soldier-bottoms=panties aside}
         __mywc/fashion/costumes/soldier/do__
-      list:
-        - __mywc/fashion/costumes/soldier/tops__
-        - __mywc/nsfw/pussy/fashion/soldier/bottoms__
-        - __mywc/fashion/costumes/soldier/gloves__
-        - __mywc/fashion/costumes/soldier/footwears__
-        - __mywc/fashion/costumes/soldier/accessories/do__
-      bottoms:
-        - panties aside
     summer:
       do: >-
         ${summer-bottoms={1-2$$__mywc/nsfw/pussy/fashion/summer/bottoms__|panties aside}}
@@ -453,7 +445,7 @@ pussy:
         - "{4::{|layered |long |pleated}skirt{|,panties aside}|1::panties aside}"
     witch:
       do: >-
-        ${witch-minimum=__mywc/fashion/costumes/witch/cloths/do__,{2::|1::,panties aside}}
+        ${witch-minimum=witch hat,__mywc/fashion/costumes/witch/cloths/do__,{2::|1::,panties aside}}
         ${witch-footwears=__mywc/nsfw/pussy/fashion/witch/footwears__}
         __mywc/fashion/costumes/witch/do__
       footwears:

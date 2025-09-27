@@ -1202,6 +1202,7 @@ costumes:
       ${priest-minimum:${priest-cloths:__mywc/fashion/costumes/priest/cloths__}},
       ${priest-list:{0-1$$__mywc/fashion/costumes/priest/list__}}
     list:
+      - " "
       - ${priest-accessories:__mywc/fashion/costumes/priest/accessories/do__}
     cloths:
       - cassock
