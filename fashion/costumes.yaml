@@ -119,13 +119,13 @@ costumes:
   ballerina:
     do: >-
       __mywc/fashion/costumes/ballerina/colors__ ballerina,
-      ${ballerina-minimum:${ballerina-cloths:__mywc/fashion/costumes/ballerina/cloths__}},
+      ${ballerina-minimum:${ballerina-clothes:__mywc/fashion/costumes/ballerina/clothes__}},
       ${ballerina-list:{0-3$$__mywc/fashion/costumes/ballerina/list__}}
     list:
       - ${ballerina-socks:__mywc/fashion/costumes/ballerina/socks__}
       - ${ballerina-footwears:__mywc/fashion/costumes/ballerina/footwears__}
       - ${ballerina-accessories:__mywc/fashion/costumes/ballerina/accessories/do__}
-    cloths:
+    clothes:
       - ballet dress
       - leotard{|,tutu}
     socks:
@@ -181,12 +181,12 @@ costumes:
         - sleeves rolled up
   bathing:
     do: >-
-      ${bathing-minimum:${bathing-cloths:__mywc/fashion/costumes/bathing/cloths__}},
+      ${bathing-minimum:${bathing-clothes:__mywc/fashion/costumes/bathing/clothes__}},
       ${bathing-list:{0-2$$__mywc/fashion/costumes/bathing/list__}}
     list:
       - ${bathing-footwears:__mywc/fashion/costumes/bathing/footwears__}
       - ${bathing-accessories:__mywc/fashion/costumes/bathing/accessories/do__}
-    cloths:
+    clothes:
       - bathrobe
       - naked towel
     footwears:
@@ -257,12 +257,12 @@ costumes:
       - deep blue
   bedding:
     do: >-
-      ${bedding-minimum:${bedding-cloths:__mywc/fashion/costumes/bedding/cloths__}},
+      ${bedding-minimum:${bedding-clothes:__mywc/fashion/costumes/bedding/clothes__}},
       ${bedding-list:{0-2$$__mywc/fashion/costumes/bedding/list__}}
     list:
       - ${bedding-footwears:__mywc/fashion/costumes/bedding/footwears__}
       - ${bedding-accessories:__mywc/fashion/costumes/bedding/accessories/do__}
-    cloths:
+    clothes:
       - negligee
       - nightwear
       - pajamas
@@ -279,11 +279,11 @@ costumes:
       __mywc/fashion/costumes/bunny-girl/colors__ playboy bunny,
       ${bunny-girl-list:{0-4$$__mywc/fashion/costumes/bunny-girl/list__}}
     list:
-      - ${bunny-girl-cloths:__mywc/fashion/costumes/bunny-girl/cloths__}
+      - ${bunny-girl-clothes:__mywc/fashion/costumes/bunny-girl/clothes__}
       - ${bunny-girl-socks:__mywc/fashion/costumes/bunny-girl/socks__}
       - ${bunny-girl-footwears:__mywc/fashion/costumes/bunny-girl/footwears__}
       - ${bunny-girl-accessories:__mywc/fashion/costumes/bunny-girl/accessories/do__}
-    cloths:
+    clothes:
       - bustier
       - tailcoat
     socks:
@@ -335,7 +335,7 @@ costumes:
   chef:
     do: >-
       chef,
-      ${chef-minimum:white cloths},
+      ${chef-minimum:white clothes},
       ${chef-list:{0-1$$__mywc/fashion/costumes/chef/list__}}
     list:
       - " "
@@ -408,15 +408,15 @@ costumes:
         - ribbon bar
   cool-sets:
     do: >-
-      ${cool-sets-minimum:${cool-sets-cloths:__mywc/fashion/costumes/cool-sets/cloths/do__}},
+      ${cool-sets-minimum:${cool-sets-clothes:__mywc/fashion/costumes/cool-sets/clothes/do__}},
       ${cool-sets-list:{0-1$$__mywc/fashion/costumes/cool-sets/list__}}
     list:
       - " "
       - ${cool-sets-accessories:__mywc/fashion/costumes/cool-sets/accessories/do__}
-    cloths:
+    clothes:
       do:
-        - ${cool-sets-tops:__mywc/fashion/costumes/cool-sets/cloths/tops__},${cool-sets-bottoms:__mywc/fashion/costumes/cool-sets/cloths/bottoms__}
-        - ${cool-sets-unis:__mywc/fashion/costumes/cool-sets/cloths/unis__}
+        - ${cool-sets-tops:__mywc/fashion/costumes/cool-sets/clothes/tops__},${cool-sets-bottoms:__mywc/fashion/costumes/cool-sets/clothes/bottoms__}
+        - ${cool-sets-unis:__mywc/fashion/costumes/cool-sets/clothes/unis__}
       tops:
         - blouse,short sleeves
         - t-shirt,short sleeves
@@ -437,7 +437,7 @@ costumes:
         - slippers
   cross-dressing:
     do: >-
-      __mywc/fashion/costumes/cross-dressing/color__ formal cloths,
+      __mywc/fashion/costumes/cross-dressing/color__ formal clothes,
       ${cross-dressing-minimum:pants},
       ${closs-dressing-list:{0-3$$__mywc/fashion/costumes/cross-dressing/list__}}
     list:
@@ -469,12 +469,12 @@ costumes:
   dancer:
     do: >-
       dancer,
-      ${dancer-minimum:${dancer-cloths:__mywc/fashion/costumes/dancer/cloths__}},
+      ${dancer-minimum:${dancer-clothes:__mywc/fashion/costumes/dancer/clothes__}},
       ${dancer-list:{0-1$$__mywc/fashion/costumes/dancer/list__}}
     list:
       - " "
       - ${dancer-accessories:__mywc/fashion/costumes/dancer/accessories/do__}
-    cloths:
+    clothes:
       - arabian clothes
       - harem outfit
     accessories:
@@ -530,14 +530,14 @@ costumes:
   dress:
     do: >-
       ${dress-color=!__mywc/fashion/costumes/dress/color__}
-      ${dress-color:black} ${dress-minimum:${dress-cloths:__mywc/fashion/costumes/dress/cloths__}},
+      ${dress-color:black} ${dress-minimum:${dress-clothes:__mywc/fashion/costumes/dress/clothes__}},
       ${dress-list:{0-4$$__mywc/fashion/costumes/dress/list__}}
     list:
       - ${dress-gloves:__mywc/fashion/costumes/dress/gloves/do__}
       - ${dress-socks:__mywc/fashion/costumes/dress/socks/do__}
       - ${dress-footwears:__mywc/fashion/costumes/dress/footwears/do__}
       - ${dress-accessories:__mywc/fashion/costumes/dress/accessories/do__}
-    cloths:
+    clothes:
       - ball gown
       - cocktail dress
       - evening dress
@@ -669,12 +669,12 @@ costumes:
   farmer:
     do: >-
       farmer,
-      ${farmer-minimum:${farmer-cloths:__mywc/fashion/costumes/farmer/cloths__}},
+      ${farmer-minimum:${farmer-clothes:__mywc/fashion/costumes/farmer/clothes__}},
       ${farmer-list:{0-2$$__mywc/fashion/costumes/farmer/list__}}
     list:
       - ${farmer-footwears:__mywc/fashion/costumes/farmer/footwears__}
       - ${farmer-accessories:__mywc/fashion/costumes/farmer/accessories/do__}
-    cloths:
+    clothes:
       - overalls
       - t-shirt,{jeans|pants}
     footwears:
@@ -835,12 +835,12 @@ costumes:
       - white
   japan:
     do: >-
-      ${japan-minimum:${japan-cloths:__mywc/fashion/costumes/japan/cloths__}},
+      ${japan-minimum:${japan-clothes:__mywc/fashion/costumes/japan/clothes__}},
       ${japan-list:{0-2$$__mywc/fashion/costumes/japan/list__}}
     list:
       - ${japan-footwears:__mywc/fashion/costumes/japan/footwears__}
       - ${japan-accessories:__mywc/fashion/costumes/japan/accessories/do__}
-    cloths:
+    clothes:
       - miko,red hakama
       - __mywc/fashion/costumes/japan/color__ furisode
       - __mywc/fashion/costumes/japan/color__ jinbei
@@ -1199,12 +1199,12 @@ costumes:
   priest:
     do: >-
       priest,
-      ${priest-minimum:${priest-cloths:__mywc/fashion/costumes/priest/cloths__}},
+      ${priest-minimum:${priest-clothes:__mywc/fashion/costumes/priest/clothes__}},
       ${priest-list:{0-1$$__mywc/fashion/costumes/priest/list__}}
     list:
       - " "
       - ${priest-accessories:__mywc/fashion/costumes/priest/accessories/do__}
-    cloths:
+    clothes:
       - cassock
       - surplice
     accessories:
@@ -1454,22 +1454,22 @@ costumes:
         - towel on neck
   summer:
     do: >-
-      ${summer-minimum:${summer-cloths:__mywc/fashion/costumes/summer/cloths/do__}},
+      ${summer-minimum:${summer-clothes:__mywc/fashion/costumes/summer/clothes/do__}},
       ${summer-list:{0-2$$__mywc/fashion/costumes/summer/list__}}
     list:
       - ${summer-footwears:__mywc/fashion/costumes/summer/footwears/do__}
       - ${summer-accessories:__mywc/fashion/costumes/summer/accessories/do__}
-    cloths:
+    clothes:
       do:
-        - ${summer-tops:__mywc/fashion/costumes/summer/cloths/tops/do__},${summer-bottoms:__mywc/fashion/costumes/summer/cloths/bottoms__}
-        - ${summer-unis:__mywc/fashion/costumes/summer/cloths/unis__}
+        - ${summer-tops:__mywc/fashion/costumes/summer/clothes/tops/do__},${summer-bottoms:__mywc/fashion/costumes/summer/clothes/bottoms__}
+        - ${summer-unis:__mywc/fashion/costumes/summer/clothes/unis__}
       tops:
         do:
           - "{|camouflage |plaid |polka dot |striped }strapless shirt"
           - "{|camouflage |plaid |polka dot |striped }tank top"
           - camisole
-          - __mywc/fashion/costumes/summer/cloths/tops/color__ {|__mywc/fashion/costumes/summer/cloths/tops/patterns__ }t-shirt,__mywc/fashion/costumes/summer/cloths/tops/structions__
-          - __mywc/fashion/tops/inners/with-buttons/shirts/decorations__ blouse,__mywc/fashion/costumes/summer/cloths/tops/structions__
+          - __mywc/fashion/costumes/summer/clothes/tops/color__ {|__mywc/fashion/costumes/summer/clothes/tops/patterns__ }t-shirt,__mywc/fashion/costumes/summer/clothes/tops/structions__
+          - __mywc/fashion/tops/inners/with-buttons/shirts/decorations__ blouse,__mywc/fashion/costumes/summer/clothes/tops/structions__
         structions:
           - short sleeves
           - sleeves {rolled|pushed} up
@@ -1488,8 +1488,8 @@ costumes:
         - hot pants
         - pleated skirt
       unis:
-        - casual dress,__mywc/fashion/costumes/summer/cloths/tops/structions__
-        - pinafore dress,__mywc/fashion/costumes/summer/cloths/tops/structions__
+        - casual dress,__mywc/fashion/costumes/summer/clothes/tops/structions__
+        - pinafore dress,__mywc/fashion/costumes/summer/clothes/tops/structions__
         - sailor dress
         - sundress
     footwears:
@@ -1526,14 +1526,14 @@ costumes:
         - "{|{|sun}glasses}"
   swimwear:
     do: >-
-      ${swimwear-minimum:${swimwear-cloths:__mywc/fashion/costumes/swimwear/cloths/do__}},
+      ${swimwear-minimum:${swimwear-clothes:__mywc/fashion/costumes/swimwear/clothes/do__}},
       ${swimwear-list:{0-2$$__mywc/fashion/costumes/swimwear/list__}}
     list:
       - ${swimwear-footwears:__mywc/fashion/costumes/swimwear/footwears__}
       - ${swimwear-accessories:__mywc/fashion/costumes/swimwear/accessories/do__}
-    cloths:
+    clothes:
       do:
-        - __mywc/fashion/costumes/swimwear/cloths/option/do__ __mywc/fashion/costumes/swimwear/cloths/type__
+        - __mywc/fashion/costumes/swimwear/clothes/option/do__ __mywc/fashion/costumes/swimwear/clothes/type__
       type:
         - "{|casual |strapless |off-shoulder }one-piece swimsuit"
         - "{|competition |old |new }school swimsuit"
@@ -1562,10 +1562,10 @@ costumes:
         - tankini
       option:
         do:
-          - "{0-2$$ $$__mywc/fashion/costumes/swimwear/cloths/option/list__}"
+          - "{0-2$$ $$__mywc/fashion/costumes/swimwear/clothes/option/list__}"
         list:
-          - __mywc/fashion/costumes/swimwear/cloths/option/decorations__
-          - __mywc/fashion/costumes/swimwear/cloths/option/patterns__
+          - __mywc/fashion/costumes/swimwear/clothes/option/decorations__
+          - __mywc/fashion/costumes/swimwear/clothes/option/patterns__
         decorations:
           - bow
           - frilled
@@ -1805,14 +1805,14 @@ costumes:
       - white
   wedding:
     do: >-
-      ${wedding-minimum:${wedding-cloths:__mywc/fashion/costumes/wedding/cloths/do__}},
+      ${wedding-minimum:${wedding-clothes:__mywc/fashion/costumes/wedding/clothes/do__}},
       ${wedding-list:{0-1$$__mywc/fashion/costumes/wedding/list__}}
     list:
       - " "
       - ${wedding-accessories:__mywc/fashion/costumes/wedding/accessories/do__}
-    cloths:
+    clothes:
       do:
-        - "__mywc/fashion/costumes/wedding/color__ {0-2$$ $$__mywc/fashion/costumes/wedding/cloths/structions__|__mywc/fashion/costumes/wedding/cloths/decorations__} wedding dress"
+        - "__mywc/fashion/costumes/wedding/color__ {0-2$$ $$__mywc/fashion/costumes/wedding/clothes/structions__|__mywc/fashion/costumes/wedding/clothes/decorations__} wedding dress"
       structions:
         - backless
         - halter neck
@@ -1835,14 +1835,14 @@ costumes:
       - white
   winter:
     do: >-
-      ${winter-minimum:${winter-cloths:__mywc/fashion/costumes/winter/cloths/do__}},
+      ${winter-minimum:${winter-clothes:__mywc/fashion/costumes/winter/clothes/do__}},
       ${winter-list:{0-2$$__mywc/fashion/costumes/winter/list__}}
     list:
       - ${winter-footwears:__mywc/fashion/costumes/winter/footwears/do__}
       - ${winter-accessories:__mywc/fashion/costumes/winter/accessories/do__}
-    cloths:
+    clothes:
       do:
-        - ${winter-tops:__mywc/fashion/costumes/winter/cloths/tops__},${winter-bottoms:__mywc/fashion/costumes/winter/cloths/bottoms__}
+        - ${winter-tops:__mywc/fashion/costumes/winter/clothes/tops__},${winter-bottoms:__mywc/fashion/costumes/winter/clothes/bottoms__}
       tops:
         - collared coat
         - down jacket
@@ -1901,14 +1901,14 @@ costumes:
   witch:
     do: >-
       witch,
-      ${witch-minimum:witch hat,${witch-cloths:__mywc/fashion/costumes/witch/cloths/do__}},
+      ${witch-minimum:witch hat,${witch-clothes:__mywc/fashion/costumes/witch/clothes/do__}},
       ${witch-list:{0-2$$__mywc/fashion/costumes/witch/list__}}
     list:
       - ${witch-footwears:__mywc/fashion/costumes/witch/footwears/do__}
       - ${witch-accessories:__mywc/fashion/costumes/witch/accessories/do__}
-    cloths:
+    clothes:
       do:
-        - "{|__mywc/fashion/costumes/witch/cloths/option__ }__mywc/fashion/costumes/witch/color/do__ __mywc/fashion/costumes/witch/cloths/list__{|,__mywc/fashion/costumes/witch/cloths/structions__}"
+        - "{|__mywc/fashion/costumes/witch/clothes/option__ }__mywc/fashion/costumes/witch/color/do__ __mywc/fashion/costumes/witch/clothes/list__{|,__mywc/fashion/costumes/witch/clothes/structions__}"
       list:
         - cocktail dress
         - evening dress
