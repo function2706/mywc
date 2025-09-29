@@ -20,5 +20,10 @@ mundane:
   of: |-
     __mywc/mundane/list__{|,${mundane-expression:__mywc/expression/set/*__}},
     __mywc/meta/boilerplate/code__
-  list:
-    - __mywc/fashion/costumes/list/mundane__
+  list: >-
+    {
+      2::__mywc/location/indoors/do__|
+      2::__mywc/location/outdoors/do__|
+      5::__mywc/fashion/costumes/list/mundane__{10::|1::,__mywc/pose/general__}|
+      1::__mywc/pose/action/special__
+    }

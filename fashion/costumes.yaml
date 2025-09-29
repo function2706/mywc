@@ -3,7 +3,10 @@ costumes:
     - __mywc/fashion/costumes/list/*__
   list:
     mundane:
+      - __mywc/fashion/costumes/bathing/do__
+      - __mywc/fashion/costumes/bedding/do__
       - __mywc/fashion/costumes/cool-sets/do__
+      - __mywc/fashion/costumes/gym/do__
       - __mywc/fashion/costumes/office-lady/do__
       - __mywc/fashion/costumes/school/do__
       - __mywc/fashion/costumes/summer/do__
@@ -15,9 +18,7 @@ costumes:
       - __mywc/fashion/costumes/ballerina/do__
       - __mywc/fashion/costumes/barista/do__
       - __mywc/fashion/costumes/bartender/do__
-      - __mywc/fashion/costumes/bathing/do__
       - __mywc/fashion/costumes/bdsm/do__
-      - __mywc/fashion/costumes/bedding/do__
       - __mywc/fashion/costumes/bunny-girl/do__
       - __mywc/fashion/costumes/cheerleader/do__
       - __mywc/fashion/costumes/chef/do__
@@ -31,7 +32,6 @@ costumes:
       - __mywc/fashion/costumes/explorer/do__
       - __mywc/fashion/costumes/farmer/do__
       - __mywc/fashion/costumes/goth-roli/do__
-      - __mywc/fashion/costumes/gym/do__
       - __mywc/fashion/costumes/hunter/do__
       - __mywc/fashion/costumes/idol/do__
       - __mywc/fashion/costumes/japan/do__
