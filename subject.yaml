@@ -2,12 +2,14 @@ subject:
   full:
     - __mywc/subject/human/random__
     - __mywc/subject/non-human/random__
-    - __mywc/subject/copyright__
+    - "{50::__mywc/subject/copyright__|1::__mywc/subject/original__}"
   mob:
     - __mywc/subject/human/random__
     - __mywc/subject/non-human/random__
   copyright:
     - __mywc/subject/copyright__
+  original:
+    - __mywc/subject/original__
   for-nsfw:
     - __mywc/subject/human/random__
     - __mywc/subject/non-human/monster/demi-human/do__
