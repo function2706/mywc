@@ -24,6 +24,8 @@ cosplay-list:
     - blue \(among us\) \(cosplay\)
     - crewmate \(among us\) \(cosplay\)
     - red \(among us\) \(cosplay\)
+  anohana:
+    - honma meiko \(cosplay\)
   apex-legends:
     - bloodhound \(apex legends\) \(cosplay\)
     - crypto \(apex legends\) \(cosplay\)
@@ -49,14 +51,29 @@ cosplay-list:
     - taihou \(azur lane\) \(cosplay\)
     - takao \(azur lane\) \(cosplay\)
     - unicorn \(azur lane\) \(cosplay\)
+  bakuretsu-hunter:
+    - chocolate misu \(cosplay\)
   bayonetta:
     - bayonetta \(cosplay\)
   berserk:
     - guts \(berserk\) \(cosplay\)
+  bio-hazard:
+    - ada wong \(cosplay\)
+    - alcina dimitrescu \(cosplay\)
+    - jill valentine \(cosplay\)
+    - leon s. kennedy \(cosplay\)
   black-lagoon:
     - revy \(black lagoon\) \(cosplay\)
   blackpink:
     - rose \(blackpink\) \(cosplay\)
+  black-rock-shooter:
+    - black rock shooter \(character\) \(cosplay\)
+  blazblue:
+    - jin kisaragi \(cosplay\)
+    - kirijou mitsuru \(cosplay\)
+    - makoto nanaya \(cosplay\)
+    - narukami yuu \(cosplay\)
+    - noel vermillion \(cosplay\)
   bloodborne:
     - hunter \(bloodborne\) \(cosplay\)
   blue-archive:
@@ -90,13 +107,18 @@ cosplay-list:
     - yuuka \(blue archive\) \(cosplay\)
   bocchi-the-rock:
     - gotoh hitori \(cosplay\)
+    - ijichi nijika \(cosplay\)
     - kita ikuyo \(cosplay\)
+  boku-no-hero-academia:
+    - midoriya izuku \(cosplay\)
+    - mirko \(cosplay\)
   bunny-garden:
     - kana \(bunny garden\) \(cosplay\)
   cardcaptor-sakura:
     - daidouji tomoyo \(cosplay\)
     - kero \(cardcaptor sakura\) \(cosplay\)
     - kinomoto sakura \(cosplay\)
+    - li syaoran \(cosplay\)
   chainsaw-man:
     - denji \(chainsaw man\) \(cosplay\)
     - makima \(chainsaw man\) \(cosplay\)
@@ -106,17 +128,24 @@ cosplay-list:
     - falin touden \(chimera\) \(cosplay\)
   code-geass:
     - c.c. \(cosplay\)
+    - lelouch vi britannia \(cosplay\)
     - zero \(code geass\) \(cosplay\)
   cutie-honey:
     - cutie honey \(character\) \(cosplay\)
   cyberpunk:
     - lucy \(cyberpunk\) \(cosplay\)
   darkstalkers:
+    - b.b. hood \(cosplay\)
     - felicia \(darkstalkers\) \(cosplay\)
     - lilith \(darkstalkers\) \(cosplay\)
   danganronpa:
+    - enoshima junko \(cosplay\)
+    - hinata hajime \(cosplay\)
+    - kirigiri kyoko \(cosplay\)
+    - komaeda nagito \(cosplay\)
     - monokuma \(cosplay\)
     - monomi \(danganronpa\) \(cosplay\)
+    - nanami chiaki \(cosplay\)
   danmachi:
     - hestia \(danmachi\) \(cosplay\)
   darling-in-the-franxx:
@@ -129,6 +158,9 @@ cosplay-list:
     - superman \(cosplay\)
   dead-or-alive:
     - kasumi \(doa\) \(cosplay\)
+    - marie rose \(cosplay\)
+  dead-space:
+    - isaac clarke \(cosplay\)
   despicable-me:
     - minion \(despicable me\) \(cosplay\)
   detective-conan:
@@ -154,6 +186,7 @@ cosplay-list:
     - donald duck \(cosplay\)
     - elsa \(frozen\) \(cosplay\)
     - jasmine \(disney\) \(cosplay\)
+    - jessica rabbit \(cosplay\)
     - mickey mouse \(cosplay\)
     - minnie mouse \(cosplay\)
     - snow white \(disney\) \(cosplay\)
@@ -161,6 +194,8 @@ cosplay-list:
     - tinker bell \(disney\) \(cosplay\)
   doki-doki-literature-club:
     - monika \(doki doki literature club\) \(cosplay\)
+  doom:
+    - doomguy \(cosplay\)
   doraemon:
     - doraemon \(character\) \(cosplay\)
   dragon-ball:
@@ -180,20 +215,28 @@ cosplay-list:
   dragon's-crown:
     - sorceress \(dragon's crown\) \(cosplay\)
   dream-c-club:
+    - futaba riho \(cosplay\)
     - mian \(dream c club\) \(cosplay\)
+  dungeon-meshi:
+    - marcille donato \(cosplay\)
   elden-ring:
     - prisoner \(elden ring\) \(cosplay\)
+  eromanga-sensei:
+    - izumi sagiri \(cosplay\)
   evangelion:
     - akagi ritsuko \(cosplay\)
     - ayanami rei \(cosplay\)
     - ikari gendou \(cosplay\)
     - ikari shinji \(cosplay\)
     - katsuragi misato \(cosplay\)
+    - makinami mari illustrious \(cosplay\)
+    - nagisa kaworu \(cosplay\)
     - souryuu asuka langley \(cosplay\)
   fate:
     - abigail williams \(fate\) \(cosplay\)
     - altera \(fate\) \(cosplay\)
     - archer \(fate\) \(cosplay\)
+    - arcueid brunestud \(cosplay\)
     - artoria caster \(fate\) \(cosplay\)
     - artoria pendragon \(alter swimsuit rider\) \(fate\) \(cosplay\)
     - artoria pendragon \(lancer alter\) \(royal icing\) \(fate\) \(cosplay\)
@@ -204,19 +247,24 @@ cosplay-list:
     - baobhan sith \(fate\) \(cosplay\)
     - bb \(fate/extra\) \(cosplay\)
     - bb \(swimsuit mooncancer\) \(fate\) \(cosplay\)
+    - bb-28 \(cosplay\)
     - bb dubai \(fate\) \(cosplay\)
     - berserker \(fate/zero\) \(cosplay\)
+    - caren hortensia \(cosplay\)
     - cu chulainn \(fate/stay night\) \(cosplay\)
     - cu chulainn alter \(fate\) \(cosplay\)
     - diarmuid ua duibhne \(lancer\) \(fate\) \(cosplay\)
     - elizabeth bathory \(brave\) \(fate\) \(cosplay\)
     - elizabeth bathory \(fate/extra ccc\) \(cosplay\)
+    - emiya shirou \(cosplay\)
     - ereshkigal \(fate\) \(cosplay\)
     - euryale \(fate\) \(cosplay\)
     - fate testarossa \(cosplay\)
     - florence nightingale \(fate\) \(cosplay\)
     - florence nightingale \(trick or treatment\) \(fate\) \(cosplay\)
     - fou \(fate\) \(cosplay\)
+    - fujimaru ritsuka \(female\) \(cosplay\)
+    - fujimaru ritsuka \(male\) \(cosplay\)
     - gilgamesh \(fate\) \(cosplay\)
     - hassan of serenity \(fate\) \(cosplay\)
     - helena blavatsky \(fate\) \(cosplay\)
@@ -233,9 +281,15 @@ cosplay-list:
     - jeanne d'arc alter \(swimsuit berserker\) \(fate\) \(cosplay\)
     - jeanne d'arc alter \(ver. shinjuku 1999\) \(fate\) \(cosplay\)
     - jeanne d'arc alter santa lily \(fate\) \(cosplay\)
+    - kaleido ruby \(cosplay\)
     - kama \(fate\) \(cosplay\)
     - katsushika hokusai \(fate\) \(cosplay\)
+    - kotomine kirei \(cosplay\)
     - koyanskaya \(fate\) \(cosplay\)
+    - mash kyrielight \(cosplay\)
+    - mash kyrielight \(dangerous beast\) \(cosplay\)
+    - mash kyrielight \(enma-tei uniform\) \(cosplay\)
+    - matou sakura \(cosplay\)
     - medea \(fate\) \(cosplay\)
     - medjed \(fate\) \(cosplay\)
     - medusa \(lancer\) \(fate\) \(cosplay\)
@@ -246,6 +300,7 @@ cosplay-list:
     - minamoto no raikou \(fate\) \(cosplay\)
     - miyamoto musashi \(fate\) \(cosplay\)
     - miyamoto musashi \(swimsuit berserker\) \(second ascension\) \(fate\) \(cosplay\)
+    - miyu edelfelt \(magical girl\) \(cosplay\)
     - mordred \(fate/apocrypha\) \(cosplay\)
     - mordred \(memories at trifas\) \(fate\) \(cosplay\)
     - morgan le fay \(fate\) \(cosplay\)
@@ -266,6 +321,9 @@ cosplay-list:
     - ushiwakamaru \(fate\) \(cosplay\)
     - yu mei-ren \(fate\) \(cosplay\)
   final-fantasy:
+    - aerith gainsborough \(cosplay\)
+    - cloud strife \(cosplay\)
+    - garnet til alexandros xvii \(cosplay\)
     - moogle \(cosplay\)
     - tifa lockhart \(cosplay\)
     - white mage \(final fantasy\) \(cosplay\)
@@ -279,6 +337,9 @@ cosplay-list:
     - byleth \(male\) \(fire emblem\) \(cosplay\)
     - camilla \(fire emblem\) \(cosplay\)
     - corrin \(female\) \(fire emblem\) \(cosplay\)
+    - dorothea arnault \(cosplay\)
+    - dorothea arnault \(plegian\) \(cosplay\)
+    - edelgard von hresvelg \(cosplay\)
     - eliwood \(fire emblem\) \(cosplay\)
     - ephraim \(fire emblem\) \(cosplay\)
     - felicia \(fire emblem\) \(cosplay\)
@@ -296,6 +357,8 @@ cosplay-list:
     - fern \(sousou no frieren\) \(cosplay\)
     - frieren \(cosplay\)
     - ubel \(sousou no frieren\) \(cosplay\)
+  fushigi-no-umi-no-nadia:
+    - nadia la arwall \(cosplay\)
   genshin-impact:
     - aether \(genshin impact\) \(cosplay\)
     - amber \(genshin impact\) \(cosplay\)
@@ -308,6 +371,8 @@ cosplay-list:
     - ganyu \(genshin impact\) \(cosplay\)
     - hu tao \(genshin impact\) \(cosplay\)
     - jean \(genshin impact\) \(cosplay\)
+    - kamisato ayaka \(cosplay\)
+    - kamisato ayaka \(springbloom missive\) \(cosplay\)
     - keqing \(genshin impact\) \(cosplay\)
     - klee \(genshin impact\) \(cosplay\)
     - lisa \(genshin impact\) \(cosplay\)
@@ -356,6 +421,8 @@ cosplay-list:
     - kirima syaro \(cosplay\)
     - tedeza rize \(cosplay\)
     - ujimatsu chiya \(cosplay\)
+  god-eater:
+    - alisa ilinichina amiella \(cosplay\)
   granblue-fantasy:
     - cagliostro \(granblue fantasy\) \(cosplay\)
     - clarisse \(granblue fantasy\) \(cosplay\)
@@ -371,7 +438,11 @@ cosplay-list:
   guilty-gear:
     - bridget \(guilty gear\) \(cosplay\)
     - dizzy \(guilty gear\) \(cosplay\)
+    - elphelt valentine \(cosplay\)
+    - jack-o' valentine \(cosplay\)
+    - kuradoberi jam \(cosplay\)
     - may \(guilty gear\) \(cosplay\)
+    - millia rage \(cosplay\)
   gundam:
     - char aznable \(cosplay\)
     - kihel heim \(cosplay\)
@@ -381,9 +452,14 @@ cosplay-list:
     - suletta mercury \(cosplay\)
   gurren-lagann:
     - kamina \(ttgl\) \(cosplay\)
+    - nia teppelin \(cosplay\)
     - simon \(ttgl\) \(cosplay\)
+  gyakuten-saiban:
+    - miles edgeworth \(cosplay\)
   hagane-no-renkinjutsushi:
     - edward elric \(cosplay\)
+  half-life:
+    - gordon freeman \(cosplay\)
   hataraku-saibou:
     - platelet \(hataraku saibou\) \(cosplay\)
     - red blood cell \(hataraku saibou\) \(cosplay\)
@@ -398,17 +474,23 @@ cosplay-list:
   hitomi-o:
     - guitar little sister \(hitomi o\) \(cosplay\)
   honkai-impact:
+    - bronya zaychik \(cosplay\)
     - elysia \(honkai impact\) \(cosplay\)
-  honkai-star-rail:
     - firefly \(honkai:star rail\) \(cosplay\)
+    - fu hua \(cosplay\)
     - kafka \(honkai:star rail\) \(cosplay\)
+    - kiana kaslana \(cosplay\)
     - march 7th \(honkai:star rail\) \(cosplay\)
     - silver wolf \(honkai:star rail\) \(cosplay\)
     - sparkle \(honkai:star rail\) \(cosplay\)
     - stelle \(honkai:star rail\) \(cosplay\)
   idolmaster:
     - futaba anzu \(cosplay\)
+    - jougasaki mika \(cosplay\)
+    - kanzaki ranko \(cosplay\)
+    - minami kotori \(cosplay\)
     - natalia \(idolmaster\) \(cosplay\)
+    - nitta minami \(cosplay\)
     - shibuya rin \(cosplay\)
     - shimamura uzuki \(cosplay\)
   ikamusume:
@@ -418,6 +500,7 @@ cosplay-list:
     - bruno mars \(cosplay\)
     - caesar anthonio zeppeli \(cosplay\)
     - dio brando \(cosplay\)
+    - giorno giovanna \(cosplay\)
     - higashikata josuke \(cosplay\)
     - jonathan joestar \(cosplay\)
     - joseph joestar \(young\) \(cosplay\)
@@ -500,6 +583,7 @@ cosplay-list:
     - mutsuki \(kancolle\) \(cosplay\)
     - nagato \(kancolle\) \(cosplay\)
     - naka \(kancolle\) \(cosplay\)
+    - northern ocean princess \(cosplay\)
     - ooyodo \(kancolle\) \(cosplay\)
     - prinz eugen \(kancolle\) \(cosplay\)
     - ro-500 \(kancolle\) \(cosplay\)
@@ -550,31 +634,56 @@ cosplay-list:
     - kaban \(kemono friends\) \(cosplay\)
     - lucky beast \(kemono friends\) \(cosplay\)
     - serval \(kemono friends\) \(cosplay\)
+  kill-la-kill:
+    - jakuzure nonon \(cosplay\)
+    - kiryuuin satsuki \(cosplay\)
+    - mankanshoku mako \(cosplay\)
+    - matoi ryuuko \(cosplay\)
   kimetsu-no-yaiba:
     - kamado nezuko \(cosplay\)
     - kamado tanjirou \(cosplay\)
     - kanroji mitsuri \(cosplay\)
     - kochou shinobu \(cosplay\)
+  kiniro-mosaic:
+    - kujou karen \(cosplay\)
   kirby:
     - kirby \(cosplay\)
     - marx \(kirby\) \(cosplay\)
+  kisekae-darling:
+    - kitagawa marin \(cosplay\)
   koha-ace:
     - okita souji \(koha-ace\) \(cosplay\)
   konosuba:
     - aqua \(konosuba\) \(cosplay\)
     - darkness \(konosuba\) \(cosplay\)
+    - megumin \(cosplay\)
+  kougaku-kidoutai:
+    - kusanagi motoko \(cosplay\)
   league-of-legends:
     - ahri \(league of legends\) \(cosplay\)
+    - akali \(cosplay\)
     - evelynn \(league of legends\) \(cosplay\)
   lethal-company:
     - worker \(lethal company\) \(cosplay\)
+  little-busters:
+    - noumi kudryavka \(cosplay\)
+  lollipop-shainsaw:
+    - juliet starling \(cosplay\)
   love-live:
+    - ayase eli \(cosplay\)
+    - hoshizora rin \(cosplay\)
+    - kosaka honoka \(cosplay\)
     - kurosawa dia \(cosplay\)
+    - nishikino maki \(cosplay\)
     - sonoda umi \(cosplay\)
     - yazawa nico \(cosplay\)
   lupin-iii:
     - arsene lupin iii \(cosplay\)
+    - ishikawa goemon xiii \(cosplay\)
     - jigen daisuke \(cosplay\)
+  lycoris-recoil:
+    - inoue takina \(cosplay\)
+    - nishikigi chisato \(cosplay\)
   lyrical-nanoha:
     - takamachi nanoha \(cosplay\)
   machikado-mazoku:
@@ -583,12 +692,16 @@ cosplay-list:
     - ranka lee \(cosplay\)
   madoka-magica:
     - akemi homura \(cosplay\)
+    - akuma homura \(cosplay\)
     - charlotte \(madoka magica\) \(cosplay\)
+    - kaname madoka \(cosplay\)
     - kyubey \(cosplay\)
+    - miki sayaka \(cosplay\)
     - tomoe mami \(cosplay\)
-  magical-girl:
-    - miyu edelfelt \(magical girl\) \(cosplay\)
+  mahoushoujo-ni-akogarete:
+    - magia baiser \(cosplay\)
   maidragon:
+    - kanna kamui \(cosplay\)
     - tohru \(maidragon\) \(cosplay\)
   mario:
     - bowser \(cosplay\)
@@ -602,10 +715,14 @@ cosplay-list:
     - wario \(cosplay\)
     - yoshi \(cosplay\)
   marvel:
+    - deadpool \(cosplay\)
     - iron man \(cosplay\)
     - spider-man \(cosplay\)
     - thor \(marvel\) \(cosplay\)
+  megami-tensei:
+    - niijima makoto \(cosplay\)
   metal-gear:
+    - big boss \(cosplay\)
     - quiet \(metal gear\) \(cosplay\)
     - raiden \(metal gear\) \(cosplay\)
   metroid:
@@ -614,6 +731,7 @@ cosplay-list:
     - creeper \(cosplay\)
   monogatari:
     - hachikuji mayoi \(cosplay\)
+    - hanekawa tsubasa \(cosplay\)
     - oshino shinobu \(cosplay\)
     - senjougahara hitagi \(cosplay\)
   monster-hanter:
@@ -621,10 +739,12 @@ cosplay-list:
   mother:
     - ness \(mother 2\) \(cosplay\)
   naruto:
+    - haruno sakura \(cosplay\)
     - uchiha sasuke \(cosplay\)
     - uzumaki naruto \(cosplay\)
   needy-girl-overdose:
     - ame-chan \(needy girl overdose\) \(cosplay\)
+    - chouzetsusaikawa tenshi-chan \(cosplay\)
   neptunia:
     - neptune \(neptunia\) \(cosplay\)
     - purple heart \(neptunia\) \(cosplay\)
@@ -645,7 +765,11 @@ cosplay-list:
     - saitama \(one-punch man\) \(cosplay\)
     - tatsumaki \(cosplay\)
   oreimo:
+    - alpha omega \(cosplay\)
+    - gokou ruri \(cosplay\)
     - meruru \(oreimo\) \(cosplay\)
+  oshinoko:
+    - hoshino ai \(cosplay\)
   osomatsu-san:
     - matsuno karamatsu \(cosplay\)
   overlord:
@@ -660,16 +784,22 @@ cosplay-list:
   persona:
     - aegis \(persona\) \(cosplay\)
     - amagi yukiko \(cosplay\)
+    - amamiya ren \(cosplay\)
+    - kujikawa rise \(cosplay\)
     - sakura futaba \(cosplay\)
     - yuuki makoto \(persona 3\) \(cosplay\)
   pokemon:
+    - aether foundation employee \(cosplay\)
     - ace trainer \(pokemon\) \(cosplay\)
     - akari \(pokemon\) \(cosplay\)
+    - ash ketchum \(cosplay\)
     - bea \(pokemon\) \(cosplay\)
     - brendan \(pokemon\) \(cosplay\)
     - calem \(pokemon\) \(cosplay\)
+    - charizard \(cosplay\)
     - cynthia \(pokemon\) \(cosplay\)
     - dawn \(pokemon\) \(cosplay\)
+    - decidueye \(cosplay\)
     - eevee \(cosplay\)
     - elesa \(pokemon\) \(cosplay\)
     - emmet \(pokemon\) \(cosplay\)
@@ -708,12 +838,14 @@ cosplay-list:
     - lyra \(pokemon\) \(cosplay\)
     - marnie \(pokemon\) \(cosplay\)
     - may \(pokemon\) \(cosplay\)
+    - mega lopunny \(cosplay\)
     - meowscarada \(cosplay\)
     - meowth \(cosplay\)
     - miltank \(cosplay\)
     - mimikyu \(cosplay\)
     - mismagius \(cosplay\)
     - misty \(pokemon\) \(cosplay\)
+    - morpeko \(cosplay\)
     - nessa \(pokemon\) \(cosplay\)
     - pichu \(cosplay\)
     - pikachu \(cosplay\)
@@ -757,6 +889,8 @@ cosplay-list:
     - kokkoro \(princess connect!\) \(cosplay\)
     - pecorine \(princess connect!\) \(cosplay\)
     - yui \(princess connect!\) \(cosplay\)
+  promare:
+    - lio fotia \(cosplay\)
   panty-and-stocking:
     - panty \(psg\) \(cosplay\)
     - stocking \(psg\) \(cosplay\)
@@ -765,15 +899,25 @@ cosplay-list:
   raki-sta:
     - hiiragi kagami \(cosplay\)
     - izumi konata \(cosplay\)
+  rakuen-tsuihou:
+    - angela balzac \(cosplay\)
   re-zero:
     - emilia \(re:zero\) \(cosplay\)
+    - natsuki subaru \(cosplay\)
     - ram \(re:zero\) \(cosplay\)
     - rem \(re:zero\) \(cosplay\)
+  revolutionary-girl-utena:
+    - himemiya anthy \(cosplay\)
+  rock-man:
+    - mega man \(character\) \(cosplay\)
   rozen-maiden:
     - shinku \(cosplay\)
     - souseiseki \(cosplay\)
     - suigintou \(cosplay\)
     - suiseiseki \(cosplay\)
+  ryu-ga-gotoku:
+    - kiryu kazuma \(cosplay\)
+    - majima goro \(cosplay\)
   sailor-moon:
     - luna \(sailor moon\) \(cosplay\)
     - sailor chibi moon \(cosplay\)
@@ -787,6 +931,9 @@ cosplay-list:
     - sailor venus \(cosplay\)
   samurai-spirits:
     - iroha \(samurai spirits\) \(cosplay\)
+    - nakoruru \(cosplay\)
+  sanoba-witch:
+    - ayachi nene \(cosplay\)
   sanrio:
     - cinnamoroll \(cosplay\)
     - hello kitty \(character\) \(cosplay\)
@@ -796,11 +943,22 @@ cosplay-list:
     - pompompurin \(cosplay\)
   shingeki-no-kyojin:
     - mikasa ackerman \(cosplay\)
+  silent-hill:
+    - bubble head nurse \(cosplay\)
+  slayers:
+    - lina inverse \(cosplay\)
   sonic:
+    - amy rose \(cosplay\)
     - shadow the hedgehog \(cosplay\)
     - sonic the hedgehog \(cosplay\)
+  sono-kisekaeningyou-ha-koi-wo-suru:
+    - black lobelia \(cosplay\)
+    - kuroe shizuku \(cosplay\)
+  soul-eater:
+    - maka albarn \(cosplay\)
   splatoon:
     - callie \(splatoon\) \(cosplay\)
+    - inkling player character \(cosplay\)
     - marie \(splatoon\) \(cosplay\)
     - marina \(splatoon\) \(cosplay\)
     - pearl \(splatoon\) \(cosplay\)
@@ -810,12 +968,21 @@ cosplay-list:
     - yor briar \(cosplay\)
   star-wars:
     - darth vader \(cosplay\)
+    - han solo \(cosplay\)
     - obi-wan kenobi \(cosplay\)
     - princess leia \(cosplay\)
+  steins-gate:
+    - makise kurisu \(cosplay\)
   street-fighter:
+    - cammy white \(cosplay\)
     - chun-li \(cosplay\)
+    - han juri \(cosplay\)
+    - kasugano sakura \(cosplay\)
+    - m. bison \(cosplay\)
     - ryu \(street fighter\) \(cosplay\)
   strike-witches:
+    - francesca lucchini \(cosplay\)
+    - lynette bishop \(cosplay\)
     - miyafuji yoshika \(cosplay\)
     - sanya v. litvyak \(cosplay\)
   suzumiya-haruhi:
@@ -824,9 +991,14 @@ cosplay-list:
     - suzumiya haruhi \(cosplay\)
   sword-art-online:
     - asuna \(sao\) \(cosplay\)
+    - kirito \(cosplay\)
     - leafa \(sao\) \(cosplay\)
   symphogear:
     - tachibana hibiki \(symphogear\) \(cosplay\)
+  taimanin:
+    - igawa asagi \(cosplay\)
+    - igawa sakura \(cosplay\)
+    - mizuki yukikaze \(cosplay\)
   team-fortress:
     - engineer \(tf2\) \(cosplay\)
     - scout \(tf2\) \(cosplay\)
@@ -835,17 +1007,26 @@ cosplay-list:
     - pomni \(the amazing digital circus\) \(cosplay\)
   the-king-of-fighters:
     - angel \(kof\) \(cosplay\)
+    - kusanagi kyou \(cosplay\)
   the-shining:
     - grady sisters \(the shining\) \(cosplay\)
+  tiger-and-bunny:
+    - barnaby brooks jr. \(cosplay\)
+    - kaburagi t. kotetsu \(cosplay\)
   titanfall:
     - ash \(titanfall 2\) \(cosplay\)
-  toaru-majutsu-no-index:
-    - accelerator \(toaru majutsu no index\) \(cosplay\)
-    - index \(toaru majutsu no index\) \(cosplay\)
-    - misaka mikoto \(cosplay\)
   to-love-ru:
     - konjiki no yami \(cosplay\)
     - lala satalin deviluke \(cosplay\)
+  toaru-majutsu-no-index:
+    - accelerator \(toaru majutsu no index\) \(cosplay\)
+    - gekota \(cosplay\)
+    - index \(toaru majutsu no index\) \(cosplay\)
+    - misaka mikoto \(cosplay\)
+  tokeitou-no-maria:
+    - lady maria of the astral clocktower \(cosplay\)
+  tokyo-mew-mew:
+    - mew ichigo \(cosplay\)
   touhou:
     - aki minoriko \(cosplay\)
     - aki shizuha \(cosplay\)
@@ -965,8 +1146,16 @@ cosplay-list:
   undertale:
     - frisk \(undertale\) \(cosplay\)
     - sans \(undertale\) \(cosplay\)
+  urusei-yatsura:
+    - lum \(cosplay\)
+  va-11-hall-a:
+    - jill stingray \(cosplay\)
+  vampire:
+    - hsien-ko \(cosplay\)
+    - morrigan aensland \(cosplay\)
   vocaloid:
     - brazilian miku \(cosplay\)
+    - gumi \(cosplay\)
     - hatsune miku \(append\) \(cosplay\)
     - hatsune miku \(cosplay\)
     - kaito \(vocaloid\) \(cosplay\)
@@ -978,9 +1167,25 @@ cosplay-list:
     - yuki miku \(cosplay\)
     - yuzuki yukari \(cosplay\)
   vtuber:
+    - amane kanata \(cosplay\)
+    - ceres fauna \(cosplay\)
+    - gawr gura \(cosplay\)
+    - hakos baelz \(cosplay\)
+    - holo \(cosplay\)
     - hoshimachi suisei \(cosplay\)
     - houshou marine \(cosplay\)
+    - inugami korone \(cosplay\)
+    - kaguya luna \(cosplay\)
+    - kazama iroha \(cosplay\)
+    - kiryu coco \(cosplay\)
     - kizuna ai \(cosplay\)
+    - la+ darknesss \(cosplay\)
+    - minato aqua \(cosplay\)
+    - mori calliope \(cosplay\)
+    - murasaki shion \(cosplay\)
+    - nanashi mumei \(cosplay\)
+    - nekomata okayu \(cosplay\)
+    - ninomae ina'nis \(cosplay\)
     - shigure ui \(vtuber\) \(cosplay\)
     - usada pekora \(cosplay\)
   x-men:
@@ -993,216 +1198,56 @@ cosplay-list:
     - rex \(xenoblade\) \(cosplay\)
   yu-gi-oh:
     - dark magician girl \(cosplay\)
+    - hiiragi yuzu \(cosplay\)
     - serena \(yu-gi-oh!\) \(cosplay\)
+  yuruyuri:
+    - mirakurun \(cosplay\)
   zelda:
     - link \(cosplay\)
     - princess zelda \(cosplay\)
+  zenless-zone-zero:
+    - ellen joe \(cosplay\)
   zero-no-tsukaima:
     - louise francoise le blanc de la valliere \(cosplay\)
+  zootopia:
+    - judy hopps \(cosplay\)
+    - nick wilde \(cosplay\)
+  movie:
+    - freddy krueger \(cosplay\)
+    - godzilla \(cosplay\)
+    - indiana jones \(cosplay\)
+    - jason voorhees \(cosplay\)
+    - mathilda lando \(cosplay\)
+    - ultraman \(cosplay\)
+  reallife:
+    - marilyn monroe \(cosplay\)
+    - michael jackson \(cosplay\)
+    - mizuki nana \(cosplay\)
   misc:
     - barbie \(character\) \(cosplay\)
+    - beatrix kiddo \(cosplay\)
+    - big bad wolf \(cosplay\)
+    - black widow \(cosplay\)
     - colonel sanders \(cosplay\)
+    - daicon bunny girl \(cosplay\)
     - dracula \(cosplay\)
     - ellen baker \(cosplay\)
     - fall guy \(cosplay\)
     - frankenstein's monster \(cosplay\)
-    - godzilla \(cosplay\)
+    - georgie denbrough \(cosplay\)
+    - grim reaper \(cosplay\)
     - hasshaku-sama \(cosplay\)
     - hikoboshi \(cosplay\)
     - imadake dabuchi tabemi \(cosplay\)
-    - marilyn monroe \(cosplay\)
-    - michael jackson \(cosplay\)
-    - mizuki nana \(cosplay\)
+    - juliet capulet \(cosplay\)
+    - melon-chan \(cosplay\)
     - orihime \(tanabata\) \(cosplay\)
     - pon de lion \(cosplay\)
     - ring fit trainee \(female\) \(cosplay\)
     - ronald mcdonald \(cosplay\)
     - son goku \(cosplay\)
     - super sonico \(cosplay\)
-    - ultraman \(cosplay\)
   not-yet-classifyed:
-    - ada wong \(cosplay\)
-    - aerith gainsborough \(cosplay\)
-    - aether foundation employee \(cosplay\)
-    - akali \(cosplay\)
-    - akuma homura \(cosplay\)
-    - alcina dimitrescu \(cosplay\)
-    - alisa ilinichina amiella \(cosplay\)
-    - alpha omega \(cosplay\)
-    - amamiya ren \(cosplay\)
-    - amane kanata \(cosplay\)
-    - amy rose \(cosplay\)
-    - angela balzac \(cosplay\)
-    - arcueid brunestud \(cosplay\)
-    - ash ketchum \(cosplay\)
-    - ayachi nene \(cosplay\)
-    - ayase eli \(cosplay\)
-    - b.b. hood \(cosplay\)
-    - barnaby brooks jr. \(cosplay\)
-    - bb-28 \(cosplay\)
-    - beatrix kiddo \(cosplay\)
-    - big bad wolf \(cosplay\)
-    - big boss \(cosplay\)
-    - black lobelia \(cosplay\)
-    - black rock shooter \(character\) \(cosplay\)
-    - black widow \(cosplay\)
-    - bronya zaychik \(cosplay\)
-    - bubble head nurse \(cosplay\)
-    - cammy white \(cosplay\)
-    - caren hortensia \(cosplay\)
-    - ceres fauna \(cosplay\)
-    - charizard \(cosplay\)
-    - chocolate misu \(cosplay\)
-    - chouzetsusaikawa tenshi-chan \(cosplay\)
-    - cloud strife \(cosplay\)
-    - daicon bunny girl \(cosplay\)
-    - deadpool \(cosplay\)
-    - decidueye \(cosplay\)
-    - doomguy \(cosplay\)
-    - dorothea arnault \(cosplay\)
-    - dorothea arnault \(plegian\) \(cosplay\)
-    - edelgard von hresvelg \(cosplay\)
-    - ellen joe \(cosplay\)
-    - elphelt valentine \(cosplay\)
-    - emiya shirou \(cosplay\)
-    - enoshima junko \(cosplay\)
-    - francesca lucchini \(cosplay\)
-    - freddy krueger \(cosplay\)
-    - fu hua \(cosplay\)
-    - fujimaru ritsuka \(female\) \(cosplay\)
-    - fujimaru ritsuka \(male\) \(cosplay\)
-    - futaba riho \(cosplay\)
-    - garnet til alexandros xvii \(cosplay\)
-    - gawr gura \(cosplay\)
-    - gekota \(cosplay\)
-    - georgie denbrough \(cosplay\)
-    - giorno giovanna \(cosplay\)
-    - gokou ruri \(cosplay\)
-    - gordon freeman \(cosplay\)
-    - grim reaper \(cosplay\)
-    - gumi \(cosplay\)
-    - hakos baelz \(cosplay\)
-    - han juri \(cosplay\)
-    - han solo \(cosplay\)
-    - hanekawa tsubasa \(cosplay\)
-    - haruno sakura \(cosplay\)
-    - hiiragi yuzu \(cosplay\)
-    - himemiya anthy \(cosplay\)
-    - hinata hajime \(cosplay\)
-    - holo \(cosplay\)
-    - honma meiko \(cosplay\)
-    - hoshino ai \(cosplay\)
-    - hoshizora rin \(cosplay\)
-    - hsien-ko \(cosplay\)
-    - igawa asagi \(cosplay\)
-    - igawa sakura \(cosplay\)
-    - ijichi nijika \(cosplay\)
-    - indiana jones \(cosplay\)
-    - inkling player character \(cosplay\)
-    - inoue takina \(cosplay\)
-    - inugami korone \(cosplay\)
-    - isaac clarke \(cosplay\)
-    - ishikawa goemon xiii \(cosplay\)
-    - izumi sagiri \(cosplay\)
-    - jack-o' valentine \(cosplay\)
-    - jakuzure nonon \(cosplay\)
-    - jason voorhees \(cosplay\)
-    - jessica rabbit \(cosplay\)
-    - jill stingray \(cosplay\)
-    - jill valentine \(cosplay\)
-    - jin kisaragi \(cosplay\)
-    - jougasaki mika \(cosplay\)
-    - judy hopps \(cosplay\)
-    - juliet capulet \(cosplay\)
-    - juliet starling \(cosplay\)
-    - kaburagi t. kotetsu \(cosplay\)
-    - kaguya luna \(cosplay\)
-    - kaleido ruby \(cosplay\)
-    - kamisato ayaka \(cosplay\)
-    - kamisato ayaka \(springbloom missive\) \(cosplay\)
-    - kaname madoka \(cosplay\)
-    - kanna kamui \(cosplay\)
-    - kanzaki ranko \(cosplay\)
-    - kasugano sakura \(cosplay\)
-    - kazama iroha \(cosplay\)
-    - kiana kaslana \(cosplay\)
-    - kirigiri kyoko \(cosplay\)
-    - kirijou mitsuru \(cosplay\)
-    - kirito \(cosplay\)
-    - kiryu coco \(cosplay\)
-    - kiryu kazuma \(cosplay\)
-    - kiryuuin satsuki \(cosplay\)
-    - kitagawa marin \(cosplay\)
-    - komaeda nagito \(cosplay\)
-    - kosaka honoka \(cosplay\)
-    - kotomine kirei \(cosplay\)
-    - kujikawa rise \(cosplay\)
-    - kujou karen \(cosplay\)
-    - kuradoberi jam \(cosplay\)
-    - kuroe shizuku \(cosplay\)
-    - kusanagi kyou \(cosplay\)
-    - kusanagi motoko \(cosplay\)
-    - la+ darknesss \(cosplay\)
-    - lady maria of the astral clocktower \(cosplay\)
-    - lelouch vi britannia \(cosplay\)
-    - leon s. kennedy \(cosplay\)
-    - li syaoran \(cosplay\)
-    - lina inverse \(cosplay\)
-    - lio fotia \(cosplay\)
-    - lum \(cosplay\)
-    - lynette bishop \(cosplay\)
-    - m. bison \(cosplay\)
-    - magia baiser \(cosplay\)
-    - majima goro \(cosplay\)
-    - maka albarn \(cosplay\)
-    - makinami mari illustrious \(cosplay\)
-    - makise kurisu \(cosplay\)
-    - makoto nanaya \(cosplay\)
-    - mankanshoku mako \(cosplay\)
-    - marcille donato \(cosplay\)
-    - marie rose \(cosplay\)
-    - mash kyrielight \(cosplay\)
-    - mash kyrielight \(dangerous beast\) \(cosplay\)
-    - mash kyrielight \(enma-tei uniform\) \(cosplay\)
-    - mathilda lando \(cosplay\)
-    - matoi ryuuko \(cosplay\)
-    - matou sakura \(cosplay\)
-    - mega lopunny \(cosplay\)
-    - mega man \(character\) \(cosplay\)
-    - megumin \(cosplay\)
-    - melon-chan \(cosplay\)
-    - mew ichigo \(cosplay\)
-    - midoriya izuku \(cosplay\)
-    - miki sayaka \(cosplay\)
-    - miles edgeworth \(cosplay\)
-    - millia rage \(cosplay\)
-    - minami kotori \(cosplay\)
-    - minato aqua \(cosplay\)
-    - mirakurun \(cosplay\)
-    - mirko \(cosplay\)
-    - mizuki yukikaze \(cosplay\)
-    - mori calliope \(cosplay\)
-    - morpeko \(cosplay\)
-    - morrigan aensland \(cosplay\)
-    - murasaki shion \(cosplay\)
-    - nadia la arwall \(cosplay\)
-    - nagisa kaworu \(cosplay\)
-    - nakoruru \(cosplay\)
-    - nanami chiaki \(cosplay\)
-    - nanashi mumei \(cosplay\)
-    - narukami yuu \(cosplay\)
-    - natsuki subaru \(cosplay\)
-    - nekomata okayu \(cosplay\)
-    - nia teppelin \(cosplay\)
-    - nick wilde \(cosplay\)
-    - niijima makoto \(cosplay\)
-    - ninomae ina'nis \(cosplay\)
-    - nishikigi chisato \(cosplay\)
-    - nishikino maki \(cosplay\)
-    - nitta minami \(cosplay\)
-    - noel vermillion \(cosplay\)
-    - northern ocean princess \(cosplay\)
-    - noumi kudryavka \(cosplay\)
     - oikawa shizuku \(cosplay\)
     - oktavia von seckendorff \(cosplay\)
     - okumura haru \(cosplay\)
