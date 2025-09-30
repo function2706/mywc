@@ -724,6 +724,7 @@ copyright-list:
     - shirley fenette
     - tianzi
     - villetta nu
+  #cutie-honey:
   #cyberpunk:
   #dan-da-dan:
   #danganronpa:
@@ -737,6 +738,7 @@ copyright-list:
     - haibara ai
     - mouri ran
   devil-may-cry:
+  #digicharat:
   digimon:
     - amano nene \(digimon xros wars\)
     - hinomoto akari \(digimon\)
@@ -1505,6 +1507,7 @@ copyright-list:
     - suletta mercury
     - sumeragi lee noriega
   #gurren-lagann:
+  #hagane-no-renkinjutsushi:
   #haikyuu:
   #hataraku-saibou:
   #hayate-no-gotoku:
@@ -1730,6 +1733,7 @@ copyright-list:
     - zaizen tokiko
   ikamusume:
     - ikamusume
+  #jojo:
   #jubilee-2025:
   jujutsu-kaisen:
     - kugisaki nobara
@@ -2275,6 +2279,7 @@ copyright-list:
     - yoneme mei
     - yuki setsuna
     - zhong lanzhu
+  #lupin-iii:
   lycoris-recoil:
     - inoue takina
     - kurumi \(lycoris recoil\)
@@ -2292,6 +2297,7 @@ copyright-list:
     - vita \(nanoha\)
     - wendi \(nanoha\)
   #machikado-mazoku:
+  #macross:
   #made-in-abyss:
   madoka-magica:
     - akemi homura
@@ -2311,6 +2317,7 @@ copyright-list:
     - princess daisy
     - princess peach
     - rosalina \(mario\)
+  #minecraft:
   #monster-musume-td:
   #marvel:
   #metal-gear:
@@ -2384,6 +2391,7 @@ copyright-list:
     - yamato \(one piece\)
   #oreimo:
   #oshinoko:
+  #osomatsu-san:
   overlord:
     - albedo \(overlord\)
     - clementine \(overlord\)
@@ -2638,6 +2646,7 @@ copyright-list:
     - rulue \(puyopuyo\)
     - witch \(puyopuyo\)
   #ragnarok-online:
+  #raki-sta:
   #ranma-nibun-no-ichi:
   re-zero:
     - beatrice \(re:zero\)
@@ -2673,6 +2682,7 @@ copyright-list:
     - tsukino usagi
   #sakura-wars:
   #samurai-spirits:
+  #sanrio:
   #shadowverse:
   #shin-chan:
   shingeki-no-kyojin:
@@ -2682,6 +2692,7 @@ copyright-list:
     - mikasa ackerman
     - pieck finger
     - ymir \(shingeki no kyojin\)
+  #sonic:
   splatoon:
     - agent 3 \(splatoon {|3}\)
     - agent 8 \(splatoon\)
@@ -2770,7 +2781,6 @@ copyright-list:
   tamako-market:
     - kitashirakawa anko
     - kitashirakawa tamako
-  #tanabata:
   #team-fortress:
   #tenshi-na-konamaiki:
   #the-amazing-digital-circus:
@@ -3137,6 +3147,7 @@ copyright-list:
     - princess zelda
     - saria \(zelda\)
     - urbosa
+  #zero-no-tsukaima:
 copyright-pickup:
   - __mywc/subject/copyright-pickup-list/*__
 copyright-pickup-list:
