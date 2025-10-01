@@ -175,6 +175,7 @@ cosplay-list:
   dead-space:
     - isaac clarke \(cosplay\)
   death-stranding:
+    - bb-28 \(cosplay\)
     - sam porter bridges \(cosplay\)
   dagashi-kashi:
     - shidare hotaru \(cosplay\)
@@ -200,6 +201,7 @@ cosplay-list:
   disney:
     - baymax \(cosplay\)
     - belle \(disney\) \(cosplay\)
+    - big bad wolf \(cosplay\)
     - cinderella \(disney\) \(cosplay\)
     - donald duck \(cosplay\)
     - elsa \(frozen\) \(cosplay\)
@@ -267,7 +269,6 @@ cosplay-list:
     - baobhan sith \(fate\) \(cosplay\)
     - bb \(fate/extra\) \(cosplay\)
     - bb \(swimsuit mooncancer\) \(fate\) \(cosplay\)
-    - bb-28 \(cosplay\)
     - bb dubai \(fate\) \(cosplay\)
     - berserker \(fate/zero\) \(cosplay\)
     - caren hortensia \(cosplay\)
@@ -472,10 +473,6 @@ cosplay-list:
     - narmaya \(granblue fantasy\) \(cosplay\)
     - nekomancer \(granblue fantasy\) \(cosplay\)
     - vikala \(granblue fantasy\) \(cosplay\)
-  grimm:
-    - cinderella \(grimm\) \(cosplay\)
-    - little red riding hood \(grimm\) \(cosplay\)
-    - snow white \(grimm\) \(cosplay\)
   guilty-crown:
     - yuzuriha inori \(cosplay\)
   guilty-gear:
@@ -539,7 +536,6 @@ cosplay-list:
     - futaba anzu \(cosplay\)
     - jougasaki mika \(cosplay\)
     - kanzaki ranko \(cosplay\)
-    - minami kotori \(cosplay\)
     - natalia \(idolmaster\) \(cosplay\)
     - nitta minami \(cosplay\)
     - oikawa shizuku \(cosplay\)
@@ -552,9 +548,10 @@ cosplay-list:
     - ikamusume \(cosplay\)
   indiana jones:
     - indiana jones \(cosplay\)
+  it:
+    - georgie denbrough \(cosplay\)
   jojo:
     - bruno bucciarati \(cosplay\)
-    - bruno mars \(cosplay\)
     - caesar anthonio zeppeli \(cosplay\)
     - dio brando \(cosplay\)
     - giorno giovanna \(cosplay\)
@@ -695,6 +692,8 @@ cosplay-list:
     - kaban \(kemono friends\) \(cosplay\)
     - lucky beast \(kemono friends\) \(cosplay\)
     - serval \(kemono friends\) \(cosplay\)
+  kill-bill:
+    - beatrix kiddo \(cosplay\)
   kill-la-kill:
     - jakuzure nonon \(cosplay\)
     - kiryuuin satsuki \(cosplay\)
@@ -740,6 +739,7 @@ cosplay-list:
     - hoshizora rin \(cosplay\)
     - kosaka honoka \(cosplay\)
     - kurosawa dia \(cosplay\)
+    - minami kotori \(cosplay\)
     - nishikino maki \(cosplay\)
     - sonoda umi \(cosplay\)
     - tojo nozomi \(cosplay\)
@@ -787,17 +787,26 @@ cosplay-list:
     - wario \(cosplay\)
     - yoshi \(cosplay\)
   marvel:
+    - black widow \(cosplay\)
     - deadpool \(cosplay\)
     - iron man \(cosplay\)
     - spider-gwen \(cosplay\)
     - spider-man \(cosplay\)
     - thor \(marvel\) \(cosplay\)
     - wolverine \(x-men\) \(cosplay\)
-  megami-tensei:
+  megami-tensei-persona:
+    - aegis \(persona\) \(cosplay\)
+    - amagi yukiko \(cosplay\)
+    - amamiya ren \(cosplay\)
+    - kujikawa rise \(cosplay\)
     - niijima makoto \(cosplay\)
     - okumura haru \(cosplay\)
+    - sakura futaba \(cosplay\)
     - satonaka chie \(cosplay\)
+    - takamaki anne \(cosplay\)
     - takeba yukari \(cosplay\)
+    - yoshizawa kasumi \(cosplay\)
+    - yuuki makoto \(persona 3\) \(cosplay\)
   metal-gear:
     - big boss \(cosplay\)
     - quiet \(metal gear\) \(cosplay\)
@@ -868,15 +877,6 @@ cosplay-list:
     - stocking \(psg\) \(cosplay\)
   penguindrum:
     - princess of the crystal \(cosplay\)
-  persona:
-    - aegis \(persona\) \(cosplay\)
-    - amagi yukiko \(cosplay\)
-    - amamiya ren \(cosplay\)
-    - kujikawa rise \(cosplay\)
-    - sakura futaba \(cosplay\)
-    - takamaki anne \(cosplay\)
-    - yoshizawa kasumi \(cosplay\)
-    - yuuki makoto \(persona 3\) \(cosplay\)
   pikmin:
     - olimar \(cosplay\)
   pokemon:
@@ -1097,7 +1097,6 @@ cosplay-list:
     - m. bison \(cosplay\)
     - rainbow mika \(cosplay\)
     - ryu \(street fighter\) \(cosplay\)
-    - shiranui mai \(cosplay\)
     - terry bogard \(cosplay\)
   strike-witches:
     - francesca lucchini \(cosplay\)
@@ -1135,6 +1134,7 @@ cosplay-list:
     - angel \(kof\) \(cosplay\)
     - kusanagi kyou \(cosplay\)
     - rugal bernstein \(cosplay\)
+    - shiranui mai \(cosplay\)
   the-shining:
     - grady sisters \(the shining\) \(cosplay\)
   tiger-and-bunny:
@@ -1362,37 +1362,39 @@ cosplay-list:
   zootopia:
     - judy hopps \(cosplay\)
     - nick wilde \(cosplay\)
+  classic:
+    - cinderella \(grimm\) \(cosplay\)
+    - dracula \(cosplay\)
+    - frankenstein's monster \(cosplay\)
+    - grim reaper \(cosplay\)
+    - hikoboshi \(cosplay\)
+    - juliet capulet \(cosplay\)
+    - little red riding hood \(grimm\) \(cosplay\)
+    - orihime \(tanabata\) \(cosplay\)
+    - rudolph the red nosed reindeer \(cosplay\)
+    - sherlock holmes \(cosplay\)
+    - snow white \(grimm\) \(cosplay\)
+    - sun wukong \(cosplay\)
+    - tang sanzang \(cosplay\)
+    - thanatos eros \(cosplay\)
   reallife:
+    - bruno mars \(cosplay\)
+    - colonel sanders \(cosplay\)
     - marilyn monroe \(cosplay\)
     - michael jackson \(cosplay\)
     - mizuki nana \(cosplay\)
     - romeo montague \(cosplay\)
     - yusuf dikec \(cosplay\)
+  mascot-characters:
+    - daicon bunny girl \(cosplay\)
+    - imadake dabuchi tabemi \(cosplay\)
+    - melon-chan \(cosplay\)
+    - pon de lion \(cosplay\)
+    - ronald mcdonald \(cosplay\)
+    - super sonico \(cosplay\)
   misc:
     - barbie \(character\) \(cosplay\)
-    - beatrix kiddo \(cosplay\)
-    - big bad wolf \(cosplay\)
-    - black widow \(cosplay\)
-    - colonel sanders \(cosplay\)
-    - daicon bunny girl \(cosplay\)
-    - dracula \(cosplay\)
     - ellen baker \(cosplay\)
     - fall guy \(cosplay\)
-    - frankenstein's monster \(cosplay\)
-    - georgie denbrough \(cosplay\)
-    - grim reaper \(cosplay\)
     - hasshaku-sama \(cosplay\)
-    - hikoboshi \(cosplay\)
-    - imadake dabuchi tabemi \(cosplay\)
-    - juliet capulet \(cosplay\)
-    - melon-chan \(cosplay\)
-    - orihime \(tanabata\) \(cosplay\)
-    - pon de lion \(cosplay\)
     - ring fit trainee \(female\) \(cosplay\)
-    - ronald mcdonald \(cosplay\)
-    - rudolph the red nosed reindeer \(cosplay\)
-    - sherlock holmes \(cosplay\)
-    - sun wukong \(cosplay\)
-    - super sonico \(cosplay\)
-    - tang sanzang \(cosplay\)
-    - thanatos eros \(cosplay\)

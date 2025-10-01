@@ -1477,7 +1477,6 @@ copyright-list:
     - yuisis \(granblue fantasy\)
     - zeta {|\(dark\) |\(grand\) |\(halloween\) |\(summer\) }\(granblue fantasy\)
     - zooey {|\(summer\) }\(granblue fantasy\)
-  #grimm:
   #guilty-crown:
   #guilty-gear:
   gundam:
@@ -1752,6 +1751,7 @@ copyright-list:
   ikamusume:
     - ikamusume
   #indiana jones:
+  #it:
   #jojo:
   #jubilee-2025:
   jujutsu-kaisen:
@@ -2210,6 +2210,7 @@ copyright-list:
   #kannagi:
   #kanon:
   #kemono-friends:
+  #kill-bill:
   #kill-la-kill:
   kimetsu-no-yaiba:
     - daki \(kimetsu no yaiba\)
@@ -2344,7 +2345,34 @@ copyright-list:
     - princess daisy
     - princess peach
     - rosalina \(mario\)
-  #megami-tensei:
+  megami-tensei-persona:
+    - aegis \(persona\)
+    - amagi yukiko
+    - caroline \(persona 5\)
+    - doujima nanako
+    - elizabeth \(persona\)
+    - justine \(persona 5\)
+    - kawakami sadayo
+    - kirijou mitsuru
+    - kujikawa rise
+    - labrys \(persona\)
+    - lavenza \(persona 5\)
+    - lisa silverman
+    - margaret \(persona\)
+    - marie \(persona 4\)
+    - metis \(persona\)
+    - niijima makoto
+    - niijima sae
+    - okumura haru
+    - sakura futaba{|,glasses}
+    - satonaka chie
+    - shiomi kotone
+    - takamaki anne
+    - takeba yukari
+    - takemi tae
+    - yamagishi fuuka
+    - yoshizawa kasumi
+    - yoshizawa sumire{|,glasses}
   #minecraft:
   #monster-musume-td:
   #marvel:
@@ -2434,34 +2462,6 @@ copyright-list:
   #panty-and-stocking:
   #paranoia-agent:
   #penguindrum:
-  persona:
-    - aegis \(persona\)
-    - amagi yukiko
-    - caroline \(persona 5\)
-    - doujima nanako
-    - elizabeth \(persona\)
-    - justine \(persona 5\)
-    - kawakami sadayo
-    - kirijou mitsuru
-    - kujikawa rise
-    - labrys \(persona\)
-    - lavenza \(persona 5\)
-    - lisa silverman
-    - margaret \(persona\)
-    - marie \(persona 4\)
-    - metis \(persona\)
-    - niijima makoto
-    - niijima sae
-    - okumura haru
-    - sakura futaba{|,glasses}
-    - satonaka chie
-    - shiomi kotone
-    - takamaki anne
-    - takeba yukari
-    - takemi tae
-    - yamagishi fuuka
-    - yoshizawa kasumi
-    - yoshizawa sumire{|,glasses}
   #phantasy-star-online:
   #pikmin:
   pokemon:
