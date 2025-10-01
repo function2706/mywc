@@ -1,2 +1,2 @@
-1. Pickup cosplay tag.
-2. Pickup costumes from txt file.
+1. Pickup costumes from txt file.
+2. Make storylines.

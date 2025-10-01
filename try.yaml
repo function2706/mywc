@@ -1,1 +1,33 @@
 try:
+whole_day:
+  morning:
+    early_morning: |
+      shirt,
+      sleeping, closed eyes, lying,
+      on bed, under cover, blanket, inside blanket,
+      early morning, before dawn, night, dark room,
+    morning: |
+      shirt,
+      waking up, sitting, one eye closed, yawning, stretching, arms up,
+      on bed, bed room, under cover, blanket, inside blanket,
+      morning, sunlight, window,
+    breakfast: |
+      shirt,
+      food on table, holding food, food in mouth, breakfast,
+      upper body, eating, smile,
+      living, morning, sunlight, window,
+    entrance: |
+      school uniform, shirt, bow,
+      upper body, leaning forward, looking at viewer, smile, open mouth,
+      holding bag, school bag,
+      house entrance, door, sunlight,
+    school_road: |
+      school uniform, shirt, bow,
+      from side, looking at viewer, walking, upper body, smile, hand up, open hand, open mouth,
+      holding bag, school bag,
+      outdoors, street, urban,
+    in_school: |
+      school uniform, shirt, bow,
+      upper body, smile, arms up, open hand, open mouth,
+      on desk,
+      classroom, window, (many girls:1.2), crowd,
