@@ -13,7 +13,7 @@ situation:
       - __mywc/situation/teatime/expression__
     pose:
       do:
-        - sitting,looking at viewer,holding mug{|,__mywc/situation/teatime/pose/list__}
+        - sitting,looking at viewer,{|,__mywc/situation/teatime/pose/list__}
       list:
         - covering own mouth
         - finger to own chin
@@ -22,11 +22,12 @@ situation:
         - hand on own ear
         - hand over own mouth
         - head rest
+        - holding cup
         - stroking own chin
         - twirling hair
     object:
       do:
-        - table,coffee,${0-4$$__mywc/situation/teatime/object/list__}
+        - table,chair,coffee,{0-4$$__mywc/situation/teatime/object/list__}
       list:
         - cake
         - flower pot,__mywc/pose/action/object/plants__
@@ -45,7 +46,6 @@ situation:
       do:
         - __mywc/situation/teatime/composition/list__,pov
       list:
-        - from side
         - straight-on
     fashion:
       - __mywc/fashion/costumes/cool-sets/do__
