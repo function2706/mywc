@@ -1,0 +1,70 @@
+situation:
+  do:
+  list:
+  teatime:
+    do: |-
+      __mywc/situation/teatime/pose/do__,
+      __mywc/situation/teatime/object/do__,
+      __mywc/situation/teatime/location/do__,
+      __mywc/situation/teatime/composition/do__,
+      {0-2$$__mywc/situation/teatime/list__}
+    list:
+      - __mywc/situation/teatime/fashion__
+      - __mywc/situation/teatime/expression__
+    pose:
+      do:
+        - sitting,looking at viewer,holding mug{|,__mywc/situation/teatime/pose/list__}
+      list:
+        - covering own mouth
+        - finger to own chin
+        - hand in own hair
+        - hand on own chin
+        - hand on own ear
+        - hand over own mouth
+        - head rest
+        - stroking own chin
+        - twirling hair
+    object:
+      do:
+        - table,coffee,${0-4$$__mywc/situation/teatime/object/list__}
+      list:
+        - cake
+        - flower pot,__mywc/pose/action/object/plants__
+        - painting
+        - table cloth
+        - teapot
+        - window{|,day|,sunny|,rain|,night}
+    location:
+      do:
+        - indoor{|,__mywc/situation/teatime/location/list__}
+      list:
+        - cafe
+        - room
+        - restaurant
+    composition:
+      do:
+        - __mywc/situation/teatime/composition/list__,pov
+      list:
+        - from side
+        - straight-on
+    fashion:
+      - __mywc/fashion/costumes/cool-sets/do__
+      - __mywc/fashion/costumes/warm-sets/do__
+    expression:
+      - giggling
+      - grin
+      - happy
+      - laughing
+      - light smile
+      - smile
+      - smug
+      - surprised
+  sample:
+    do:
+    list:
+    pose:
+    object:
+    location:
+    composition:
+    fashion:
+    expression:
