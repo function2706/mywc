@@ -1,6 +1,43 @@
 situation:
   do:
   list:
+  picnick:
+    do: |-
+      __mywc/situation/picnick/pose/do__,
+      __mywc/situation/picnick/object/do__,
+      __mywc/situation/picnick/location/do__,
+      __mywc/situation/picnick/composition/do__,
+      {0-2$$__mywc/situation/picnick/list__}
+    list:
+      - __mywc/situation/picnick/fashion__
+      - __mywc/situation/picnick/expression__
+    pose:
+      do:
+        - sitting,{wariza|seiza|indian style}
+      list:
+        - drinking
+        - eating
+    object:
+      do:
+        - picnic sheet,{|cherry blossom |maple }tree,lunch box,
+      list:
+    location:
+      do:
+        - outdoor,{day|night}
+      list:
+    composition:
+      do:
+      list:
+    fashion:
+    expression:
+      - giggling
+      - grin
+      - happy
+      - laughing
+      - light smile
+      - smile
+      - smug
+      - surprised
   teatime:
     do: |-
       __mywc/situation/teatime/pose/do__,
@@ -27,7 +64,7 @@ situation:
         - twirling hair
     object:
       do:
-        - table,chair,coffee,{0-4$$__mywc/situation/teatime/object/list__}
+        - table,coffee,{0-4$$__mywc/situation/teatime/object/list__}
       list:
         - cake
         - flower pot,__mywc/pose/action/object/plants__
@@ -60,11 +97,26 @@ situation:
       - smug
       - surprised
   sample:
-    do:
+    do: |-
+      __mywc/situation/sample/pose/do__,
+      __mywc/situation/sample/object/do__,
+      __mywc/situation/sample/location/do__,
+      __mywc/situation/sample/composition/do__,
+      {0-2$$__mywc/situation/sample/list__}
     list:
+      - __mywc/situation/sample/fashion__
+      - __mywc/situation/sample/expression__
     pose:
+      do:
+      list:
     object:
+      do:
+      list:
     location:
+      do:
+      list:
     composition:
+      do:
+      list:
     fashion:
     expression:
