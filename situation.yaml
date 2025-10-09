@@ -1,5 +1,7 @@
 situation:
   do:
+  cooking:
+  jogging:
   list:
   picnick:
     do: |-
@@ -38,6 +40,9 @@ situation:
       - smile
       - smug
       - surprised
+  reading:
+  relaxing:
+  shopping:
   teatime:
     do: |-
       __mywc/situation/teatime/pose/do__,
@@ -96,6 +101,8 @@ situation:
       - smile
       - smug
       - surprised
+  walking:
+  working:
   sample:
     do: |-
       __mywc/situation/sample/pose/do__,
