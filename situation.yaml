@@ -7,8 +7,8 @@ situation:
     do: |-
       __mywc/situation/picnick/pose/do__,
       __mywc/situation/picnick/object/do__,
-      __mywc/situation/picnick/location/do__,
-      __mywc/situation/picnick/composition/do__,
+      __mywc/situation/picnick/location__,
+      __mywc/situation/picnick/composition__,
       {0-2$$__mywc/situation/picnick/list__}
     list:
       - __mywc/situation/picnick/fashion__
@@ -21,16 +21,19 @@ situation:
         - eating
     object:
       do:
-        - picnic sheet,{|cherry blossom |maple }tree,lunch box,
+        - picnic sheet,{|cherry blossom |maple }tree,bento,{0-4$$__mywc/situation/picnick/object/list__}
       list:
+        - bento
+        - bottle
+        - sandwich
+        - unworn shoes
     location:
-      do:
-        - outdoor,{day|night}
-      list:
+      - outdoor,{day|night},
     composition:
-      do:
-      list:
+      - " "
+      - from above
     fashion:
+      - __mywc/fashion/costumes/warm-sets/do__
     expression:
       - giggling
       - grin
