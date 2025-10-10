@@ -1,8 +1,9 @@
 situation:
   do:
+    - __mywc/situation/picnick/do__
+    - __mywc/situation/teatime/do__
   cooking:
   jogging:
-  list:
   picnick:
     do: |-
       __mywc/situation/picnick/pose/do__,
@@ -31,9 +32,9 @@ situation:
       - outdoor,{day|night},
     composition:
       - " "
-      - from above
+      - pov,from above
     fashion:
-      - __mywc/fashion/costumes/warm-sets/do__
+      - __mywc/situation/casual-fashion/warm-sets/do__
     expression:
       - giggling
       - grin
@@ -46,6 +47,7 @@ situation:
   reading:
   relaxing:
   shopping:
+  teaching:
   teatime:
     do: |-
       __mywc/situation/teatime/pose/do__,
@@ -93,8 +95,8 @@ situation:
       list:
         - straight-on
     fashion:
-      - __mywc/fashion/costumes/cool-sets/do__
-      - __mywc/fashion/costumes/warm-sets/do__
+      - __mywc/situation/casual-fashion/cool-sets/do__
+      - __mywc/situation/casual-fashion/warm-sets/do__
     expression:
       - giggling
       - grin
@@ -106,27 +108,46 @@ situation:
       - surprised
   walking:
   working:
-  sample:
-    do: |-
-      __mywc/situation/sample/pose/do__,
-      __mywc/situation/sample/object/do__,
-      __mywc/situation/sample/location/do__,
-      __mywc/situation/sample/composition/do__,
-      {0-2$$__mywc/situation/sample/list__}
-    list:
-      - __mywc/situation/sample/fashion__
-      - __mywc/situation/sample/expression__
-    pose:
-      do:
-      list:
-    object:
-      do:
-      list:
-    location:
-      do:
-      list:
-    composition:
-      do:
-      list:
-    fashion:
-    expression:
+  casual-fashion:
+    cool-sets:
+      do: >-
+        ${cool-sets-clothes=__mywc/situation/casual-fashion/cool-sets/clothes__}
+        ${cool-sets-accessories=__mywc/situation/casual-fashion/cool-sets/accessories/do__}
+        __mywc/fashion/costumes/cool-sets/do__
+      clothes:
+        do:
+          - __mywc/situation/casual-fashion/cool-sets/clothes/tops__,__mywc/situation/casual-fashion/cool-sets/clothes/bottoms__
+          - __mywc/situation/casual-fashion/cool-sets/clothes/unis__
+        tops:
+          - blouse,short sleeves
+          - t-shirt,short sleeves
+        bottoms:
+          - "{|denim }shorts"
+          - skirt
+        unis:
+          - casual dress,__mywc/fashion/costumes/summer/clothes/tops/structions__
+          - pinafore dress,__mywc/fashion/costumes/summer/clothes/tops/structions__
+          - sundress
+      accessories:
+        do:
+          - "{1-3$$__mywc/situation/casual-fashion/cool-sets/accessories/list__}"
+        list:
+          - earrings
+          - hat
+          - necklace
+    warm-sets:
+      do: >-
+        ${warm-sets-bottoms:__mywc/situation/casual-fashion/warm-sets/bottoms__}
+        ${warm-sets-accessories:__mywc/situation/casual-fashion/warm-sets/accessories/do__}
+        __mywc/fashion/costumes/warm-sets/do__
+      bottoms:
+        - jeans
+        - pants
+        - skirt{|,pantyhose}
+      accessories:
+        do:
+          - "{1-3$$__mywc/situation/casual-fashion/warm-sets/accessories/list__}"
+        list:
+          - earrings
+          - hat
+          - necklace
