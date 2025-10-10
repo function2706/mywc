@@ -9,9 +9,9 @@ situation:
       __mywc/situation/picnick/pose/do__,
       __mywc/situation/picnick/object/do__,
       __mywc/situation/picnick/location__,
-      __mywc/situation/picnick/composition__,
-      {0-2$$__mywc/situation/picnick/list__}
+      {0-3$$__mywc/situation/picnick/list__}
     list:
+      - __mywc/situation/picnick/composition__
       - __mywc/situation/picnick/fashion__
       - __mywc/situation/picnick/expression__
     pose:
@@ -21,8 +21,9 @@ situation:
         - drinking
         - eating
     object:
-      do:
-        - picnic sheet,{|cherry blossom |maple }tree,bento,{0-4$$__mywc/situation/picnick/object/list__}
+      do: >-
+        picnic sheet,{|cherry blossom |maple }tree,bento,
+        {0-4$$__mywc/situation/picnick/object/list__}
       list:
         - bento
         - bottle
@@ -31,31 +32,85 @@ situation:
     location:
       - outdoor,{day|night},
     composition:
-      - " "
-      - pov,from above
+      - pov{|,from above}
     fashion:
       - __mywc/situation/casual-fashion/warm-sets/do__
     expression:
-      - giggling
-      - grin
-      - happy
-      - laughing
-      - light smile
-      - smile
-      - smug
-      - surprised
+      do: >-
+        __mywc/situation/picnick/expression/base__,
+        {0-2$$__mywc/situation/picnick/expression/eye__|__mywc/situation/picnick/expression/mouth__}
+      base:
+        - grin
+        - happy
+        - laughing
+        - light smile
+        - smile
+      eye:
+        - closed eyes
+        - one eye closed
+      mouth:
+        - open mouth
   reading:
   relaxing:
   shopping:
   teaching:
+    do: |-
+      __mywc/situation/teaching/pose/do__,
+      __mywc/situation/teaching/object/do__,
+      __mywc/situation/teaching/location/do__,
+      {0-3$$__mywc/situation/teaching/list__}
+    list:
+      - __mywc/situation/teaching/composition/do__
+      - __mywc/situation/teaching/fashion__
+      - __mywc/situation/teaching/expression__
+    pose:
+      do:
+        - standing{|,looking at viewer}{|,__mywc/situation/teaching/pose/list__}
+      list:
+        - hand on lectern
+        - holding book
+        - holding clipboard
+        - holding pointer
+        - writing
+    object:
+      do:
+        - lectern,blackboard,{0-4$$__mywc/situation/teaching/object/list__}
+      list:
+        - chair
+        - clock
+        - desk
+        - door
+        - window{|,day|,sunny|,rain|,night}
+    location:
+      - classroom,indoor
+    composition:
+      do:
+        - __mywc/situation/teaching/composition/list__,pov
+      list:
+        - straight-on
+    fashion:
+      - __mywc/fashion/costumes/teacher/do__
+    expression:
+      do: >-
+        __mywc/situation/teaching/expression/base__
+        {|,__mywc/situation/teaching/expression/eye__}
+      base:
+        - angry
+        - expressionless
+        - laughing
+        - smile
+        - surprised
+        - worried
+      mouth:
+        - open mouth
   teatime:
     do: |-
       __mywc/situation/teatime/pose/do__,
       __mywc/situation/teatime/object/do__,
       __mywc/situation/teatime/location/do__,
-      __mywc/situation/teatime/composition/do__,
-      {0-2$$__mywc/situation/teatime/list__}
+      {0-3$$__mywc/situation/teatime/list__}
     list:
+      - __mywc/situation/teatime/composition/do__
       - __mywc/situation/teatime/fashion__
       - __mywc/situation/teatime/expression__
     pose:
@@ -73,8 +128,9 @@ situation:
         - stroking own chin
         - twirling hair
     object:
-      do:
-        - table,coffee,{0-4$$__mywc/situation/teatime/object/list__}
+      do: >-
+        table,coffee,
+        {0-4$$__mywc/situation/teatime/object/list__}
       list:
         - cake
         - flower pot,__mywc/pose/action/object/plants__
@@ -98,14 +154,20 @@ situation:
       - __mywc/situation/casual-fashion/cool-sets/do__
       - __mywc/situation/casual-fashion/warm-sets/do__
     expression:
-      - giggling
-      - grin
-      - happy
-      - laughing
-      - light smile
-      - smile
-      - smug
-      - surprised
+      do: >-
+        __mywc/situation/teatime/expression/base__,
+        {0-2$$__mywc/situation/teatime/expression/eye__|__mywc/situation/teatime/expression/mouth__}
+      base:
+        - grin
+        - happy
+        - laughing
+        - light smile
+        - smile
+      eye:
+        - closed eyes
+        - one eye closed
+      mouth:
+        - open mouth
   walking:
   working:
   casual-fashion:
