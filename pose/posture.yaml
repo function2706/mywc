@@ -1,4 +1,4 @@
-action:
+posture:
   special:
     - bathing{4::|4::,towel on head|,nipples}
     - bicycle{|,cycling uniform}
@@ -6,13 +6,13 @@ action:
     - cooking{|,apron}
     - figure skating
     - incoming attack
-    - incoming {gift|letter|food|drink|__mywc/pose/action/object/foods__}
+    - incoming {gift|letter|food|drink|__mywc/pose/posture/object/foods__}
     - incoming {hug|kiss|pocky kiss}
     - riding animal{|,horse}
     - soaking feet{|,pool}
     - surfing,{swim|diving }suit{|,surfboard}
     - wading,bare legs{|,ocean|,river|,pool}
-    - __mywc/pose/action/dancing__
+    - __mywc/pose/posture/dancing__
   dancing:
     - ballet
     - ballroom dancing
@@ -30,9 +30,10 @@ action:
     - curtsey
     - dynamic pose
     - eating
-    - eating __mywc/pose/action/object/foods__
-    - eating __mywc/pose/action/object/vegetables__
+    - eating __mywc/pose/posture/object/foods__
+    - eating __mywc/pose/posture/object/vegetables__
     - fetal position
+    - holding __mywc/pose/posture/object/*__
     - jogging
     - jumping
     - knitting
@@ -40,9 +41,9 @@ action:
     - on back
     - on side
     - on stomach
-    - petting __mywc/pose/action/object/animals__
+    - petting __mywc/pose/posture/object/animals__
     - playing{| games}
-    - playing __mywc/pose/action/object/instruments__
+    - playing __mywc/pose/posture/object/instruments__
     - praying
     - rabbit pose
     - reading
@@ -54,9 +55,6 @@ action:
     - stretching
     - walking
     - yawning
-    - __mywc/pose/action/holding__
-  holding:
-    - holding __mywc/pose/action/object/*__
   object:
     animals:
       - bird

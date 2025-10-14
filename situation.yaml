@@ -132,7 +132,7 @@ situation:
         {0-4$$__mywc/situation/teatime/object/list__}
       list:
         - cake
-        - flower pot,__mywc/pose/action/object/plants__
+        - flower pot,__mywc/pose/posture/object/plants__
         - painting
         - table cloth
         - teapot

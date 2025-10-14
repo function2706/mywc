@@ -1,6 +1,6 @@
 pose:
   general:
-    - __mywc/pose/action/general__{1::|10::,__mywc/pose/figure-body/los/do__}
+    - __mywc/pose/posture/general__{1::|10::,__mywc/pose/figure-body/los/do__}
     - __mywc/pose/figure-body/do__
   special:
-    - __mywc/pose/action/special__{1::|10::,__mywc/pose/figure-body/los/do__}
+    - __mywc/pose/posture/special__{1::|10::,__mywc/pose/figure-body/los/do__}
