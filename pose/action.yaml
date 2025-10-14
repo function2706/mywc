@@ -1,84 +1,60 @@
 action:
   special:
-    - bathing
-    - biking
-    - cleaning
-    - cooking
-    - diving
-    - fetal position
-    - fishing
-    - frying
-    - grilling
-    - hiking
-    - napping
-    - pitching
-    - planting
-    - riding a horse
-    - sewing
-    - showering
-    - skating
-    - skiing
-    - soaking {|feet}
-    - surfing
-    - sweeping
-    - swimming
-    - typing
-    - wading
+    - bathing{4::|4::,towel on head|,nipples}
+    - bicycle{|,cycling uniform}
+    - boxing{|,boxer briefs}
+    - cooking{|,apron}
+    - figure skating
+    - incoming attack
+    - incoming {gift|letter|food|drink|__mywc/pose/action/object/foods__}
+    - incoming {hug|kiss|pocky kiss}
+    - riding animal{|,horse}
+    - soaking feet{|,pool}
+    - surfing,{swim|diving }suit{|,surfboard}
+    - wading,bare legs{|,ocean|,river|,pool}
     - __mywc/pose/action/dancing__
-    - __mywc/pose/action/martial-arts__
+  dancing:
+    - ballet
+    - ballroom dancing
+    - belly dancing
+    - dancing
+    - pole dancing
   general:
+    - "{kicking|incoming kick}"
+    - "{punching|incoming punch}"
     - all fours
-    - arching back
+    - arched back
     - bowing
-    - bunny pose
-    - cleaning
     - contrapposto
-    - crafting
     - crawling
     - curtsey
-    - dancing
     - dynamic pose
     - eating
     - eating __mywc/pose/action/object/foods__
     - eating __mywc/pose/action/object/vegetables__
+    - fetal position
     - jogging
     - jumping
-    - kicking
     - knitting
     - lying
     - on back
     - on side
     - on stomach
     - petting __mywc/pose/action/object/animals__
-    - playing
+    - playing{| games}
     - playing __mywc/pose/action/object/instruments__
     - praying
-    - punching
+    - rabbit pose
     - reading
     - running
+    - shouting
     - singing
+    - sleeping
     - smoking
     - stretching
-    - training
     - walking
-    - working
-    - writing
     - yawning
-    - yelling
     - __mywc/pose/action/holding__
-  dancing:
-    - ballet
-    - ballroom dance
-    - belly dance
-    - flamenco
-    - pole dancing
-    - samba
-    - street dance
-  martial-arts:
-    - boxing
-    - judo
-    - karate
-    - kung fu
   holding:
     - holding __mywc/pose/action/object/*__
   object:
