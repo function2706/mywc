@@ -77,15 +77,16 @@ behavior:
       - diving
   eating:
     do:
-      - eating{| __mywc/pose/object/foods__| __mywc/pose/object/vegetables__}
+      - eating {__mywc/pose/object/foods__|__mywc/pose/object/vegetables__}
   fishing:
     do:
       - fishing{|,fishing rod}
   giving:
     do:
-      - incoming {gift|letter|food|drink|__mywc/pose/object/foods__}
+      - incoming {gift|letter|food|drink|100::__mywc/pose/object/foods__}
   hiking:
-    - hiking{|,backpack}
+    do:
+      - hiking{|,backpack}
   holding:
     do:
       - holding __mywc/pose/object/*__
@@ -152,7 +153,8 @@ behavior:
     do:
       - planting
   playing:
-    - playing{| games| toy}
+    do:
+      - playing{| games| toy}
   playing-instrument:
     do:
       - playing __mywc/pose/object/instruments__

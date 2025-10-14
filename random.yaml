@@ -2,11 +2,11 @@ random:
   full:
     - __mywc/random/of__,__mywc/subject/full__
   of: |-
-    {2::__mywc/random/general-pose__|1::__mywc/random/special-pose__},
+    {2::__mywc/random/posture-course__|1::__mywc/random/behavior-course__},
     __mywc/meta/boilerplate/code__
-  general-pose:
+  posture-course:
     - "{0-$$__mywc/fashion/random__|__mywc/expression/random__|__mywc/pose/posture/random__|__mywc/location/random__}{5::|1::,__mywc/meta/random__}"
-  special-pose:
+  behavior-course:
     - __mywc/pose/behavior/random__
 consistent:
   of: |-
@@ -22,8 +22,9 @@ mundane:
     __mywc/meta/boilerplate/code__
   list: >-
     {
-      2::__mywc/location/indoors/do__|
-      2::__mywc/location/outdoors/do__|
-      5::__mywc/fashion/costumes/list/mundane__{10::|1::,__mywc/pose/posture/random__}|
-      1::__mywc/pose/behavior/random__
+      20000::__mywc/location/indoors/do__|
+      20000::__mywc/location/outdoors/do__|
+      50000::__mywc/fashion/costumes/list/mundane__{10::|1::,__mywc/pose/posture/random__}|
+      10000::__mywc/pose/behavior/random__|
+      1::end of list
     }

@@ -1,8 +1,9 @@
 posture:
   random: >-
     {
-      2::{20::|1::__mywc/pose/posture/head__,}{10::|1::__mywc/pose/posture/los/do__,}{1-2$$__mywc/pose/posture/list__}|
-      1::__mywc/pose/posture/pose__
+      20000::{20::|1::__mywc/pose/posture/head__,}{10::|1::__mywc/pose/posture/los/do__,}{1-2$$__mywc/pose/posture/list__}|
+      10000::__mywc/pose/posture/pose__|
+      1::end of list
     }
   list:
     - __mywc/pose/posture/upper/do__
