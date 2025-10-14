@@ -5,17 +5,17 @@ random:
     {2::__mywc/random/general-pose__|1::__mywc/random/special-pose__},
     __mywc/meta/boilerplate/code__
   general-pose:
-    - "{0-5$$__mywc/fashion/random__|__mywc/expression/random__|__mywc/pose/general__|__mywc/location/random__|__mywc/meta/random__}"
+    - "{0-$$__mywc/fashion/random__|__mywc/expression/random__|__mywc/pose/posture/random__|__mywc/location/random__}{5::|1::,__mywc/meta/random__}"
   special-pose:
-    - "{0-3$$__mywc/expression/random__|__mywc/pose/special__|__mywc/meta/random__}"
+    - __mywc/pose/behavior/random__
 consistent:
   of: |-
     __mywc/consistent/list__{|,${consistent-expression:__mywc/expression/set/*__}},{3::|1::,{__mywc/meta/style/do__}},
     __mywc/meta/boilerplate/code__
   list:
     - "{__mywc/location/indoors/do__|__mywc/location/outdoors/do__}"
-    - __mywc/fashion/costumes/random__{10::|1::,__mywc/pose/general__}
-    - __mywc/pose/special__
+    - __mywc/fashion/costumes/random__{10::|1::,__mywc/pose/posture/random__}
+    - __mywc/pose/behavior/random__
 mundane:
   of: |-
     __mywc/mundane/list__{|,${mundane-expression:__mywc/expression/set/*__}},
@@ -24,6 +24,6 @@ mundane:
     {
       2::__mywc/location/indoors/do__|
       2::__mywc/location/outdoors/do__|
-      5::__mywc/fashion/costumes/list/mundane__{10::|1::,__mywc/pose/general__}|
-      1::__mywc/pose/special__
+      5::__mywc/fashion/costumes/list/mundane__{10::|1::,__mywc/pose/posture/random__}|
+      1::__mywc/pose/behavior/random__
     }
