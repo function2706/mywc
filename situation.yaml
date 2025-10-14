@@ -13,7 +13,7 @@ situation:
     list:
       - __mywc/situation/picnick/composition__
       - __mywc/situation/picnick/fashion__
-      - __mywc/situation/picnick/expression__
+      - __mywc/situation/picnick/expression/do__
     pose:
       do:
         - sitting,{wariza|seiza|indian style}
@@ -28,7 +28,6 @@ situation:
         - bento
         - bottle
         - sandwich
-        - unworn shoes
     location:
       - outdoor,{day|night},
     composition:
@@ -57,12 +56,12 @@ situation:
     do: |-
       __mywc/situation/teaching/pose/do__,
       __mywc/situation/teaching/object/do__,
-      __mywc/situation/teaching/location/do__,
-      {0-3$$__mywc/situation/teaching/list__}
+      __mywc/situation/teaching/location__,
+      - __mywc/situation/teaching/fashion__,
+      {0-2$$__mywc/situation/teaching/list__}
     list:
       - __mywc/situation/teaching/composition/do__
-      - __mywc/situation/teaching/fashion__
-      - __mywc/situation/teaching/expression__
+      - __mywc/situation/teaching/expression/do__
     pose:
       do:
         - standing{|,looking at viewer}{|,__mywc/situation/teaching/pose/list__}
@@ -93,7 +92,7 @@ situation:
     expression:
       do: >-
         __mywc/situation/teaching/expression/base__
-        {|,__mywc/situation/teaching/expression/eye__}
+        {|,__mywc/situation/teaching/expression/mouth__}
       base:
         - angry
         - expressionless
@@ -112,7 +111,7 @@ situation:
     list:
       - __mywc/situation/teatime/composition/do__
       - __mywc/situation/teatime/fashion__
-      - __mywc/situation/teatime/expression__
+      - __mywc/situation/teatime/expression/do__
     pose:
       do:
         - sitting,looking at viewer,{|,__mywc/situation/teatime/pose/list__}
@@ -173,7 +172,7 @@ situation:
   casual-fashion:
     cool-sets:
       do: >-
-        ${cool-sets-clothes=__mywc/situation/casual-fashion/cool-sets/clothes__}
+        ${cool-sets-clothes=__mywc/situation/casual-fashion/cool-sets/clothes/do__}
         ${cool-sets-accessories=__mywc/situation/casual-fashion/cool-sets/accessories/do__}
         __mywc/fashion/costumes/cool-sets/do__
       clothes:
