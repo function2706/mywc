@@ -1537,7 +1537,7 @@ costumes:
       type:
         - "{|casual |strapless |off-shoulder }one-piece swimsuit"
         - "{|competition |old |new }school swimsuit"
-        - "{0-2$$front-tie|side-tie} bikini"
+        - "{0-$$front-tie|side-tie} bikini"
         - backless swimsuit
         - bikini shorts,swimsuit
         - competition swimsuit

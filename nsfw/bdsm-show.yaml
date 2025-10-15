@@ -9,7 +9,7 @@ bdsm-show:
     __mywc/meta/boilerplate/code__
   pose:
     random:
-      - "{1::__mywc/nsfw/bdsm-show/pose/action__|10::{1-2$$__mywc/nsfw/bdsm-show/pose/upper__|__mywc/nsfw/bdsm-show/pose/lower__}}"
+      - "{1::__mywc/nsfw/bdsm-show/pose/action__|10::{1-$$__mywc/nsfw/bdsm-show/pose/upper__|__mywc/nsfw/bdsm-show/pose/lower__}}"
     action:
       - dynamic pose
       - kicking

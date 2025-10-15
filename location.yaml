@@ -22,7 +22,7 @@ location:
         - laboratory
         - library
         - museum
-        - night club,{0-2$$dance floor|dj booth}
+        - night club,{0-$$dance floor|dj booth}
         - office building
         - pool
         - restaurant
@@ -110,19 +110,19 @@ location:
         - garden
         - graveyard
         - harbor
-        - marina,{0-3$$docks|piers|pontoons}
+        - marina,{0-$$docks|piers|pontoons}
         - market
         - market stall
         - onsen
         - orchard
         - park
-        - parking lot,{0-2$$vehicles|parking lines}
-        - pasture,{0-2$$fences|hay bales}
+        - parking lot,{0-$$vehicles|parking lines}
+        - pasture,{0-$$fences|hay bales}
         - pool
         - rooftop
         - shrine
         - stadium
-        - street festival,{0-2$$food stalls|vendor booths}
+        - street festival,{0-$$food stalls|vendor booths}
         - temple
         - waterfront
         - __mywc/location/outdoors/location/city__
@@ -130,12 +130,12 @@ location:
         - __mywc/location/outdoors/location/school/do__
       nature:
         - "{swamp|marsh|wetland|bog}"
-        - antarctic{|,arctic},{0-2$$iceberg|ocean}
+        - antarctic{|,arctic},{0-$$iceberg|ocean}
         - bamboo forest
         - beach
-        - canyon,{0-2$$gorge|cliffs}
+        - canyon,{0-$$gorge|cliffs}
         - cave
-        - desert,{0-2$$sand dunes|cacti}
+        - desert,{0-$$sand dunes|cacti}
         - field
         - flower field
         - forest
@@ -145,13 +145,13 @@ location:
         - meadow
         - mountain
         - nature
-        - oasis,{0-2$$palm trees|pond}
+        - oasis,{0-$$palm trees|pond}
         - ocean
         - pond
         - river
         - savannah{|,trees}
         - valley
-        - volcano,{0-2$$lava|crater}
+        - volcano,{0-$$lava|crater}
         - waterfall
         - wheat field
       city:
@@ -163,7 +163,7 @@ location:
         - urban
         - village
       road:
-        - alley,{0-3$$dumpsters|garbage bags|pipes}
+        - alley,{0-$$dumpsters|garbage bags|pipes}
         - crosswalk
         - dirt road
         - path

@@ -16,7 +16,7 @@ pussy:
     do:
       - |-
         {|pussy juice}{|,small pussy hole},
-        {1::__mywc/nsfw/pussy/show/action__|25::{1-2$$__mywc/nsfw/pussy/show/pose/upper/do__|__mywc/nsfw/pussy/show/pose/lower__}}
+        {1::__mywc/nsfw/pussy/show/action__|25::{1-$$__mywc/nsfw/pussy/show/pose/upper/do__|__mywc/nsfw/pussy/show/pose/lower__}}
     action:
       - contrapposto
     pose:
@@ -25,7 +25,7 @@ pussy:
           - "{2::__mywc/nsfw/pussy/show/pose/upper/one-hand/do__|1::__mywc/nsfw/pussy/show/pose/upper/both-hands__}"
         one-hand:
           do:
-            - "{1-2$$__mywc/nsfw/pussy/show/pose/upper/one-hand/list__|spread pussy}"
+            - "{1-$$__mywc/nsfw/pussy/show/pose/upper/one-hand/list__|spread pussy}"
           list:
             - arm above head
             - arm at side
@@ -61,14 +61,14 @@ pussy:
     do:
       - |-
         (peeing:1.21),pee from peehole,
-        {1-2$$__mywc/nsfw/pussy/peeing/pose/upper/do__|__mywc/nsfw/pussy/peeing/pose/lower__}
+        {1-$$__mywc/nsfw/pussy/peeing/pose/upper/do__|__mywc/nsfw/pussy/peeing/pose/lower__}
     pose:
       upper:
         do:
           - "{2::__mywc/nsfw/pussy/peeing/pose/upper/one-hand/do__|1::__mywc/nsfw/pussy/peeing/pose/upper/both-hands__}"
         one-hand:
           do:
-            - "{1-2$$__mywc/nsfw/pussy/peeing/pose/upper/one-hand/list__|spread pussy}"
+            - "{1-$$__mywc/nsfw/pussy/peeing/pose/upper/one-hand/list__|spread pussy}"
           list:
             - arm above head
             - arm at side
@@ -95,17 +95,17 @@ pussy:
           - hands on own hip
       lower:
         - squatting{|,{|wide} spread legs}
-        - standing{|,legs apart}{|,from below,{0-2$$pov|foreshortening}}
+        - standing{|,legs apart}{|,from below,{0-$$pov|foreshortening}}
   fashion:
     random:
       - " "
-      - "{1-4$$__mywc/fashion/tops/random__|__mywc/nsfw/pussy/fashion/bottoms__|__mywc/nsfw/pussy/fashion/footwears__|__mywc/fashion/accessories/random__}"
-      - "{1-3$$__mywc/nsfw/pussy/fashion/unis__|__mywc/nsfw/pussy/fashion/footwears__|__mywc/fashion/accessories/random__}"
+      - "{1-$$__mywc/fashion/tops/random__|__mywc/nsfw/pussy/fashion/bottoms__|__mywc/nsfw/pussy/fashion/footwears__|__mywc/fashion/accessories/random__}"
+      - "{1-$$__mywc/nsfw/pussy/fashion/unis__|__mywc/nsfw/pussy/fashion/footwears__|__mywc/fashion/accessories/random__}"
       - __mywc/nsfw/pussy/fashion/costumes__
     bottoms:
-      - "{1-2$$__mywc/fashion/bottoms/skirts/do__|{__mywc/fashion/bottoms/panties/do__,panty {aside|pull}|}}"
+      - "{1-$$__mywc/fashion/bottoms/skirts/do__|{__mywc/fashion/bottoms/panties/do__,panty {aside|pull}|}}"
     unis:
-      - "{1-2$$__mywc/fashion/unis/made/flippable__|{__mywc/fashion/bottoms/panties/do__,panty {aside|pull}|}}"
+      - "{1-$$__mywc/fashion/unis/made/flippable__|{__mywc/fashion/bottoms/panties/do__,panty {aside|pull}|}}"
     footwears:
       - __mywc/fashion/footwears/boots/do__
       - __mywc/fashion/footwears/heels/do__
@@ -180,7 +180,7 @@ pussy:
       - __mywc/fashion/costumes/wizard/do__{2::|1::,panties aside}
     artist:
       do: >-
-        ${artist-bottoms={1-2$$skirts|panties aside}}
+        ${artist-bottoms={1-$$skirts|panties aside}}
         __mywc/fashion/costumes/artist/do__
     ballerina:
       do: >-
@@ -236,10 +236,10 @@ pussy:
         - __mywc/fashion/costumes/cheerleader/footwears__
         - __mywc/fashion/costumes/cheerleader/accessories/do__
       bottoms:
-        - "{1-2$$pleated {|mini }skirt|panties aside}"
+        - "{1-$$pleated {|mini }skirt|panties aside}"
     commander:
       do: >-
-        ${commander-bottoms={1-2$$skirt|panties aside}}
+        ${commander-bottoms={1-$$skirt|panties aside}}
         __mywc/fashion/costumes/commander/do__
     cool-sets:
       do: >-
@@ -258,7 +258,7 @@ pussy:
         __mywc/fashion/costumes/cross-dressing/do__
     doctor:
       do: >-
-        ${doctor-bottoms={1-2$$maxi skirt|heels}}
+        ${doctor-bottoms={1-$$maxi skirt|heels}}
         __mywc/fashion/costumes/doctor/do__
     dress:
       do: >-
@@ -279,7 +279,7 @@ pussy:
         __mywc/fashion/costumes/explorer/do__
     goth-roli:
       do: >-
-        ${goth-roli-bottoms={1-2$$__mywc/fashion/costumes/goth-roli/bottoms__|panties aside}}
+        ${goth-roli-bottoms={1-$$__mywc/fashion/costumes/goth-roli/bottoms__|panties aside}}
         ${goth-roli-socks={|striped }thighhighs}
         __mywc/fashion/costumes/goth-roli/do__
     gym:
@@ -296,7 +296,7 @@ pussy:
         __mywc/fashion/costumes/hunter/do__
     magical:
       do: >-
-        ${magical-bottoms={1-2$$__mywc/fashion/costumes/magical/bottoms__|panties aside}}
+        ${magical-bottoms={1-$$__mywc/fashion/costumes/magical/bottoms__|panties aside}}
         ${magical-socks=__mywc/nsfw/pussy/fashion/magical/socks__}
         __mywc/fashion/costumes/magical/do__
       socks:
@@ -304,7 +304,7 @@ pussy:
         - "{|striped }tighthighs"
     maid:
       do: >-
-        ${maid-bottoms={1-2$$__mywc/fashion/costumes/maid/bottoms__|panties aside}}
+        ${maid-bottoms={1-$$__mywc/fashion/costumes/maid/bottoms__|panties aside}}
         ${maid-socks=__mywc/nsfw/pussy/fashion/maid/socks__}
         __mywc/fashion/costumes/maid/do__
       socks:
@@ -316,14 +316,14 @@ pussy:
         ${marching-band-bottoms=__mywc/nsfw/pussy/fashion/marching-band/bottoms__}
         __mywc/fashion/costumes/marching-band/do__
       bottoms:
-        - "{1-2$${|mini }skirt,{{|long }boots|flat shoes}|panties aside}"
+        - "{1-$${|mini }skirt,{{|long }boots|flat shoes}|panties aside}"
     musician:
       do: >-
         ${musician-bottoms=__mywc/nsfw/pussy/fashion/musician/bottoms__,{__mywc/fashion/costumes/musician/bottoms/footwears/boots/do__|__mywc/fashion/costumes/musician/bottoms/footwears/shoes__}}
         __mywc/fashion/costumes/musician/do__
       bottoms:
         - "{|leather |torn }shorts,shorts aside"
-        - "{1-2$${|leather |torn }skirt|panties aside}"
+        - "{1-$${|leather |torn }skirt|panties aside}"
     nun:
       do: >-
         ${nun-list={0-3$$__mywc/nsfw/pussy/fashion/nun/list__}{|,panties aside}}
@@ -334,11 +334,11 @@ pussy:
         - __mywc/fashion/costumes/nun/accessories/do__
     nurse:
       do: >-
-        ${nurse-bottoms={1-2$$maxi skirt|panties aside}}
+        ${nurse-bottoms={1-$$maxi skirt|panties aside}}
         __mywc/fashion/costumes/nurse/do__
     office-lady:
       do: >-
-        ${office-lady-bottoms={1-2$$pencil skirt|panties aside}}
+        ${office-lady-bottoms={1-$$pencil skirt|panties aside}}
         __mywc/fashion/costumes/office-lady/do__
     pilot:
       do: >-
@@ -346,7 +346,7 @@ pussy:
         __mywc/fashion/costumes/pilot/do__
     police:
       do: >-
-        ${police-bottoms={1-2$$pencil skirt|panties aside}}
+        ${police-bottoms={1-$$pencil skirt|panties aside}}
         __mywc/fashion/costumes/police/do__
     prince:
       do: >-
@@ -365,7 +365,7 @@ pussy:
         - __mywc/fashion/costumes/santa/accessories/do__
     school:
       do: >-
-        ${school-bottoms={1-2$$__mywc/fashion/costumes/school/bottoms__|panties aside}}
+        ${school-bottoms={1-$$__mywc/fashion/costumes/school/bottoms__|panties aside}}
         ${school-socks=__mywc/nsfw/pussy/fashion/school/socks__}
         __mywc/fashion/costumes/school/do__
       socks:
@@ -375,7 +375,7 @@ pussy:
         - socks
     scientist:
       do: >-
-        ${scientist-bottoms={1-2$$maxi skirt|panties aside}}
+        ${scientist-bottoms={1-$$maxi skirt|panties aside}}
         __mywc/fashion/costumes/scientist/do__
     soldier:
       do: >-
@@ -383,7 +383,7 @@ pussy:
         __mywc/fashion/costumes/soldier/do__
     summer:
       do: >-
-        ${summer-bottoms={1-2$$__mywc/nsfw/pussy/fashion/summer/bottoms__|panties aside}}
+        ${summer-bottoms={1-$$__mywc/nsfw/pussy/fashion/summer/bottoms__|panties aside}}
         ${summer-unis=__mywc/fashion/costumes/summer/clothes/unis__{|,panties aside}}
         __mywc/fashion/costumes/summer/do__
       bottoms:
@@ -393,7 +393,7 @@ pussy:
         - pleated skirt{|,panties aside}
     swimwear:
       do: >-
-        ${swimwear-clothes={1-2$$__mywc/fashion/costumes/swimwear/clothes/do__|swimwear aside}}
+        ${swimwear-clothes={1-$$__mywc/fashion/costumes/swimwear/clothes/do__|swimwear aside}}
         __mywc/fashion/costumes/swimwear/do__
     teacher:
       do: >-
@@ -404,7 +404,7 @@ pussy:
         - pencil skirt{|,panties aside}
     travel-attendant:
       do: >-
-        ${travel-attendant-minimum={1-2$$pencil skirt|panties aside}}
+        ${travel-attendant-minimum={1-$$pencil skirt|panties aside}}
         ${travel-attendant-list={0-3$$__mywc/nsfw/pussy/fashion/travel-attendant/list__}}
         __mywc/fashion/costumes/travel-attendant/do__
       list:

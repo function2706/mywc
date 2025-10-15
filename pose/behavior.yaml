@@ -137,7 +137,7 @@ behavior:
     expression:
       do: >-
         __mywc/pose/behavior/picnick/expression/base__,
-        {0-2$$__mywc/pose/behavior/picnick/expression/eye__|__mywc/pose/behavior/picnick/expression/mouth__}
+        {0-$$__mywc/pose/behavior/picnick/expression/eye__|__mywc/pose/behavior/picnick/expression/mouth__}
       base:
         - grin
         - happy
@@ -309,7 +309,7 @@ behavior:
     expression:
       do: >-
         __mywc/pose/behavior/teatime/expression/base__,
-        {0-2$$__mywc/pose/behavior/teatime/expression/eye__|__mywc/pose/behavior/teatime/expression/mouth__}
+        {0-$$__mywc/pose/behavior/teatime/expression/eye__|__mywc/pose/behavior/teatime/expression/mouth__}
       base:
         - grin
         - happy

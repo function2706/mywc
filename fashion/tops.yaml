@@ -1,6 +1,6 @@
 tops:
   random:
-    - "{8::{1-2$$__mywc/fashion/tops/outers/do__|__mywc/fashion/tops/inners/do__}|1::__mywc/fashion/tops/nsfw/do__}"
+    - "{8::{1-$$__mywc/fashion/tops/outers/do__|__mywc/fashion/tops/inners/do__}|1::__mywc/fashion/tops/nsfw/do__}"
   outers:
     do:
       - __mywc/color__ __mywc/fashion/tops/outers/jackets/do__
