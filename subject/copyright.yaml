@@ -2418,24 +2418,31 @@ copyright-list:
   #nichijou:
   #nier-automata:
   nikke:
+    - admi \(nikke\)
     - anis {|\(sparkling summer\) }\(nikke\)
     - blanc {|\(white rabbit\) }\(nikke\)
     - brid \(nikke\)
-    - dolla {|\(dark rose\) }\(nikke\)
     - drake \(nikke\)
+    - elegg \(nikke\)
     - exia \(nikke\)
     - helm {|\(aqua marine\) |\(chandelier\) }\(nikke\)
     - laplace \(nikke\)
+    - liliweiss \(nikke\)
     - ludmilla {|\(winter owner\) }\(nikke\)
-    - maiden {|\(ice rose\) |\(under the sun\) }\(nikke\)
-    - marian \(nikke\)
+    - marciana {|\(school days\) }\(nikke\)
+    - mast {|\(a pirate's heart\) }\(nikke\)
     - maxwell \(nikke\)
     - mihara \(nikke\)
     - modernia {|\(first affection\) |\(second affection\) }\(nikke\)
+    - moran \(nikke\)
+    - privaty {|\(unkind maid\) }\(nikke\)
     - rapi {|\(classic vacation\) }\(nikke\)
+    - rapunzel {|\(pure grace\) }\(nikke\)
     - rupee {|\(rabbit deluxe\) |\(winter shopper\) }\(nikke\)
+    - soda {|\(twinkling bunny\) }\(nikke\)
     - syuen \(nikke\)
     - tia \(nikke\)
+    - tove \(nikke\)
     - viper {|\(shine of love\) |\(toxic rabbit\) }\(nikke\)
   #nisekoi:
   #nyaruko-san:
@@ -3411,6 +3418,11 @@ copyright-pickup-list:
     - haruno sakura
     - temari \(naruto\)
     - tsunade \(naruto\)
+  nikke:
+    - anis {|\(sparkling summer\) }\(nikke\)
+    - privaty {|\(unkind maid\) }\(nikke\)
+    - rapi {|\(classic vacation\) }\(nikke\)
+    - syuen \(nikke\)
   one-piece:
     - nami \(one piece\)
     - nefertari vivi
