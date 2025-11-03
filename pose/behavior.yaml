@@ -211,7 +211,7 @@ behavior:
       __mywc/pose/behavior/teaching/pose/do__,
       __mywc/pose/behavior/teaching/object/do__,
       __mywc/pose/behavior/teaching/location__,
-      - __mywc/pose/behavior/teaching/fashion__,
+      __mywc/pose/behavior/teaching/fashion__,
       {0-2$$__mywc/pose/behavior/teaching/list__}
     list:
       - __mywc/pose/behavior/teaching/composition/do__
@@ -236,13 +236,13 @@ behavior:
         - window{|,day|,sunny|,rain|,night}
     location:
       - classroom,indoor
+    fashion:
+      - __mywc/fashion/costumes/teacher/do__
     composition:
       do:
         - __mywc/pose/behavior/teaching/composition/list__,pov
       list:
         - straight-on
-    fashion:
-      - __mywc/fashion/costumes/teacher/do__
     expression:
       do: >-
         __mywc/pose/behavior/teaching/expression/base__
@@ -330,7 +330,64 @@ behavior:
       - surfing,{swim|diving }suit{|,surfboard}
   working:
     do:
-      - typing
+    list:
+    pose:
+    object:
+    location:
+    composition:
+    fashion:
+      - __mywc/fashion/costumes/teacher/do__
+    expression:
+  sample:
+    do: |-
+      __mywc/pose/behavior/sample/pose/do__,
+      __mywc/pose/behavior/sample/object/do__,
+      __mywc/pose/behavior/sample/location/do__,
+      __mywc/pose/behavior/sample/fashion/do__,
+      {0-2$$__mywc/pose/behavior/sample/list__}
+    list:
+      - __mywc/pose/behavior/sample/composition/do__
+      - __mywc/pose/behavior/sample/expression/do__
+    pose:
+      do:
+        - standing{|,looking at viewer}{|,__mywc/pose/behavior/sample/pose/list__}
+      list:
+        - hand on own hip
+    object:
+      do:
+        - "{0-4$$__mywc/pose/behavior/sample/object/list__}"
+      list:
+        - apple
+        - banana
+        - grape
+        - melon
+        - window{|,day|,sunny|,rain|,night}
+    location:
+      do:
+        - room,indoor
+    fashion:
+      do:
+        - __mywc/pose/behavior/casual-fashion/cool-sets/do__
+        - __mywc/pose/behavior/casual-fashion/warm-sets/do__
+    composition:
+      do:
+        - pov,{0-2$$__mywc/pose/behavior/sample/composition/list__}
+      list:
+        - from above
+        - from below
+    expression:
+      do: >-
+        __mywc/pose/behavior/sample/expression/base__
+        {|,__mywc/pose/behavior/sample/expression/mouth__}
+      base:
+        - angry
+        - expressionless
+        - laughing
+        - smile
+        - surprised
+        - worried
+      mouth:
+        - open mouth
   casual-fashion:
     cool-sets:
       do: >-
