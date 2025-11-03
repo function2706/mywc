@@ -329,15 +329,48 @@ behavior:
     do:
       - surfing,{swim|diving }suit{|,surfboard}
   working:
-    do:
+    do: |-
+      __mywc/pose/behavior/working/pose/do__,
+      __mywc/pose/behavior/working/object/do__,
+      __mywc/pose/behavior/working/location__,
+      __mywc/pose/behavior/working/fashion__,
+      {0-2$$__mywc/pose/behavior/working/list__}
     list:
+      - __mywc/pose/behavior/working/composition__
+      - __mywc/pose/behavior/working/expression__
     pose:
+      do:
+        - sitting{|,looking at viewer}{|,__mywc/pose/behavior/working/pose/list__}{|,crossed legs}
+        - standing{|,looking at viewer}{|,__mywc/pose/behavior/working/pose/list__}
+        - sitting,typing
+      list:
+        - crossed arms
+        - hands on own {head|neck}
+        - hand{|s} on own shoulder
+        - holding {paper{|s}|smartphone|tablet pc}
+        - reading document
     object:
+      do:
+        - "{0-7$$__mywc/pose/behavior/working/object/list__}"
+      list:
+        - clock
+        - desk
+        - office chair
+        - phone
+        - potted plant
+        - tablet pc
+        - window{|,day|,sunny|,rain|,night}
     location:
-    composition:
+      - office,indoor
     fashion:
-      - __mywc/fashion/costumes/teacher/do__
+      - __mywc/fashion/costumes/office-lady/do__
+    composition:
+      - pov
     expression:
+      - annoyed
+      - expressionless
+      - smile
+      - worried
   sample:
     do: |-
       __mywc/pose/behavior/sample/pose/do__,
@@ -378,7 +411,6 @@ behavior:
     expression:
       do: >-
         __mywc/pose/behavior/sample/expression/base__
-        {|,__mywc/pose/behavior/sample/expression/mouth__}
       base:
         - angry
         - expressionless
