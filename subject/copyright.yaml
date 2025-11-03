@@ -2905,8 +2905,7 @@ copyright-list:
     - eternity larva
     - flandre scarlet
     - fujiwara no mokou
-    - futatsuiwa mamizou
-    - futatsuiwa mamizou \(human\)
+    - futatsuiwa mamizou{| \(human\)}
     - goutokuji mike
     - hakurei reimu
     - hakurei reimu \(pc-98\)
@@ -3581,18 +3580,22 @@ copyright-pickup-list:
     - clownpiece
     - daiyousei
     - doremy sweet
+    - ebisu eika
     - ellen \(touhou\)
     - elly \(touhou\)
     - eternity larva
     - flandre scarlet
     - fujiwara no mokou
-    - futatsuiwa mamizou
+    - futatsuiwa mamizou{| \(human\)}
+    - goutokuji mike
     - hakurei reimu
+    - haniyasushin keiki
     - hata no kokoro
     - hecatia lapislazuli
     - hieda no akyuu
     - hijiri byakuren
     - himekaidou hatate
+    - himemushi momoyo
     - hinanawi tenshi
     - hong meiling
     - horikawa raiko
@@ -3606,6 +3609,7 @@ copyright-pickup-list:
     - inaba tewi
     - inubashiri momiji
     - izayoi sakuya
+    - joutouguu mayumi
     - junko \(touhou\)
     - kaenbyou rin
     - kagiyama hina
@@ -3623,33 +3627,42 @@ copyright-pickup-list:
     - kitashirakawa chiyuri
     - koakuma
     - kochiya sanae
+    - komakusa sannyo
     - komano aunn
     - komeiji koishi
     - komeiji satori
     - konpaku youmu
+    - kotohime \(touhou\)
     - kudamaki tsukasa,fox ears,fox tail,yellow eyes,[small breasts]
     - kumoi ichirin
     - kurodani yamame
+    - kurokoma saki
     - letty whiterock
     - lily white
     - luna child
     - lunasa prismriver
     - lyrica prismriver
     - maribel hearn
+    - matara okina
     - medicine melancholy
     - merlin prismriver
     - mima \(touhou\)
+    - mitsugashira enoko
     - miyako yoshika
     - mizuhashi parsee
     - mononobe no futo
     - moriya suwako
     - motoori kosuzu
+    - mugetsu \(touhou\)
     - murasa minamitsu
     - mystia lorelei
     - nagae iku
     - nazrin,mouse ears,mouse tail,[small breasts]
+    - nippaku zanmu
+    - nishida satono
     - niwatari kutaka
     - okazaki yumemi
+    - okunoda miyoi
     - onozuka komachi
     - patchouli knowledge
     - reisen \(touhou bougetsushou\)
@@ -3667,12 +3680,16 @@ copyright-pickup-list:
     - shiki eiki
     - shinki \(touhou\)
     - soga no tojiko
+    - son biten
     - star sapphire
     - sukuna shinmyoumaru
     - sunny milk
+    - tamatsukuri misumaru
     - tanned cirno
     - tatara kogasa
     - teireida mai
+    - tenkajin chiyari
+    - tenkyuu chimata
     - tokiko \(touhou\)
     - toramaru shou
     - toutetsu yuuma,horizontal pupils,[sharp teeth],[small breasts]
@@ -3689,8 +3706,10 @@ copyright-pickup-list:
     - yagokoro eirin
     - yakumo ran
     - yakumo yukari
+    - yamashiro takane
     - yasaka kanako
     - yatadera narumi
+    - yomotsu hisami
     - yorigami jo'on
     - yorigami shion
     - yumeko \(touhou\)
