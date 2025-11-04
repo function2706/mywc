@@ -123,9 +123,8 @@ behavior:
     object:
       do: >-
         picnic sheet,{|cherry blossom |maple }tree,bento,
-        {0-4$$__mywc/pose/behavior/picnick/object/list__}
+        {0-2$$__mywc/pose/behavior/picnick/object/list__}
       list:
-        - bento
         - bottle
         - sandwich
     location:
@@ -340,15 +339,26 @@ behavior:
       - __mywc/pose/behavior/working/expression__
     pose:
       do:
-        - sitting{|,looking at viewer}{|,__mywc/pose/behavior/working/pose/list__}{|,crossed legs}
-        - standing{|,looking at viewer}{|,__mywc/pose/behavior/working/pose/list__}
-        - sitting,typing
-      list:
-        - crossed arms
-        - hands on own {head|neck}
-        - hand{|s} on own shoulder
-        - holding {paper{|s}|smartphone|tablet pc}
-        - reading document
+        - __mywc/pose/behavior/working/pose/standing/do__{|,looking at viewer}
+        - __mywc/pose/behavior/working/pose/sitting/do__{|,looking at viewer}
+      standing:
+        do:
+          - standing,__mywc/pose/behavior/working/pose/standing/upper__
+        upper:
+          - crossed arms
+          - hand on own {chin|shoulder}
+          - holding {cup|paper{|s}|smartphone|tablet pc}
+      sitting:
+        do:
+          - sitting{|,crossed legs},__mywc/pose/behavior/working/pose/sitting/upper__
+        upper:
+          - crossed arms
+          - eating bento
+          - hands on own {head|knee|neck}
+          - hand on own {chin|ear|shoulder}
+          - head rest
+          - holding {cup|paper{|s}|smartphone}
+          - typing
     object:
       do:
         - "{0-7$$__mywc/pose/behavior/working/object/list__}"
