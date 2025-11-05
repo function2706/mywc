@@ -152,8 +152,49 @@ behavior:
     do:
       - planting
   playing:
-    do:
-      - playing{| games| toy}
+    do: |-
+      __mywc/pose/behavior/playing/pose/do__,
+      __mywc/pose/behavior/playing/object/do__,
+      __mywc/pose/behavior/playing/location/do__,
+      __mywc/pose/behavior/playing/fashion/do__,
+      {|__mywc/pose/behavior/playing/expression/do__}
+    pose:
+      do:
+        - playing {games{|,holding pad}|toy},__mywc/pose/behavior/playing/pose/lower__
+      lower:
+        - indian style
+        - seiza
+        - sitting on {chair|sofa}
+        - wariza
+    object:
+      do:
+        - "{0-6$$__mywc/pose/behavior/playing/object/list__}"
+      list:
+        - carpet
+        - cup
+        - plant
+        - table
+        - television
+        - window{|,day|,sunny|,rain|,night}
+    location:
+      do:
+        - room,indoor
+    fashion:
+      do:
+        - __mywc/pose/behavior/casual-fashion/cool-sets/do__
+        - __mywc/pose/behavior/casual-fashion/warm-sets/do__
+    expression:
+      do: >-
+        __mywc/pose/behavior/playing/expression/base__
+      base:
+        - excited
+        - frustrated
+        - laughing
+        - smile
+        - surprised
+        - worried
+      mouth:
+        - open mouth
   playing-instrument:
     do:
       - playing __mywc/pose/object/instruments__
