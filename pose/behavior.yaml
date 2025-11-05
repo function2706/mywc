@@ -346,7 +346,7 @@ behavior:
           - standing,__mywc/pose/behavior/working/pose/standing/upper__
         upper:
           - crossed arms
-          - hand on own {chin|shoulder}
+          - hand on own {chin|hip|shoulder}
           - holding {cup|paper{|s}|smartphone|tablet pc}
       sitting:
         do:
@@ -393,9 +393,22 @@ behavior:
       - __mywc/pose/behavior/sample/expression/do__
     pose:
       do:
-        - standing{|,looking at viewer}{|,__mywc/pose/behavior/sample/pose/list__}
-      list:
-        - hand on own hip
+        - __mywc/pose/behavior/sample/pose/standing/do__{|,looking at viewer}
+        - __mywc/pose/behavior/sample/pose/sitting/do__{|,looking at viewer}
+      standing:
+        do:
+          - standing,__mywc/pose/behavior/sample/pose/standing/upper__
+        upper:
+          - crossed arms
+          - hand on own {chin|hip|shoulder}
+      sitting:
+        do:
+          - sitting{|,crossed legs},__mywc/pose/behavior/sample/pose/sitting/upper__
+        upper:
+          - crossed arms
+          - hands on own {head|knee|neck}
+          - hand on own {chin|ear|shoulder}
+          - head rest
     object:
       do:
         - "{0-4$$__mywc/pose/behavior/sample/object/list__}"
