@@ -122,9 +122,11 @@ behavior:
         - eating
     object:
       do: >-
-        picnic sheet,{|cherry blossom |maple }tree,bento,
+        picnic sheet,
         {0-2$$__mywc/pose/behavior/picnick/object/list__}
       list:
+        - "{|cherry blossom |maple }tree"
+        - bento
         - bottle
         - sandwich
     location:
@@ -160,7 +162,7 @@ behavior:
       {|__mywc/pose/behavior/playing/expression/do__}
     pose:
       do:
-        - playing {games{|,holding pad}|toy},__mywc/pose/behavior/playing/pose/lower__
+        - holding gamepad,television,__mywc/pose/behavior/playing/pose/lower__
       lower:
         - indian style
         - seiza
@@ -168,13 +170,12 @@ behavior:
         - wariza
     object:
       do:
-        - "{0-6$$__mywc/pose/behavior/playing/object/list__}"
+        - "{0-2$$__mywc/pose/behavior/playing/object/list__}"
       list:
         - carpet
         - cup
         - plant
         - table
-        - television
         - window{|,day|,sunny|,rain|,night}
     location:
       do:
@@ -267,7 +268,7 @@ behavior:
         - writing
     object:
       do:
-        - lectern,blackboard,{0-4$$__mywc/pose/behavior/teaching/object/list__}
+        - lectern,blackboard,{0-2$$__mywc/pose/behavior/teaching/object/list__}
       list:
         - chair
         - clock
@@ -323,7 +324,7 @@ behavior:
     object:
       do: >-
         table,coffee,
-        {0-4$$__mywc/pose/behavior/teatime/object/list__}
+        {0-2$$__mywc/pose/behavior/teatime/object/list__}
       list:
         - cake
         - flower pot{|,cactus|,daisy|,dandelion|,hibiscus|,marigold|,poppy|,rose|,sunflower|,tulip}
@@ -402,7 +403,7 @@ behavior:
           - typing
     object:
       do:
-        - "{0-7$$__mywc/pose/behavior/working/object/list__}"
+        - "{0-2$$__mywc/pose/behavior/working/object/list__}"
       list:
         - clock
         - desk
@@ -452,7 +453,7 @@ behavior:
           - head rest
     object:
       do:
-        - "{0-4$$__mywc/pose/behavior/sample/object/list__}"
+        - "{0-2$$__mywc/pose/behavior/sample/object/list__}"
       list:
         - apple
         - banana
