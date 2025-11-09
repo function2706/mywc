@@ -46,10 +46,9 @@ behavior:
     do: |-
       __mywc/pose/behavior/acrobatic/pose/do__,
       __mywc/pose/behavior/acrobatic/location/do__,
-      __mywc/pose/behavior/acrobatic/fashion/do__,
-      {0-1$$__mywc/pose/behavior/acrobatic/list__}
+      {0-2$$__mywc/pose/behavior/acrobatic/list__}
     list:
-      - " "
+      - __mywc/pose/behavior/acrobatic/fashion/do__
       - __mywc/pose/behavior/acrobatic/expression/do__
     pose:
       do:
@@ -186,8 +185,10 @@ behavior:
       __mywc/pose/behavior/playing/pose/do__,
       __mywc/pose/behavior/playing/object/do__,
       __mywc/pose/behavior/playing/location/do__,
-      __mywc/pose/behavior/playing/fashion/do__,
-      {|__mywc/pose/behavior/playing/expression/do__}
+      {0-2$$__mywc/pose/behavior/playing/list__}
+    list:
+      - __mywc/pose/behavior/playing/fashion/do__
+      - __mywc/pose/behavior/playing/expression/do__
     pose:
       do:
         - holding gamepad,television,__mywc/pose/behavior/playing/pose/lower__
@@ -455,9 +456,9 @@ behavior:
       __mywc/pose/behavior/sample/pose/do__,
       __mywc/pose/behavior/sample/object/do__,
       __mywc/pose/behavior/sample/location/do__,
-      __mywc/pose/behavior/sample/fashion/do__,
-      {0-2$$__mywc/pose/behavior/sample/list__}
+      {0-3$$__mywc/pose/behavior/sample/list__}
     list:
+      - __mywc/pose/behavior/sample/fashion/do__
       - __mywc/pose/behavior/sample/composition/do__
       - __mywc/pose/behavior/sample/expression/do__
     pose:
