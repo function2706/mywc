@@ -43,8 +43,37 @@ behavior:
     - __mywc/pose/behavior/working/do__
     - __mywc/pose/behavior/skating/do__
   acrobatic:
-    do:
-      - jumping
+    do: |-
+      __mywc/pose/behavior/acrobatic/pose/do__,
+      __mywc/pose/behavior/acrobatic/location/do__,
+      __mywc/pose/behavior/acrobatic/fashion/do__,
+      {0-1$$__mywc/pose/behavior/acrobatic/list__}
+    list:
+      - " "
+      - __mywc/pose/behavior/acrobatic/expression/do__
+    pose:
+      do:
+        - __mywc/pose/behavior/acrobatic/pose/list__{|,looking at viewer}
+      list:
+        - jumping
+        - running
+    location:
+      do:
+        - city
+        - park
+        - street
+    fashion:
+      do:
+        - __mywc/pose/behavior/casual-fashion/cool-sets/do__
+        - __mywc/pose/behavior/casual-fashion/warm-sets/do__
+    expression:
+      do: >-
+        {1-2$$__mywc/pose/behavior/acrobatic/expression/base__|__mywc/pose/behavior/acrobatic/expression/mouth__}
+      base:
+        - excited
+        - smile
+      mouth:
+        - open mouth
   atacking:
     do:
       - "{kicking|incoming kick}"
@@ -98,7 +127,6 @@ behavior:
       - incoming {hug|kiss|pocky kiss}
   moving:
     do:
-      - jogging
       - running
       - walking
   petting:
@@ -186,7 +214,7 @@ behavior:
         - __mywc/pose/behavior/casual-fashion/warm-sets/do__
     expression:
       do: >-
-        __mywc/pose/behavior/playing/expression/base__
+        __mywc/pose/behavior/playing/expression/base__{|,__mywc/pose/behavior/playing/expression/mouth__}
       base:
         - excited
         - frustrated
@@ -286,8 +314,7 @@ behavior:
         - straight-on
     expression:
       do: >-
-        __mywc/pose/behavior/teaching/expression/base__
-        {|,__mywc/pose/behavior/teaching/expression/mouth__}
+        __mywc/pose/behavior/teaching/expression/base__{|,__mywc/pose/behavior/teaching/expression/mouth__}
       base:
         - angry
         - expressionless
@@ -475,7 +502,8 @@ behavior:
         - from below
     expression:
       do: >-
-        __mywc/pose/behavior/sample/expression/base__
+        __mywc/pose/behavior/sample/expression/base__,
+        {0-$$__mywc/pose/behavior/teatime/expression/eye__|__mywc/pose/behavior/teatime/expression/mouth__}
       base:
         - angry
         - expressionless
@@ -483,6 +511,9 @@ behavior:
         - smile
         - surprised
         - worried
+      eye:
+        - closed eyes
+        - one eye closed
       mouth:
         - open mouth
   casual-fashion:
