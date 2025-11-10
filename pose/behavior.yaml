@@ -10,13 +10,13 @@ behavior:
     - __mywc/pose/behavior/dancing/do__
     - __mywc/pose/behavior/diving/do__
     - __mywc/pose/behavior/eating/do__
+    - __mywc/pose/behavior/exercise/do__
     - __mywc/pose/behavior/fishing/do__
     - __mywc/pose/behavior/giving/do__
     - __mywc/pose/behavior/hiking/do__
     - __mywc/pose/behavior/holding/do__
     - __mywc/pose/behavior/knitting/do__
     - __mywc/pose/behavior/loving/do__
-    - __mywc/pose/behavior/moving/do__
     - __mywc/pose/behavior/petting/do__
     - __mywc/pose/behavior/picnick/do__
     - __mywc/pose/behavior/planting/do__
@@ -35,7 +35,6 @@ behavior:
     - __mywc/pose/behavior/sleeping/do__
     - __mywc/pose/behavior/smoking/do__
     - __mywc/pose/behavior/soaking/do__
-    - __mywc/pose/behavior/stretching/do__
     - __mywc/pose/behavior/swimming/do__
     - __mywc/pose/behavior/teaching/do__
     - __mywc/pose/behavior/teatime/do__
@@ -106,6 +105,43 @@ behavior:
   eating:
     do:
       - eating {__mywc/pose/object/foods__|__mywc/pose/object/vegetables__}
+  exercise:
+    do: |-
+      __mywc/pose/behavior/exercise/pose__,
+      __mywc/pose/behavior/exercise/location/do__,
+      {0-2$$__mywc/pose/behavior/exercise/list__}
+    list:
+      - __mywc/pose/behavior/exercise/fashion/do__
+      - __mywc/pose/behavior/exercise/expression/do__
+    pose:
+      - running
+      - stretching
+      - walking
+    location:
+      do:
+        - __mywc/location/outdoors/location/city__
+        - __mywc/location/outdoors/location/road__
+        - gym
+        - outdoor
+    fashion:
+      do:
+        - __mywc/pose/behavior/casual-fashion/cool-sets/do__
+        - __mywc/pose/behavior/casual-fashion/warm-sets/do__
+        - __mywc/fashion/costumes/gym/do__
+    expression:
+      do: >-
+        __mywc/pose/behavior/exercise/expression/base__,
+        {0-$$__mywc/pose/behavior/exercise/expression/eye__|__mywc/pose/behavior/exercise/expression/eyebrow__|__mywc/pose/behavior/exercise/expression/mouth__}
+      base:
+        - expressionless
+        - smile
+        - tired
+      eye:
+        - closed eyes
+      eyebrow:
+        - v-shaped eyebrows
+      mouth:
+        - open mouth
   fishing:
     do:
       - fishing{|,fishing rod}
@@ -124,10 +160,6 @@ behavior:
   loving:
     do:
       - incoming {hug|kiss|pocky kiss}
-  moving:
-    do:
-      - running
-      - walking
   petting:
     do:
       - petting __mywc/pose/object/animals__
@@ -270,9 +302,6 @@ behavior:
     do:
       - soaking feet{|,pool}
       - wading,bare legs{|,ocean|,river|,pool}
-  stretching:
-    do:
-      - stretching
   swimming:
     do:
       - swimming
@@ -504,7 +533,7 @@ behavior:
     expression:
       do: >-
         __mywc/pose/behavior/sample/expression/base__,
-        {0-$$__mywc/pose/behavior/teatime/expression/eye__|__mywc/pose/behavior/teatime/expression/mouth__}
+        {0-$$__mywc/pose/behavior/sample/expression/eye__|__mywc/pose/behavior/sample/expression/mouth__}
       base:
         - angry
         - expressionless
