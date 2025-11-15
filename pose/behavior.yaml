@@ -78,8 +78,43 @@ behavior:
       - "{punching|incoming punch}"
       - incoming attack
   bathing:
-    do:
-      - bathing{4::|4::,towel on head|,nipples}
+    do: |-
+      __mywc/pose/behavior/bathing/pose/do__,
+      __mywc/pose/behavior/bathing/object/do__,
+      {0-4$$__mywc/pose/behavior/bathing/list__}
+    list:
+      - __mywc/pose/behavior/bathing/location__
+      - __mywc/pose/behavior/bathing/fashion__
+      - __mywc/pose/behavior/bathing/composition__
+      - __mywc/pose/behavior/bathing/expression/do__
+    pose:
+      do:
+        - bathing,__mywc/pose/behavior/bathing/pose/upper__{|,looking at viewer}
+      upper:
+        - head on arm
+        - hand on own {chest|shoulder}
+        - hugging own legs
+    object:
+      do:
+        - "{0-2$$__mywc/pose/behavior/bathing/object/list__}"
+      list:
+        - rubber duck
+        - steam
+    location:
+      - onsen
+    fashion:
+      - towel {around neck|on head}{4::|1::,nipples}
+    composition:
+      - pov
+    expression:
+      do: >-
+        __mywc/pose/behavior/bathing/expression/base__{|,__mywc/pose/behavior/bathing/expression/eye__}
+      base:
+        - crying
+        - happy
+        - relaxing
+      eye:
+        - closed eyes
   boxing:
     do:
       - boxing{|,boxer briefs}
@@ -391,7 +426,7 @@ behavior:
         - window{|,day|,sunny|,rain|,night}
     location:
       do:
-        - indoor{|,__mywc/pose/behavior/teatime/location/list__}
+        - indoors{|,__mywc/pose/behavior/teatime/location/list__}
       list:
         - cafe
         - room
