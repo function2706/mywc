@@ -324,7 +324,7 @@ behavior:
       - __mywc/pose/behavior/showering/expression/do__
     pose:
       do:
-        - showering,__mywc/pose/behavior/showering/pose/upper__{|,looking at viewer}
+        - showering{|,sitting},__mywc/pose/behavior/showering/pose/upper__{|,looking at viewer}
       upper:
         - hand{|s} on own {chest|head|hip}
         - holding shower head
@@ -334,11 +334,11 @@ behavior:
       - nipples
     composition:
       - pov
+      - full body
     expression:
       do: >-
         __mywc/pose/behavior/showering/expression/base__{|,__mywc/pose/behavior/showering/expression/eye__}
       base:
-        - crying
         - happy
         - relaxing
       eye:
