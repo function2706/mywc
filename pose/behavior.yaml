@@ -314,8 +314,35 @@ behavior:
     do:
       - shopping
   showering:
-    do:
-      - showering
+    do: |-
+      __mywc/pose/behavior/showering/pose/do__,
+      __mywc/pose/behavior/showering/object__,
+      {0-4$$__mywc/pose/behavior/showering/list__}
+    list:
+      - __mywc/pose/behavior/showering/fashion__
+      - __mywc/pose/behavior/showering/composition__
+      - __mywc/pose/behavior/showering/expression/do__
+    pose:
+      do:
+        - showering,__mywc/pose/behavior/showering/pose/upper__{|,looking at viewer}
+      upper:
+        - hand{|s} on own {chest|head|hip}
+        - holding shower head
+    object:
+      - steam
+    fashion:
+      - nipples
+    composition:
+      - pov
+    expression:
+      do: >-
+        __mywc/pose/behavior/showering/expression/base__{|,__mywc/pose/behavior/showering/expression/eye__}
+      base:
+        - crying
+        - happy
+        - relaxing
+      eye:
+        - closed eyes
   singing:
     do:
       - singing
