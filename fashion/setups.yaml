@@ -3,14 +3,15 @@ setups:
     - __mywc/fashion/setups/list__
   list:
     - __mywc/fashion/setups/leather/do__
+    - __mywc/fashion/setups/winter/do__
   leather:
     do: >-
-      ${leather-minimum:__mywc/fashion/setups/leather/list__},
-      {|${leather-accessories:__mywc/fashion/setups/leather/accessories/do__},}
-    list: >-
+      ${leather-minimum:__mywc/fashion/setups/leather/minimum__},
+      {|${leather-accessories:__mywc/fashion/setups/leather/accessories/do__}}
+    minimum: >-
       ${leather-tops:__mywc/fashion/setups/leather/tops__},
       ${leather-bottoms:__mywc/fashion/setups/leather/bottoms__},
-      ${leather-footwears:__mywc/fashion/setups/leather/footwears__},
+      ${leather-footwears:__mywc/fashion/setups/leather/footwears__}
     tops:
       - black leather jacket{|,sleeves {rolled|pushed} up},white short shirt,navel
     bottoms:
@@ -26,6 +27,40 @@ setups:
         - eyewear on head
       neck:
         - necklace
+  winter:
+    do: >-
+      ${winter-minimum:__mywc/fashion/setups/winter/list__}
+    list: >-
+      ${winter-tops:__mywc/fashion/setups/winter/tops__},
+      ${winter-bottoms:__mywc/fashion/setups/winter/bottoms__},
+      ${winter-socks:__mywc/fashion/setups/winter/socks__},
+      ${winter-footwears:__mywc/fashion/setups/winter/footwears__},
+      ${winter-accessories:__mywc/fashion/setups/winter/accessories/do__}
+    tops:
+      - "{|brown |white }long coat,{brown|grey|white} sweater"
+    bottoms:
+      - "{black|brown|white}{| plaid} skirt"
+    socks:
+      - "{black|brown} pantyhose"
+    footwears:
+      - "{black|brown} knee boots"
+    accessories:
+      do:
+        - "{|black |red |white }scarf,{1-3$$__mywc/fashion/setups/winter/accessories/list__}"
+      list:
+        - __mywc/fashion/setups/winter/accessories/face__
+        - __mywc/fashion/setups/winter/accessories/neck__
+        - __mywc/fashion/setups/winter/accessories/hand__
+        - __mywc/fashion/setups/winter/accessories/bags__
+      face:
+        - earrings
+      neck:
+        - necklace
+        - pendant
+      hand:
+        - "{black|red|white} gloves"
+      bags:
+        - "{black|red|white} bag{|,strap between breasts}"
   sample:
     do: >-
       sample,
