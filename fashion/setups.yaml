@@ -37,7 +37,7 @@ setups:
       ${winter-footwears:__mywc/fashion/setups/winter/footwears__},
       ${winter-accessories:__mywc/fashion/setups/winter/accessories/do__}
     tops:
-      - "{|brown |white }long coat,{brown|grey|white} sweater"
+      - "{brown |grey |white }long coat,{brown|grey|white} sweater"
     bottoms:
       - "{black|brown|white}{| plaid} skirt"
     socks:
@@ -58,7 +58,7 @@ setups:
         - necklace
         - pendant
       hand:
-        - "{black|red|white} gloves"
+        - "{black|brown|white} gloves"
       bags:
         - "{black|red|white} bag{|,strap between breasts}"
   sample:

@@ -26,5 +26,6 @@ mundane:
       20000::__mywc/location/outdoors/do__|
       50000::__mywc/fashion/costumes/list/mundane__{10::|1::,__mywc/pose/posture/random__}|
       10000::__mywc/pose/behavior/random__|
+      10000::__mywc/fashion/setups/random__|
       1::end of list
     }
