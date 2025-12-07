@@ -2,8 +2,32 @@ setups:
   random:
     - __mywc/fashion/setups/list__
   list:
-    - __mywc/fashion/setups/leather/do__
-    - __mywc/fashion/setups/winter/do__
+    - __mywc/fashion/setups/ankle-boots/do__
+    - __mywc/fashion/setups/knee-boots/do__
+    - __mywc/fashion/setups/thigh-boots/do__
+  ankle-boots:
+    do:
+      - (ankle boots:1.2),__mywc/fashion/setups/ankle-boots/list__
+    list:
+      - braided boots,black camisole dress,necklace
+      - braided boots,hakama skirt,kimono,stiletto heel
+      - leather boots,long coat,skinny jeans,pants tucked in
+      - leather boots,pantyhose,brown trench coat,white blouse,pleated miniskirt,belt
+      - thick sole boots,oversized down jacket,leggings
+      - black leather jacket,white shirt,skirt
+      - pinafore dress
+      - braided boots,oversized cardigan,skinny jeans
+      - t-shirt,denim shorts{|,pants rolled up}
+      - thighhighs,oversized knit sweater,short skirt
+      - off shoulder knit,short skirt{|,thighhighs}
+  knee-boots:
+    do:
+      - (knee boots:1.2),__mywc/fashion/setups/knee-boots/list__
+    list:
+      - braided boots,oversized shirt dress
+      - short pants,beige trench coat,{|,pantyhose}
+      - t-shirt,denim shorts{|,pants rolled up}
+  thigh-boots:
   leather:
     do: >-
       ${leather-minimum:__mywc/fashion/setups/leather/minimum__},
@@ -61,57 +85,3 @@ setups:
         - "{black|brown|white} gloves"
       bags:
         - "{black|red|white} bag{|,strap between breasts}"
-  sample:
-    do: >-
-      sample,
-      ${sample-minimum:minimum},
-      ${sample-list:{0-6$$__mywc/fashion/setups/sample/list__}}
-    list:
-      - ${sample-tops:__mywc/fashion/setups/sample/tops__}
-      - ${sample-bottoms:__mywc/fashion/setups/sample/bottoms__}
-      - ${sample-gloves:__mywc/fashion/setups/sample/gloves__}
-      - ${sample-socks:__mywc/fashion/setups/sample/socks__}
-      - ${sample-footwears:__mywc/fashion/setups/sample/footwears__}
-      - ${sample-accessories:__mywc/fashion/setups/sample/accessories/do__}
-    tops:
-      - shirt
-      - sweater
-    bottoms:
-      - pants
-      - skirt
-    gloves:
-      - gloves
-    socks:
-      - pantyhose
-      - socks
-    footwears:
-      - boots
-      - sneakers
-    accessories:
-      do:
-        - "{1-6$$__mywc/fashion/setups/sample/accessories/list__}"
-      list:
-        - __mywc/fashion/setups/sample/accessories/head/__
-        - __mywc/fashion/setups/sample/accessories/face/__
-        - __mywc/fashion/setups/sample/accessories/neck/__
-        - __mywc/fashion/setups/sample/accessories/hand/__
-        - __mywc/color__ __mywc/fashion/setups/sample/accessories/bags__
-        - __mywc/color__ __mywc/fashion/setups/sample/accessories/one-points__
-      head:
-        - headpin
-        - hut
-      face:
-        - glasses
-        - surgical mask
-      neck:
-        - necklace
-        - pendant
-      hand:
-        - armlet
-        - bracelet
-      bags:
-        - bags
-        - shoulder bag
-      one-points:
-        - belt
-        - corsage
