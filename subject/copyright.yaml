@@ -995,17 +995,17 @@ copyright-list:
     - zenobia \(fate\)
   final-fantasy:
     - elena \(ff7\)
-    - fran \(final fantasy\)
+    - fran \(ff12\)
     - hilda ware
     - iris amicitia
     - meteion \(final fantasy xiv\)
     - minfilia warde
     - red mage \(final fantasy\)
-    - rikku \(final fantasy\)
+    - rikku \(ff10\)
     - tifa lockhart
     - trance terra branford
     - white mage \(final fantasy\)
-    - yuna \(final fantasy {|x}\)
+    - yuna \(ff10\)
   #final-fight:
   fire-emblem:
     - alear {|\(awoken divinity\) |\(fell dragon\) |\(female\) |\(female\) \(divine attire\) |\(female\) \(gifted dragons\) |\(female\) \(seaside dragon\) }\(fire emblem\)
@@ -2580,9 +2580,9 @@ copyright-list:
     - winona \(pokemon\)
     - zinnia {|\(special costume\) }\(pokemon\)
   powerpuff-girls:
-    - blossom \(powerpuff girls\)
-    - bubbles \(powerpuff girls\)
-    - buttercup \(powerpuff girls\)
+    - blossom \(ppg\)
+    - bubbles \(ppg\)
+    - buttercup \(ppg\)
   precure:
     - aida mana
     - aino megumi
@@ -3210,43 +3210,22 @@ copyright-pickup:
   - __mywc/subject/copyright-pickup-list/*__
 copyright-pickup-list:
   arknights:
-    - amiya {|\(act 2\) |\(ambience synesthesia 2021\) |\(ambience synesthesia 2022\) |\(ambience synesthesia 2024\) |\(fresh fastener\) |\(guard\) |\(guard\) \(touch the stars\) |\(medic\) |\(newsgirl\) |\(planter\) |\(swimsuit\) }\(arknights\)
-  bleach:
-    - kuchiki rukia
-    - sui-feng
+    - amiya \(arknights\)
   boku-no-hero-academia:
-    - ashido mina
-    - asui tsuyu
     - toga himiko
   blue-archive:
-    - arona \(blue archive\)
-    - aru {|\(dress\) |\(new year\) |\(young\) }\(blue archive\)
-    - asuna {|\(bunny\) }\(blue archive\)
-    - ayane {|\(idol\) |\(swimsuit\) }\(blue archive\)
-    - cherino {|\(hot spring\) |\(qipao\) }\(blue archive\)
-    - chiaki \(blue archive\)
-    - haruna {|\(new year\) |\(swimsuit\) |\(track\) }\(blue archive\)
-    - hasumi {|\(track\) }\(blue archive\)
-    - hina {|\(dress\) |\(pajamas\) |\(swimsuit\) }\(blue archive\)
-    - iori {|\(swimsuit\) }\(blue archive\)
+    - aru \(blue archive\)
+    - ayane \(blue archive\)
+    - hina \(blue archive\)
+    - iori \(blue archive\)
     - iroha \(blue archive\)
-    - izumi {|\(new year\) |\(swimsuit\) }\(blue archive\)
-    - izuna {|\(swimsuit\) }\(blue archive\)
-    - karin {|\(bunny\) }\(blue archive\)
-    - kayoko {|\(dress\) |\(new year\) }\(blue archive\)
-    - kirara \(blue archive\)
-    - kurumi \(blue archive\)
-    - midori {|\(maid\) }\(blue archive\)
-    - momoi {|\(maid\) }\(blue archive\)
-    - momoka \(blue archive\)
-    - mutsuki {|\(dress\) |\(flowery charms\) |\(new year\) |\(suit\) }\(blue archive\)
-    - neru {|\(bunny\) |\(swimsuit\) }\(blue archive\)
-    - nonomi {|\(swimsuit\) }\(blue archive\)
-    - serika {|\(idol\) |\(new year\) |\(swimsuit\) }\(blue archive\)
-    - shiroko {|\(cycling\) |\(swimsuit\) |\(young\) }\(blue archive\)
-    - toki {|\(abi-eshuh\) |\(bunny\) }\(blue archive\)
+    - izuna \(blue archive\)
+    - kayoko \(blue archive\)
+    - mutsuki \(blue archive\)
+    - nonomi \(blue archive\)
+    - serika \(blue archive\)
+    - shiroko \(blue archive\)
   cardcaptor-sakura:
-    - daidouji tomoyo
     - kinomoto sakura
   chainsaw-man:
     - makima \(chainsaw man\)
@@ -3254,77 +3233,41 @@ copyright-pickup-list:
     - c.c.
   detective-conan:
     - haibara ai
-    - mouri ran
   digimon:
     - makino ruki \(digimon\)
     - renamon \(digimon\),digimon \(creature\)
-    - rosemon \(digimon\),digimon \(creature\)
+    - rosemon \(digimon\),digimon \(creature\),covered eyes,green hair
     - tachikawa mimi \(digimon\)
     - yagami hikari \(digimon\)
-  doki-doki-literature-club:
-    - monika \(doki doki literature club\)
-    - natsuki \(doki doki literature club\)
-    - sayori \(doki doki literature club\)
-    - yuri \(doki doki literature club\)
   doraemon:
     - minamoto shizuka
   dragon-ball:
     - android 18
-    - bulma
-    - chi-chi \(dragon ball\)
-    - lunch {|\(bad\) |\(good\) }\(dragon ball\)
-    - maron \(dragon ball z\)
-    - pan {|\(xeno\) }\(dragon ball\)
   dragon-quest:
     - alena \(dq4\)
     - bianca \(dq5\)
-    - deborah \(dq5\)
-    - flora \(dq5\)
     - hero's daughter \(dq5\)
     - jessica albert
-    - manya \(dq4\)
     - maribel \(dq7\)
-    - minea \(dq4\)
     - priest \(dq3\)
-    - sage \(dq3\)
-    - veronica \(dq11\)
-  evangelion:
-    - ayanami rei
-    - souryuu asuka langley
   fate:
-    - bb {|\(bb shot!\) |\(swimsuit mooncancer\) |\(swimsuit mooncancer\) \(first ascension\) |\(swimsuit mooncancer\) \(second ascension\) |\(swimsuit mooncancer\) \(third ascension\) }\(fate\)
-    - bb \(fate/extra\)
-    - okita souji \(fate\)
-    - okita souji alter {|\(first ascension\) |\(swimsuit saber\) |\(swimsuit saber\) \(first ascension\) |\(swimsuit saber\) \(second ascension\) }\(fate\)
-    - saber {|\(first ascension\) |\(lapis lazuli dress\) |\(pure night dress\) |\(royal dress\) |\(second ascension\) |\(summer battle clothes\) |\(type-moon racing\) }\(fate\)
-    - shuten douji {|\(dress for demons\) |\(festival outfit\) |\(first ascension\) |\(halloween caster\) |\(lostroom outfit\) |\(under the same sky\) }\(fate\)
-    - tohsaka rin \(fate/extra\)
+    - bb {\(fate\)|\(fate/extra\)}
+    - saber \(fate\)
+    - shuten douji \(fate\)
     - tohsaka rin \(fate/zero\)
   final-fantasy:
     - tifa lockhart
-    - yuna \(final fantasy {|x}\)
+    - yuna \(ff10\)
   fire-emblem:
-    - tiki {|\(adult\) |\(adult\) \(bridal\) |\(adult\) \(fated divinity\) |\(adult\) \(summering scion\) |\(young\) |\(young\) \(beachside scion\) }\(fire emblem\)
-  galaxy-angel:
-    - milfeulle sakuraba
-    - mint blancmanche
+    - tiki \(fire emblem\)
   genshin-impact:
-    - hu tao {|\(galaxy store\) |\(lawson\) |\(oneplus\) |\(sweets paradise\) }\(genshin impact\)
+    - hu tao \(genshin impact\)
   ghibli:
     - kiki \(majo no takkyuubin\)
-    - nausicaa
-    - san {\(mononoke hime\)|\(princess mononoke\)}
   gochi-usa:
     - kafuu chino
   granblue-fantasy:
-    - djeeta {|\(summer\) }\(granblue fantasy\)
-    - narmaya {|\(holiday\) |\(summer\) |\(the black butterfly\) |\(valentine\) }\(granblue fantasy\)
-    - vikala {|\(blooming summer wallflower\) |\(summer\) }\(granblue fantasy\)
-  gundam:
-    - haman karn
-    - lacus clyne
-    - meer campbell
-    - sayla mass
+    - djeeta \(granblue fantasy\)
   higurashi:
     - furude rika
     - houjou satoko
@@ -3334,14 +3277,11 @@ copyright-pickup-list:
   ichigo-mashimaro:
     - ana coppola
   idolmaster:
-    - akizuki ritsuko
-    - akizuki ryo
     - amami haruka
     - futami ami
     - futami mami
     - ganaha hibiki
     - minase iori
-    - sakuma mayu
     - sakurai momoka
   ikamusume:
     - ikamusume
@@ -3349,29 +3289,17 @@ copyright-pickup-list:
     - akiyama mio
     - hirasawa ui
     - hirasawa yui
-    - kotobuki tsumugi
-    - manabe nodoka{|,glasses}
     - nakano azusa
-    - suzuki jun
     - tainaka ritsu
-    - yamanaka sawako{|,glasses}
   kaguya-sama:
     - fujiwara chika
     - shinomiya kaguya
-  kakegurui:
-    - jabami yumeko
   kancolle:
-    - atago \(kancolle\)
-    - kaga {|\(battleship\) |\(lawson\) }\(kancolle\)
-    - kaga kai ni \(kancolle\)
-    - makigumo {|\(swimsuit mode\) }\(kancolle\){|,glasses}
-    - makigumo kai ni {|\(swimsuit mode\) }\(kancolle\){|,glasses}
-    - maya {|\(swimsuit mode\) }\(kancolle\)
-    - maya kai ni \(kancolle\)
-    - ro-500 {|\(swimsuit mode\) }\(kancolle\)
-    - shimakaze {|\(anniversary\) }\(kancolle\)
+    - kaga \(kancolle\)
+    - maya \(kancolle\)
+    - ro-500 \(kancolle\)
+    - shimakaze \(kancolle\)
     - yuugumo \(kancolle\)
-    - yuugumo kai ni \(kancolle\)
   kimetsu-no-yaiba:
     - kamado nezuko
     - kochou shinobu
@@ -3380,20 +3308,6 @@ copyright-pickup-list:
     - kino \(kino no tabi\)
   kirby:
     - adeleine \(kirby\)
-  league-of-legends:
-    - ahri \(league of legends\)
-    - qiyana \(league of legends\)
-  love-live:
-    - hoshizora rin
-    - hoshizora yukiho
-    - kosaka honoka
-    - kosaka yukiho
-    - kurosawa ruby
-    - nishikino maki
-  lyrical-nanoha:
-    - fate testarossa {|\(blaze form ii\)|\(blaze form\)|\(blaze iii\)|\(impulse form\)|\(lightning form\)|\(lightning form\) \(2nd\)|\(movie 1st form\)|\(original form\)|\(sonic form\)|\(true sonic form\)}
-    - takamachi nanoha  {|\(aggressor mode\)|\(exceed mode\)|\(exelion mode\)|\(formula ii\)|\(movie 1st mode\)|\(original mode\)|\(sacred mode\)}
-    - takamachi nanoha {|\(sacred mode\) }\(2nd\)
   madoka-magica:
     - akemi homura
     - kaname madoka
@@ -3406,107 +3320,46 @@ copyright-pickup-list:
     - princess daisy
     - princess peach
     - rosalina \(mario\)
-  metroid:
-    - samus aran
   monogatari:
     - oshino shinobu
-    - senjougahara hitagi
   mother:
     - paula \(mother 2\)
-  naruto:
-    - haruno sakura
-    - temari \(naruto\)
-    - tsunade \(naruto\)
   nikke:
-    - anis {|\(sparkling summer\) }\(nikke\)
-    - privaty {|\(unkind maid\) }\(nikke\)
-    - rapi {|\(classic vacation\) }\(nikke\)
+    - anis \(nikke\)
+    - privaty \(nikke\)
     - syuen \(nikke\)
-  one-piece:
-    - nami \(one piece\)
-    - nefertari vivi
-    - nico robin
-    - tashigi \(one piece\){|,glasses}
   one-punch-man:
     - tatsumaki
-  persona:
-    - amagi yukiko
-    - caroline \(persona 5\)
-    - elizabeth \(persona\)
-    - justine \(persona 5\)
   pokemon:
-    - akari \(pokemon\)
-    - bea {|\(palentine's 2022\) }\(pokemon\)
-    - bianca {|\(champion\) }\(pokemon\)
-    - bonnie \(pokemon\)
-    - caitlin {|\(fall 2021\) }\(pokemon\)
-    - candice {|\(palentine's 2024\) }\(pokemon\)
+    - bea \(pokemon\)
     - cheryl \(pokemon\)
-    - clair \(pokemon\)
     - courtney \(pokemon\)
-    - cynthia {|\(arc suit\) |\(sygna suit\) |\(sygna suit\) \(aura\) |\(sygna suit\) \(renegade\) }\(pokemon\)
-    - dawn {|\(new year's 2023\) |\(palentine's 2021\) |\(sygna suit\) }\(pokemon\)
-    - elesa {|\(palentine's 2023\) |\(sygna suit\) }\(pokemon\)
-    - erika {|\(holiday 2020\) |\(sygna suit\) }\(pokemon\)
-    - fantina \(pokemon\)
-    - flannery \(pokemon\)
-    - gardenia {|\(summer 2024\) }\(pokemon\)
-    - gloria {|\(summer 2021\) }\(pokemon\)
-    - green \(pokemon\)
-    - hilda {|\(special costume\) |\(summer 2022\) |\(sygna suit\) }\(pokemon\)
-    - iono {|\(fall 2024\) }\(pokemon\)
-    - iris {|\(fall 2022\) }\(pokemon\)
-    - jasmine {|\(holiday 2022\) }\(pokemon\)
-    - jenny \(pokemon\)
-    - jessie \(pokemon\)
-    - joy \(pokemon\)
-    - karen \(pokemon\)
-    - kris {|\(sygna suit\) }\(pokemon\)
-    - lana {|\(sygna suit\) }\(pokemon\)
-    - lana's mother \(pokemon\)
-    - leaf {|\(champion\) |\(sygna suit\) }\(pokemon\)
-    - lusamine {|\(sygna suit\) }\(pokemon\)
-    - marnie {|\(champion\) |\(palentine's 2022\) |\(summer 2021\) }\(pokemon\)
-    - mars \(pokemon\)
-    - may {|\(anniversary 2022\) |\(contest\) |\(spring 2021\) |\(sygna suit\) }\(pokemon\)
-    - maylene \(pokemon\)
-    - misty {|\(sygna suit\) }\(pokemon\)
-    - phoebe \(pokemon\)
-    - rosa {|\(champion\) |\(holiday 2019\) |\(special costume\) }\(pokemon\)
-    - roxie \(pokemon\)
-    - sabrina {|\(new year's 2022\) }\(pokemon\)
-    - selene {|\(special costume\) }\(pokemon\)
-    - serena {|\(champion\) |\(palentine's 2021\) |\(sygna suit\) }\(pokemon\)
-    - shauntal {|\(fall 2024\) }\(pokemon\)
-    - skyla {|\(anniversary 2022\) |\(holiday 2020\) }\(pokemon\)
-    - sonia {|\(special costume\) }\(pokemon\)
-    - whitney {|\(holiday 2022\) }\(pokemon\)
-    - winona \(pokemon\)
+    - dawn \(pokemon\)
+    - elesa \(pokemon\)
+    - erika \(pokemon\)
+    - gloria \(pokemon\)
+    - hilda \(pokemon\)
+    - leaf \(pokemon\)
+    - may \(pokemon\)
+    - misty \(pokemon\)
+    - rosa \(pokemon\)
+    - sabrina \(pokemon\)
+    - serena \(pokemon\)
+    - skyla \(pokemon\)
   powerpuff-girls:
-    - blossom \(powerpuff girls\)
-    - bubbles \(powerpuff girls\)
-    - buttercup \(powerpuff girls\)
+    - blossom \(ppg\)
+    - bubbles \(ppg\)
+    - buttercup \(ppg\)
   precure:
     - aida mana
     - eas \(fresh precure!\)
-    - kasugano urara \(yes! precure 5\)
-    - midorikawa nao
     - misumi nagisa
-    - yukishiro honoka
   puyopuyo:
-    - amitie \(puyopuyo\)
     - arle nadja
     - draco \(puyopuyo\)
-    - feli \(puyopuyo\)
-    - raffina \(puyopuyo\)
     - rulue \(puyopuyo\)
     - witch \(puyopuyo\)
-  re-zero:
-    - ram \(re:zero\)
-    - rem \(re:zero\)
   rozen-maiden:
-    - hinaichigo \(rozen maiden\)
-    - kanaria
     - shinku
     - souseiseki,heterochromia
     - suigintou
@@ -3517,8 +3370,6 @@ copyright-pickup-list:
     - kino makoto
     - mizuno ami
     - tsukino usagi
-  shingeki-no-kyojin:
-    - mikasa ackerman
   spy-x-family:
     - anya \(spy x family\)
     - yor briar
@@ -3526,11 +3377,9 @@ copyright-pickup-list:
     - krystal,furry,fox girl,fox ears,fox mouth,fox nose,[claws],[toe claws]
   strike-witches:
     - erica hartmann
-    - gertrud barkhorn
     - miyafuji yoshika
-    - ursula hartmann{|,glasses}
+    - ursula hartmann
   suzumiya-haruhi:
-    - asahina mikuru
     - nagato yuki
     - suzumiya haruhi
     - tsuruya
@@ -3538,167 +3387,41 @@ copyright-pickup-list:
     - konjiki no yami
     - lala satalin deviluke
     - momo velia deviluke
-    - sairenji haruna
     - yuuki mikan
-  toaru-majutsu-no-index:
-    - misaka mikoto
-    - saten ruiko
-    - uiharu kazari
   touhou:
-    - aki minoriko
-    - aki shizuha
     - alice margatroid
     - chen
-    - cirno
-    - clownpiece
-    - daiyousei
-    - doremy sweet
-    - ebisu eika
-    - ellen \(touhou\)
-    - elly \(touhou\)
-    - eternity larva
     - flandre scarlet
-    - fujiwara no mokou
-    - futatsuiwa mamizou{| \(human\)}
-    - goutokuji mike
-    - hakurei reimu
-    - haniyasushin keiki
-    - hata no kokoro
-    - hecatia lapislazuli
-    - hieda no akyuu
-    - hijiri byakuren
-    - himekaidou hatate
-    - himemushi momoyo
-    - hinanawi tenshi
-    - hong meiling
-    - horikawa raiko
-    - hoshiguma yuugi
     - houjuu nue
     - houraisan kaguya
-    - ibaraki kasen
-    - ibuki suika
-    - iizunamaru megumu
-    - imaizumi kagerou
-    - inaba tewi
-    - inubashiri momiji
-    - izayoi sakuya
-    - joutouguu mayumi
-    - junko \(touhou\)
-    - kaenbyou rin
-    - kagiyama hina
-    - kaku seiga
-    - kamishirasawa keine
-    - kana anaberal
-    - kasodani kyouko
-    - kawashiro nitori
-    - kazami yuuka
-    - kicchou yachie
-    - kijin seija
     - kirisame marisa
     - kishin sagume
-    - kisume
-    - kitashirakawa chiyuri
-    - koakuma
-    - kochiya sanae
-    - komakusa sannyo
-    - komano aunn
     - komeiji koishi
     - komeiji satori
     - konpaku youmu
-    - kotohime \(touhou\)
     - kudamaki tsukasa,fox ears,fox tail,yellow eyes,[small breasts]
-    - kumoi ichirin
-    - kurodani yamame
     - kurokoma saki
-    - letty whiterock
-    - lily white
     - luna child
-    - lunasa prismriver
-    - lyrica prismriver
-    - maribel hearn
-    - matara okina
-    - medicine melancholy
-    - merlin prismriver
-    - mima \(touhou\)
-    - mitsugashira enoko
-    - miyako yoshika
-    - mizuhashi parsee
-    - mononobe no futo
-    - moriya suwako
-    - motoori kosuzu
-    - mugetsu \(touhou\)
-    - murasa minamitsu
-    - mystia lorelei
-    - nagae iku
     - nazrin,mouse ears,mouse tail,[small breasts]
-    - nippaku zanmu
-    - nishida satono
     - niwatari kutaka
-    - okazaki yumemi
-    - okunoda miyoi
-    - onozuka komachi
-    - patchouli knowledge
-    - reisen \(touhou bougetsushou\)
-    - reisen udongein inaba
-    - reiuji utsuho
     - remilia scarlet,slit pupils,bat wings,[small breasts],[toe claws],[sharp toenails]
-    - ringo \(touhou\)
     - rumia
-    - saigyouji yuyuko
-    - sakata nemuno
-    - seiran \(touhou\)
-    - sekibanki
     - shameimaru aya
-    - shameimaru aya \(newsboy\)
-    - shiki eiki
-    - shinki \(touhou\)
-    - soga no tojiko
-    - son biten
     - star sapphire
-    - sukuna shinmyoumaru
     - sunny milk
-    - tamatsukuri misumaru
-    - tanned cirno
     - tatara kogasa
-    - teireida mai
-    - tenkajin chiyari
-    - tenkyuu chimata
-    - tokiko \(touhou\)
-    - toramaru shou
     - toutetsu yuuma,horizontal pupils,[sharp teeth],[small breasts]
-    - toyosatomimi no miko
-    - tsukumo benben
-    - tsukumo yatsuhashi
-    - usami renko
-    - usami sumireko
-    - ushizaki urumi
-    - wakasagihime
-    - watatsuki no toyohime
-    - watatsuki no yorihime
-    - wriggle nightbug
-    - yagokoro eirin
     - yakumo ran
     - yakumo yukari
-    - yamashiro takane
-    - yasaka kanako
-    - yatadera narumi
-    - yomotsu hisami
     - yorigami jo'on,(tsurime:0.8)
-    - yorigami shion
-    - yumeko \(touhou\)
   vocaloid:
-    - hatsune miku \(vocaloid{3|4 {|\(chinese\)}}\)
+    - hatsune miku \(vocaloid\)
     - kagamine rin
-    - kagamine rin {|\(vocaloid4\)}
     - kotonoha akane
     - kotonoha aoi
-    - megurine luka {|\(vocaloid4\)|\(toeto\)}
-    - meiko \(vocaloid {|3}\)
     - touhoku kiritan
-    - touhoku zunko
     - zundamon
+  yu-gi-oh:
+    - dark magician girl
   yumenikki:
     - madotsuki
-  zelda:
-    - princess ruto
-    - princess zelda
