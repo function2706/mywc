@@ -10,7 +10,7 @@ setups:
       - (ankle boots:1.2),__mywc/fashion/setups/ankle-boots/list__
     list:
       - braided boots,black camisole dress,necklace
-      - braided boots,hakama skirt,kimono,stiletto heel
+      - braided boots,stiletto heel,hakama skirt,kimono
       - leather boots,long coat,skinny jeans,pants tucked in
       - leather boots,pantyhose,brown trench coat,white blouse,pleated miniskirt,belt
       - thick sole boots,oversized down jacket,leggings
@@ -20,14 +20,36 @@ setups:
       - t-shirt,denim shorts{|,pants rolled up}
       - thighhighs,oversized knit sweater,short skirt
       - off shoulder knit,short skirt{|,thighhighs}
+      - stiletto heels,flare skirt,shirt
+      - platform boots,pleated skirt,frilled shirt
+      - stiletto heels,cocktail dress
   knee-boots:
     do:
       - (knee boots:1.2),__mywc/fashion/setups/knee-boots/list__
     list:
       - braided boots,oversized shirt dress
+      - black vest,open clothes,white shirt,black shorts,
+      - knit dress{|,belt}{|,thighhighs}
+      - leather boots,pantyhose,brown long coat,white sweater,skirt,scarf
+      - short down jacket,skinny jeans,pants tucked in,
       - short pants,beige trench coat,{|,pantyhose}
+      - slip dress,necklace
       - t-shirt,denim shorts{|,pants rolled up}
+      - long coat,mini skirt,shirt,pantyhose
+      - down jacket,skinny jeans,pants tucked in
+      - stiletto heels,flare skirt,shirt
+      - platform boots,pleated skirt,frilled shirt
+      - stiletto heels,shirt,midi skirt
+      - stiletto heels,cocktail dress
   thigh-boots:
+    do:
+      - (thigh boots:1.2),zettai ryouiki,__mywc/fashion/setups/thigh-boots/list__
+    list:
+      - fur coat,skirt,
+      - long coat,knit dress
+      - oversized shirt
+      - camisole,denim shorts
+      - t-shirt,denim shorts{|,pants rolled up}
   leather:
     do: >-
       ${leather-minimum:__mywc/fashion/setups/leather/minimum__},
