@@ -611,8 +611,8 @@ behavior:
   casual-fashion:
     cool-sets:
       do: >-
-        ${cool-sets-clothes=__mywc/pose/behavior/casual-fashion/cool-sets/clothes/do__}
-        ${cool-sets-accessories=__mywc/pose/behavior/casual-fashion/cool-sets/accessories/do__}
+        ${clothes=__mywc/pose/behavior/casual-fashion/cool-sets/clothes/do__}
+        ${accessories=__mywc/pose/behavior/casual-fashion/cool-sets/accessories/do__}
         __mywc/fashion/costumes/cool-sets/do__
       clothes:
         do:
@@ -637,8 +637,8 @@ behavior:
           - necklace
     warm-sets:
       do: >-
-        ${warm-sets-bottoms:__mywc/pose/behavior/casual-fashion/warm-sets/bottoms__}
-        ${warm-sets-accessories:__mywc/pose/behavior/casual-fashion/warm-sets/accessories/do__}
+        ${bottoms:__mywc/pose/behavior/casual-fashion/warm-sets/bottoms__}
+        ${accessories:__mywc/pose/behavior/casual-fashion/warm-sets/accessories/do__}
         __mywc/fashion/costumes/warm-sets/do__
       bottoms:
         - jeans

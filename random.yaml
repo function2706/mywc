@@ -10,7 +10,7 @@ random:
     - __mywc/pose/behavior/random__
 consistent:
   of: |-
-    __mywc/consistent/list__{|,${consistent-expression:__mywc/expression/set/*__}},{3::|1::,{__mywc/meta/style/do__}},
+    __mywc/consistent/list__{|,${expression:__mywc/expression/set/*__}},{3::|1::,{__mywc/meta/style/do__}},
     __mywc/meta/boilerplate/code__
   list:
     - "{__mywc/location/indoors/do__|__mywc/location/outdoors/do__}"
@@ -18,7 +18,7 @@ consistent:
     - __mywc/pose/behavior/random__
 mundane:
   of: |-
-    __mywc/mundane/list__{|,${mundane-expression:__mywc/expression/set/*__}},
+    __mywc/mundane/list__{|,${expression:__mywc/expression/set/*__}},
     __mywc/meta/boilerplate/code__
   list: >-
     {
