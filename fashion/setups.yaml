@@ -35,5 +35,5 @@ setups:
     skirt: >-
       ${footwears:{ankle {|braided }boots{|,kneehighs|,thighhighs}|knee {|braided }boots{|,thighhighs}|thigh {|braided }boots}{|,block heel|,platform boots}},
       ${tops:{2::{{|frilled }shirt|{|oversized }sweater}{|,{off|single}-shoulder}|1::fur coat}},
-      ${bottoms:{flare|pleated} {|mini}skirt}},
+      ${bottoms:{flare|pleated} {|mini}skirt},
       ${accessories:{0-$$belt|bag{|,strap between breasts}}}
