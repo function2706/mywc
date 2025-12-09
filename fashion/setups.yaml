@@ -3,7 +3,7 @@ setups:
     - __mywc/fashion/setups/list/*__
   list:
     casual-dress: >-
-      ${footwears:({ankle {|braided }boots{|,kneehighs|,thighhighs}|knee {|braided }boots{|,thighhighs}|thigh {|braided }boots}:1.2){|,block heel}},
+      ${footwears:{ankle {|braided }boots{|,kneehighs|,thighhighs}|knee {|braided }boots{|,thighhighs}|thigh {|braided }boots}{|,block heel}},
       ${clothes:{{|black |white }camisole|knit|oversized shirt|pinafore|slip|sweater} dress},
       ${accessories:{0-$$hat|{necklace|pendant}}}
     formal-dress: >-
