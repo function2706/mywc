@@ -3,12 +3,12 @@ setups:
     - __mywc/fashion/setups/list/*__
   list:
     casual-dress: >-
-      ${footwears:{2::{ankle|knee} {|braided }boots{|,kneehighs|,thighhighs}|1::thigh {|braided }boots}{|,block heel}},
-      ${clothes:{{|black |white }camisole|knit{|,dress}{|,long coat}|oversized shirt|pinafore|slip} dress},
+      ${footwears:({ankle {|braided }boots{|,kneehighs|,thighhighs}|knee {|braided }boots{|,thighhighs}|thigh {|braided }boots}:1.2){|,block heel}},
+      ${clothes:{{|black |white }camisole|knit|oversized shirt|pinafore|slip|sweater} dress},
       ${accessories:{0-$$hat|{necklace|pendant}}}
     formal-dress: >-
       ${footwears:{ankle|knee} boots,stiletto heel},
-      ${clothes:cocktail dress},
+      ${clothes:{cocktail|halter|pencil|tube|turtleneck|v neck} dress},
       ${socks:pantyhose},
       ${accessories:{0-$${necklace|pendant}}}
     hakama: >-
@@ -16,10 +16,6 @@ setups:
       ${tops:kimono},
       ${bottoms:hakama skirt},
       ${accessories:{|kanzashi}}
-    knit: >-
-      ${footwears:{knee|thigh} {|braided }boots},
-      ${tops:knit dress},
-      ${accessories:{0-$$belt|}}
     pants: >-
       ${footwears:{ankle|knee} boots},
       ${tops:{down jacket|long coat{|,shirt|,sweater}|oversized cardigan|shirt}},
@@ -36,8 +32,8 @@ setups:
       ${tops:{black leather jacket{|,sleeves {rolled|pushed} up},white short {|t-}shirt{|,navel}|black vest{|,open clothes},white {|t-}shirt{|,sleeves {rolled|pushed} up}{|,navel}|camisole}},
       ${bottoms:{|black |blue }{|denim }shorts{|,pants rolled up}},
       ${accessories:{0-$$belt|necklace}}
-    skirts: >-
-      ${footwears:{2::{ankle|knee} {|braided }boots{|,kneehighs|,thighhighs}|1::thigh {|braided }boots}{|,block heel|,platform boots}},
+    skirt: >-
+      ${footwears:{ankle {|braided }boots{|,kneehighs|,thighhighs}|knee {|braided }boots{|,thighhighs}|thigh {|braided }boots}{|,block heel|,platform boots}},
       ${tops:{2::{{|frilled }shirt|{|oversized }sweater}{|,{off|single}-shoulder}|1::fur coat}},
       ${bottoms:{flare|pleated} {|mini}skirt}},
       ${accessories:{0-$$belt|bag{|,strap between breasts}}}

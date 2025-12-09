@@ -12,7 +12,7 @@ accessories:
     do:
       - "{1-2$$__mywc/fashion/accessories/head/list__}"
     list:
-      - __mywc/color__ __mywc/fashion/accessories/head/hats/do__
+      - __mywc/fashion/accessories/head/hats/do__
       - __mywc/color__ __mywc/fashion/accessories/head/ornaments__
     hats:
       do:
