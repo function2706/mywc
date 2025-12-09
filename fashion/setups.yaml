@@ -1,109 +1,43 @@
 setups:
   random:
-    - __mywc/fashion/setups/list__
+    - __mywc/fashion/setups/list/*__
   list:
-    - __mywc/fashion/setups/ankle-boots/do__
-    - __mywc/fashion/setups/knee-boots/do__
-    - __mywc/fashion/setups/thigh-boots/do__
-  ankle-boots:
-    do:
-      - (ankle boots:1.2),__mywc/fashion/setups/ankle-boots/list__
-    list:
-      - braided boots,black camisole dress,necklace
-      - braided boots,stiletto heel,hakama skirt,kimono
-      - leather boots,long coat,skinny jeans,pants tucked in
-      - leather boots,pantyhose,brown trench coat,white blouse,pleated miniskirt,belt
-      - thick sole boots,oversized down jacket,leggings
-      - black leather jacket,white shirt,skirt
-      - pinafore dress
-      - braided boots,oversized cardigan,skinny jeans
-      - t-shirt,denim shorts{|,pants rolled up}
-      - thighhighs,oversized knit sweater,short skirt
-      - off shoulder knit,short skirt{|,thighhighs}
-      - stiletto heels,flare skirt,shirt
-      - platform boots,pleated skirt,frilled shirt
-      - stiletto heels,cocktail dress
-  knee-boots:
-    do:
-      - (knee boots:1.2),__mywc/fashion/setups/knee-boots/list__
-    list:
-      - braided boots,oversized shirt dress
-      - black vest,open clothes,white shirt,black shorts,
-      - knit dress{|,belt}{|,thighhighs}
-      - leather boots,pantyhose,brown long coat,white sweater,skirt,scarf
-      - short down jacket,skinny jeans,pants tucked in,
-      - short pants,beige trench coat,{|,pantyhose}
-      - slip dress,necklace
-      - t-shirt,denim shorts{|,pants rolled up}
-      - long coat,mini skirt,shirt,pantyhose
-      - down jacket,skinny jeans,pants tucked in
-      - stiletto heels,flare skirt,shirt
-      - platform boots,pleated skirt,frilled shirt
-      - stiletto heels,shirt,midi skirt
-      - stiletto heels,cocktail dress
-  thigh-boots:
-    do:
-      - (thigh boots:1.2),zettai ryouiki,__mywc/fashion/setups/thigh-boots/list__
-    list:
-      - fur coat,skirt,
-      - long coat,knit dress
-      - oversized shirt
-      - camisole,denim shorts
-      - t-shirt,denim shorts{|,pants rolled up}
-  leather:
-    do: >-
-      ${leather-minimum:__mywc/fashion/setups/leather/minimum__},
-      {|${leather-accessories:__mywc/fashion/setups/leather/accessories/do__}}
-    minimum: >-
-      ${leather-tops:__mywc/fashion/setups/leather/tops__},
-      ${leather-bottoms:__mywc/fashion/setups/leather/bottoms__},
-      ${leather-footwears:__mywc/fashion/setups/leather/footwears__}
-    tops:
-      - black leather jacket{|,sleeves {rolled|pushed} up},white short shirt,navel
-    bottoms:
-      - blue denim shorts{|,pants rolled up}
-    footwears:
-      - thigh boots,leather boots,zettai ryouiki
-    accessories:
-      do:
-        - __mywc/fashion/setups/leather/accessories/neck/__{4::|1::,__mywc/fashion/setups/leather/accessories/head/__}
-      list:
-        -
-      head:
-        - eyewear on head
-      neck:
-        - necklace
-  winter:
-    do: >-
-      ${winter-minimum:__mywc/fashion/setups/winter/list__}
-    list: >-
-      ${winter-tops:__mywc/fashion/setups/winter/tops__},
-      ${winter-bottoms:__mywc/fashion/setups/winter/bottoms__},
-      ${winter-socks:__mywc/fashion/setups/winter/socks__},
-      ${winter-footwears:__mywc/fashion/setups/winter/footwears__},
-      ${winter-accessories:__mywc/fashion/setups/winter/accessories/do__}
-    tops:
-      - "{brown |grey |white }long coat,{brown|grey|white} sweater"
-    bottoms:
-      - "{black|brown|white}{| plaid} skirt"
-    socks:
-      - "{black|brown} pantyhose"
-    footwears:
-      - "{black|brown} knee boots"
-    accessories:
-      do:
-        - "{|black |red |white }scarf,{1-3$$__mywc/fashion/setups/winter/accessories/list__}"
-      list:
-        - __mywc/fashion/setups/winter/accessories/face__
-        - __mywc/fashion/setups/winter/accessories/neck__
-        - __mywc/fashion/setups/winter/accessories/hand__
-        - __mywc/fashion/setups/winter/accessories/bags__
-      face:
-        - earrings
-      neck:
-        - necklace
-        - pendant
-      hand:
-        - "{black|brown|white} gloves"
-      bags:
-        - "{black|red|white} bag{|,strap between breasts}"
+    casual-dress: >-
+      ${footwears:{2::{ankle|knee} {|braided }boots{|,kneehighs|,thighhighs}|1::thigh {|braided }boots}{|,block heel}},
+      ${clothes:{{|black |white }camisole|knit{|,dress}{|,long coat}|oversized shirt|pinafore|slip} dress},
+      ${accessories:{0-$$hat|{necklace|pendant}}}
+    formal-dress: >-
+      ${footwears:{ankle|knee} boots,stiletto heel},
+      ${clothes:cocktail dress},
+      ${socks:pantyhose},
+      ${accessories:{0-$${necklace|pendant}}}
+    hakama: >-
+      ${footwears:ankle {|braided }boots,stiletto heel},
+      ${tops:kimono},
+      ${bottoms:hakama skirt},
+      ${accessories:{|kanzashi}}
+    knit: >-
+      ${footwears:{knee|thigh} {|braided }boots},
+      ${tops:knit dress},
+      ${accessories:{0-$$belt|}}
+    pants: >-
+      ${footwears:{ankle|knee} boots},
+      ${tops:{down jacket|long coat{|,shirt|,sweater}|oversized cardigan|shirt}},
+      ${bottoms:{{|skinny }jeans|pants},pants tucked in},
+      ${accessories:{|belt}}
+    coat-skirt: >-
+      ${footwears:{black|brown} {ankle|knee} boots},
+      ${tops:{brown |grey |red |white }{long|trench} coat,{brown|grey|white} {shirt|sweater}},
+      ${bottoms:{{black|brown|white} {|plaid |pleated mini}skirt|{|denim }shorts{|,pants rolled up}}},
+      ${socks:{black|brown} pantyhose},
+      ${accessories:{0-$${|black |red |white }scarf|{necklace|pendant}|{black|brown|white} gloves|{black|brown|white} bag{|,strap between breasts}}}
+    shorts: >-
+      ${footwears:{thigh {|braided |belted }boots{|,zettai ryouiki}|knee {|braided }boots}},
+      ${tops:{black leather jacket{|,sleeves {rolled|pushed} up},white short {|t-}shirt{|,navel}|black vest{|,open clothes},white {|t-}shirt{|,sleeves {rolled|pushed} up}{|,navel}|camisole}},
+      ${bottoms:{|black |blue }{|denim }shorts{|,pants rolled up}},
+      ${accessories:{0-$$belt|necklace}}
+    skirts: >-
+      ${footwears:{2::{ankle|knee} {|braided }boots{|,kneehighs|,thighhighs}|1::thigh {|braided }boots}{|,block heel|,platform boots}},
+      ${tops:{2::{{|frilled }shirt|{|oversized }sweater}{|,{off|single}-shoulder}|1::fur coat}},
+      ${bottoms:{flare|pleated} {|mini}skirt}},
+      ${accessories:{0-$$belt|bag{|,strap between breasts}}}
