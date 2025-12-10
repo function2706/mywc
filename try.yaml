@@ -1,4 +1,7 @@
-try:
+try: >-
+  {0-$$hoge|
+       fuga|
+       hogefuga}
 whole_day:
   morning:
     early_morning: |
