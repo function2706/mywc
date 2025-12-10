@@ -21,11 +21,8 @@ mundane:
     __mywc/mundane/list__{|,${expression:__mywc/expression/set/*__}},
     __mywc/meta/boilerplate/code__
   list: >-
-    {
-      20000::__mywc/location/indoors/do__|
-      20000::__mywc/location/outdoors/do__|
-      50000::__mywc/fashion/costumes/list/mundane__{10::|1::,__mywc/pose/posture/random__}|
-      10000::__mywc/pose/behavior/random__|
-      10000::__mywc/fashion/setups/random__|
-      1::end of list
-    }
+    {2::__mywc/location/indoors/do__|
+     2::__mywc/location/outdoors/do__|
+     5::__mywc/fashion/costumes/list/mundane__{10::|1::,__mywc/pose/posture/random__}|
+     1::__mywc/pose/behavior/random__|
+     1::__mywc/fashion/setups/random__}

@@ -1,13 +1,10 @@
 fashion:
   random: >-
-    {
-      20000::__mywc/fashion/costumes/random__|
-      10000::__mywc/fashion/setups/random__|
-      10000::{1-4$$__mywc/fashion/list__}|
-      10000::{1-3$$__mywc/fashion/list-unis__}|
-      1000::__mywc/fashion/cosplay__|
-      1::end of list
-    }
+    {20::__mywc/fashion/costumes/random__|
+     10::__mywc/fashion/setups/random__|
+     10::{1-4$$__mywc/fashion/list__}|
+     10::{1-3$$__mywc/fashion/list-unis__}|
+      1::__mywc/fashion/cosplay__}
   list:
     - __mywc/fashion/tops/random__
     - __mywc/fashion/bottoms/random__
