@@ -37,3 +37,57 @@ setups:
       ${tops:{2::{{|frilled }shirt|{|oversized }sweater}{|,{off|single}-shoulder}|1::fur coat}},
       ${bottoms:{flare|pleated} {|mini}skirt},
       ${accessories:{0-$$belt|bag{|,strap between breasts}}}
+    after-rain: >-
+      ${footwears:{black|dark brown} knee {zipper|belted} boots,platform heels},
+      ${tops:{navy|grey} trench coat},
+      ${bottoms:{black|denim} pants,pants rolled up},
+      ${socks:pantyhose},
+      ${accessories:{|{clear|white} umbrella}}
+    after-cooking-class: >-
+      ${footwears:{brown|cream} ankle zipper boots,block heels},
+      ${tops:{white|light brown} knit sweater},
+      ${bottoms:{navy|grey} wide pants},
+      ${accessories:{|{white|brown} eco bag}}
+    bakery: >-
+      ${footwears:{black|cream} ankle {zipper|belted} boots,block heels},
+      ${tops:{white|light brown} knit sweater},
+      ${bottoms:{beige|navy} wide pants},
+      ${accessories:{0-$${brown|white} tote bag|necklace}}
+    bookstore: >-
+      ${footwears:{black|brown} knee {zipper|belted} boots,block heels},
+      ${tops:{grey|white} long coat,{black|white} turtleneck sweater},
+      ${bottoms:{black|grey} skinny pants,pants tucked in},
+      ${accessories:{0-$${black|brown} shoulder bag|round glasses}}
+    cafe: >-
+      ${footwears:{brown|black} ankle {zipper|belted} boots,block heels},
+      ${tops:{beige|brown|white} cardigan,{white|black} shirt},
+      ${bottoms:{denim|navy} straight pants},
+      ${accessories:{0-$${brown} glasses|simple bracelet}}
+    campus: >-
+      ${footwears:{black|brown} ankle {zipper|braided} boots,wedge heels},
+      ${tops:{grey|navy|white} hoodie},
+      ${bottoms:denim shorts},
+      ${socks:{black|white} thighhigh socks},
+      ${accessories:{0-$${black|brown} backpack}}
+    illumination: >-
+      ${footwears:{black|white} {ankle|knee|thigh} {fur|belted} boots,stiletto heels},
+      ${tops:{white|light grey} coat},
+      ${bottoms:{black|white} miniskirt},
+      ${accessories:{0-$$white scarf|bag}}
+    museum: >-
+      ${footwears:{black|dark brown} {ankle|knee} belted boots,block heels},
+      ${tops:{black|white} turtleneck top,grey long coat},
+      ${bottoms:{black|dark green} pleated long skirt},
+      ${socks:black pantyhose},
+      ${accessories:{|black handbag}}
+    riverbed: >-
+      ${footwears:{brown|white} ankle braided boots,block heels},
+      ${tops:{white|light pink} loose shirt},
+      ${bottoms:{beige|denim} shorts},
+      ${accessories:{0-$${white|pink} hat|bracelet}}
+    snap: >-
+      ${footwears:{black|white} {ankle|knee|thigh} {zipper|belt} boots,stiletto heel},
+      ${tops:{black|grey} cropped jacket},
+      ${bottoms:{black|white|red} miniskirt},
+      ${socks:black pantyhose},
+      ${accessories:{0-$$black sunglasses|choker}}
