@@ -4,25 +4,25 @@ behavior-list:
   acrobatic: >-
     ${pose:{jumping|running}{|,looking at viewer}},
     ${location:{city|park|street}},
-    ${list:{0-$$${fashion:{__mywc/pose/behavior/casual-fashion/cool-sets/do__|__mywc/pose/behavior/casual-fashion/warm-sets/do__}}|
-                ${expression:{1-$${excited|smile}|open mouth}}}}
+    ${behavior-list:{0-$$${fashion:{__mywc/pose/casual-fashion/cool-sets/do__|__mywc/pose/casual-fashion/warm-sets/do__}}|
+                         ${expression:{1-$${excited|smile}|open mouth}}}}
   atacking: >-
     ${pose:{{kicking|incoming kick}|{punching|incoming punch}|incoming attack}},
     ${expression:{0-$$v-shaped eyebrows|open mouth}}
   bathing: >-
     ${pose:bathing,{head on arm|hand on own {chest|shoulder}|hugging own legs}{|,looking at viewer}},
-    ${list:{0-$$${location:{1-$$onsen|steam}}|
-                ${fashion:towel {around neck|on head}{4::|1::,nipples}}|
-                ${expression:{happy|relaxing}{|,closed eyes}}
+    ${behavior-list:{0-$$${location:{1-$$onsen|steam}}|
+                         ${fashion:towel {around neck|on head}{4::|1::,nipples}}|
+                         ${expression:{happy|relaxing}{|,closed eyes}}}}
   boxing: >-
     ${pose:boxing{|,looking at viewer}},
-    ${list:{0-$$${fashion:boxer briefs}|
-                ${expression:{1-$$v-shaped eyebrows|open mouth}}
+    ${behavior-list:{0-$$${fashion:boxer briefs}|
+                         ${expression:{1-$$v-shaped eyebrows|open mouth}}}}
   cleaning: >-
     ${pose:{sweeping|wiping}{|,looking at viewer}},
     ${location:{room,indoors|outdoors}},
-    ${list:{0-$$${fashion:{__mywc/pose/behavior/casual-fashion/cool-sets/do__|__mywc/pose/behavior/casual-fashion/warm-sets/do__}}|
-                ${expression:{|light }smile,{|open mouth}}}}
+    ${behavior-list:{0-$$${fashion:{__mywc/pose/casual-fashion/cool-sets/do__|__mywc/pose/casual-fashion/warm-sets/do__}}|
+                         ${expression:{|light }smile,{|open mouth}}}}
   cooking: >-
     ${pose:cooking},
     ${fashion:{|apron}}
@@ -37,9 +37,9 @@ behavior-list:
     ${pose:eating {__mywc/pose/object/foods__|__mywc/pose/object/vegetables__}}
   exercise: >-
     ${pose:{running|stretching|walking}},
-    ${location:{__mywc/location/outdoorss/location/city__|__mywc/location/outdoorss/location/road__|gym|outdoors}},
-    ${list:{0-$$${fashion:{__mywc/pose/behavior/casual-fashion/cool-sets/do__|__mywc/pose/behavior/casual-fashion/warm-sets/do__|__mywc/fashion/costumes/gym/do__}}|
-                ${expression:{expressionless|{|light }smile|tired},{0-$$one eye closed}|open mouth|v-shaped eyebrows}}}
+    ${location:{__mywc/location/outdoors/location/city__|__mywc/location/outdoors/location/road__|gym|outdoors}},
+    ${behavior-list:{0-$$${fashion:{__mywc/pose/casual-fashion/cool-sets/do__|__mywc/pose/casual-fashion/warm-sets/do__|__mywc/fashion/costumes/gym/do__}}|
+                         ${expression:{expressionless|{|light }smile|tired},{0-$$one eye closed|open mouth|v-shaped eyebrows}}}}
   fishing: >-
     ${pose:fishing{|,fishing rod}}
   giving: >-
@@ -56,16 +56,16 @@ behavior-list:
     ${pose:petting __mywc/pose/object/animals__}
   picnick: >-
     ${pose:sitting,{wariza|seiza|indian style}{|,drinking|,eating}{|,looking at viewer}},
-    ${location:{outdoors,{day|night},picnick sheet{|,{|cherry blossom |maple }tree}},
-    ${list:{0-$$${fashion:__mywc/pose/behavior/casual-fashion/warm-sets/do__}|
-                ${composition:pov{|,from above}}|
-                ${expression:{{|light }smile|grin|happy|laughing},{0-$${closed eyes|one eye closed}|open mouth}}}}
+    ${location:{outdoors,{day|night},picnick sheet{|,{|cherry blossom |maple }tree}}},
+    ${behavior-list:{0-$$${fashion:__mywc/pose/casual-fashion/warm-sets/do__}|
+                         ${composition:pov{|,from above}}|
+                         ${expression:{{|light }smile|grin|happy|laughing},{0-$${closed eyes|one eye closed}|open mouth}}}}
   planting: >-
     ${pose:planting}
   playing: >-
     ${pose:holding gamepad,sitting on {chair|floor|sofa}{|,indian style|,seiza|,wariza}{|,looking at viewer}},
     ${location:room,indoors,{0-$$table|television}},
-    ${list:{0-$$${fashion:{__mywc/pose/behavior/casual-fashion/cool-sets/do__|__mywc/pose/behavior/casual-fashion/warm-sets/do__}}|
+    ${behavior-list:{0-$$${fashion:{__mywc/pose/casual-fashion/cool-sets/do__|__mywc/pose/casual-fashion/warm-sets/do__}}|
                 ${expression:{excited|laughing|smile},{0-$$open mouth|v-shaped eyebrows}}}}
   playing-instrument: >-
     ${pose:playing __mywc/pose/object/instruments__}
@@ -83,10 +83,10 @@ behavior-list:
     ${pose:shopping}
   showering: >-
     ${pose:showering{|,sitting}{|,hand{|s} on own {chest|head|hip}|,holding shower head}{|,looking at viewer}},
-    ${list:{0-$$${location:steam}|
-                ${fashion:nipples}|
-                ${composition:full body{|,pov}}|
-                ${expression:{happy|relaxing}{|,closed eyes}}}}
+    ${behavior-list:{0-$$${location:steam}|
+                         ${fashion:nipples}|
+                         ${composition:full body{|,pov}}|
+                         ${expression:{happy|relaxing}{|,closed eyes}}}}
   singing: >-
     ${pose:singing}
   skating: >-
@@ -105,71 +105,70 @@ behavior-list:
     ${pose:standing,{holding {book|clipboard|pointer}}{|,looking at viewer}},
     ${location:classroom,indoors,{0-$$lectern|blackboard}},
     ${fashion:__mywc/fashion/costumes/teacher/do__},
-    ${list:{0-$$${composition:straight-on{|,pov}}}|
-                ${expression:{expressionless|laughing|smile}{|,open mouth}}}}
+    ${behavior-list:{0-$$${composition:straight-on{|,pov}}|
+                         ${expression:{expressionless|laughing|smile}{|,open mouth}}}}
   teatime: >-
     ${pose:sitting,looking at viewer{|,covering own mouth|hand in own hair|hand on own {chin|ear}|hand over own mouth|head rest|holding cup|stroking own chin|twirling hair}},
-    ${location:{{cafe|restaurant|room},indoors,table,coffee,{0-$$cake|table cloth|window}},
-    ${list:{0-$$${fashion:{__mywc/pose/behavior/casual-fashion/cool-sets/do__|__mywc/pose/behavior/casual-fashion/warm-sets/do__}}|
-                ${composition:straight-on{|,pov}}|
-                ${expression:{{|light }smile|grin|happy|laughing},{0-$${closed eyes|one eye closed}|open mouth}}}}
+    ${location:{{cafe|restaurant|room},indoors,table,coffee,{0-$$cake|table cloth|window}}},
+    ${behavior-list:{0-$$${fashion:{__mywc/pose/casual-fashion/cool-sets/do__|__mywc/pose/casual-fashion/warm-sets/do__}}|
+                         ${composition:straight-on{|,pov}}|
+                         ${expression:{{|light }smile|grin|happy|laughing},{0-$${closed eyes|one eye closed}|open mouth}}}}
   vocalizing: >-
     ${pose:{shouting|talking,{cell|smart} phone}}
   surfing: >-
     ${pose:surfing,{swim|diving }suit{|,surfboard}}
   working: >-
-    ${pose:{standing,{crossed arms|hand on own {chin|hip|shoulder}|holding {cup|paper{|s}|smartphone|tablet pc}}|
-            sitting{|,crossed legs},{crossed arms|hand on own {chin|ear|shoulder}|hands on own {head|knee|neck}|head rest|holding {cup|paper{|s}|smartphone}|typing}}{|,looking at viewer}},
-    ${location:{office,indoors},
+    ${pose:{standing,{crossed arms|hand on own {chin|hip|shoulder}|holding {cup|paper{|s}|smartphone|tablet pc}}|sitting{|,crossed legs},{crossed arms|hand on own {chin|ear|shoulder}|hands on own {head|knee|neck}|head rest|holding {cup|paper{|s}|smartphone}|typing}}{|,looking at viewer}},
+    ${location:{office,indoors}},
     ${fashion:__mywc/fashion/costumes/office-lady/do__},
-    ${list:{0-$$${composition:pov}|
-                ${expression:{expressionless|light smile|serious}}}}
+    ${behavior-list:{0-$$${composition:pov}|
+                         ${expression:{expressionless|light smile|serious}}}}
   sample: >-
     ${pose:standing,{crossed arms|hand on own {chin|hip|shoulder}}{|,looking at viewer}},
     ${location:{room,indoors|outdoors}},
-    ${list:{0-$$${fashion:{__mywc/pose/behavior/casual-fashion/cool-sets/do__|__mywc/pose/behavior/casual-fashion/warm-sets/do__}}|
-                ${composition:from {above|below}{|,pov}}|
-                ${expression:{|light }smile,{0-$${closed eyes|one eye closed}|open mouth}}}}
-  casual-fashion:
-    cool-sets:
-      do: >-
-        ${clothes=__mywc/pose/behavior/casual-fashion/cool-sets/clothes/do__}
-        ${accessories=__mywc/pose/behavior/casual-fashion/cool-sets/accessories/do__}
-        __mywc/fashion/costumes/cool-sets/do__
-      clothes:
-        do:
-          - __mywc/pose/behavior/casual-fashion/cool-sets/clothes/tops__,__mywc/pose/behavior/casual-fashion/cool-sets/clothes/bottoms__
-          - __mywc/pose/behavior/casual-fashion/cool-sets/clothes/unis__
-        tops:
-          - blouse,short sleeves
-          - t-shirt,short sleeves
-        bottoms:
-          - "{|denim }shorts"
-          - skirt
-        unis:
-          - casual dress,__mywc/fashion/costumes/summer/clothes/tops/structions__
-          - pinafore dress,__mywc/fashion/costumes/summer/clothes/tops/structions__
-          - sundress
-      accessories:
-        do:
-          - "{1-3$$__mywc/pose/behavior/casual-fashion/cool-sets/accessories/list__}"
-        list:
-          - earrings
-          - hat
-          - necklace
-    warm-sets:
-      do: >-
-        ${bottoms:__mywc/pose/behavior/casual-fashion/warm-sets/bottoms__}
-        ${accessories:__mywc/pose/behavior/casual-fashion/warm-sets/accessories/do__}
-        __mywc/fashion/costumes/warm-sets/do__
+    ${behavior-list:{0-$$${fashion:{__mywc/pose/casual-fashion/cool-sets/do__|__mywc/pose/casual-fashion/warm-sets/do__}}|
+                         ${composition:from {above|below}{|,pov}}|
+                         ${expression:{|light }smile,{0-$${closed eyes|one eye closed}|open mouth}}}}
+casual-fashion:
+  cool-sets:
+    do: >-
+      ${clothes=__mywc/pose/casual-fashion/cool-sets/clothes/do__}
+      ${accessories=__mywc/pose/casual-fashion/cool-sets/accessories/do__}
+      __mywc/fashion/costumes/cool-sets/do__
+    clothes:
+      do:
+        - __mywc/pose/casual-fashion/cool-sets/clothes/tops__,__mywc/pose/casual-fashion/cool-sets/clothes/bottoms__
+        - __mywc/pose/casual-fashion/cool-sets/clothes/unis__
+      tops:
+        - blouse,short sleeves
+        - t-shirt,short sleeves
       bottoms:
-        - jeans
-        - pants
-        - skirt{|,pantyhose}
-      accessories:
-        do:
-          - "{1-3$$__mywc/pose/behavior/casual-fashion/warm-sets/accessories/list__}"
-        list:
-          - earrings
-          - hat
-          - necklace
+        - "{|denim }shorts"
+        - skirt
+      unis:
+        - casual dress,__mywc/fashion/costumes/summer/clothes/tops/structions__
+        - pinafore dress,__mywc/fashion/costumes/summer/clothes/tops/structions__
+        - sundress
+    accessories:
+      do:
+        - "{1-3$$__mywc/pose/casual-fashion/cool-sets/accessories/list__}"
+      list:
+        - earrings
+        - hat
+        - necklace
+  warm-sets:
+    do: >-
+      ${bottoms=__mywc/pose/casual-fashion/warm-sets/bottoms__}
+      ${accessories=__mywc/pose/casual-fashion/warm-sets/accessories/do__}
+      __mywc/fashion/costumes/warm-sets/do__
+    bottoms:
+      - jeans
+      - pants
+      - skirt{|,pantyhose}
+    accessories:
+      do:
+        - "{1-3$$__mywc/pose/casual-fashion/warm-sets/accessories/list__}"
+      list:
+        - earrings
+        - hat
+        - necklace
