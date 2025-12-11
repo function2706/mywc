@@ -10,5 +10,18 @@
             "other": true,
             "comments": false
         },
-    }
+    },
+    "RainbowBrackets.consecutivePairColors": [
+        "()",
+        "[]",
+        "{}",
+        [
+            "#179FFF",
+            "#DA70D6",
+            "#FFD700",
+            "#32CD32",
+            "#FF4500"
+        ],
+        "Revioletd"
+    ]
 }
