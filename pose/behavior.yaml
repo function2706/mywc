@@ -1,613 +1,135 @@
 behavior:
-  random:
-    - __mywc/pose/behavior/acrobatic/do__
-    - __mywc/pose/behavior/atacking/do__
-    - __mywc/pose/behavior/bathing/do__
-    - __mywc/pose/behavior/boxing/do__
-    - __mywc/pose/behavior/cleaning/do__
-    - __mywc/pose/behavior/cooking/do__
-    - __mywc/pose/behavior/cycling/do__
-    - __mywc/pose/behavior/dancing/do__
-    - __mywc/pose/behavior/diving/do__
-    - __mywc/pose/behavior/eating/do__
-    - __mywc/pose/behavior/exercise/do__
-    - __mywc/pose/behavior/fishing/do__
-    - __mywc/pose/behavior/giving/do__
-    - __mywc/pose/behavior/hiking/do__
-    - __mywc/pose/behavior/holding/do__
-    - __mywc/pose/behavior/knitting/do__
-    - __mywc/pose/behavior/loving/do__
-    - __mywc/pose/behavior/petting/do__
-    - __mywc/pose/behavior/picnick/do__
-    - __mywc/pose/behavior/planting/do__
-    - __mywc/pose/behavior/playing/do__
-    - __mywc/pose/behavior/playing-instrument/do__
-    - __mywc/pose/behavior/polite/do__
-    - __mywc/pose/behavior/praying/do__
-    - __mywc/pose/behavior/reading/do__
-    - __mywc/pose/behavior/relaxing/do__
-    - __mywc/pose/behavior/riding/do__
-    - __mywc/pose/behavior/shopping/do__
-    - __mywc/pose/behavior/showering/do__
-    - __mywc/pose/behavior/singing/do__
-    - __mywc/pose/behavior/skating/do__
-    - __mywc/pose/behavior/skiing/do__
-    - __mywc/pose/behavior/sleeping/do__
-    - __mywc/pose/behavior/smoking/do__
-    - __mywc/pose/behavior/soaking/do__
-    - __mywc/pose/behavior/swimming/do__
-    - __mywc/pose/behavior/teaching/do__
-    - __mywc/pose/behavior/teatime/do__
-    - __mywc/pose/behavior/vocalizing/do__
-    - __mywc/pose/behavior/working/do__
-    - __mywc/pose/behavior/skating/do__
-  acrobatic:
-    do: |-
-      __mywc/pose/behavior/acrobatic/pose/do__,
-      __mywc/pose/behavior/acrobatic/location/do__,
-      {0-2$$__mywc/pose/behavior/acrobatic/list__}
-    list:
-      - __mywc/pose/behavior/acrobatic/fashion/do__
-      - __mywc/pose/behavior/acrobatic/expression/do__
-    pose:
-      do:
-        - __mywc/pose/behavior/acrobatic/pose/list__{|,looking at viewer}
-      list:
-        - jumping
-        - running
-    location:
-      do:
-        - city
-        - park
-        - street
-    fashion:
-      do:
-        - __mywc/pose/behavior/casual-fashion/cool-sets/do__
-        - __mywc/pose/behavior/casual-fashion/warm-sets/do__
-    expression:
-      do: >-
-        {1-2$$__mywc/pose/behavior/acrobatic/expression/base__|__mywc/pose/behavior/acrobatic/expression/mouth__}
-      base:
-        - excited
-        - smile
-      mouth:
-        - open mouth
-  atacking:
-    do:
-      - "{kicking|incoming kick}"
-      - "{punching|incoming punch}"
-      - incoming attack
-  bathing:
-    do: |-
-      __mywc/pose/behavior/bathing/pose/do__,
-      __mywc/pose/behavior/bathing/object/do__,
-      {0-4$$__mywc/pose/behavior/bathing/list__}
-    list:
-      - __mywc/pose/behavior/bathing/location__
-      - __mywc/pose/behavior/bathing/fashion__
-      - __mywc/pose/behavior/bathing/composition__
-      - __mywc/pose/behavior/bathing/expression/do__
-    pose:
-      do:
-        - bathing,__mywc/pose/behavior/bathing/pose/upper__{|,looking at viewer}
-      upper:
-        - head on arm
-        - hand on own {chest|shoulder}
-        - hugging own legs
-    object:
-      do:
-        - "{0-2$$__mywc/pose/behavior/bathing/object/list__}"
-      list:
-        - rubber duck
-        - steam
-    location:
-      - onsen
-    fashion:
-      - towel {around neck|on head}{4::|1::,nipples}
-    composition:
-      - pov
-    expression:
-      do: >-
-        __mywc/pose/behavior/bathing/expression/base__{|,__mywc/pose/behavior/bathing/expression/eye__}
-      base:
-        - crying
-        - happy
-        - relaxing
-      eye:
-        - closed eyes
-  boxing:
-    do:
-      - boxing{|,boxer briefs}
-  cleaning:
-    do:
-      - sweeping
-  cooking:
-    do:
-      - cooking{|,apron}
-  cycling:
-    do:
-      - bicycle{|,cycling uniform}
-  dancing:
-    do:
-      - ballet
-      - ballroom dancing
-      - belly dancing
-      - dancing
-      - pole dancing
-  diving:
-    do:
-      - diving
-  eating:
-    do:
-      - eating {__mywc/pose/object/foods__|__mywc/pose/object/vegetables__}
-  exercise:
-    do: |-
-      __mywc/pose/behavior/exercise/pose__,
-      __mywc/pose/behavior/exercise/location/do__,
-      {0-2$$__mywc/pose/behavior/exercise/list__}
-    list:
-      - __mywc/pose/behavior/exercise/fashion/do__
-      - __mywc/pose/behavior/exercise/expression/do__
-    pose:
-      - running
-      - stretching
-      - walking
-    location:
-      do:
-        - __mywc/location/outdoors/location/city__
-        - __mywc/location/outdoors/location/road__
-        - gym
-        - outdoor
-    fashion:
-      do:
-        - __mywc/pose/behavior/casual-fashion/cool-sets/do__
-        - __mywc/pose/behavior/casual-fashion/warm-sets/do__
-        - __mywc/fashion/costumes/gym/do__
-    expression:
-      do: >-
-        __mywc/pose/behavior/exercise/expression/base__,
-        {0-$$__mywc/pose/behavior/exercise/expression/eye__|__mywc/pose/behavior/exercise/expression/eyebrow__|__mywc/pose/behavior/exercise/expression/mouth__}
-      base:
-        - expressionless
-        - smile
-        - tired
-      eye:
-        - closed eyes
-      eyebrow:
-        - v-shaped eyebrows
-      mouth:
-        - open mouth
-  fishing:
-    do:
-      - fishing{|,fishing rod}
-  giving:
-    do:
-      - incoming {gift|letter|food|drink|100::__mywc/pose/object/foods__}
-  hiking:
-    do:
-      - hiking{|,backpack}
-  holding:
-    do:
-      - holding __mywc/pose/object/*__
-  knitting:
-    do:
-      - knitting
-  loving:
-    do:
-      - incoming {hug|kiss|pocky kiss}
-  petting:
-    do:
-      - petting __mywc/pose/object/animals__
-  picnick:
-    do: |-
-      __mywc/pose/behavior/picnick/pose/do__,
-      __mywc/pose/behavior/picnick/object/do__,
-      __mywc/pose/behavior/picnick/location__,
-      {0-3$$__mywc/pose/behavior/picnick/list__}
-    list:
-      - __mywc/pose/behavior/picnick/composition__
-      - __mywc/pose/behavior/picnick/fashion__
-      - __mywc/pose/behavior/picnick/expression/do__
-    pose:
-      do:
-        - sitting,{wariza|seiza|indian style}
-      list:
-        - drinking
-        - eating
-    object:
-      do: >-
-        picnic sheet,
-        {0-2$$__mywc/pose/behavior/picnick/object/list__}
-      list:
-        - "{|cherry blossom |maple }tree"
-        - bento
-        - bottle
-        - sandwich
-    location:
-      - outdoor,{day|night},
-    composition:
-      - pov{|,from above}
-    fashion:
-      - __mywc/pose/behavior/casual-fashion/warm-sets/do__
-    expression:
-      do: >-
-        __mywc/pose/behavior/picnick/expression/base__,
-        {0-$$__mywc/pose/behavior/picnick/expression/eye__|__mywc/pose/behavior/picnick/expression/mouth__}
-      base:
-        - grin
-        - happy
-        - laughing
-        - light smile
-        - smile
-      eye:
-        - closed eyes
-        - one eye closed
-      mouth:
-        - open mouth
-  planting:
-    do:
-      - planting
-  playing:
-    do: |-
-      __mywc/pose/behavior/playing/pose/do__,
-      __mywc/pose/behavior/playing/object/do__,
-      __mywc/pose/behavior/playing/location/do__,
-      {0-2$$__mywc/pose/behavior/playing/list__}
-    list:
-      - __mywc/pose/behavior/playing/fashion/do__
-      - __mywc/pose/behavior/playing/expression/do__
-    pose:
-      do:
-        - holding gamepad,television,__mywc/pose/behavior/playing/pose/lower__
-      lower:
-        - indian style
-        - seiza
-        - sitting on {chair|sofa}
-        - wariza
-    object:
-      do:
-        - "{0-2$$__mywc/pose/behavior/playing/object/list__}"
-      list:
-        - carpet
-        - cup
-        - plant
-        - table
-        - window{|,day|,sunny|,rain|,night}
-    location:
-      do:
-        - room,indoor
-    fashion:
-      do:
-        - __mywc/pose/behavior/casual-fashion/cool-sets/do__
-        - __mywc/pose/behavior/casual-fashion/warm-sets/do__
-    expression:
-      do: >-
-        __mywc/pose/behavior/playing/expression/base__{|,__mywc/pose/behavior/playing/expression/mouth__}
-      base:
-        - excited
-        - frustrated
-        - laughing
-        - smile
-        - surprised
-        - worried
-      mouth:
-        - open mouth
-  playing-instrument:
-    do:
-      - playing __mywc/pose/object/instruments__
-  polite:
-    do:
-      - curtsey
-  praying:
-    do:
-      - praying
-  reading:
-    do:
-      - reading{| book| letter| newspaper| paper}
-  relaxing:
-    do:
-      - relaxing
-  riding:
-    do:
-      - riding animal{|,horse}
-  shopping:
-    do:
-      - shopping
-  showering:
-    do: |-
-      __mywc/pose/behavior/showering/pose/do__,
-      __mywc/pose/behavior/showering/object__,
-      {0-4$$__mywc/pose/behavior/showering/list__}
-    list:
-      - __mywc/pose/behavior/showering/fashion__
-      - __mywc/pose/behavior/showering/composition__
-      - __mywc/pose/behavior/showering/expression/do__
-    pose:
-      do:
-        - showering{|,sitting},__mywc/pose/behavior/showering/pose/upper__{|,looking at viewer}
-      upper:
-        - hand{|s} on own {chest|head|hip}
-        - holding shower head
-    object:
-      - steam
-    fashion:
-      - nipples
-    composition:
-      - pov
-      - full body
-    expression:
-      do: >-
-        __mywc/pose/behavior/showering/expression/base__{|,__mywc/pose/behavior/showering/expression/eye__}
-      base:
-        - happy
-        - relaxing
-      eye:
-        - closed eyes
-  singing:
-    do:
-      - singing
-  skating:
-    do:
-      - figure skating
-      - skating
-  skiing:
-    do:
-      - skiing
-  sleeping:
-    do:
-      - sleeping
-      - yawning
-  smoking:
-    do:
-      - smoking
-  soaking:
-    do:
-      - soaking feet{|,pool}
-      - wading,bare legs{|,ocean|,river|,pool}
-  swimming:
-    do:
-      - swimming
-  teaching:
-    do: |-
-      __mywc/pose/behavior/teaching/pose/do__,
-      __mywc/pose/behavior/teaching/object/do__,
-      __mywc/pose/behavior/teaching/location__,
-      __mywc/pose/behavior/teaching/fashion__,
-      {0-2$$__mywc/pose/behavior/teaching/list__}
-    list:
-      - __mywc/pose/behavior/teaching/composition/do__
-      - __mywc/pose/behavior/teaching/expression/do__
-    pose:
-      do:
-        - standing{|,looking at viewer}{|,__mywc/pose/behavior/teaching/pose/list__}
-      list:
-        - hand on lectern
-        - holding book
-        - holding clipboard
-        - holding pointer
-        - writing
-    object:
-      do:
-        - lectern,blackboard,{0-2$$__mywc/pose/behavior/teaching/object/list__}
-      list:
-        - chair
-        - clock
-        - desk
-        - door
-        - window{|,day|,sunny|,rain|,night}
-    location:
-      - classroom,indoor
-    fashion:
-      - __mywc/fashion/costumes/teacher/do__
-    composition:
-      do:
-        - __mywc/pose/behavior/teaching/composition/list__,pov
-      list:
-        - straight-on
-    expression:
-      do: >-
-        __mywc/pose/behavior/teaching/expression/base__{|,__mywc/pose/behavior/teaching/expression/mouth__}
-      base:
-        - angry
-        - expressionless
-        - laughing
-        - smile
-        - surprised
-        - worried
-      mouth:
-        - open mouth
-  teatime:
-    do: |-
-      __mywc/pose/behavior/teatime/pose/do__,
-      __mywc/pose/behavior/teatime/object/do__,
-      __mywc/pose/behavior/teatime/location/do__,
-      {0-3$$__mywc/pose/behavior/teatime/list__}
-    list:
-      - __mywc/pose/behavior/teatime/composition/do__
-      - __mywc/pose/behavior/teatime/fashion__
-      - __mywc/pose/behavior/teatime/expression/do__
-    pose:
-      do:
-        - sitting,looking at viewer,{|,__mywc/pose/behavior/teatime/pose/list__}
-      list:
-        - covering own mouth
-        - finger to own chin
-        - hand in own hair
-        - hand on own chin
-        - hand on own ear
-        - hand over own mouth
-        - head rest
-        - holding cup
-        - stroking own chin
-        - twirling hair
-    object:
-      do: >-
-        table,coffee,
-        {0-2$$__mywc/pose/behavior/teatime/object/list__}
-      list:
-        - cake
-        - flower pot{|,cactus|,daisy|,dandelion|,hibiscus|,marigold|,poppy|,rose|,sunflower|,tulip}
-        - painting
-        - table cloth
-        - teapot
-        - window{|,day|,sunny|,rain|,night}
-    location:
-      do:
-        - indoors{|,__mywc/pose/behavior/teatime/location/list__}
-      list:
-        - cafe
-        - room
-        - restaurant
-    composition:
-      do:
-        - __mywc/pose/behavior/teatime/composition/list__,pov
-      list:
-        - straight-on
-    fashion:
-      - __mywc/pose/behavior/casual-fashion/cool-sets/do__
-      - __mywc/pose/behavior/casual-fashion/warm-sets/do__
-    expression:
-      do: >-
-        __mywc/pose/behavior/teatime/expression/base__,
-        {0-$$__mywc/pose/behavior/teatime/expression/eye__|__mywc/pose/behavior/teatime/expression/mouth__}
-      base:
-        - grin
-        - happy
-        - laughing
-        - light smile
-        - smile
-      eye:
-        - closed eyes
-        - one eye closed
-      mouth:
-        - open mouth
-  vocalizing:
-    do:
-      - shouting
-      - talking,{cell|smart} phone
-  surfing:
-    do:
-      - surfing,{swim|diving }suit{|,surfboard}
-  working:
-    do: |-
-      __mywc/pose/behavior/working/pose/do__,
-      __mywc/pose/behavior/working/object/do__,
-      __mywc/pose/behavior/working/location__,
-      __mywc/pose/behavior/working/fashion__,
-      {0-2$$__mywc/pose/behavior/working/list__}
-    list:
-      - __mywc/pose/behavior/working/composition__
-      - __mywc/pose/behavior/working/expression__
-    pose:
-      do:
-        - __mywc/pose/behavior/working/pose/standing/do__{|,looking at viewer}
-        - __mywc/pose/behavior/working/pose/sitting/do__{|,looking at viewer}
-      standing:
-        do:
-          - standing,__mywc/pose/behavior/working/pose/standing/upper__
-        upper:
-          - crossed arms
-          - hand on own {chin|hip|shoulder}
-          - holding {cup|paper{|s}|smartphone|tablet pc}
-      sitting:
-        do:
-          - sitting{|,crossed legs},__mywc/pose/behavior/working/pose/sitting/upper__
-        upper:
-          - crossed arms
-          - eating bento
-          - hands on own {head|knee|neck}
-          - hand on own {chin|ear|shoulder}
-          - head rest
-          - holding {cup|paper{|s}|smartphone}
-          - typing
-    object:
-      do:
-        - "{0-2$$__mywc/pose/behavior/working/object/list__}"
-      list:
-        - clock
-        - desk
-        - office chair
-        - phone
-        - potted plant
-        - tablet pc
-        - window{|,day|,sunny|,rain|,night}
-    location:
-      - office,indoor
-    fashion:
-      - __mywc/fashion/costumes/office-lady/do__
-    composition:
-      - pov
-    expression:
-      - annoyed
-      - expressionless
-      - smile
-      - worried
-  sample:
-    do: |-
-      __mywc/pose/behavior/sample/pose/do__,
-      __mywc/pose/behavior/sample/object/do__,
-      __mywc/pose/behavior/sample/location/do__,
-      {0-3$$__mywc/pose/behavior/sample/list__}
-    list:
-      - __mywc/pose/behavior/sample/fashion/do__
-      - __mywc/pose/behavior/sample/composition/do__
-      - __mywc/pose/behavior/sample/expression/do__
-    pose:
-      do:
-        - __mywc/pose/behavior/sample/pose/standing/do__{|,looking at viewer}
-        - __mywc/pose/behavior/sample/pose/sitting/do__{|,looking at viewer}
-      standing:
-        do:
-          - standing,__mywc/pose/behavior/sample/pose/standing/upper__
-        upper:
-          - crossed arms
-          - hand on own {chin|hip|shoulder}
-      sitting:
-        do:
-          - sitting{|,crossed legs},__mywc/pose/behavior/sample/pose/sitting/upper__
-        upper:
-          - crossed arms
-          - hands on own {head|knee|neck}
-          - hand on own {chin|ear|shoulder}
-          - head rest
-    object:
-      do:
-        - "{0-2$$__mywc/pose/behavior/sample/object/list__}"
-      list:
-        - apple
-        - banana
-        - grape
-        - melon
-        - window{|,day|,sunny|,rain|,night}
-    location:
-      do:
-        - room,indoor
-    fashion:
-      do:
-        - __mywc/pose/behavior/casual-fashion/cool-sets/do__
-        - __mywc/pose/behavior/casual-fashion/warm-sets/do__
-    composition:
-      do:
-        - pov,{0-2$$__mywc/pose/behavior/sample/composition/list__}
-      list:
-        - from above
-        - from below
-    expression:
-      do: >-
-        __mywc/pose/behavior/sample/expression/base__,
-        {0-$$__mywc/pose/behavior/sample/expression/eye__|__mywc/pose/behavior/sample/expression/mouth__}
-      base:
-        - angry
-        - expressionless
-        - laughing
-        - smile
-        - surprised
-        - worried
-      eye:
-        - closed eyes
-        - one eye closed
-      mouth:
-        - open mouth
+  - __mywc/pose/behavior-list/*__
+behavior-list:
+  acrobatic: >-
+    ${pose:{jumping|running}{|,looking at viewer}},
+    ${location:{city|park|street}},
+    ${list:{0-$$${fashion:{__mywc/pose/behavior/casual-fashion/cool-sets/do__|__mywc/pose/behavior/casual-fashion/warm-sets/do__}}|
+                ${expression:{1-$${excited|smile}|open mouth}}}}
+  atacking: >-
+    ${pose:{{kicking|incoming kick}|{punching|incoming punch}|incoming attack}},
+    ${expression:{0-$$v-shaped eyebrows|open mouth}}
+  bathing: >-
+    ${pose:bathing,{head on arm|hand on own {chest|shoulder}|hugging own legs}{|,looking at viewer}},
+    ${list:{0-$$${location:{1-$$onsen|steam}}|
+                ${fashion:towel {around neck|on head}{4::|1::,nipples}}|
+                ${expression:{happy|relaxing}{|,closed eyes}}
+  boxing: >-
+    ${pose:boxing{|,looking at viewer}},
+    ${list:{0-$$${fashion:boxer briefs}|
+                ${expression:{1-$$v-shaped eyebrows|open mouth}}
+  cleaning: >-
+    ${pose:{sweeping|wiping}{|,looking at viewer}},
+    ${location:{room,indoors|outdoors}},
+    ${list:{0-$$${fashion:{__mywc/pose/behavior/casual-fashion/cool-sets/do__|__mywc/pose/behavior/casual-fashion/warm-sets/do__}}|
+                ${expression:{|light }smile,{|open mouth}}}}
+  cooking: >-
+    ${pose:cooking},
+    ${fashion:{|apron}}
+  cycling: >-
+    ${pose:bicycle},
+    ${fashion:{|cycling uniform}}
+  dancing: >-
+    ${pose:{ballet|ballroom dancing|belly dancing|dancing|pole dancing}}
+  diving: >-
+    ${pose:diving}
+  eating: >-
+    ${pose:eating {__mywc/pose/object/foods__|__mywc/pose/object/vegetables__}}
+  exercise: >-
+    ${pose:{running|stretching|walking}},
+    ${location:{__mywc/location/outdoorss/location/city__|__mywc/location/outdoorss/location/road__|gym|outdoors}},
+    ${list:{0-$$${fashion:{__mywc/pose/behavior/casual-fashion/cool-sets/do__|__mywc/pose/behavior/casual-fashion/warm-sets/do__|__mywc/fashion/costumes/gym/do__}}|
+                ${expression:{expressionless|{|light }smile|tired},{0-$$one eye closed}|open mouth|v-shaped eyebrows}}}
+  fishing: >-
+    ${pose:fishing{|,fishing rod}}
+  giving: >-
+    ${pose:incoming {gift|letter|food|drink|__mywc/pose/object/foods__}}
+  hiking: >-
+    ${pose:hiking{|,backpack}}
+  holding: >-
+    ${pose:holding __mywc/pose/object/*__}
+  knitting: >-
+    ${pose:knitting}
+  loving: >-
+    ${pose:incoming {hug|kiss|pocky kiss}}
+  petting: >-
+    ${pose:petting __mywc/pose/object/animals__}
+  picnick: >-
+    ${pose:sitting,{wariza|seiza|indian style}{|,drinking|,eating}{|,looking at viewer}},
+    ${location:{outdoors,{day|night},picnick sheet{|,{|cherry blossom |maple }tree}},
+    ${list:{0-$$${fashion:__mywc/pose/behavior/casual-fashion/warm-sets/do__}|
+                ${composition:pov{|,from above}}|
+                ${expression:{{|light }smile|grin|happy|laughing},{0-$${closed eyes|one eye closed}|open mouth}}}}
+  planting: >-
+    ${pose:planting}
+  playing: >-
+    ${pose:holding gamepad,sitting on {chair|floor|sofa}{|,indian style|,seiza|,wariza}{|,looking at viewer}},
+    ${location:room,indoors,{0-$$table|television}},
+    ${list:{0-$$${fashion:{__mywc/pose/behavior/casual-fashion/cool-sets/do__|__mywc/pose/behavior/casual-fashion/warm-sets/do__}}|
+                ${expression:{excited|laughing|smile},{0-$$open mouth|v-shaped eyebrows}}}}
+  playing-instrument: >-
+    ${pose:playing __mywc/pose/object/instruments__}
+  polite: >-
+    ${pose:curtsey}
+  praying: >-
+    ${pose:praying}
+  reading: >-
+    ${pose:reading{| book| letter| newspaper| paper}}
+  relaxing: >-
+    ${pose:relaxing}
+  riding: >-
+    ${pose:riding animal{|,horse}}
+  shopping: >-
+    ${pose:shopping}
+  showering: >-
+    ${pose:showering{|,sitting}{|,hand{|s} on own {chest|head|hip}|,holding shower head}{|,looking at viewer}},
+    ${list:{0-$$${location:steam}|
+                ${fashion:nipples}|
+                ${composition:full body{|,pov}}|
+                ${expression:{happy|relaxing}{|,closed eyes}}}}
+  singing: >-
+    ${pose:singing}
+  skating: >-
+    ${pose:{figure |}skating}
+  skiing: >-
+    ${pose:skiing}
+  sleeping: >-
+    ${pose:{sleeping|yawning}}
+  smoking: >-
+    ${pose:smoking}
+  soaking: >-
+    ${pose:{soaking feet{|,pool}|wading,bare legs{|,ocean|,river|,pool}}}
+  swimming: >-
+    ${pose:swimming}
+  teaching: >-
+    ${pose:standing,{holding {book|clipboard|pointer}}{|,looking at viewer}},
+    ${location:classroom,indoors,{0-$$lectern|blackboard}},
+    ${fashion:__mywc/fashion/costumes/teacher/do__},
+    ${list:{0-$$${composition:straight-on{|,pov}}}|
+                ${expression:{expressionless|laughing|smile}{|,open mouth}}}}
+  teatime: >-
+    ${pose:sitting,looking at viewer{|,covering own mouth|hand in own hair|hand on own {chin|ear}|hand over own mouth|head rest|holding cup|stroking own chin|twirling hair}},
+    ${location:{{cafe|restaurant|room},indoors,table,coffee,{0-$$cake|table cloth|window}},
+    ${list:{0-$$${fashion:{__mywc/pose/behavior/casual-fashion/cool-sets/do__|__mywc/pose/behavior/casual-fashion/warm-sets/do__}}|
+                ${composition:straight-on{|,pov}}|
+                ${expression:{{|light }smile|grin|happy|laughing},{0-$${closed eyes|one eye closed}|open mouth}}}}
+  vocalizing: >-
+    ${pose:{shouting|talking,{cell|smart} phone}}
+  surfing: >-
+    ${pose:surfing,{swim|diving }suit{|,surfboard}}
+  working: >-
+    ${pose:{standing,{crossed arms|hand on own {chin|hip|shoulder}|holding {cup|paper{|s}|smartphone|tablet pc}}|
+            sitting{|,crossed legs},{crossed arms|hand on own {chin|ear|shoulder}|hands on own {head|knee|neck}|head rest|holding {cup|paper{|s}|smartphone}|typing}}{|,looking at viewer}},
+    ${location:{office,indoors},
+    ${fashion:__mywc/fashion/costumes/office-lady/do__},
+    ${list:{0-$$${composition:pov}|
+                ${expression:{expressionless|light smile|serious}}}}
+  sample: >-
+    ${pose:standing,{crossed arms|hand on own {chin|hip|shoulder}}{|,looking at viewer}},
+    ${location:{room,indoors|outdoors}},
+    ${list:{0-$$${fashion:{__mywc/pose/behavior/casual-fashion/cool-sets/do__|__mywc/pose/behavior/casual-fashion/warm-sets/do__}}|
+                ${composition:from {above|below}{|,pov}}|
+                ${expression:{|light }smile,{0-$${closed eyes|one eye closed}|open mouth}}}}
   casual-fashion:
     cool-sets:
       do: >-
