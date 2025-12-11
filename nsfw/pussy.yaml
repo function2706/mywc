@@ -185,7 +185,7 @@ pussy:
     ballerina:
       do: >-
         ${clothes=__mywc/nsfw/pussy/fashion/ballerina/clothes__}
-        ${list={0-2$$__mywc/nsfw/pussy/fashion/ballerina/list__}}
+        ${costume-list={0-2$$__mywc/nsfw/pussy/fashion/ballerina/list__}}
         __mywc/fashion/costumes/ballerina/do__
       list:
         - __mywc/fashion/costumes/ballerina/footwears__
@@ -205,7 +205,7 @@ pussy:
       do: >-
         ${color=!__mywc/fashion/costumes/bdsm/color__}
         ${bottoms=__mywc/nsfw/pussy/fashion/bdsm/bottoms__}
-        ${list={0-3$$__mywc/nsfw/pussy/fashion/bdsm/list__}}
+        ${costume-list={0-3$$__mywc/nsfw/pussy/fashion/bdsm/list__}}
         __mywc/fashion/costumes/bdsm/do__
       list:
         - ${color:black} __mywc/fashion/costumes/bdsm/gloves__
@@ -220,7 +220,7 @@ pussy:
         __mywc/fashion/costumes/bedding/do__
     bunny-girl:
       do: >-
-        ${list={0-3$$__mywc/nsfw/pussy/fashion/bunny-girl/list__}}
+        ${costume-list={0-3$$__mywc/nsfw/pussy/fashion/bunny-girl/list__}}
         __mywc/fashion/costumes/bunny-girl/do__
       list:
         - __mywc/fashion/costumes/bunny-girl/clothes__{|,bottomwear aside}
@@ -228,7 +228,7 @@ pussy:
         - __mywc/fashion/costumes/bunny-girl/accessories/do__
     cheerleader:
       do: >-
-        ${list={0-4$$__mywc/nsfw/pussy/fashion/cheerleader/list__}}
+        ${costume-list={0-4$$__mywc/nsfw/pussy/fashion/cheerleader/list__}}
         __mywc/fashion/costumes/cheerleader/do__
       list:
         - __mywc/fashion/costumes/cheerleader/tops__
@@ -263,7 +263,7 @@ pussy:
     dress:
       do: >-
         ${clothes=__mywc/fashion/costumes/dress/clothes__{|,panties aside}}
-        ${list={0-3$$__mywc/nsfw/pussy/fashion/dress/list__}}
+        ${costume-list={0-3$$__mywc/nsfw/pussy/fashion/dress/list__}}
         __mywc/fashion/costumes/dress/do__
       list:
         - __mywc/fashion/costumes/dress/gloves/do__
@@ -326,7 +326,7 @@ pussy:
         - "{1-$${|leather |torn }skirt|panties aside}"
     nun:
       do: >-
-        ${list={0-3$$__mywc/nsfw/pussy/fashion/nun/list__}{|,panties aside}}
+        ${costume-list={0-3$$__mywc/nsfw/pussy/fashion/nun/list__}{|,panties aside}}
         __mywc/fashion/costumes/nun/do__
       list:
         - __mywc/fashion/costumes/nun/gloves__
@@ -358,7 +358,7 @@ pussy:
         __mywc/fashion/costumes/sailor/do__
     santa:
       do: >-
-        ${list={0-2$$__mywc/nsfw/pussy/fashion/santa/list__}{|,panties aside}}
+        ${costume-list={0-2$$__mywc/nsfw/pussy/fashion/santa/list__}{|,panties aside}}
         __mywc/fashion/costumes/santa/do__
       list:
         - __mywc/fashion/costumes/santa/footwears__
@@ -405,7 +405,7 @@ pussy:
     travel-attendant:
       do: >-
         ${minimum={1-$$pencil skirt|panties aside}}
-        ${list={0-3$$__mywc/nsfw/pussy/fashion/travel-attendant/list__}}
+        ${costume-list={0-3$$__mywc/nsfw/pussy/fashion/travel-attendant/list__}}
         __mywc/fashion/costumes/travel-attendant/do__
       list:
         - __mywc/fashion/costumes/travel-attendant/gloves__
