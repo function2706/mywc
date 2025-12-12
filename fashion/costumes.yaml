@@ -105,7 +105,7 @@ costumes:
                                       ${accessories:{1-$$choker|corset|earrings|{necklace|pendant}}}}}
   bedding: >-
     ${costume-minimum:${clothes:{negligee|nightwear|pajamas}}},
-    ${costume-list:{0-$$${footwears:slippers}
+    ${costume-list:{0-$$${footwears:slippers}|
                         ${accessories:{1-$$mob cap|nightcap}}}}
   bunny-girl: >-
     ${bunny-girl-color=!{|black|blue|pink|red|white}}
@@ -116,7 +116,7 @@ costumes:
                                             ${accessories:{1-$$bowtie|wrist cuffs}}}}
   cheerleader: >-
     ${costume-minimum:cheerleader},
-    ${costume-list:{0-$$${tops:{crop top|t-shirt}}|
+    ${costume-list:{0-$$${tops:crop top}|
                         ${bottoms:pleated {|mini}skirt}|
                         ${socks:{{|ankle }socks|kneehighs|thighhighs}}|
                         ${footwears:sneakers}|
@@ -161,7 +161,7 @@ costumes:
     ${costume-list:{0-$$${gloves:{|${dress-color} |black |white }{|lace }{|elbow }gloves}|
                         ${socks:{|black |brown |white }pantyhose}|
                         ${footwears:{|${dress-color} |black |white }__mywc/fashion/footwears/heels/list__}|
-                        ${accessories:{1-$${{|sun }hat|tiara|veil}|glasses|earrings|{ascot|brooch|locket|pendant|scarf|shawl}|{badge|bag|corsage}}}}}
+                        ${accessories:{1-$${{|sun }hat|tiara|veil}|glasses|earrings|{ascot|brooch|locket|pendant|scarf|shawl}|{badge|corsage}}}}}
   employee: >-
     ${costume-minimum:employee uniform},
     ${costume-list:{0-$$${tops:{{|striped }shirt|polo shirt|vest}{|,sleeves rolled up}}|
@@ -169,10 +169,10 @@ costumes:
                         ${accessories:{1-$${lanyard|name tag}|apron|cap|watch}}}}
   explorer: >-
     ${costume-minimum:hat,${tops:safari jacket,{long sleeves|short sleeves|sleeves {rolled|pushed} up}},${bottoms:{|half }pants}},
-    ${costume-list:{0-$$${footwears:socks,{{|desert |hiking }boots}|leather sneakers}|
+    ${costume-list:{0-$$${footwears:socks,{{|desert |hiking }boots|leather sneakers}}|
                         ${accessories:{1-$${{|waist }pouch|backpack|bag}|gloves|neckerchief}}}}
   farmer: >-
-    ${costume-minimum:farmer,${clothes:{overalls|t-shirt,{jeans|pants}}}},
+    ${costume-minimum:farmer,${clothes:{overalls,shirt|shirt,{jeans|pants}}}},
     ${costume-list:{0-$$${footwears:{boots|sneakers}}|
                         ${accessories:{1-$$gloves|straw hat}}}}
   goth-roli: >-
@@ -185,17 +185,16 @@ costumes:
                         ${accessories:{1-$$brooch|choker|lace headband|ribbons}}}}
   gym: >-
     ${costume-minimum:gym uniform},
-    ${costume-list:{0-$$${tops:{{|white }t-shirt}|{blue|red|white|yellow} {jersey|track{ jacket|suit}}}|
+    ${costume-list:{0-$$${tops:{{|white }t-shirt|{blue|red|white|yellow} {jersey|track{ jacket|suit}}}}|
                         ${bottoms:{{bike|gym} shorts|{gym |sweat}pants|buruma}}|
                         ${socks:{{|ankle }socks|kneehighs|thighhighs}}|
                         ${footwears:sneakers}|
                         ${accessories:{1-$$headband|towel on neck|wristband}}}},
   hunter: >-
-    ${costume-minimum:hunter,${tops:{cloak|tunic}}},
+    ${costume-minimum:hunter,${tops:{green|brown} {cloak|tunic}},${accessories:{1-$$capelet|binoculars on neck|knife on waist|quiver}}},
     ${costume-list:{0-$$${bottoms:pants}|
                         ${gloves:{|leather {|cuirass }}gloves}|
-                        ${footwears:socks,{boots|shoes}}|
-                        ${accessories:{1-$${{bi|tri}corne|hat}|capelet|binoculars on neck|knife on waist|quiver}}}}
+                        ${footwears:socks,{boots|shoes}}}}
   idol: >-
     ${costume-minimum:{|light }{black|blue|green|orange|pink|purple|red|white|yellow} idol clothes,${tops:{crop top|frilled shirt|stage dress},puffy {|short }sleeves},${bottoms:{long|short} {frilled|pleated} skirt}},
     ${costume-list:{0-$$${gloves:{|elbow }gloves}|
