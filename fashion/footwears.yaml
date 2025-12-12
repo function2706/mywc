@@ -40,7 +40,7 @@ footwears:
       - winter boots
     heel:
       - " "
-      - stiletto heel
+      - stiletto heels
   heels:
     do:
       - __mywc/color__ __mywc/fashion/footwears/heels/list__

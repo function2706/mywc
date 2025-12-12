@@ -180,7 +180,7 @@ pussy:
       - __mywc/fashion/costumes/wizard/do__{2::|1::,panties aside}
     artist:
       do: >-
-        ${bottoms={1-$$skirts|panties aside}}
+        ${bottoms={1-$$skirt|panties aside}}
         __mywc/fashion/costumes/artist/do__
     ballerina:
       do: >-
@@ -199,7 +199,7 @@ pussy:
         __mywc/fashion/costumes/barista/do__
     bartender:
       do: >-
-        ${minimum=white shirt{|,panties aside}}
+        ${costume-minimum=white shirt{|,panties aside}}
         __mywc/fashion/costumes/bartender/do__
     bdsm:
       do: >-
@@ -254,7 +254,7 @@ pussy:
         - shorts{|,drawstring},shorts aside
     cross-dressing:
       do: >-
-        ${minimum={|,panties aside}}
+        ${costume-minimum={|,panties aside}}
         __mywc/fashion/costumes/cross-dressing/do__
     doctor:
       do: >-
@@ -342,7 +342,7 @@ pussy:
         __mywc/fashion/costumes/office-lady/do__
     pilot:
       do: >-
-        ${minimum=${tops:__mywc/fashion/costumes/pilot/tops__}{|,panties aside}}
+        ${costume-minimum=${tops:__mywc/fashion/costumes/pilot/tops__}{|,panties aside}}
         __mywc/fashion/costumes/pilot/do__
     police:
       do: >-
@@ -350,11 +350,11 @@ pussy:
         __mywc/fashion/costumes/police/do__
     prince:
       do: >-
-        ${minimum={deep green|white|wine red} jacket,epaulettes{|,panties aside}}
+        ${costume-minimum={deep green|white|wine red} jacket,epaulettes{|,panties aside}}
         __mywc/fashion/costumes/prince/do__
     sailor:
       do: >-
-        ${minimum=__mywc/fashion/costumes/sailor/tops__{|,panties aside}}
+        ${costume-minimum=__mywc/fashion/costumes/sailor/tops__{|,panties aside}}
         __mywc/fashion/costumes/sailor/do__
     santa:
       do: >-
@@ -404,7 +404,7 @@ pussy:
         - pencil skirt{|,panties aside}
     travel-attendant:
       do: >-
-        ${minimum={1-$$pencil skirt|panties aside}}
+        ${costume-minimum={1-$$pencil skirt|panties aside}}
         ${costume-list={0-3$$__mywc/nsfw/pussy/fashion/travel-attendant/list__}}
         __mywc/fashion/costumes/travel-attendant/do__
       list:
@@ -427,15 +427,15 @@ pussy:
         - panties aside
     warm-sets:
       do: >-
-        ${minimum=__mywc/fashion/costumes/warm-sets/tops__{|,panties aside}}
+        ${costume-minimum=__mywc/fashion/costumes/warm-sets/tops__{|,panties aside}}
         __mywc/fashion/costumes/warm-sets/do__
     warrior:
       do: >-
-        ${minimum=__mywc/fashion/costumes/warrior/armors/do__{|,panties aside}}
+        ${costume-minimum=__mywc/fashion/costumes/warrior/armors/do__{|,panties aside}}
         __mywc/fashion/costumes/warrior/do__
     wedding:
       do: >-
-        ${minimum=__mywc/fashion/costumes/wedding/clothes/do__{|,panties aside}}
+        ${costume-minimum=__mywc/fashion/costumes/wedding/clothes/do__{|,panties aside}}
         __mywc/fashion/costumes/wedding/do__
     winter:
       do: >-
@@ -445,7 +445,7 @@ pussy:
         - "{4::{|layered |long |pleated}skirt{|,panties aside}|1::panties aside}"
     witch:
       do: >-
-        ${minimum=witch hat,__mywc/fashion/costumes/witch/clothes/do__,{2::|1::,panties aside}}
+        ${costume-minimum=witch hat,__mywc/fashion/costumes/witch/clothes/do__,{2::|1::,panties aside}}
         ${footwears=__mywc/nsfw/pussy/fashion/witch/footwears__}
         __mywc/fashion/costumes/witch/do__
       footwears:
