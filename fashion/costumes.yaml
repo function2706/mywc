@@ -77,24 +77,24 @@ costumes:
       - ${bottoms:__mywc/fashion/costumes/artist/bottoms__}
       - ${accessories:__mywc/fashion/costumes/artist/accessories/do__}
     tops:
-      - shirt
+      - "{t-}shirt"
     bottoms:
       - skirts
       - pants
     accessories:
       do:
-        - "{1-2$$__mywc/fashion/costumes/artist/accessories/list__}"
+        - "{1-3$$__mywc/fashion/costumes/artist/accessories/list__}"
       list:
-        - beret
+        - "{beret|kerchief}"
         - glasses
         - paint on clothes
   assassin:
     do: >-
-      __mywc/fashion/costumes/assassin/color__ assassin,
+      assassin,
       ${minimum:${accessories:__mywc/fashion/costumes/assassin/accessories/do__}},
       ${costume-list:{0-3$$__mywc/fashion/costumes/assassin/list__}}
     list:
-      - ${tops:__mywc/fashion/costumes/assassin/tops__}
+      - ${tops:__mywc/fashion/costumes/assassin/color__ shirt,__mywc/fashion/costumes/assassin/tops__}
       - ${gloves:__mywc/fashion/costumes/assassin/gloves__}
       - ${footwears:__mywc/fashion/costumes/assassin/footwears__}
     tops:
@@ -118,8 +118,8 @@ costumes:
       - purple
   ballerina:
     do: >-
-      __mywc/fashion/costumes/ballerina/colors__ ballerina,
-      ${minimum:${clothes:__mywc/fashion/costumes/ballerina/clothes__}},
+      ballerina,
+      ${minimum:__mywc/fashion/costumes/ballerina/colors__ ${clothes:__mywc/fashion/costumes/ballerina/clothes__}},
       ${costume-list:{0-3$$__mywc/fashion/costumes/ballerina/list__}}
     list:
       - ${socks:__mywc/fashion/costumes/ballerina/socks__}
@@ -129,7 +129,7 @@ costumes:
       - ballet dress
       - leotard{|,tutu}
     socks:
-      - "{beige|white} pantyhose"
+      - white pantyhose
     footwears:
       - ballet {shoes|slippers}
     accessories:
@@ -140,6 +140,8 @@ costumes:
     colors:
       - " "
       - black
+      - light blue
+      - light pink
       - white
   barista:
     do: >-
@@ -151,8 +153,7 @@ costumes:
       - ${bottoms:__mywc/fashion/costumes/barista/bottoms__}
       - ${accessories:__mywc/fashion/costumes/barista/accessories/do__}
     tops:
-      - shirt
-      - vest
+      - "{t-}shirt"
     bottoms:
       - "{|skinny }jeans"
       - pants
@@ -199,6 +200,7 @@ costumes:
   bdsm:
     do: >-
       ${color=!__mywc/fashion/costumes/bdsm/color__}
+      ${element=!__mywc/fashion/costumes/bdsm/element__}
       ${minimum:${color:black} ${tops:__mywc/fashion/costumes/bdsm/tops__},${color:black} ${bottoms:__mywc/fashion/costumes/bdsm/bottoms__}},
       ${costume-list:{0-4$$__mywc/fashion/costumes/bdsm/list__}}
     list:
@@ -207,26 +209,26 @@ costumes:
       - ${color:black} __mywc/fashion/costumes/bdsm/footwears/do__
       - __mywc/fashion/costumes/bdsm/accessories/do__
     tops:
-      - latex {|strapless }bra
+      - ${element:latex} {|strapless }bra
     bottoms:
-      - latex panties
-      - leather mini skirt
+      - ${element:latex} panties
+      - ${element:latex} miniskirt
     gloves:
-      - latex elbow gloves
+      - ${element:latex} elbow gloves
     socks:
       - "{${color:black}|black|brown} garter belt"
       - "{${color:black}|black|brown|fishnet} thighhighs"
+      - bare legs
     footwears:
       do:
         - __mywc/fashion/costumes/bdsm/footwears/boots/do__
         - __mywc/fashion/costumes/bdsm/footwears/heels__
       boots:
         do:
-          - latex __mywc/fashion/costumes/bdsm/footwears/boots/accessories/do__ __mywc/fashion/costumes/bdsm/footwears/boots/size__ __mywc/fashion/costumes/bdsm/footwears/boots/shape__
+          - ${element:latex} __mywc/fashion/costumes/bdsm/footwears/boots/accessories/do__ __mywc/fashion/costumes/bdsm/footwears/boots/size__ __mywc/fashion/costumes/bdsm/footwears/boots/shape__
         size:
-          - kneehigh
-          - long
-          - thighhigh
+          - knee
+          - thigh
         shape:
           - boots
           - boots,stiletto heels
@@ -238,6 +240,7 @@ costumes:
           list:
             - belt
             - braided
+            - zipper
       heels:
         - block heels
         - platform heels
@@ -254,7 +257,9 @@ costumes:
     color:
       - "{|deep }red"
       - black
-      - deep blue
+    element:
+      - latex
+      - leather
   bedding:
     do: >-
       ${minimum:${clothes:__mywc/fashion/costumes/bedding/clothes__}},
