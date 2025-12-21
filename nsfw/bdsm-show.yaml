@@ -5,8 +5,8 @@ bdsm-show:
   of: |-
     __mywc/nsfw/bdsm-show/pose/random__,{,from below|}
     __mywc/nsfw/bdsm-show/expression/random__{|,looking at {2::viewer|1::another}},
-    __mywc/fashion/costumes/bdsm/do__,
-    __mywc/meta/boilerplate/code__
+    __mywc/fashion/costumes/bdsm__,
+    __mywc/meta/boilerplate/code__,nsfw
   pose:
     random:
       - "{1::__mywc/nsfw/bdsm-show/pose/action__|10::{1-$$__mywc/nsfw/bdsm-show/pose/upper__|__mywc/nsfw/bdsm-show/pose/lower__}}"

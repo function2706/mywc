@@ -39,6 +39,6 @@ meta:
     code:
       - __mywc/meta/boilerplate/quality__,__mywc/meta/boilerplate/numof-subjects__,
     quality:
-      - best quality,masterpiece,absurdres
+      - masterpiece,best quality,amazing quality
     numof-subjects:
       - 1girl,solo
