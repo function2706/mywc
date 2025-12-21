@@ -67,151 +67,179 @@ costumes:
       - __mywc/fashion/costumes/traveling-marchant/do__
       - __mywc/fashion/costumes/witch/do__
       - __mywc/fashion/costumes/wizard/do__
-  artist: >-
-    ${costume-minimum:artist painter,{brown|green} apron},
-    ${costume-list:{0-$$${tops:{|t-}shirt}|
-                        ${bottoms:{skirt|pants}}|
-                        ${accessories:{1-$${beret|kerchief}|glasses|paint on clothes}}}}
-  assassin: >-
-    ${costume-minimum:assassin,${accessories:{1-$${dagger|sword} on waist|cloak|sash on waist}}},
-    ${costume-list:{0-$$${tops:{|black |purple }shirt,{long sleeves|short sleeves|sleeveless}}|
-                        ${gloves:gloves}|
-                        ${footwears:boots}}}
-  ballerina: >-
-    ${costume-minimum:ballerina,${clothes:{black|light blue|light pink|white} {ballet dress|leotard{|,tutu}}}},
-    ${costume-list:{0-$$${socks:white pantyhose}|
-                        ${footwears:ballet {shoes|slippers}}|
-                        ${accessories:tiara}}}
-  barista: >-
-    ${costume-minimum:barista,apron},
-    ${costume-list:{0-$$${tops:shirt{|,vest}{|,sleeves rolled up}}|
-                        ${bottoms:{|skinny }jeans,pants}|
-                        ${accessories:{1-$${bow|neck}tie|cap}}}}
-  bartender: >-
-    ${costume-minimum:bartender,white shirt,pants},
-    ${costume-list:{0-$$${tops:vest{|,sleeves rolled up}}|
-                        ${accessories:{bow|neck}tie}}}
-  bathing: >-
-    ${costume-minimum:${clothes:{bathrobe|naked towel}}},
-    ${costume-list:{0-$$${footwears:slippers}|
-                        ${accessories:towel on {head|neck}}}}
-  bdsm: >-
-    ${bdsm-color=!{{|deep }red|black}}
-    ${bdsm-element=!{latex|leather}}
-    ${costume-minimum:${bdsm-color} ${tops:${bdsm-element} {|strapless }bra},${bdsm-color} ${bottoms:{${bdsm-element} panties|miniskirt}}},
-    ${costume-list:{0-$$${bdsm-color} ${gloves:${bdsm-element} elbow gloves}|
-                                      ${socks:{{${bdsm-color}|black|brown} garter belt|{${bdsm-color}|black|brown|fishnet} thighhighs}}|
-                        ${bdsm-color} ${footwears:{${bdsm-element} {knee|thigh} {|belted |braided |zipper } boots{|,stiletto heels}|{block|platform|stiletto|strappy} heels}}|
-                                      ${accessories:{1-$$choker|corset|earrings|{necklace|pendant}}}}}
-  bedding: >-
-    ${costume-minimum:${clothes:{negligee|nightwear|pajamas}}},
-    ${costume-list:{0-$$${footwears:slippers}|
-                        ${accessories:{1-$$mob cap|nightcap}}}}
-  bunny-girl: >-
-    ${bunny-girl-color=!{|black|blue|pink|red|white}}
-    ${costume-minimum:playboy bunny},
-    ${costume-list:{0-$$${bunny-girl-color} ${clothes:{bustier|tailcoat}}|
-                                            ${socks:{{black|brown} garter belt|{black|brown|fishnet} pantyhose}}|
-                        ${bunny-girl-color} ${footwears:{|stiletto }heels}|
-                                            ${accessories:{1-$$bowtie|wrist cuffs}}}}
-  cheerleader: >-
-    ${costume-minimum:cheerleader},
-    ${costume-list:{0-$$${tops:crop top}|
-                        ${bottoms:pleated {|mini}skirt}|
-                        ${socks:{{|ankle }socks|kneehighs|thighhighs}}|
-                        ${footwears:sneakers}|
-                        ${accessories:{1-$$hair bow|wristband}}}}
-  chef: >-
-    ${costume-minimum:chef,white clothes},
-    ${costume-list:{0-$$|${accessories:{1-$$apron|chef hat|neckerchief}}}}
-  china: >-
-    ${costume-minimum:{|blue |green |purple |red }china dress},
-    ${costume-list:{0-$$${gloves:white elbow gloves}|
-                        ${footwears:{chinese shoes|{|stiletto }heels}}|
-                        ${accessories:{1-$$bracelet|earrings|hairpin|necklace}}}}
-  commander: >-
-    ${costume-minimum:military uniform},
-    ${costume-list:{0-$$${tops:{fatigues|suit}}|
-                        ${bottoms:{skirt{|,pantyhose}|pants}}|
-                        ${gloves:{|white }gloves}|
-                        ${footwears:{flats|heels|loafers}}|
-                        ${accessories:{1-$$aiguillette|badge|epaulettes|peaked cap|ribbon bar}}}}
-  cool-sets: >-
-    ${costume-minimum:${clothes:{${tops:{{|t-}shirt,short sleeves|tank top}},${bottoms:{2::{|denim |dolphin }shorts{|,drawstring}|1::skirt}}|${unis:{babydoll|camisole}}}}},
-    ${costume-list:{0-$$|${accessories:{1-$$glasses|slippers}}}}
-  cross-dressing: >-
-    ${costume-minimum:{|black |white }formal clothes,pants},
-    ${costume-list:{0-$$${tops:{{|butler }tailcoat|{suit|tailored|tuxedo} jacket|pant suit|trench coat|vest{|,sleeves pushed up|,sleeves rolled up}|waistcoat}}|
-                        ${gloves:white gloves}|
-                        ${accessories:{1-$${|fedora |top }hat|{bow|neck}tie|{glasses|monocle}|pocket square}}}}
-  dancer: >-
-    ${costume-minimum:dancer,${clothes:{arabian clothes|harem outfit}}},
-    ${costume-list:{0-$$|${accessories:{1-$$amulet|anklet|armlet|bracelet|choker|earrings|necklace|pelvic curtain}}}}
-  detective: >-
-    ${costume-minimum:detective,trench coat},
-    ${costume-list:{0-$$${tops:{capelet|vest}}|
-                        ${accessories:{1-$$gloves|hat|pen in pocket}}}}
-  doctor: >-
-    ${costume-minimum:doctor,lab coat},
-    ${costume-list:{0-$$${bottoms:{maxi skirt,{white|beige|black|brown} pantyhose,heels|pants,socks,{heels|shoes}}}|
-                        ${accessories:{1-$${10::|1::{|light blue |white }surgical mask}|glasses|lanyard|stethoscope on neck}}}}
-  dress: >-
-    ${dress-color=!{black|scarlet|white|deep {blue|green|orange|purple|red}}}
-    ${costume-minimum:${dress-color} ${clothes:{ball gown|cocktail dress|evening dress|funeral dress|halter dress|high slit dress|party dress|pencil dress|prom dress|satin dress|sequined dress|tube dress|velvet dress|__mywc/fashion/unis/make-dress/do__}}},
-    ${costume-list:{0-$$${gloves:{|${dress-color} |black |white }{|lace }{|elbow }gloves}|
-                        ${socks:{|black |brown |white }pantyhose}|
-                        ${footwears:{|${dress-color} |black |white }__mywc/fashion/footwears/heels/list__}|
-                        ${accessories:{1-$${{|sun }hat|tiara|veil}|glasses|earrings|{ascot|brooch|locket|pendant|scarf|shawl}|{badge|corsage}}}}}
-  employee: >-
-    ${costume-minimum:employee uniform},
-    ${costume-list:{0-$$${tops:{{|striped }shirt|polo shirt|vest}{|,sleeves rolled up}}|
-                        ${bottoms:pants}|
-                        ${accessories:{1-$${lanyard|name tag}|apron|cap|watch}}}}
-  explorer: >-
-    ${costume-minimum:hat,${tops:safari jacket,{long sleeves|short sleeves|sleeves {rolled|pushed} up}},${bottoms:{|half }pants}},
-    ${costume-list:{0-$$${footwears:socks,{{|desert |hiking }boots|leather sneakers}}|
-                        ${accessories:{1-$${{|waist }pouch|backpack|bag}|gloves|neckerchief}}}}
-  farmer: >-
-    ${costume-minimum:farmer,${clothes:{overalls,shirt|shirt,{jeans|pants}}}},
-    ${costume-list:{0-$$${footwears:{boots|sneakers}}|
-                        ${accessories:{1-$$gloves|straw hat}}}}
-  goth-roli: >-
-    ${costume-minimum:{goth fashion|gothic lolita}},
-    ${costume-list:{0-$$${tops:{{|high-neck collar }shirt|corset}}|
-                        ${bottoms:{bell|jumper} skirt}|
-                        ${gloves:lace gloves}|
-                        ${socks:{{|striped }thighhighs|{|white }pantyhose}}|
-                        ${footwears:{platform boots|mary jane}}|
-                        ${accessories:{1-$$brooch|choker|lace headband|ribbons}}}}
-  gym: >-
-    ${costume-minimum:gym uniform},
-    ${costume-list:{0-$$${tops:{{|white }t-shirt|{blue|red|white|yellow} {jersey|track{ jacket|suit}}}}|
-                        ${bottoms:{{bike|gym} shorts|{gym |sweat}pants|buruma}}|
-                        ${socks:{{|ankle }socks|kneehighs|thighhighs}}|
-                        ${footwears:sneakers}|
-                        ${accessories:{1-$$headband|towel on neck|wristband}}}},
-  hunter: >-
-    ${costume-minimum:hunter,${tops:{green|brown} {cloak|tunic}},${accessories:{1-$$capelet|binoculars on neck|knife on waist|quiver}}},
-    ${costume-list:{0-$$${bottoms:pants}|
-                        ${gloves:{|leather {|cuirass }}gloves}|
-                        ${footwears:socks,{boots|shoes}}}}
-  idol: >-
-    ${costume-minimum:{|light }{black|blue|green|orange|pink|purple|red|white|yellow} idol clothes,${tops:{crop top|frilled shirt|stage dress},puffy {|short }sleeves},${bottoms:{long|short} {frilled|pleated} skirt}},
-    ${costume-list:{0-$$${gloves:{|elbow }gloves}|
-                        ${socks:{kneehighs|thighhighs}}|
-                        ${footwears:{{ankle|knee|thigh} {belted |braided |platform }boots|flat shoes|mary janes}}|
-                        ${accessories:{1-$$hair{ ornament|pin}|{|mini }hat|{bow|neck}tie|choker|headset|ribbons}}}}
-  japan: >-
-    ${costume-minimum:${clothes:{1::miko,red hakama|4::{|{|light }blue |{|light }green |{|light }pink |{|light }purple |{|light }red |{|light }yellow }{furisode|jinbei|kimono|yukata}}}},
-    ${costume-list:{0-$$${footwears:{geta|sandals|tabi}}|
-                        ${accessories:kanzashi}}}
-  magical: >-
-    ${costume-minimum:magical girl,${accessories:{4-$$amulet|beret|brooch|capelet|choker|earrings|hair{ ornament|pin}|tiara}}},
-    ${costume-list:{0-$$${tops:{|light }{black|blue|green|orange|pink|purple|red|white|yellow} frilled dress}|
-                        ${bottoms:layered skirt}|
-                        ${gloves:{|elbow }gloves}|
-                        ${socks:{2::{|striped }{kneehighs|tighthighs}|1::{|white }pantyhose}}|
-                        ${footwears:{{ankle|knee|thigh} boots|flats|heels|loafers|mary janes}}}}
+  artist:
+    do: >-
+      ${costume-minimum:artist painter,{brown|green} apron},
+      ${costume-list:{0-$$${tops:{|t-}shirt}|
+                          ${bottoms:{skirt|pants}}|
+                          ${accessories:{1-$${beret|kerchief}|glasses|paint on clothes}}}}
+  assassin:
+    do: >-
+      ${costume-minimum:assassin,${accessories:{1-$${dagger|sword} on waist|cloak|sash on waist}}},
+      ${costume-list:{0-$$${tops:{|black |purple }shirt,{long sleeves|short sleeves|sleeveless}}|
+                          ${gloves:gloves}|
+                          ${footwears:boots}}}
+  ballerina:
+    do: >-
+      ${costume-minimum:ballerina,${clothes:{black|light blue|light pink|white} {ballet dress|leotard{|,tutu}}}},
+      ${costume-list:{0-$$${socks:white pantyhose}|
+                          ${footwears:ballet {shoes|slippers}}|
+                          ${accessories:tiara}}}
+  barista:
+    do: >-
+      ${costume-minimum:barista,apron},
+      ${costume-list:{0-$$${tops:shirt{|,vest}{|,sleeves rolled up}}|
+                          ${bottoms:{|skinny }jeans,pants}|
+                          ${accessories:{1-$${bow|neck}tie|cap}}}}
+  bartender:
+    do: >-
+      ${costume-minimum:bartender,white shirt,pants},
+      ${costume-list:{0-$$${tops:vest{|,sleeves rolled up}}|
+                          ${accessories:{bow|neck}tie}}}
+  bathing:
+    do: >-
+      ${costume-minimum:${clothes:{bathrobe|naked towel}}},
+      ${costume-list:{0-$$${footwears:slippers}|
+                          ${accessories:towel on {head|neck}}}}
+  bdsm:
+    do: >-
+      ${bdsm-color=!{{|deep }red|black}}
+      ${bdsm-element=!{latex|leather}}
+      ${costume-minimum:${bdsm-color} ${tops:${bdsm-element} {|strapless }bra},${bdsm-color} ${bottoms:{${bdsm-element} panties|miniskirt}}},
+      ${costume-list:{0-$$${bdsm-color} ${gloves:${bdsm-element} elbow gloves}|
+                                        ${socks:{{${bdsm-color}|black|brown} garter belt|{${bdsm-color}|black|brown|fishnet} thighhighs}}|
+                          ${bdsm-color} ${footwears:{${bdsm-element} {knee|thigh} {|belted |braided |zipper } boots{|,stiletto heels}|{block|platform|stiletto|strappy} heels}}|
+                                        ${accessories:{1-$$choker|corset|earrings|{necklace|pendant}}}}}
+  bedding:
+    do: >-
+      ${costume-minimum:${clothes:{negligee|nightwear|pajamas}}},
+      ${costume-list:{0-$$${footwears:slippers}|
+                          ${accessories:{1-$$mob cap|nightcap}}}}
+  bunny-girl:
+    do: >-
+      ${bunny-girl-color=!{|black|blue|pink|red|white}}
+      ${costume-minimum:playboy bunny},
+      ${costume-list:{0-$$${bunny-girl-color} ${clothes:{bustier|tailcoat}}|
+                                              ${socks:{{black|brown} garter belt|{black|brown|fishnet} pantyhose}}|
+                          ${bunny-girl-color} ${footwears:{|stiletto }heels}|
+                                              ${accessories:{1-$$bowtie|wrist cuffs}}}}
+  cheerleader:
+    do: >-
+      ${costume-minimum:cheerleader},
+      ${costume-list:{0-$$${tops:crop top}|
+                          ${bottoms:pleated {|mini}skirt}|
+                          ${socks:{{|ankle }socks|kneehighs|thighhighs}}|
+                          ${footwears:sneakers}|
+                          ${accessories:{1-$$hair bow|wristband}}}}
+  chef:
+    do: >-
+      ${costume-minimum:chef,white clothes},
+      ${costume-list:{0-$$|${accessories:{1-$$apron|chef hat|neckerchief}}}}
+  china:
+    do: >-
+      ${costume-minimum:{|blue |green |purple |red }china dress},
+      ${costume-list:{0-$$${gloves:white elbow gloves}|
+                          ${footwears:{chinese shoes|{|stiletto }heels}}|
+                          ${accessories:{1-$$bracelet|earrings|hairpin|necklace}}}}
+  commander:
+    do: >-
+      ${costume-minimum:military uniform},
+      ${costume-list:{0-$$${tops:{fatigues|suit}}|
+                          ${bottoms:{skirt{|,pantyhose}|pants}}|
+                          ${gloves:{|white }gloves}|
+                          ${footwears:{flats|heels|loafers}}|
+                          ${accessories:{1-$$aiguillette|badge|epaulettes|peaked cap|ribbon bar}}}}
+  cool-sets:
+    do: >-
+      ${costume-minimum:${clothes:{${tops:{{|t-}shirt,short sleeves|tank top}},${bottoms:{2::{|denim |dolphin }shorts{|,drawstring}|1::skirt}}|${unis:{babydoll|camisole}}}}},
+      ${costume-list:{0-$$|${accessories:{1-$$glasses|slippers}}}}
+  cross-dressing:
+    do: >-
+      ${costume-minimum:{|black |white }formal clothes,pants},
+      ${costume-list:{0-$$${tops:{{|butler }tailcoat|{suit|tailored|tuxedo} jacket|pant suit|trench coat|vest{|,sleeves pushed up|,sleeves rolled up}|waistcoat}}|
+                          ${gloves:white gloves}|
+                          ${accessories:{1-$${|fedora |top }hat|{bow|neck}tie|{glasses|monocle}|pocket square}}}}
+  dancer:
+    do: >-
+      ${costume-minimum:dancer,${clothes:{arabian clothes|harem outfit}}},
+      ${costume-list:{0-$$|${accessories:{1-$$amulet|anklet|armlet|bracelet|choker|earrings|necklace|pelvic curtain}}}}
+  detective:
+    do: >-
+      ${costume-minimum:detective,trench coat},
+      ${costume-list:{0-$$${tops:{capelet|vest}}|
+                          ${accessories:{1-$$gloves|hat|pen in pocket}}}}
+  doctor:
+    do: >-
+      ${costume-minimum:doctor,lab coat},
+      ${costume-list:{0-$$${bottoms:{maxi skirt,{white|beige|black|brown} pantyhose,heels|pants,socks,{heels|shoes}}}|
+                          ${accessories:{1-$${10::|1::{|light blue |white }surgical mask}|glasses|lanyard|stethoscope on neck}}}}
+  dress:
+    do: >-
+      ${dress-color=!{black|scarlet|white|deep {blue|green|orange|purple|red}}}
+      ${costume-minimum:${dress-color} ${clothes:{ball gown|cocktail dress|evening dress|funeral dress|halter dress|high slit dress|party dress|pencil dress|prom dress|satin dress|sequined dress|tube dress|velvet dress|__mywc/fashion/unis/make-dress/do__}}},
+      ${costume-list:{0-$$${gloves:{|${dress-color} |black |white }{|lace }{|elbow }gloves}|
+                          ${socks:{|black |brown |white }pantyhose}|
+                          ${footwears:{|${dress-color} |black |white }__mywc/fashion/footwears/heels/list__}|
+                          ${accessories:{1-$${{|sun }hat|tiara|veil}|glasses|earrings|{ascot|brooch|locket|pendant|scarf|shawl}|{badge|corsage}}}}}
+  employee:
+    do: >-
+      ${costume-minimum:employee uniform},
+      ${costume-list:{0-$$${tops:{{|striped }shirt|polo shirt|vest}{|,sleeves rolled up}}|
+                          ${bottoms:pants}|
+                          ${accessories:{1-$${lanyard|name tag}|apron|cap|watch}}}}
+  explorer:
+    do: >-
+      ${costume-minimum:hat,${tops:safari jacket,{long sleeves|short sleeves|sleeves {rolled|pushed} up}},${bottoms:{|half }pants}},
+      ${costume-list:{0-$$${footwears:socks,{{|desert |hiking }boots|leather sneakers}}|
+                          ${accessories:{1-$${{|waist }pouch|backpack|bag}|gloves|neckerchief}}}}
+  farmer:
+    do: >-
+      ${costume-minimum:farmer,${clothes:{overalls,shirt|shirt,{jeans|pants}}}},
+      ${costume-list:{0-$$${footwears:{boots|sneakers}}|
+                          ${accessories:{1-$$gloves|straw hat}}}}
+  goth-roli:
+    do: >-
+      ${costume-minimum:{goth fashion|gothic lolita}},
+      ${costume-list:{0-$$${tops:{{|high-neck collar }shirt|corset}}|
+                          ${bottoms:{bell|jumper} skirt}|
+                          ${gloves:lace gloves}|
+                          ${socks:{{|striped }thighhighs|{|white }pantyhose}}|
+                          ${footwears:{platform boots|mary jane}}|
+                          ${accessories:{1-$$brooch|choker|lace headband|ribbons}}}}
+  gym:
+    do: >-
+      ${costume-minimum:gym uniform},
+      ${costume-list:{0-$$${tops:{{|white }t-shirt|{blue|red|white|yellow} {jersey|track{ jacket|suit}}}}|
+                          ${bottoms:{{bike|gym} shorts|{gym |sweat}pants|buruma}}|
+                          ${socks:{{|ankle }socks|kneehighs|thighhighs}}|
+                          ${footwears:sneakers}|
+                          ${accessories:{1-$$headband|towel on neck|wristband}}}}
+  hunter:
+    do: >-
+      ${costume-minimum:hunter,${tops:{green|brown} {cloak|tunic}},${accessories:{1-$$capelet|binoculars on neck|knife on waist|quiver}}},
+      ${costume-list:{0-$$${bottoms:pants}|
+                          ${gloves:{|leather {|cuirass }}gloves}|
+                          ${footwears:socks,{boots|shoes}}}}
+  idol:
+    do: >-
+      ${costume-minimum:{|light }{black|blue|green|orange|pink|purple|red|white|yellow} idol clothes,${tops:{crop top|frilled shirt|stage dress},puffy {|short }sleeves},${bottoms:{long|short} {frilled|pleated} skirt}},
+      ${costume-list:{0-$$${gloves:{|elbow }gloves}|
+                          ${socks:{kneehighs|thighhighs}}|
+                          ${footwears:{{ankle|knee|thigh} {belted |braided |platform }boots|flat shoes|mary janes}}|
+                          ${accessories:{1-$$hair{ ornament|pin}|{|mini }hat|{bow|neck}tie|choker|headset|ribbons}}}}
+  japan:
+    do: >-
+      ${costume-minimum:${clothes:{1::miko,red hakama|4::{|{|light }blue |{|light }green |{|light }pink |{|light }purple |{|light }red |{|light }yellow }{furisode|jinbei|kimono|yukata}}}},
+      ${costume-list:{0-$$${footwears:{geta|sandals|tabi}}|
+                          ${accessories:kanzashi}}}
+  magical:
+    do: >-
+      ${costume-minimum:magical girl,${accessories:{4-$$amulet|beret|brooch|capelet|choker|earrings|hair{ ornament|pin}|tiara}}},
+      ${costume-list:{0-$$${tops:{|light }{black|blue|green|orange|pink|purple|red|white|yellow} frilled dress}|
+                          ${bottoms:layered skirt}|
+                          ${gloves:{|elbow }gloves}|
+                          ${socks:{2::{|striped }{kneehighs|tighthighs}|1::{|white }pantyhose}}|
+                          ${footwears:{{ankle|knee|thigh} boots|flats|heels|loafers|mary janes}}}}
   maid-origin:
     do: >-
       maid,
