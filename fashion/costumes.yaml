@@ -1,7 +1,7 @@
 costumes:
-  random-origin:
+  random:
     - __mywc/fashion/costumes/list/*__
-  list-origin:
+  list:
     mundane:
       - __mywc/fashion/costumes/bathing/do__
       - __mywc/fashion/costumes/bedding/do__
@@ -240,7 +240,7 @@ costumes:
                           ${gloves:{|elbow }gloves}|
                           ${socks:{2::{|striped }{kneehighs|tighthighs}|1::{|white }pantyhose}}|
                           ${footwears:{{ankle|knee|thigh} boots|flats|heels|loafers|mary janes}}}}
-  maid-origin:
+  maid:
     do: >-
       maid,
       ${costume-minimum:apron},
@@ -275,7 +275,7 @@ costumes:
         - choker
         - headdress
         - ribbon
-  marching-band-origin:
+  marching-band:
     do: >-
       marching band,
       ${costume-minimum:${accessories:__mywc/fashion/costumes/marching-band/accessories/do__}},
@@ -299,7 +299,7 @@ costumes:
         - plume
         - sash
         - shako cap
-  musician-origin:
+  musician:
     do: >-
       musician costume,
       ${costume-list:{0-3$$__mywc/fashion/costumes/musician/list__}}
@@ -332,7 +332,7 @@ costumes:
         - choker
         - headset
         - wristbands
-  ninja-origin:
+  ninja:
     do: >-
       __mywc/fashion/costumes/ninja/color__ ninja,
       ${costume-minimum:${accessories:__mywc/fashion/costumes/ninja/accessories/do__}},
@@ -363,7 +363,7 @@ costumes:
       - blue
       - purple
       - red
-  nun-origin:
+  nun:
     do: >-
       __mywc/fashion/costumes/nun/color__ nun,
       ${costume-minimum:wimple},
@@ -391,7 +391,7 @@ costumes:
       - black
       - blue
       - white
-  nurse-origin:
+  nurse:
     do: >-
       ${color=!__mywc/fashion/costumes/nurse/color__}
       nurse,
@@ -421,7 +421,7 @@ costumes:
       - white
       - light pink
       - light green
-  office-lady-origin:
+  office-lady:
     do: >-
       office lady,
       ${costume-list:{0-4$$__mywc/fashion/costumes/office-lady/list__}}
@@ -449,7 +449,7 @@ costumes:
         - glasses
         - lanyard
         - watch
-  pilot-origin:
+  pilot:
     do: >-
       pilot,
       ${costume-minimum:${tops:__mywc/fashion/costumes/pilot/tops__},${bottoms:__mywc/fashion/costumes/pilot/bottoms__}},
@@ -473,7 +473,7 @@ costumes:
         - badge
         - hat
         - necktie
-  pirate-origin:
+  pirate:
     do: >-
       pirate,
       ${costume-minimum:${headwears:__mywc/fashion/costumes/pirate/headwears__},${tops:__mywc/fashion/costumes/pirate/tops__}},
@@ -496,7 +496,7 @@ costumes:
         - "{pistol|sword} on waist"
         - eye patch
         - sash
-  police-origin:
+  police:
     do: >-
       police uniform,
       ${costume-minimum:${tops:__mywc/fashion/costumes/police/tops__},${bottoms:__mywc/fashion/costumes/police/bottoms__}},
@@ -520,7 +520,7 @@ costumes:
         - "{hat|peaked cap}"
         - badge
         - necktie
-  priest-origin:
+  priest:
     do: >-
       priest,
       ${costume-minimum:${clothes:__mywc/fashion/costumes/priest/clothes__}},
@@ -538,7 +538,7 @@ costumes:
         - cross pendant
         - mitre
         - rosary
-  prince-origin:
+  prince:
     do: >-
       prince costume,
       ${costume-minimum:{deep green|white|wine red} jacket,epaulettes,pants},
@@ -553,7 +553,7 @@ costumes:
         - aiguillette
         - ascot
         - gloves
-  princess-origin:
+  princess:
     do: >-
       princess,
       ${costume-minimum:${tops:__mywc/fashion/costumes/princess/tops/do__},${accessories:__mywc/fashion/costumes/princess/accessories/do__}},
@@ -587,7 +587,7 @@ costumes:
       list:
         - "{tiara|crown}"
         - jewelry
-  race-queen-origin:
+  race-queen:
     do: >-
       race queen,
       ${costume-minimum:mini skirt},
@@ -610,7 +610,7 @@ costumes:
         - belt
         - gloves
         - sunglasses on head
-  rainy-origin:
+  rainy:
     do: >-
       raincoat,
       ${costume-list:{0-1$$__mywc/fashion/costumes/rainy/list__}}
@@ -619,7 +619,7 @@ costumes:
       - ${footwears:__mywc/fashion/costumes/rainy/footwears__}
     footwears:
       - rain boots
-  sailor-origin:
+  sailor:
     do: >-
       {naval|sailor} uniform,
       ${costume-minimum:${tops:__mywc/fashion/costumes/sailor/tops__},naval pants},
@@ -636,7 +636,7 @@ costumes:
       list:
         - insignia
         - sailor cap
-  santa-origin:
+  santa:
     do: >-
       ${color=!__mywc/fashion/costumes/santa/color__}
       ${color:red} santa costume,
@@ -658,7 +658,7 @@ costumes:
     color:
       - red
       - black
-  school-origin:
+  school:
     do: >-
       school uniform,
       ${costume-minimum:${tops:__mywc/fashion/costumes/school/tops/do__},${bottoms:__mywc/fashion/costumes/school/bottoms__}},
@@ -703,7 +703,7 @@ costumes:
         - glasses
         - name tag
         - school bag
-  scientist-origin:
+  scientist:
     do: >-
       scientist,
       ${costume-minimum:lab coat},
@@ -726,7 +726,7 @@ costumes:
         - lanyard
         - medical gloves
         - safety goggles
-  soldier-origin:
+  soldier:
     do: >-
       military uniform,soldier,
       ${costume-list:{0-5$$__mywc/fashion/costumes/soldier/list__}}
@@ -757,7 +757,7 @@ costumes:
       - brown
       - camouflage
       - green
-  sports-origin:
+  sports:
     do: >-
       __mywc/fashion/costumes/sports/type__ uniform,
       ${costume-list:{0-1$$__mywc/fashion/costumes/sports/list__}}
@@ -776,7 +776,7 @@ costumes:
         - "{1-1$$__mywc/fashion/costumes/sports/accessories/list__}"
       list:
         - towel on neck
-  summer-origin:
+  summer:
     do: >-
       ${costume-minimum:${clothes:__mywc/fashion/costumes/summer/clothes/do__}},
       ${costume-list:{0-2$$__mywc/fashion/costumes/summer/list__}}
@@ -848,7 +848,7 @@ costumes:
         - panama hat
       face:
         - "{|{|sun}glasses}"
-  swimwear-origin:
+  swimwear:
     do: >-
       ${costume-minimum:${clothes:__mywc/fashion/costumes/swimwear/clothes/do__}},
       ${costume-list:{0-2$$__mywc/fashion/costumes/swimwear/list__}}
@@ -919,7 +919,7 @@ costumes:
         glasses:
           - "{|heart-shaped |star-shaped }sunglasses"
           - glasses
-  teacher-origin:
+  teacher:
     do: >-
       teacher,
       ${costume-minimum:${tops:__mywc/fashion/costumes/teacher/tops__},${bottoms:__mywc/fashion/costumes/teacher/bottoms__}},
@@ -946,7 +946,7 @@ costumes:
         - glasses
         - lanyard
         - necktie
-  thief-origin:
+  thief:
     do: >-
       thief,
       ${costume-minimum:__mywc/fashion/costumes/thief/color__ ${tops:__mywc/fashion/costumes/thief/tops__}},
@@ -975,7 +975,7 @@ costumes:
     color:
       - black
       - brown
-  travel-attendant-origin:
+  travel-attendant:
     do: >-
       travel attendant,
       ${costume-minimum:pencil skirt},
@@ -1002,7 +1002,7 @@ costumes:
         - name tag
         - neckerchief
         - sash on waist
-  traveling-marchant-origin:
+  traveling-marchant:
     do: >-
       marchant,__mywc/fashion/costumes/traveling-marchant/bags/do__,
       ${costume-minimum:__mywc/fashion/costumes/traveling-marchant/color__ ${tops:__mywc/fashion/costumes/traveling-marchant/tops__}},
@@ -1036,7 +1036,7 @@ costumes:
       - green
       - blue
       - brown
-  waitress-origin:
+  waitress:
     do: >-
       waitress,
       ${costume-minimum:apron},
@@ -1063,7 +1063,7 @@ costumes:
         - "{bow|neck}tie"
         - name tag
         - sleeves rolled up
-  warm-sets-origin:
+  warm-sets:
     do: >-
       ${costume-minimum:${tops:__mywc/fashion/costumes/warm-sets/tops__},${bottoms:__mywc/fashion/costumes/warm-sets/bottoms__}},
       ${costume-list:{0-1$$__mywc/fashion/costumes/warm-sets/list__}}
@@ -1089,7 +1089,7 @@ costumes:
         - glasses
         - slippers
         - socks
-  warrior-origin:
+  warrior:
     do: >-
       __mywc/fashion/costumes/warrior/color__ warrior,
       ${costume-minimum:__mywc/fashion/costumes/warrior/armors/do__},
@@ -1127,7 +1127,7 @@ costumes:
       - gold
       - silver
       - white
-  wedding-origin:
+  wedding:
     do: >-
       ${costume-minimum:${clothes:__mywc/fashion/costumes/wedding/clothes/do__}},
       ${costume-list:{0-1$$__mywc/fashion/costumes/wedding/list__}}
@@ -1157,7 +1157,7 @@ costumes:
       - light pink
       - light yellow
       - white
-  winter-origin:
+  winter:
     do: >-
       ${costume-minimum:${clothes:__mywc/fashion/costumes/winter/clothes/do__}},
       ${costume-list:{0-2$$__mywc/fashion/costumes/winter/list__}}
@@ -1222,7 +1222,7 @@ costumes:
         - shawl
       body:
         - mittens
-  witch-origin:
+  witch:
     do: >-
       witch,
       ${costume-minimum:witch hat,${clothes:__mywc/fashion/costumes/witch/clothes/do__}},
@@ -1272,7 +1272,7 @@ costumes:
         - green
         - purple
         - red
-  wizard-origin:
+  wizard:
     do: >-
       wizard,
       ${costume-minimum:wizard hat,${tops:__mywc/fashion/costumes/wizard/tops__}},

@@ -7,13 +7,13 @@ foot-fetish:
       __mywc/nsfw/foot-fetish/barefeet/of__,
       __mywc/nsfw/foot-fetish/fashion/random__
     of: |-
-      __mywc/nsfw/foot-fetish/barefeet/foot-state__,(perfect feet:1.5),(soles:1.1),toes,
+      __mywc/nsfw/foot-fetish/barefeet/foot-state__,soles,
       __mywc/nsfw/foot-fetish/barefeet/pose__,
       __mywc/nsfw/foot-fetish/core__
     foot-state:
-      - ({30::|1::dirty }barefoot:1.21){5::|1::,(spread toes:1.__mywc/weight/range/min0max3__)}
+      - "{30::|1::dirty }barefoot{5::|1::,(spread toes:1.__mywc/weight/range/min0max3__)}"
     pose: >-
-      ${angle={5::(from below:1.21)|1::(from behind:1.21){|,looking back}}}
+      ${angle={5::from below|1::from behind{|,looking back}}}
       {3::__mywc/nsfw/foot-fetish/pose/standing/do__|2::__mywc/nsfw/foot-fetish/pose/sitting/do__|1::__mywc/nsfw/foot-fetish/pose/relaxing/do__}
   socks:
     random: |-
@@ -23,14 +23,14 @@ foot-fetish:
       __mywc/nsfw/foot-fetish/socks/of__,
       __mywc/nsfw/foot-fetish/fashion/random__
     of: |-
-      __mywc/nsfw/foot-fetish/socks/foot-state__,(perfect feet:1.5),(soles:1.1),
+      __mywc/nsfw/foot-fetish/socks/foot-state__,soles,
       __mywc/nsfw/foot-fetish/socks/pose__,
       __mywc/nsfw/foot-fetish/core__
     foot-state:
-      - ({|beige |brown |black |white }pantyhose:1.21){5::|1::,spread toes}
-      - ({|black |white }{ankle socks|kneehighs|over-kneehighs|socks|thighhighs}:1.21){|,spread toes}
+      - "{|beige |brown |black |white }pantyhose{5::|1::,spread toes}"
+      - "{|black |white }{ankle socks|kneehighs|over-kneehighs|socks|thighhighs}{|,spread toes}"
     pose: >-
-      ${angle={5::(from below:1.21)|1::(from behind:1.21){|,looking back}}}
+      ${angle={5::from below|1::from behind{|,looking back}}}
       {3::__mywc/nsfw/foot-fetish/pose/standing/do__|2::__mywc/nsfw/foot-fetish/pose/sitting/do__|1::__mywc/nsfw/foot-fetish/pose/relaxing/do__}
   shoes:
     random: |-
@@ -44,13 +44,13 @@ foot-fetish:
       __mywc/nsfw/foot-fetish/shoes/pose__,
       __mywc/nsfw/foot-fetish/core__,
     foot-state:
-      - ({|black |red |white }{short|long|thigh} {|braided |latex }boots:1.21){|,stiletto heels}
-      - ({|black |red |white }stiletto heels:1.21){|,pantyhose}
+      - "{|black |red |white }{short|long|thigh} {|braided |latex }boots{|,stiletto heels}"
+      - "{|black |red |white }stiletto heels{|,pantyhose}"
     pose: >-
-      ${angle=(from below:1.21)}
+      ${angle=from below}
       {3::__mywc/nsfw/foot-fetish/pose/standing/do__|2::__mywc/nsfw/foot-fetish/pose/sitting/do__}
   core: |-
-    (foot focus:1.21),(pov:1.21){|,foreshortening},
+    foot focus,pov{|,foreshortening},
     __mywc/nsfw/foot-fetish/expression/random__{|,looking at {2::viewer|1::another}},
     __mywc/meta/boilerplate/code__
   pose:
@@ -170,11 +170,9 @@ foot-fetish:
           - waving
     relaxing:
       do:
-        - __mywc/nsfw/foot-fetish/pose/relaxing/lower__,__mywc/nsfw/foot-fetish/pose/relaxing/upper/do__{2::|1::,(from behind:1.21){|,looking back}}
-      lower:
-        - (legs together:1.21),(feet together:1.21){|,(stretched legs out:1.21)}{|,(extending legs:1.21)}{|,crossed legs},both feet,both soles
-        - (knees apart:1.21),(feet together:1.21),both feet,both soles
-        - (seiza:1.21)
+        - legs together,feet together{|,(stretched legs out:1.21)}{|,(extending legs:1.21)}{|,crossed legs},both feet,both soles,__mywc/nsfw/foot-fetish/pose/relaxing/upper/do__
+        - knees apart,feet together,both feet,both soles,__mywc/nsfw/foot-fetish/pose/relaxing/upper/do__
+        - seiza,from behind{|,looking back}
       upper:
         do:
           - "{|{1::__mywc/nsfw/foot-fetish/pose/relaxing/upper/pose__|3::__mywc/nsfw/foot-fetish/pose/relaxing/upper/touching/do__|1::__mywc/nsfw/foot-fetish/pose/relaxing/upper/misc__}}"
