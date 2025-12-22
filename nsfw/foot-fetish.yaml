@@ -371,6 +371,7 @@ foot-fetish:
         do:
           - "{1-1$$__mywc/fashion/costumes/cool-sets/accessories/list__}"
         list:
+          - " "
           - glasses
     doctor:
       do: >-
@@ -462,7 +463,7 @@ foot-fetish:
         ${bottoms=__mywc/nsfw/foot-fetish/fashion/marching-band/bottoms__}
         __mywc/fashion/costumes/marching-band/do__
       bottoms:
-        - "{|mini }skirt"
+        - "{|mini}skirt"
         - pants
     musician:
       do: >-
@@ -619,16 +620,15 @@ foot-fetish:
         - __mywc/fashion/costumes/waitress/accessories/do__
       bottoms:
         - "{|frilled }skirt"
-        - pants
     warm-sets:
       do: >-
         ${accessories=__mywc/nsfw/foot-fetish/fashion/warm-sets/accessories/do__}
         __mywc/fashion/costumes/warm-sets/do__
       accessories:
         do:
-          - "{1-2$$__mywc/nsfw/foot-fetish/fashion/warm-sets/accessories/list__}"
+          - "{1-1$$__mywc/nsfw/foot-fetish/fashion/warm-sets/accessories/list__}"
         list:
-          - apron
+          - " "
           - glasses
     warrior:
       do: >-

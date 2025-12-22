@@ -213,7 +213,7 @@ pussy:
         - __mywc/fashion/costumes/bdsm/accessories/do__
       bottoms:
         - latex panties,panties aside
-        - leather mini skirt{|,panties aside}
+        - leather miniskirt{|,panties aside}
     bedding:
       do: >-
         ${clothes=__mywc/fashion/costumes/bedding/clothes__{|,panties aside}}
@@ -236,7 +236,7 @@ pussy:
         - __mywc/fashion/costumes/cheerleader/footwears__
         - __mywc/fashion/costumes/cheerleader/accessories/do__
       bottoms:
-        - "{1-$$pleated {|mini }skirt|panties aside}"
+        - "{1-$$pleated {|mini}skirt|panties aside}"
     commander:
       do: >-
         ${bottoms={1-$$skirt|panties aside}}
@@ -316,7 +316,7 @@ pussy:
         ${bottoms=__mywc/nsfw/pussy/fashion/marching-band/bottoms__}
         __mywc/fashion/costumes/marching-band/do__
       bottoms:
-        - "{1-$${|mini }skirt,{{|long }boots|flat shoes}|panties aside}"
+        - "{1-$${|mini}skirt,{{|long }boots|flat shoes}|panties aside}"
     musician:
       do: >-
         ${bottoms=__mywc/nsfw/pussy/fashion/musician/bottoms__,{__mywc/fashion/costumes/musician/bottoms/footwears/boots/do__|__mywc/fashion/costumes/musician/bottoms/footwears/shoes__}}
