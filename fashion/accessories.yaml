@@ -19,7 +19,7 @@ accessories:
         - __mywc/color__ __mywc/fashion/accessories/head/hats/list__
         - __mywc/color__ __mywc/fashion/accessories/head/hats/list__,__mywc/fashion/accessories/head/hats/arrangements__
       list:
-        - "{|bow |frilled |lolita }headband"
+        - "{|bow |frilled |lolita }hairband"
         - "{|mini }crown"
         - "{|mini }hat"
         - "{|mini }top hat"
@@ -30,17 +30,15 @@ accessories:
         - baseball cap
         - beanie
         - beret
-        - boater
+        - boater hat
         - bowler hat
         - bucket hat
         - cabbie hat
         - chef hat
-        - cloche hat
         - cowboy hat
         - deerstalker
         - fascinator
         - fedora
-        - fez
         - flat cap
         - frilled hat
         - fur hat
@@ -53,21 +51,16 @@ accessories:
         - kepi
         - military hat
         - mob cap
-        - newsboy cap
         - nightcap
         - nurse cap
-        - paddy cap
-        - panama hat
         - peaked cap
         - pirate hat
         - pith helmet
         - police hat
         - sailor hat
         - santa hat
-        - snapback
         - sombrero
         - stetson
-        - straw hat
         - sun hat
         - tiara
         - tokin hat
@@ -85,15 +78,15 @@ accessories:
     ornaments:
       - "{|crescent |heart |star }head ornament"
       - "{eyewear|goggles} on head"
-      - head bow
-      - head flower
-      - head ribbon
-      - head scrunchie
-      - head stick
-      - headclip
+      - hair bow
+      - hair flower
+      - hair ribbon
+      - hair scrunchie
+      - hair stick
+      - hairclip
       - headphones
       - headpiece
-      - headpin
+      - hairpin
       - kanzashi
   face:
     do:
@@ -102,17 +95,15 @@ accessories:
       - "{|__mywc/fashion/accessories/face/face__}"
       - "{|__mywc/fashion/accessories/face/ear__}"
     glasses:
-      - aviator glasses
-      - browline glasses
+      - "{semi-}rimless eyewear"
+      - aviator {goggles|sunglasses}
       - eye patch
       - goggles
       - monocle
       - pince-nez
-      - rimless glasses
-      - round glasses
-      - sports glasses
+      - round eyewear
       - sunglasses
-      - tinted glasses
+      - tinted eyewear
     face:
       - "{|white |black }surgical mask"
       - bandaid on {cheek|nose}
@@ -128,7 +119,7 @@ accessories:
       - "{|frilled }choker"
       - "{|loose }necktie"
       - ascot
-      - bow tie
+      - bowtie
       - brooch
       - capelet
       - headphones around neck
@@ -142,19 +133,21 @@ accessories:
       - shawl
   hand:
     do:
-      - __mywc/color__ __mywc/fashion/accessories/hand/gloves/do__
+      - __mywc/color__ __mywc/fashion/accessories/hand/gloves__
       - __mywc/fashion/accessories/hand/barehand/do__
     gloves:
-      do:
-        - "{|elbow }gloves"
-        - cleaning gloves
-        - evening gloves,__mywc/fashion/accessories/hand/gloves/elbow__
-        - fingerless gloves
-        - latex gloves,__mywc/fashion/accessories/hand/gloves/elbow__
-        - mittens
-      elbow:
-        - " "
-        - elbow gloves
+      - "{|elbow }gloves"
+      - cross-laced {|elbow }gloves
+      - fingerless gloves
+      - frilled {|elbow }gloves
+      - fur{|-lined|-trimmed} {|elbow }gloves
+      - lace{|-trimmed|-up} {|elbow }gloves
+      - latex {|elbow }gloves
+      - leather {|elbow }gloves
+      - mittens
+      - ribbon-trimmed {|elbow }gloves
+      - see-through {|elbow }gloves
+      - wedding gloves
     barehand:
       do:
         - "{1-3$$__mywc/fashion/accessories/hand/barehand/list__}"
@@ -186,9 +179,8 @@ accessories:
           - red
           - yellow
   bags:
-    - "{|belt |waist }pouch"
+    - "{|belt |thigh |waist }pouch"
     - bag
-    - clutch bag
     - handbag
     - quiver
     - school bag
@@ -198,5 +190,4 @@ accessories:
     - badge
     - belt
     - corsage
-    - lapel pin
     - medallion
