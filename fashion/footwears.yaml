@@ -14,33 +14,20 @@ footwears:
     - __mywc/fashion/footwears/barefeet/do__
   boots:
     do:
-      - __mywc/color__ __mywc/fashion/footwears/boots/list__
-    list:
-      - ankle boots
-      - belt boots
-      - braided boots
-      - combat boots
+      - __mywc/color__ {10::__mywc/fashion/footwears/boots/make__|1::__mywc/fashion/footwears/boots/type__}
+    make:
+      - "{|latex |leather }{|belted |braided |buckled |fur{|-trimmed} |lace{-up|d} |zipper }boots{|,stiletto heels}"
+      - "{|latex |leather }{|belted |braided |buckled |fur{|-trimmed} |lace{-up|d} |zipper }{|platform }boots"
+      - "{|latex |leather }ankle {|belted |braided |buckled |fur{|-trimmed} }boots{|,stiletto heels}"
+      - "{|latex |leather }ankle {|belted |braided |buckled |fur{|-trimmed} }{|platform }boots"
+      - "{|latex |leather }knee {|belted |braided |buckled |fur{|-trimmed} |lace{-up|d} |zipper }boots{|,stiletto heels}"
+      - "{|latex |leather }knee {|belted |braided |buckled |fur{|-trimmed} |lace{-up|d} |zipper }{|platform }boots"
+      - "{|latex |leather }thigh {|belted |braided |buckled |fur{|-trimmed} |lace{-up|d} |zipper }boots{|,stiletto heels}"
+      - "{|latex |leather }thigh {|belted |braided |buckled |fur{|-trimmed} |lace{-up|d} |zipper }{|platform }boots"
+    type:
       - cowboy boots
-      - fold-over boots
-      - fur boots
-      - fur-trimmed boots
-      - hiking boots
-      - knee boots,__mywc/fashion/footwears/boots/heel__
-      - lace-up boots
-      - latex boots,__mywc/fashion/footwears/boots/heel__
-      - long boots,__mywc/fashion/footwears/boots/heel__
-      - mid calf boots
-      - middle boots
-      - platform boots
-      - rain boots
-      - short boots
-      - snow boots
-      - thighhigh boots,__mywc/fashion/footwears/boots/heel__
-      - wedge boots
-      - winter boots
-    heel:
-      - " "
-      - stiletto heels
+      - high heel{|ed} boots
+      - rubber boots
   heels:
     do:
       - __mywc/color__ __mywc/fashion/footwears/heels/list__
