@@ -816,7 +816,6 @@ costumes:
       - thighhighs
     footwears:
       - "{ankle|knee|thigh} {belted |braided |platform }boots"
-      - flat shoes
       - mary janes
     accessories:
       do:
@@ -968,8 +967,8 @@ costumes:
       - shirt
       - tunic
     bottoms:
-      - "{|mini}skirt,{{|knee }boots|flat shoes}"
-      - pants,flat shoes
+      - "{|mini}skirt,{{|knee }boots|shoes}"
+      - pants,shoes
     gloves:
       - gloves
     accessories:

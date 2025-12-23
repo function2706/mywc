@@ -32,42 +32,34 @@ footwears:
     do:
       - __mywc/color__ __mywc/fashion/footwears/heels/list__
     list:
+      - ankle strap heels
       - block heels
-      - open-toe heels
+      - heel-less heels
+      - high heels
       - platform heels
-      - pump heels
-      - pumps
       - stiletto heels
       - strappy heels
       - wedge heels
   sandals:
     do:
-      - __mywc/color__ __mywc/fashion/footwears/sandals/list__
+      - __mywc/color__ __mywc/fashion/footwears/sandals/list__,{0-2$$__mywc/fashion/footwears/toenails/do__|__mywc/fashion/footwears/anklet__}
     list:
-      - ankle strap sandals
-      - ballet slippers
-      - flip-flops,__mywc/fashion/footwears/toenails/do__,__mywc/fashion/footwears/anklet__
+      - cross-laced sandals
+      - flip-flops
       - geta
-      - gladiator sandals
-      - lace-up sandals,__mywc/fashion/footwears/toenails/do__,__mywc/fashion/footwears/anklet__
-      - mule sandals
-      - sandals,__mywc/fashion/footwears/toenails/do__,__mywc/fashion/footwears/anklet__
-      - straw sandals,__mywc/fashion/footwears/toenails/do__,__mywc/fashion/footwears/anklet__
-      - toe-ring sandals,__mywc/fashion/footwears/toenails/do__,__mywc/fashion/footwears/anklet__
+      - high heel sandals
+      - platform sandals
+      - sandals
       - wedge sandals
   shoes:
     do:
       - __mywc/color__ __mywc/fashion/footwears/shoes/list__
     list:
       - crocs
-      - flat shoes
       - flats
-      - leather shoes
       - loafers
       - mary janes
-      - moccasins
       - sneakers
-      - soccer cleats
       - uwabaki
   pantyhoses:
     do:
@@ -94,7 +86,6 @@ footwears:
       - __mywc/color__ __mywc/fashion/footwears/socks/list__
       - __mywc/color__ __mywc/fashion/footwears/socks/random/do__
     list:
-      - business socks
       - fishnet {socks|thighhighs|pantyhose}
       - garter belt
       - garter straps

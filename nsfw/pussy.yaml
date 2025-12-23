@@ -316,7 +316,7 @@ pussy:
         ${bottoms=__mywc/nsfw/pussy/fashion/marching-band/bottoms__}
         __mywc/fashion/costumes/marching-band/do__
       bottoms:
-        - "{1-$${|mini}skirt,{{|long }boots|flat shoes}|panties aside}"
+        - "{1-$${|mini}skirt,{{|long }boots|shoes}|panties aside}"
     musician:
       do: >-
         ${bottoms=__mywc/nsfw/pussy/fashion/musician/bottoms__,{__mywc/fashion/costumes/musician/bottoms/footwears/boots/do__|__mywc/fashion/costumes/musician/bottoms/footwears/shoes__}}
