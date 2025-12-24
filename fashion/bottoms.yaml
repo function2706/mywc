@@ -9,28 +9,24 @@ bottoms:
       pants:
         - baggy pants
         - bell-bottoms
+        - capri pants{|,pants {pushed|rolled} up}
         - cargo pants
-        - gaucho pants
         - hakama pants
         - harem pants
-        - jeans
-        - pleated pants
-        - sweatpants
-        - tight pants
-        - track pants
+        - jeans{|,pants rolled up}
+        - leather pants
+        - sweatpants{|,pants {pushed|rolled} up}
+        - track pants{|,pants {pushed|rolled} up}
         - yoga pants
       shorts:
-        - baggy shorts
         - bike shorts
         - buruma
-        - cargo shorts
         - denim shorts
         - dolphin shorts
         - hakama shorts
-        - hot pants
-        - ripped shorts
-        - sport shorts
-        - track shorts
+        - micro shorts
+        - short shorts
+        - torn shorts
     random:
       do:
         - __mywc/fashion/bottoms/pants/random/option/do__ __mywc/fashion/bottoms/pants/random/base__
@@ -67,26 +63,18 @@ bottoms:
       - bubble skirt
       - circle skirt
       - hakama skirt
-      - hoop skirt
       - layered skirt
       - pencil skirt
       - petticoat
       - pleated skirt
-      - side-tie skirt
-      - taut skirt
-      - tennis skirt
-      - tied skirt
     random:
       do:
         - __mywc/fashion/bottoms/skirts/random/length__ __mywc/fashion/bottoms/skirts/random/option/do__ skirt
       length:
         - " "
-        - short
         - long
         - mini
         - micro
-        - maxi
-        - midi
       option:
         do:
           - "{1-3$$ $$__mywc/fashion/bottoms/skirts/random/option/list__}"
@@ -95,12 +83,10 @@ bottoms:
           - __mywc/fashion/bottoms/skirts/random/option/decorations__
           - __mywc/fashion/bottoms/skirts/random/option/materials__
         materials:
+          - " "
           - denim
-          - lace
           - latex
           - leather
-          - ribbed
-          - suede
         decorations:
           - belted
           - bow
@@ -125,7 +111,6 @@ bottoms:
       - bloomers
       - boxers
       - loincloth
-      - seamless panties
       - side-tie panties
       - string panties
       - thong
@@ -137,8 +122,6 @@ bottoms:
         - __mywc/fashion/bottoms/panties/random/decorations__
         - __mywc/fashion/bottoms/panties/random/materials__
       materials:
-        - cotton
-        - cross-laced
         - lace
         - latex
         - lace-trimmed
