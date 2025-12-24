@@ -12,33 +12,32 @@ tops:
       do:
         - __mywc/fashion/tops/outers/jackets/list__,__mywc/fashion/tops/outers/jackets/state__
       list:
-        - "{|butler }tailcoat"
-        - blazer jacket
+        - butler
+        - blazer
         - bomber jacket
         - cardigan
         - collared jacket
         - cropped jacket
+        - denim jacket
         - down jacket
         - frilled jacket
         - fur{|-trimmed} jacket
         - hooded jacket
-        - jean jacket
         - leather jacket
         - letterman jacket
         - military jacket
         - padded jacket
-        - quilted jacket
         - raincoat
         - safari jacket
         - sleeveless jacket
         - suit jacket
         - sukajan
+        - tailcoat
         - tied jacket
         - track jacket
         - tuxedo jacket
         - vest
         - waistcoat
-        - windbreaker
       state:
         - " "
         - open jacket
@@ -73,14 +72,12 @@ tops:
     capes:
       - cape
       - collared cape
-      - frilled cape
       - fur cape
       - fur-trimmed cape
       - hooded cape
-      - wing cape
     misc:
       - apron
-      - hanten
+      - hanten \(clothes\)
       - haori
       - happi
       - poncho
@@ -107,7 +104,6 @@ tops:
         - camisole
         - compression shirt
         - gym shirt{|,{long|short} sleeves|sleeves {pushed|rolled} up}
-        - mesh top
         - tunic
         - turtleneck shirt{|,sleeveless|sleeves {pushed|rolled} up}
       t-shirts:
@@ -124,7 +120,6 @@ tops:
           - oversized
           - polo
           - scoop neck
-          - side-tie
           - tied
           - v-neck
         structions:
@@ -160,7 +155,7 @@ tops:
         - __mywc/fashion/tops/inners/with-buttons/list__,__mywc/fashion/tops/inners/with-buttons/button-states/do__
         - __mywc/fashion/tops/inners/with-buttons/shirts/do__,__mywc/fashion/tops/inners/with-buttons/button-states/do__
       list:
-        - __mywc/fashion/tops/inners/with-buttons/shirts/decorations__ blouse,__mywc/fashion/tops/inners/with-buttons/shirts/structions__
+        - __mywc/fashion/tops/inners/with-buttons/shirts/decorations__ shirt,__mywc/fashion/tops/inners/with-buttons/shirts/structions__
         - hawaiian shirt,__mywc/fashion/tops/inners/with-buttons/shirts/structions__
         - sideless shirt,__mywc/fashion/tops/inners/with-buttons/shirts/structions__
       shirts:
