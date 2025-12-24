@@ -542,19 +542,12 @@ costumes:
       - ${footwears:__mywc/fashion/costumes/dress/footwears/do__}
       - ${accessories:__mywc/fashion/costumes/dress/accessories/do__}
     clothes:
-      - ball gown
       - cocktail dress
-      - evening dress
+      - evening gown
       - funeral dress
       - halter dress
-      - high slit dress
-      - party dress
       - pencil dress
-      - prom dress
-      - satin dress
-      - sequined dress
       - tube dress
-      - velvet dress
       - __mywc/fashion/unis/make-dress/do__
     gloves:
       do:

@@ -3,35 +3,23 @@ unis:
     - "__mywc/color__ {9::__mywc/fashion/unis/made/*__|1::__mywc/fashion/unis/nsfw__}"
   made:
     flippable:
-      - casual dress
       - cocktail dress
-      - evening dress
+      - evening gown
       - funeral dress
       - halter dress
-      - high slit dress
       - highleg dress
-      - overall skirt
-      - party dress
       - pencil dress
       - pinafore dress
-      - prom dress
       - sailor dress
-      - satin dress
-      - sequined dress
       - smock
       - sundress
-      - suspender skirt
       - sweater dress
       - tabard
       - tube dress
       - turtleneck dress
-      - v neck dress
-      - velvet dress
+      - v-neck dress
       - __mywc/fashion/unis/make-dress/do__
     unflippable:
-      - academic gown
-      - ball gown
-      - dungarees
       - leotard
       - overalls
       - robe
@@ -52,10 +40,6 @@ unis:
       - taut
     size:
       - long
-      - maxi
-      - mini
-      - midi
-      - micro
       - short
     structions:
       - backless
