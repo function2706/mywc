@@ -1,6 +1,6 @@
-setups:
+boots-setups:
   random:
-    - __mywc/fashion/setups/list/*__
+    - __mywc/fashion/boots-setups/list/*__
   list:
     casual-dress: >-
       ${footwears:{ankle {|braided }boots{|,kneehighs|,thighhighs}|knee {|braided }boots{|,thighhighs}|thigh {|braided }boots}{|,block heel}},
@@ -91,3 +91,20 @@ setups:
       ${bottoms:{black|white|red} miniskirt},
       ${socks:black pantyhose},
       ${accessories:{0-$$black sunglasses|choker}}
+    all-night: >-
+      ${footwears:{black|red} ankle {zipper|belted} boots,stiletto heel},
+      ${tops:{black|red|white} cropped top},
+      ${bottoms:{black|red} miniskirt},
+      ${socks:{black|brown} pantyhose},
+      ${accessories:{0-$$necklace|bracelet}}
+    cherry-blossom: >-
+      ${footwears:{white|pink} knee braided boots,block heel},
+      ${tops:{white|pink} cardigan},
+      ${bottoms:white pleated skirt},
+      ${socks:{|white pantyhose}},
+      ${accessories:{|white hair ribbon}}
+    library: >-
+      ${footwears:{brown|black} ankle {zipper|belted} boots,block heel},
+      ${tops:{beige|brown} knit sweater},
+      ${bottoms:{black|navy} long skirt},
+      ${accessories:{|brown glasses}}
