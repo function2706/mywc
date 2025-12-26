@@ -2,33 +2,90 @@ original:
   - __mywc/subject/original-list/*__
 original-list:
   human-girl-1: |-
-    brown hair,short hair,asymmetrical bangs,
+    girl,brown hair,short hair,asymmetrical bangs,
     brown eyes,tsurime,
-    tan,small breasts
+    tan skin,small breasts
   human-girl-2: |-
-    black hair,hime cut,
+    girl,black hair,hime cut,
     black eyes,tsurime,
-    fair skin,tall,skinny,
-  bird-girl: |-
-    bird girl,furry female,furry,alien,
-    (body feathers:1.5),((black feathers)),((detailed feathers)),((feather hair)),
-    golden eyes,bird eyes,slit pupils,tsurime,
-    ears,snout,beak,neck,medium breasts,claws,bird tail,tail,tall
+    fair skin,tall,skinny,medium breasts
+  human-girl-3: |-
+    girl,silver hair,short bob,straight bangs,
+    light blue eyes,
+    pale skin,slim,short,flat chest
   cat-girl: |-
     cat girl,furry female,furry,
     blonde hair,medium hair,blunt bangs,ponytail,sidelocks,
     blue eyes,slit pupils,tsurime,
     cat_ears,whiskers,cat nose,cat mouth,fangs,
-    golden furs,medium breasts,slim,detailed hair,detailed fluffy fur,claws
+    golden furs,medium breasts,slim,claws{|,[cat tail]}
+  fox-girl: |-
+    fox girl,furry female,furry,
+    white hair,medium hair,fluffy bangs,
+    amber eyes,slit pupils,
+    fox ears,whiskers,fox nose,fox mouth,
+    white fur,slim,medium breasts,claws{|,[fox tail]}
+  mouse-girl: |-
+    mouse girl,furry female,furry,
+    grey hair,medium hair,swept bangs,
+    deep red eyes,
+    mouse ears,whiskers,mouse nose,mouse mouth,
+    grey fur,slim,small breasts,short{|,[mouse tail]}
+  rabbit-girl: |-
+    rabbit girl,furry female,furry,
+    white hair,medium hair,curly bangs,ponytail,
+    red eyes,tareme,
+    rabbit ears,whiskers,rabbit mouth,rabbit nose,
+    white fur,[short],medium breasts{|,[rabbit tail]}
   sheep-girl: |-
-    sheep girl,((furry female)),((furry)),
+    sheep girl,furry female,furry,
     white hair,long hair,curly hair,long bangs,
     red eyes,horizontal pupils,tareme,
     animal ears,sheep horns,sheep mouth,sheep nose,
-    ((white fur)),tall,detailed hair,detailed fluffy fur
+    ((white fur))
   wolf-girl: |-
     wolf girl,furry female,furry,
     grey hair,short hair,hair between eyes,
     golden eyes,
     animal ears,whiskers,wolf nose,wolf mouth,fangs,
-    grey fur,medium breasts,tall,slim,detailed hair,detailed fluffy fur,claws
+    grey fur,medium breasts,tall,slim,claws{|,[wolf tail]}
+  angel-girl: |-
+    angel girl,golden hair,long hair,wavy hair,curly bangs,
+    light blue eyes,tareme,
+    fair skin,wings,halo,large breasts
+  dark-elf-girl: |-
+    dark elf girl,light purple hair,long hair,side swept bangs,pointy ears,
+    yellow eyes,
+    dark skin,slim,tall,medium breasts
+  demon-girl: |-
+    demon girl,crimson hair,long hair,loose waves,side bangs,
+    red eyes,tsurime,demon horns,
+    dark skin,tall,large breasts,dark horns,bat wings
+  elf-girl-1: |-
+    elf girl,silver hair,long hair,braided bangs,pointy ears,
+    emerald eyes,
+    fair skin,slim,tall,medium breasts
+  elf-girl-2: |-
+    elf girl,blonde hair,medium hair,braided strands,
+    emerald eyes,tsurime,
+    fair skin,pointy ears,tall,medium breasts
+  fallen-angel-girl: |-
+    fallen angel girl,white hair,long hair,messy hair,hair between eyes,
+    deep blue eyes,
+    dark skin,halo,black wings,large breasts
+  goddess-girl: |-
+    goddess girl,mature female,blonde hair,long hair,parted bangs,long sidelocks,
+    gold eyes,tareme,
+    fair skin,halo,tall,large breasts
+  mermaid-girl: |-
+    aqua hair,long hair,wavy hair,medium bangs,
+    blue eyes,tareme,
+    fair skin,head fins,slim,medium breasts{|,[fish tail]}
+  succubus-girl: |-
+    succubus,magenta hair,long hair,straight hair,medium bangs,
+    violet eyes,tsurime,
+    pale skin,horns,large breasts{|,[demon tail]}
+  vampire-girl: |-
+    vampire girl,black hair,long hair,blunt bangs,
+    crimson eyes,tsurime,slit pupils,
+    pale skin,[fangs],slim,medium breasts
