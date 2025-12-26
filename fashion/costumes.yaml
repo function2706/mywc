@@ -1,6 +1,8 @@
 costumes:
-  random:
-    - __mywc/fashion/costumes/list/*__
+  random: >-
+    {3::__mywc/fashion/costumes/list/mundane__|
+     1::__mywc/fashion/costumes/list/unusual__|
+     2::__mywc/fashion/costumes/list/fantastical__}
   list:
     mundane:
       - __mywc/fashion/costumes/bathing/do__
