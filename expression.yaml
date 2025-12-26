@@ -11,7 +11,6 @@ expression:
       - frustrated
       - grimace
       - grumpy
-      - skeptical
     happiness:
       - excited
       - giggling
@@ -38,8 +37,6 @@ expression:
       - surprised
       - worried
     misc:
-      - afterglow
-      - crazy
       - crazy smile
       - curious
       - evil grin
