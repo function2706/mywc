@@ -28,8 +28,10 @@ profiles:
       - bangs pinned back
       - blunt bangs
       - braided bangs
+      - center-flap bangs
       - crossed bangs
       - diagonal bangs
+      - double-parted bangs
       - hair between eyes
       - hair over eyes
       - hair over one eye
@@ -37,8 +39,10 @@ profiles:
       - hair slicked back
       - long bangs
       - parted bangs
+      - side bangs
       - short bangs
       - swept bangs
+      - v-bangs
     extensions:
       do:
         - __mywc/subject/profiles/hair/extensions/tails/do__
@@ -90,12 +94,14 @@ profiles:
         - tied hair
     sidelocks:
       - asymmetrical sidelocks
+      - curly sidelocks
       - drill sidelocks
       - low-tied sidelocks
       - side braid
       - side braids
       - sidelocks
       - single sidelock
+      - wavy sidelocks
     bases:
       do:
         - __mywc/subject/profiles/hair/bases/length__ __mywc/subject/profiles/hair/bases/style__ hair,__mywc/subject/profiles/hair/bases/option__
@@ -139,7 +145,7 @@ profiles:
       - blonde
       - brown
       - dark brown
-      - gray
+      - grey
       - light brown
       - red
       - white
@@ -168,7 +174,7 @@ profiles:
       - blue
       - brown
       - dark brown
-      - gray
+      - grey
       - green
       - hazel
       - light brown
@@ -183,15 +189,10 @@ profiles:
   skin:
     human:
       - " "
-      - dark skin
+      - "{|very }dark skin"
       - fair skin
-      - light brown skin
-      - medium skin
       - pale skin
-      - tan skin
-      - tanlines
-      - tanned skin
-      - wheat skin
+      - tan skin{|,tanlines}
     demi-human:
       - " "
       - "{blue|green|purple|red} skin"
