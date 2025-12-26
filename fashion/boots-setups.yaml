@@ -3,7 +3,7 @@ boots-setups:
     - __mywc/fashion/boots-setups/list/*__
   list:
     casual-dress: >-
-      ${footwears:{ankle {|braided }boots{|,kneehighs|,thighhighs}|knee {|braided }boots{|,thighhighs}|thigh {|braided }boots}{|,block heel}},
+      ${footwears:{ankle {|braided }boots{|,kneehighs|,thighhighs}|knee {|braided }boots{|,thighhighs}|thigh {|braided }boots}},
       ${clothes:{{|black |white }camisole|knit|oversized shirt|pinafore|slip|sweater} dress},
       ${accessories:{0-$$hat|{necklace|pendant}}}
     formal-dress: >-
@@ -33,7 +33,7 @@ boots-setups:
       ${bottoms:{|black |blue }{|denim }shorts{|,pants rolled up}},
       ${accessories:{0-$$belt|necklace}}
     skirt: >-
-      ${footwears:{ankle {|braided }boots{|,kneehighs|,thighhighs}|knee {|braided }boots{|,thighhighs}|thigh {|braided }boots}{|,block heel|,platform boots}},
+      ${footwears:{ankle {|braided }boots{|,kneehighs|,thighhighs}|knee {|braided }boots{|,thighhighs}|thigh {|braided }boots}{|,platform boots}},
       ${tops:{2::{{|frilled }shirt|{|oversized }sweater}{|,{off|single}-shoulder}|1::fur coat}},
       ${bottoms:{flare|pleated} {|mini}skirt},
       ${accessories:{0-$$belt|bag{|,strap between breasts}}}
@@ -44,22 +44,22 @@ boots-setups:
       ${socks:pantyhose},
       ${accessories:{|{clear|white} umbrella}}
     after-cooking-class: >-
-      ${footwears:{brown|cream} ankle zipper boots,block heels},
+      ${footwears:{brown|cream} ankle zipper boots},
       ${tops:{white|light brown} knit sweater},
       ${bottoms:{navy|grey} wide pants},
       ${accessories:{|{white|brown} eco bag}}
     bakery: >-
-      ${footwears:{black|cream} ankle {zipper|belted} boots,block heels},
+      ${footwears:{black|cream} ankle {zipper|belted} boots},
       ${tops:{white|light brown} knit sweater},
       ${bottoms:{beige|navy} wide pants},
       ${accessories:{0-$${brown|white} tote bag|necklace}}
     bookstore: >-
-      ${footwears:{black|brown} knee {zipper|belted} boots,block heels},
+      ${footwears:{black|brown} knee {zipper|belted} boots},
       ${tops:{grey|white} long coat,{black|white} turtleneck sweater},
       ${bottoms:{black|grey} skinny pants,pants tucked in},
       ${accessories:{0-$${black|brown} shoulder bag|round glasses}}
     cafe: >-
-      ${footwears:{brown|black} ankle {zipper|belted} boots,block heels},
+      ${footwears:{brown|black} ankle {zipper|belted} boots},
       ${tops:{beige|brown|white} cardigan,{white|black} shirt},
       ${bottoms:{denim|navy} straight pants},
       ${accessories:{0-$${brown} glasses|simple bracelet}}
@@ -75,13 +75,13 @@ boots-setups:
       ${bottoms:{black|white} miniskirt},
       ${accessories:{0-$$white scarf|bag}}
     museum: >-
-      ${footwears:{black|dark brown} {ankle|knee} belted boots,block heels},
+      ${footwears:{black|dark brown} {ankle|knee} belted boots},
       ${tops:{black|white} turtleneck top,grey long coat},
       ${bottoms:{black|dark green} pleated long skirt},
       ${socks:black pantyhose},
       ${accessories:{|black handbag}}
     riverbed: >-
-      ${footwears:{brown|white} ankle braided boots,block heels},
+      ${footwears:{brown|white} ankle braided boots},
       ${tops:{white|light pink} loose shirt},
       ${bottoms:{beige|denim} shorts},
       ${accessories:{0-$${white|pink} hat|bracelet}}
@@ -98,13 +98,13 @@ boots-setups:
       ${socks:{black|brown} pantyhose},
       ${accessories:{0-$$necklace|bracelet}}
     cherry-blossom: >-
-      ${footwears:{white|pink} knee braided boots,block heel},
+      ${footwears:{white|pink} knee braided boots},
       ${tops:{white|pink} cardigan},
       ${bottoms:white pleated skirt},
       ${socks:{|white pantyhose}},
       ${accessories:{|white hair ribbon}}
     library: >-
-      ${footwears:{brown|black} ankle {zipper|belted} boots,block heel},
+      ${footwears:{brown|black} ankle {zipper|belted} boots},
       ${tops:{beige|brown} knit sweater},
       ${bottoms:{black|navy} long skirt},
       ${accessories:{|brown glasses}}
