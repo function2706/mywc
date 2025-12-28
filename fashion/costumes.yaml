@@ -241,8 +241,8 @@ costumes:
             - " "
             - __mywc/fashion/costumes/bdsm/footwears/boots/accessories/list__
           list:
-            - belted
-            - braided
+            - buckled
+            - cross-laced
             - zipper
       heels:
         - platform heels
@@ -809,7 +809,7 @@ costumes:
       - kneehighs
       - thighhighs
     footwears:
-      - "{ankle|knee|thigh} {belted |braided |platform }boots"
+      - "{ankle|knee|thigh} {buckled |cross-laced |platform }boots"
       - mary janes
     accessories:
       do:
@@ -938,7 +938,7 @@ costumes:
       - "{black|brown|white} thighhighs"
       - white socks
     footwears:
-      - braided ankle boots
+      - cross-laced ankle boots
       - heels
       - mary janes
     accessories:
@@ -991,9 +991,9 @@ costumes:
       footwears:
         boots:
           do:
-            - "{0-2$$ $$__mywc/fashion/costumes/musician/bottoms/footwears/boots/option__} {long|short|thighhigh} boots"
+            - "{ankle|knee|thigh} {0-2$$ $$__mywc/fashion/costumes/musician/bottoms/footwears/boots/option__} boots"
           option:
-            - braided
+            - cross-laced
             - platform
         shoes:
           - " "
@@ -1847,7 +1847,7 @@ costumes:
       do:
         - __mywc/fashion/costumes/winter/footwears/color__ __mywc/fashion/costumes/winter/footwears/type__
       type:
-        - "{|ankle |knee }{|braided |fur{|-trimmed} }boots"
+        - "{|ankle |knee }{|cross-laced |fur{|-trimmed} }boots"
         - loafers
         - shoes
       color:
