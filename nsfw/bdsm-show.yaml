@@ -2,7 +2,7 @@ bdsm-show:
   random:
     - __mywc/nsfw/bdsm-show/of__,__mywc/subject/for-nsfw__
   of:
-    - __mywc/nsfw/bdsm-show/pose/random__,{,from below|}__mywc/nsfw/bdsm-show/expression/random__{|,looking at {2::viewer|1::another}},__mywc/fashion/costumes/bdsm/do__,__mywc/meta/boilerplate/code__,nsfw
+    - __mywc/nsfw/bdsm-show/pose/random__,{,from below|}__mywc/nsfw/bdsm-show/expression/random__,{|looking at {2::viewer|1::another}},__mywc/fashion/costumes/bdsm/do__,__mywc/meta/boilerplate/code__,nsfw
   pose:
     random:
       - "{1::__mywc/nsfw/bdsm-show/pose/action__|10::{1-$$__mywc/nsfw/bdsm-show/pose/upper__|__mywc/nsfw/bdsm-show/pose/lower__}}"
@@ -43,9 +43,9 @@ bdsm-show:
       - contrapposto
       - kneeling,{|wide} spread legs
       - on one knee,{|wide} spread legs
-      - sitting {|on chair}{|,crossed legs}
-      - sitting {|on chair}{|,knee up}{|,{|wide }spread legs}
-      - squatting{|,{|wide} spread legs}
+      - sitting {|on chair},{|crossed legs}
+      - sitting {|on chair},{|knee up},{|{|wide }spread legs}
+      - squatting,{|{|wide} spread legs}
       - standing
       - standing on one leg
       - standing,crossed ankles

@@ -3,19 +3,19 @@ boots-setups:
     - __mywc/fashion/boots-setups/list/*__
   list:
     casual-dress:
-      - ${footwears:{ankle {|cross-laced }boots{|,kneehighs|,thighhighs}|knee {|cross-laced }boots{|,thighhighs}|thigh {|cross-laced }boots}},${clothes:{{|black |white }camisole|knit|oversized shirt|pinafore|slip|sweater} dress},${accessories:{0-$$hat|{necklace|pendant}}}
+      - ${footwears:{ankle {|cross-laced }boots,{|kneehighs|,thighhighs}|knee {|cross-laced }boots,{|thighhighs}|thigh {|cross-laced }boots}},${clothes:{{|black |white }camisole|knit|oversized shirt|pinafore|slip|sweater} dress},${accessories:{0-$$hat|{necklace|pendant}}}
     formal-dress:
       - ${footwears:{ankle|knee} boots,stiletto heel},${clothes:{cocktail|halter|pencil|tube|turtleneck|v neck} dress},${socks:pantyhose},${accessories:{0-$${necklace|pendant}}}
     hakama:
       - ${footwears:ankle {|cross-laced }boots,stiletto heel},${tops:kimono},${bottoms:hakama skirt},${accessories:{|kanzashi}}
     pants:
-      - ${footwears:{ankle|knee} boots},${tops:{down jacket|long coat{|,shirt|,sweater}|oversized cardigan|shirt}},${bottoms:{{|skinny }jeans|pants},pants tucked in},${accessories:{|belt}}
+      - ${footwears:{ankle|knee} boots},${tops:{down jacket|long coat,{|shirt|,sweater}|oversized cardigan|shirt}},${bottoms:{{|skinny }jeans|pants},pants tucked in},${accessories:{|belt}}
     coat-skirt:
-      - ${footwears:{black|brown} {ankle|knee} boots},${tops:{brown |grey |red |white }{long|trench} coat,{brown|grey|white} {shirt|sweater}},${bottoms:{{black|brown|white} {|plaid |pleated mini}skirt|{|denim }shorts{|,pants rolled up}}},${socks:{black|brown} pantyhose},${accessories:{0-$${|black |red |white }scarf|{necklace|pendant}|{black|brown|white} gloves|{black|brown|white} bag{|,strap between breasts}}}
+      - ${footwears:{black|brown} {ankle|knee} boots},${tops:{brown |grey |red |white }{long|trench} coat,{brown|grey|white} {shirt|sweater}},${bottoms:{{black|brown|white} {|plaid |pleated mini}skirt|{|denim }shorts,{|pants rolled up}}},${socks:{black|brown} pantyhose},${accessories:{0-$${|black |red |white }scarf|{necklace|pendant}|{black|brown|white} gloves|{black|brown|white} bag,{|strap between breasts}}}
     shorts:
-      - ${footwears:{thigh {|cross-laced |buckled }boots{|,zettai ryouiki}|knee {|cross-laced }boots}},${tops:{black leather jacket{|,sleeves {rolled|pushed} up},white short {|t-}shirt{|,navel}|black vest{|,open clothes},white {|t-}shirt{|,sleeves {rolled|pushed} up}{|,navel}|camisole}},${bottoms:{|black |blue }{|denim }shorts{|,pants rolled up}},${accessories:{0-$$belt|necklace}}
+      - ${footwears:{thigh {|cross-laced |buckled }boots,{|zettai ryouiki}|knee {|cross-laced }boots}},${tops:{black leather jacket,{|sleeves {rolled|pushed} up},white short {|t-}shirt,{|navel}|black vest,{|open clothes},white {|t-}shirt,{|sleeves {rolled|pushed} up},{|navel}|camisole}},${bottoms:{|black |blue }{|denim }shorts,{|pants rolled up}},${accessories:{0-$$belt|necklace}}
     skirt:
-      - ${footwears:{ankle {|cross-laced }boots{|,kneehighs|,thighhighs}|knee {|cross-laced }boots{|,thighhighs}|thigh {|cross-laced }boots}{|,platform boots}},${tops:{2::{{|frilled }shirt|{|oversized }sweater}{|,{off|single}-shoulder}|1::fur coat}},${bottoms:{flare|pleated} {|mini}skirt},${accessories:{0-$$belt|bag{|,strap between breasts}}}
+      - ${footwears:{ankle {|cross-laced }boots,{|kneehighs|,thighhighs}|knee {|cross-laced }boots,{|thighhighs}|thigh {|cross-laced }boots},{|platform boots}},${tops:{2::{{|frilled }shirt|{|oversized }sweater},{|{off|single}-shoulder}|1::fur coat}},${bottoms:{flare|pleated} {|mini}skirt},${accessories:{0-$$belt|bag,{|strap between breasts}}}
     after-rain:
       - ${footwears:{black|dark brown} knee {zipper|buckled} boots,platform heels},${tops:{navy|grey} trench coat},${bottoms:{black|denim} pants,pants rolled up},${socks:pantyhose},${accessories:{|{clear|white} umbrella}}
     after-cooking-class:

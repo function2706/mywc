@@ -121,7 +121,7 @@ costumes:
       - ${accessories:__mywc/fashion/costumes/ballerina/accessories/do__}
     clothes:
       - ballet dress
-      - leotard{|,tutu}
+      - leotard,{|tutu}
     socks:
       - white pantyhose
     footwears:
@@ -372,7 +372,7 @@ costumes:
       - fatigues
       - suit
     bottoms:
-      - skirt{|,pantyhose}
+      - skirt,{|pantyhose}
       - pants
     gloves:
       - "{|white }gloves"
@@ -406,7 +406,7 @@ costumes:
         - denim shorts
         - dolphin shorts
         - skirt
-        - shorts{|,drawstring}
+        - shorts,{|drawstring}
       unis:
         - babydoll
         - camisole
@@ -430,7 +430,7 @@ costumes:
       - tailored jacket
       - trench coat
       - tuxedo jacket
-      - vest{|,sleeves pushed up|,sleeves rolled up}
+      - vest,{|sleeves pushed up|,sleeves rolled up}
       - waistcoat
     gloves:
       - white gloves
@@ -877,7 +877,7 @@ costumes:
       - ${accessories:__mywc/fashion/costumes/maid/accessories/do__}
     tops:
       - shirt
-      - maid dress{|,puffy sleeves}
+      - maid dress,{|puffy sleeves}
     bottoms:
       - frilled skirt
     gloves:
@@ -966,7 +966,7 @@ costumes:
     bottoms:
       - hakama
     footwears:
-      - tabi{|,sandal}
+      - tabi,{|sandal}
     accessories:
       do:
         - "{1-4$$__mywc/fashion/costumes/ninja/accessories/list__}"
@@ -1113,7 +1113,7 @@ costumes:
       - blazer jacket
       - shirt,{long|short} sleeves
     bottoms:
-      - pencil skirt{|,{black|brown} pantyhose}
+      - pencil skirt,{|{black|brown} pantyhose}
       - pants
     gloves:
       - white gloves
@@ -1222,7 +1222,7 @@ costumes:
       - " "
       - ${accessories:__mywc/fashion/costumes/sailor/accessories/do__}
     tops:
-      - "{|blazer }jacket{|,epaulettes}"
+      - "{|blazer }jacket,{|epaulettes}"
       - shirt
     accessories:
       do:
@@ -1263,7 +1263,7 @@ costumes:
         - sailor collar,neckerchief,__mywc/fashion/costumes/school/tops/sleeves__
         - sailor collar,neckerchief,cardigan
       sleeves:
-        - long sleeves{|,sleeves pushed up|sleeves rolled up}
+        - long sleeves,{|sleeves pushed up|sleeves rolled up}
         - short sleeves
       ties:
         - "{|loose }necktie"
@@ -1414,7 +1414,7 @@ costumes:
         - __mywc/fashion/costumes/summer/accessories/face__
       head:
         - "{{|visor }cap|snapback}"
-        - "{|straw |sun }hat{|,hat {bow|flower}}"
+        - "{|straw |sun }hat,{|hat {bow|flower}}"
         - bandana
         - boater
         - bucket hat
@@ -1481,7 +1481,7 @@ costumes:
         - anklet
         - bracelet
         - earrings
-        - open jacket{|,hood up}
+        - open jacket,{|hood up}
         - __mywc/fashion/costumes/swimwear/accessories/head/do__
       head:
         do:
@@ -1503,8 +1503,8 @@ costumes:
       - shirt
       - vest
     bottoms:
-      - pencil skirt{|,{beige|black|brown} pantyhose}
-      - pants{|,{black|grey|white} socks}
+      - pencil skirt,{|{beige|black|brown} pantyhose}
+      - pants,{|{black|grey|white} socks}
     footwears:
       - heels
       - pumps
@@ -1576,7 +1576,7 @@ costumes:
       - ${footwears:__mywc/fashion/costumes/traveling-marchant/footwears__}
       - ${accessories:__mywc/fashion/costumes/traveling-marchant/accessories/do__}
     tops:
-      - "medieval {cape|cloak}{|,tunik}"
+      - "medieval {cape|cloak},{|tunik}"
     bottoms:
       - long skirt
       - pants
@@ -1612,7 +1612,7 @@ costumes:
       - shirt
       - vest
     bottoms:
-      - "{|frilled }skirt{|,{black|brown|white} pantyhose}"
+      - "{|frilled }skirt,{|{black|brown|white} pantyhose}"
     footwears:
       - heels
       - mary janes
@@ -1630,15 +1630,15 @@ costumes:
       - " "
       - ${accessories:__mywc/fashion/costumes/warm-sets/accessories/do__}
     tops:
-      - cardigan{|,sleeves {pushed|rolled} up}
-      - hooded shirt{|,sleeves {pushed|rolled} up}
-      - loungewear{|,sleeves {pushed|rolled} up}
-      - polo shirt{|,sleeves {pushed|rolled} up}
-      - sweater{|,sleeves {pushed|rolled} up}
-      - turtleneck shirt{|,sleeves {pushed|rolled} up}
+      - cardigan,{|sleeves {pushed|rolled} up}
+      - hooded shirt,{|sleeves {pushed|rolled} up}
+      - loungewear,{|sleeves {pushed|rolled} up}
+      - polo shirt,{|sleeves {pushed|rolled} up}
+      - sweater,{|sleeves {pushed|rolled} up}
+      - turtleneck shirt,{|sleeves {pushed|rolled} up}
     bottoms:
       - jeans
-      - pants{|,drawstring}
+      - pants,{|drawstring}
       - sweatpants
     accessories:
       do:
@@ -1666,11 +1666,11 @@ costumes:
         - scale {|breastplate}
         - steel {|breastplate}
     headwears:
-      - gorget{|,helmet}
+      - gorget,{|helmet}
     gloves:
       - gauntlets
     footwears:
-      - boots{|,heel}
+      - boots,{|heel}
     accessories:
       do:
         - "{1-3$$__mywc/fashion/costumes/warrior/accessories/list__}"
@@ -1735,10 +1735,10 @@ costumes:
         - trench coat
         - winter coat
       bottoms:
-        - "{|long }{pants|skirt{|,pantyhose}}"
+        - "{|long }{pants|skirt,{|pantyhose}}"
         - jeans
-        - layered skirt{|,pantyhose}
-        - pleated {pants|skirt{|,pantyhose}}
+        - layered skirt,{|pantyhose}
+        - pleated {pants|skirt,{|pantyhose}}
     footwears:
       do:
         - __mywc/fashion/costumes/winter/footwears/color__ __mywc/fashion/costumes/winter/footwears/type__
@@ -1781,7 +1781,7 @@ costumes:
       - ${accessories:__mywc/fashion/costumes/witch/accessories/do__}
     clothes:
       do:
-        - __mywc/fashion/costumes/witch/color/do__ {|__mywc/fashion/costumes/witch/clothes/option__ }__mywc/fashion/costumes/witch/clothes/list__{|,__mywc/fashion/costumes/witch/clothes/structions__}
+        - __mywc/fashion/costumes/witch/color/do__ {|__mywc/fashion/costumes/witch/clothes/option__ }__mywc/fashion/costumes/witch/clothes/list__,{|__mywc/fashion/costumes/witch/clothes/structions__}
       list:
         - cocktail dress
         - evening dress

@@ -9,13 +9,13 @@ random:
     - __mywc/pose/behavior__
 consistent:
   of:
-    - "__mywc/consistent/list__{|,${expression:__mywc/expression/set/*__}},{3::|1::,{__mywc/meta/style/do__}},__mywc/meta/boilerplate/code__"
+    - "__mywc/consistent/list__,{|${expression:__mywc/expression/set/*__}},{3::|1::,{__mywc/meta/style/do__}},__mywc/meta/boilerplate/code__"
   list:
     - "{__mywc/location/indoors/do__|__mywc/location/outdoors/do__}"
     - __mywc/fashion/costumes/random__{10::|1::,__mywc/pose/posture/random__}
     - __mywc/pose/behavior__
 mundane:
   of:
-    - "__mywc/mundane/list__{|,${expression:__mywc/expression/set/*__}},__mywc/meta/boilerplate/code__"
+    - "__mywc/mundane/list__,{|${expression:__mywc/expression/set/*__}},__mywc/meta/boilerplate/code__"
   list:
     - "{2::__mywc/location/indoors/do__|2::__mywc/location/outdoors/do__|5::__mywc/fashion/costumes/list/mundane__{10::|1::,__mywc/pose/posture/random__}|1::__mywc/pose/behavior__|1::__mywc/fashion/boots-setups/random__}"

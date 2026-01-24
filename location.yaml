@@ -86,7 +86,7 @@ location:
           - train
     option:
       do:
-        - "indoors{|,__mywc/location/indoors/option/time__}{|,__mywc/location/indoors/option/light__}"
+        - "indoors,{|__mywc/location/indoors/option/time__},{|__mywc/location/indoors/option/light__}"
       time:
         - day
         - night
@@ -130,7 +130,7 @@ location:
         - __mywc/location/outdoors/location/school/do__
       nature:
         - "{swamp|marsh|wetland|bog}"
-        - antarctic{|,arctic},{0-$$iceberg|ocean}
+        - antarctic,{|arctic},{0-$$iceberg|ocean}
         - bamboo forest
         - beach
         - canyon,{0-$$gorge|cliffs}
@@ -149,7 +149,7 @@ location:
         - ocean
         - pond
         - river
-        - savannah{|,trees}
+        - savannah,{|trees}
         - valley
         - volcano,{0-$$lava|crater}
         - waterfall
@@ -179,7 +179,7 @@ location:
           - schoolyard
     option:
       do:
-        - "outdoors{|,__mywc/location/outdoors/option/weather__}{|,__mywc/location/outdoors/option/time__}"
+        - "outdoors,{|__mywc/location/outdoors/option/weather__},{|__mywc/location/outdoors/option/time__}"
       weather:
         - cloudy
         - rain

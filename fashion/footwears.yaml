@@ -14,7 +14,7 @@ footwears:
     - __mywc/fashion/footwears/barefeet/do__
   boots:
     do:
-      - "{10::__mywc/fashion/footwears/boots/make__{|,__mywc/color__ boots}|1::__mywc/fashion/footwears/boots/type__}"
+      - "{10::__mywc/fashion/footwears/boots/make__,{|__mywc/color__ boots}|1::__mywc/fashion/footwears/boots/type__}"
     make:
       - "{|ankle |knee |thigh }{|buckled |fur{|-trimmed} |{cross-laced|lace-up} |zipper }boots{|{,stiletto heels|,high heel boots}|,platform boots}"
     type:

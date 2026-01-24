@@ -192,7 +192,7 @@ profiles:
       - "{|very }dark skin"
       - fair skin
       - pale skin
-      - tan skin{|,tanlines}
+      - tan skin,{|tanlines}
     demi-human:
       - " "
       - "{blue|green|purple|red} skin"

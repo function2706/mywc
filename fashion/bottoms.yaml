@@ -9,14 +9,14 @@ bottoms:
       pants:
         - baggy pants
         - bell-bottoms
-        - capri pants{|,pants {pushed|rolled} up}
+        - capri pants,{|pants {pushed|rolled} up}
         - cargo pants
         - hakama pants
         - harem pants
-        - jeans{|,pants rolled up}
+        - jeans,{|pants rolled up}
         - leather pants
-        - sweatpants{|,pants {pushed|rolled} up}
-        - track pants{|,pants {pushed|rolled} up}
+        - sweatpants,{|pants {pushed|rolled} up}
+        - track pants,{|pants {pushed|rolled} up}
         - yoga pants
       shorts:
         - bike shorts
