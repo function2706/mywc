@@ -1,58 +1,41 @@
 foot-fetish:
   barefeet:
-    random: |-
-      __mywc/nsfw/foot-fetish/barefeet/cosplay-of__,
-      __mywc/subject/for-nsfw__
-    cosplay-of: |-
-      __mywc/nsfw/foot-fetish/barefeet/of__,
-      __mywc/nsfw/foot-fetish/fashion/random__
-    of: |-
-      __mywc/nsfw/foot-fetish/barefeet/foot-state__,soles,
-      __mywc/nsfw/foot-fetish/barefeet/pose__,
-      __mywc/nsfw/foot-fetish/core__
+    random:
+      - __mywc/nsfw/foot-fetish/barefeet/cosplay-of__,__mywc/subject/for-nsfw__
+    cosplay-of:
+      - __mywc/nsfw/foot-fetish/barefeet/of__,__mywc/nsfw/foot-fetish/fashion/random__
+    of:
+      - __mywc/nsfw/foot-fetish/barefeet/foot-state__,soles,__mywc/nsfw/foot-fetish/barefeet/pose__,__mywc/nsfw/foot-fetish/core__
     foot-state:
       - "{30::|1::dirty }barefoot{5::|1::,(spread toes:1.__mywc/weight/range/min0max3__)}"
-    pose: >-
-      ${angle={5::from below|1::from behind{|,looking back}}}
-      {3::__mywc/nsfw/foot-fetish/pose/standing/do__|2::__mywc/nsfw/foot-fetish/pose/sitting/do__|1::__mywc/nsfw/foot-fetish/pose/relaxing/do__}
+    pose:
+      - ${angle={5::from below|1::from behind{|,looking back}}}{3::__mywc/nsfw/foot-fetish/pose/standing/do__|2::__mywc/nsfw/foot-fetish/pose/sitting/do__|1::__mywc/nsfw/foot-fetish/pose/relaxing/do__}
   socks:
-    random: |-
-      __mywc/nsfw/foot-fetish/socks/cosplay-of__,
-      __mywc/subject/for-nsfw__
-    cosplay-of: |-
-      __mywc/nsfw/foot-fetish/socks/of__,
-      __mywc/nsfw/foot-fetish/fashion/random__
-    of: |-
-      __mywc/nsfw/foot-fetish/socks/foot-state__,soles,
-      __mywc/nsfw/foot-fetish/socks/pose__,
-      __mywc/nsfw/foot-fetish/core__
+    random:
+      - __mywc/nsfw/foot-fetish/socks/cosplay-of__,__mywc/subject/for-nsfw__
+    cosplay-of:
+      - __mywc/nsfw/foot-fetish/socks/of__,__mywc/nsfw/foot-fetish/fashion/random__
+    of:
+      - __mywc/nsfw/foot-fetish/socks/foot-state__,soles,__mywc/nsfw/foot-fetish/socks/pose__,__mywc/nsfw/foot-fetish/core__
     foot-state:
       - "{|beige |brown |black |white }pantyhose{5::|1::,spread toes}"
       - "{|black |white }{ankle socks|kneehighs|over-kneehighs|socks|thighhighs}{|,spread toes}"
-    pose: >-
-      ${angle={5::from below|1::from behind{|,looking back}}}
-      {3::__mywc/nsfw/foot-fetish/pose/standing/do__|2::__mywc/nsfw/foot-fetish/pose/sitting/do__|1::__mywc/nsfw/foot-fetish/pose/relaxing/do__}
+    pose:
+      - ${angle={5::from below|1::from behind{|,looking back}}}{3::__mywc/nsfw/foot-fetish/pose/standing/do__|2::__mywc/nsfw/foot-fetish/pose/sitting/do__|1::__mywc/nsfw/foot-fetish/pose/relaxing/do__}
   shoes:
-    random: |-
-      __mywc/nsfw/foot-fetish/shoes/cosplay-of__,
-      __mywc/subject/for-nsfw__
-    cosplay-of: |-
-      __mywc/nsfw/foot-fetish/shoes/of__,
-      __mywc/nsfw/foot-fetish/fashion/random__
-    of: |-
-      __mywc/nsfw/foot-fetish/shoes/foot-state__,
-      __mywc/nsfw/foot-fetish/shoes/pose__,
-      __mywc/nsfw/foot-fetish/core__,
+    random:
+      - __mywc/nsfw/foot-fetish/shoes/cosplay-of__,__mywc/subject/for-nsfw__
+    cosplay-of:
+      - __mywc/nsfw/foot-fetish/shoes/of__,__mywc/nsfw/foot-fetish/fashion/random__
+    of:
+      - __mywc/nsfw/foot-fetish/shoes/foot-state__,__mywc/nsfw/foot-fetish/shoes/pose__,__mywc/nsfw/foot-fetish/core__,
     foot-state:
       - "{|black |red |white }{short|long|thigh} {|cross-laced |latex }boots{|,stiletto heels|high heel boots}"
       - "{|black |red |white }stiletto heels{|,pantyhose}"
-    pose: >-
-      ${angle=from below}
-      {3::__mywc/nsfw/foot-fetish/pose/standing/do__|2::__mywc/nsfw/foot-fetish/pose/sitting/do__}
-  core: |-
-    foot focus,pov{|,foreshortening},
-    __mywc/nsfw/foot-fetish/expression/random__{|,looking at {2::viewer|1::another}},
-    __mywc/meta/boilerplate/code__
+    pose:
+      - ${angle=from below}{3::__mywc/nsfw/foot-fetish/pose/standing/do__|2::__mywc/nsfw/foot-fetish/pose/sitting/do__}
+  core:
+    - foot focus,pov{|,foreshortening},__mywc/nsfw/foot-fetish/expression/random__{|,looking at {2::viewer|1::another}},__mywc/meta/boilerplate/code__
   pose:
     standing:
       do:
@@ -299,74 +282,64 @@ foot-fetish:
       - __mywc/nsfw/foot-fetish/fashion/witch/do__
       - __mywc/fashion/costumes/wizard/do__
     assassin:
-      do: >-
-        ${costume-list={0-2$$__mywc/nsfw/foot-fetish/fashion/assassin/list__}}
-        __mywc/fashion/costumes/assassin/do__
+      do:
+        - ${costume-list={0-2$$__mywc/nsfw/foot-fetish/fashion/assassin/list__}}__mywc/fashion/costumes/assassin/do__
       list:
         - __mywc/fashion/costumes/assassin/tops__
         - __mywc/fashion/costumes/assassin/gloves__
     ballerina:
-      do: >-
-        ${costume-list={0-2$$__mywc/nsfw/foot-fetish/fashion/ballerina/list__}}
-        __mywc/fashion/costumes/ballerina/do__
+      do:
+        - ${costume-list={0-2$$__mywc/nsfw/foot-fetish/fashion/ballerina/list__}}__mywc/fashion/costumes/ballerina/do__
       list:
         - __mywc/fashion/costumes/ballerina/clothes__
         - __mywc/fashion/costumes/ballerina/accessories/do__
     bathing:
-      do: >-
-        ${costume-list={0-1$$__mywc/nsfw/foot-fetish/fashion/bathing/list__}}
-        __mywc/fashion/costumes/bathing/do__
+      do:
+        - ${costume-list={0-1$$__mywc/nsfw/foot-fetish/fashion/bathing/list__}}__mywc/fashion/costumes/bathing/do__
       list:
         - " "
         - __mywc/fashion/costumes/bathing/accessories/do__
     bdsm:
-      do: >-
-        ${costume-list={0-2$$__mywc/nsfw/foot-fetish/fashion/bdsm/list__}}
-        __mywc/fashion/costumes/bdsm/do__
+      do:
+        - ${costume-list={0-2$$__mywc/nsfw/foot-fetish/fashion/bdsm/list__}}__mywc/fashion/costumes/bdsm/do__
       list:
         - ${color:black} __mywc/fashion/costumes/bdsm/gloves__
         - __mywc/fashion/costumes/bdsm/accessories/do__
     bedding:
-      do: >-
-        ${costume-list={0-1$$__mywc/nsfw/foot-fetish/fashion/bedding/list__}}
-        __mywc/fashion/costumes/bedding/do__
+      do:
+        - ${costume-list={0-1$$__mywc/nsfw/foot-fetish/fashion/bedding/list__}}__mywc/fashion/costumes/bedding/do__
       list:
         - " "
         - __mywc/fashion/costumes/bedding/accessories/do__
     bunny-girl:
-      do: >-
-        ${costume-list={0-2$$__mywc/nsfw/foot-fetish/fashion/bunny-girl/list__}}
-        __mywc/fashion/costumes/bunny-girl/do__
+      do:
+        - ${costume-list={0-2$$__mywc/nsfw/foot-fetish/fashion/bunny-girl/list__}}__mywc/fashion/costumes/bunny-girl/do__
       list:
         - __mywc/fashion/costumes/bunny-girl/clothes__
         - __mywc/fashion/costumes/bunny-girl/accessories/do__
     cheerleader:
-      do: >-
-        ${costume-list={0-3$$__mywc/nsfw/foot-fetish/fashion/cheerleader/list__}}
-        __mywc/fashion/costumes/cheerleader/do__
+      do:
+        - ${costume-list={0-3$$__mywc/nsfw/foot-fetish/fashion/cheerleader/list__}}__mywc/fashion/costumes/cheerleader/do__
       list:
         - __mywc/fashion/costumes/cheerleader/tops__
         - __mywc/fashion/costumes/cheerleader/bottoms__
         - __mywc/fashion/costumes/cheerleader/accessories/do__
     china:
-      do: >-
-        ${costume-list={0-2$$__mywc/nsfw/foot-fetish/fashion/china/list__}}
-        __mywc/fashion/costumes/china/do__
+      do:
+        - ${costume-list={0-2$$__mywc/nsfw/foot-fetish/fashion/china/list__}}__mywc/fashion/costumes/china/do__
       list:
         - __mywc/fashion/costumes/china/gloves__
         - __mywc/fashion/costumes/china/accessories/do__
     commander:
-      do: >-
-        ${costume-list={0-3$$__mywc/nsfw/foot-fetish/fashion/commander/list__}}
-        __mywc/fashion/costumes/commander/do__
+      do:
+        - ${costume-list={0-3$$__mywc/nsfw/foot-fetish/fashion/commander/list__}}__mywc/fashion/costumes/commander/do__
       list:
         - __mywc/fashion/costumes/commander/bottoms__
         - __mywc/fashion/costumes/commander/gloves__
         - __mywc/fashion/costumes/commander/accessories/do__
     cool-sets:
-      do: >-
-        ${accessories=__mywc/nsfw/foot-fetish/fashion/cool-sets/accessories/do__}
-        __mywc/fashion/costumes/cool-sets/do__
+      do:
+        - ${accessories=__mywc/nsfw/foot-fetish/fashion/cool-sets/accessories/do__}__mywc/fashion/costumes/cool-sets/do__
       accessories:
         do:
           - "{1-1$$__mywc/fashion/costumes/cool-sets/accessories/list__}"
@@ -374,122 +347,106 @@ foot-fetish:
           - " "
           - glasses
     doctor:
-      do: >-
-        ${bottoms=__mywc/nsfw/foot-fetish/fashion/doctor/bottoms__}
-        __mywc/fashion/costumes/doctor/do__
+      do:
+        - ${bottoms=__mywc/nsfw/foot-fetish/fashion/doctor/bottoms__}__mywc/fashion/costumes/doctor/do__
       bottoms:
         - maxi skirt
         - pants
     dress:
-      do: >-
-        ${costume-list={0-3$$__mywc/nsfw/foot-fetish/fashion/dress/list__}}
-        __mywc/fashion/costumes/dress/do__
+      do:
+        - ${costume-list={0-3$$__mywc/nsfw/foot-fetish/fashion/dress/list__}}__mywc/fashion/costumes/dress/do__
       list:
         - __mywc/fashion/costumes/dress/gloves/do__
         - __mywc/fashion/costumes/dress/accessories/do__
     explorer:
-      do: >-
-        ${costume-list={0-1$$__mywc/nsfw/foot-fetish/fashion/explorer/list__}}
-        __mywc/fashion/costumes/explorer/do__
+      do:
+        - ${costume-list={0-1$$__mywc/nsfw/foot-fetish/fashion/explorer/list__}}__mywc/fashion/costumes/explorer/do__
       list:
         - " "
         - __mywc/fashion/costumes/explorer/accessories/do__
     farmer:
-      do: >-
-        ${costume-list={0-1$$__mywc/nsfw/foot-fetish/fashion/farmer/list__}}
-        __mywc/fashion/costumes/farmer/do__
+      do:
+        - ${costume-list={0-1$$__mywc/nsfw/foot-fetish/fashion/farmer/list__}}__mywc/fashion/costumes/farmer/do__
       list:
         - " "
         - __mywc/fashion/costumes/farmer/accessories/do__
     goth-roli:
-      do: >-
-        ${costume-list={0-4$$__mywc/nsfw/foot-fetish/fashion/goth-roli/list__}}
-        __mywc/fashion/costumes/goth-roli/do__
+      do:
+        - ${costume-list={0-4$$__mywc/nsfw/foot-fetish/fashion/goth-roli/list__}}__mywc/fashion/costumes/goth-roli/do__
       list:
         - __mywc/fashion/costumes/goth-roli/tops__
         - __mywc/fashion/costumes/goth-roli/bottoms__
         - __mywc/fashion/costumes/goth-roli/gloves__
         - __mywc/fashion/costumes/goth-roli/accessories/do__
     gym:
-      do: >-
-        ${costume-list={0-3$$__mywc/nsfw/foot-fetish/fashion/gym/list__}}
-        __mywc/fashion/costumes/gym/do__
+      do:
+        - ${costume-list={0-3$$__mywc/nsfw/foot-fetish/fashion/gym/list__}}__mywc/fashion/costumes/gym/do__
       list:
         - __mywc/fashion/costumes/gym/tops__
         - __mywc/fashion/costumes/gym/bottoms__
         - __mywc/fashion/costumes/gym/accessories/do__
     hunter:
-      do: >-
-        ${costume-list={0-4$$__mywc/nsfw/foot-fetish/fashion/hunter/list__}}
-        __mywc/fashion/costumes/hunter/do__
+      do:
+        - ${costume-list={0-4$$__mywc/nsfw/foot-fetish/fashion/hunter/list__}}__mywc/fashion/costumes/hunter/do__
       list:
         - __mywc/fashion/costumes/hunter/tops__
         - __mywc/fashion/costumes/hunter/bottoms__
         - __mywc/fashion/costumes/hunter/gloves__
         - __mywc/fashion/costumes/hunter/accessories/do__
     idol:
-      do: >-
-        ${costume-list={0-2$$__mywc/nsfw/foot-fetish/fashion/idol/list__}}
-        __mywc/fashion/costumes/idol/do__
+      do:
+        - ${costume-list={0-2$$__mywc/nsfw/foot-fetish/fashion/idol/list__}}__mywc/fashion/costumes/idol/do__
       list:
         - __mywc/fashion/costumes/idol/gloves__
         - __mywc/fashion/costumes/idol/accessories/do__
     japan:
-      do: >-
-        ${costume-list={0-1$$__mywc/nsfw/foot-fetish/fashion/japan/list__}}
-        __mywc/fashion/costumes/japan/do__
+      do:
+        - ${costume-list={0-1$$__mywc/nsfw/foot-fetish/fashion/japan/list__}}__mywc/fashion/costumes/japan/do__
       list:
         - " "
         - __mywc/fashion/costumes/japan/accessories/do__
     magical:
-      do: >-
-        ${costume-list={0-3$$__mywc/nsfw/foot-fetish/fashion/magical/list__}}
-        __mywc/fashion/costumes/magical/do__
+      do:
+        - ${costume-list={0-3$$__mywc/nsfw/foot-fetish/fashion/magical/list__}}__mywc/fashion/costumes/magical/do__
       list:
         - __mywc/fashion/costumes/magical/tops__
         - __mywc/fashion/costumes/magical/bottoms__
         - __mywc/fashion/costumes/magical/gloves__
     maid:
-      do: >-
-        ${costume-list={0-4$$__mywc/nsfw/foot-fetish/fashion/maid/list__}}
-        __mywc/fashion/costumes/maid/do__
+      do:
+        - ${costume-list={0-4$$__mywc/nsfw/foot-fetish/fashion/maid/list__}}__mywc/fashion/costumes/maid/do__
       list:
         - __mywc/fashion/costumes/maid/tops__
         - __mywc/fashion/costumes/maid/bottoms__
         - __mywc/fashion/costumes/maid/gloves__
         - __mywc/fashion/costumes/maid/accessories/do__
     marching-band:
-      do: >-
-        ${bottoms=__mywc/nsfw/foot-fetish/fashion/marching-band/bottoms__}
-        __mywc/fashion/costumes/marching-band/do__
+      do:
+        - ${bottoms=__mywc/nsfw/foot-fetish/fashion/marching-band/bottoms__}__mywc/fashion/costumes/marching-band/do__
       bottoms:
         - "{|mini}skirt"
         - pants
     musician:
-      do: >-
-        ${bottoms=__mywc/nsfw/foot-fetish/fashion/musician/bottoms__}
-        __mywc/fashion/costumes/musician/do__
+      do:
+        - ${bottoms=__mywc/nsfw/foot-fetish/fashion/musician/bottoms__}__mywc/fashion/costumes/musician/do__
       bottoms:
         - "{|leather |torn }{jeans|pants}"
         - "{|leather |torn }{shorts|skirt}"
     ninja:
-      do: >-
-        ${costume-list={0-2$$__mywc/nsfw/foot-fetish/fashion/ninja/list__}}
-        __mywc/fashion/costumes/ninja/do__
+      do:
+        - ${costume-list={0-2$$__mywc/nsfw/foot-fetish/fashion/ninja/list__}}__mywc/fashion/costumes/ninja/do__
       list:
         - __mywc/fashion/costumes/ninja/tops__
         - __mywc/fashion/costumes/ninja/bottoms__
     nun:
-      do: >-
-        ${costume-list={0-2$$__mywc/nsfw/foot-fetish/fashion/nun/list__}}
-        __mywc/fashion/costumes/nun/do__
+      do:
+        - ${costume-list={0-2$$__mywc/nsfw/foot-fetish/fashion/nun/list__}}__mywc/fashion/costumes/nun/do__
       list:
         - __mywc/fashion/costumes/nun/gloves__
         - __mywc/fashion/costumes/nun/accessories/do__
     nurse:
-      do: >-
-        ${costume-list={0-2$$__mywc/nsfw/foot-fetish/fashion/nurse/list__}}
-        __mywc/fashion/costumes/nurse/do__
+      do:
+        - ${costume-list={0-2$$__mywc/nsfw/foot-fetish/fashion/nurse/list__}}__mywc/fashion/costumes/nurse/do__
       list:
         - ${color:white} __mywc/nsfw/foot-fetish/fashion/nurse/bottoms__
         - __mywc/fashion/costumes/nurse/accessories/do__
@@ -497,9 +454,8 @@ foot-fetish:
         - maxi skirt
         - pants
     office-lady:
-      do: >-
-        ${costume-list={0-3$$__mywc/nsfw/foot-fetish/fashion/office-lady/list__}}
-        __mywc/fashion/costumes/office-lady/do__
+      do:
+        - ${costume-list={0-3$$__mywc/nsfw/foot-fetish/fashion/office-lady/list__}}__mywc/fashion/costumes/office-lady/do__
       list:
         - __mywc/fashion/costumes/office-lady/tops__
         - __mywc/nsfw/foot-fetish/fashion/office-lady/bottoms__
@@ -508,47 +464,41 @@ foot-fetish:
         - pencil skirt
         - pants
     pirate:
-      do: >-
-        ${costume-list={0-1$$__mywc/nsfw/foot-fetish/fashion/pirate/list__}}
-        __mywc/fashion/costumes/pirate/do__
+      do:
+        - ${costume-list={0-1$$__mywc/nsfw/foot-fetish/fashion/pirate/list__}}__mywc/fashion/costumes/pirate/do__
       list:
         - " "
         - __mywc/fashion/costumes/pirate/accessories/do__
     police:
-      do: >-
-        ${bottoms=__mywc/nsfw/foot-fetish/fashion/police/bottoms__}
-        __mywc/fashion/costumes/police/do__
+      do:
+        - ${bottoms=__mywc/nsfw/foot-fetish/fashion/police/bottoms__}__mywc/fashion/costumes/police/do__
       bottoms:
         - pencil skirt
         - pants
     race-queen:
-      do: >-
-        ${costume-list={0-2$$__mywc/nsfw/foot-fetish/fashion/race-queen/list__}}
-        __mywc/fashion/costumes/race-queen/do__
+      do:
+        - ${costume-list={0-2$$__mywc/nsfw/foot-fetish/fashion/race-queen/list__}}__mywc/fashion/costumes/race-queen/do__
       list:
         - __mywc/fashion/costumes/race-queen/tops__
         - __mywc/fashion/costumes/race-queen/accessories/do__
     rainy:
-      do: >-
-        raincoat
+      do:
+        - raincoat
     santa:
-      do: >-
-        ${costume-list={0-1$$__mywc/nsfw/foot-fetish/fashion/santa/list__}}
-        __mywc/fashion/costumes/santa/do__
+      do:
+        - ${costume-list={0-1$$__mywc/nsfw/foot-fetish/fashion/santa/list__}}__mywc/fashion/costumes/santa/do__
       list:
         - " "
         - __mywc/fashion/costumes/santa/accessories/do__
     school:
-      do: >-
-        ${costume-list={0-1$$__mywc/nsfw/foot-fetish/fashion/school/list__}}
-        __mywc/fashion/costumes/school/do__
+      do:
+        - ${costume-list={0-1$$__mywc/nsfw/foot-fetish/fashion/school/list__}}__mywc/fashion/costumes/school/do__
       list:
         - " "
         - __mywc/fashion/costumes/school/accessories/do__
     scientist:
-      do: >-
-        ${costume-list={0-2$$__mywc/nsfw/foot-fetish/fashion/scientist/list__}}
-        __mywc/fashion/costumes/scientist/do__
+      do:
+        - ${costume-list={0-2$$__mywc/nsfw/foot-fetish/fashion/scientist/list__}}__mywc/fashion/costumes/scientist/do__
       list:
         - __mywc/nsfw/foot-fetish/fashion/scientist/bottoms__
         - __mywc/fashion/costumes/scientist/accessories/do__
@@ -556,33 +506,28 @@ foot-fetish:
         - maxi skirt
         - pants
     soldier:
-      do: >-
-        ${costume-list={0-4$$__mywc/nsfw/foot-fetish/fashion/soldier/list__}}
-        __mywc/fashion/costumes/soldier/do__
+      do:
+        - ${costume-list={0-4$$__mywc/nsfw/foot-fetish/fashion/soldier/list__}}__mywc/fashion/costumes/soldier/do__
       list:
         - __mywc/fashion/costumes/soldier/tops__
         - __mywc/fashion/costumes/soldier/bottoms__
         - __mywc/fashion/costumes/soldier/gloves__
         - __mywc/fashion/costumes/soldier/accessories/do__
     summer:
-      do: >-
-        ${costume-list={0-1$$__mywc/nsfw/foot-fetish/fashion/summer/list__}}
-        __mywc/fashion/costumes/summer/do__
+      do:
+        - ${costume-list={0-1$$__mywc/nsfw/foot-fetish/fashion/summer/list__}}__mywc/fashion/costumes/summer/do__
       list:
         - " "
         - __mywc/fashion/costumes/summer/accessories/do__
     swimwear:
-      do: >-
-        ${costume-list={0-1$$__mywc/nsfw/foot-fetish/fashion/swimwear/list__}}
-        __mywc/fashion/costumes/swimwear/do__
+      do:
+        - ${costume-list={0-1$$__mywc/nsfw/foot-fetish/fashion/swimwear/list__}}__mywc/fashion/costumes/swimwear/do__
       list:
         - " "
         - __mywc/fashion/costumes/swimwear/accessories/do__
     teacher:
-      do: >-
-        ${bottoms=__mywc/nsfw/foot-fetish/fashion/teacher/bottoms__}
-        ${costume-list={0-1$$__mywc/nsfw/foot-fetish/fashion/teacher/list__}}
-        __mywc/fashion/costumes/teacher/do__
+      do:
+        - ${bottoms=__mywc/nsfw/foot-fetish/fashion/teacher/bottoms__}${costume-list={0-1$$__mywc/nsfw/foot-fetish/fashion/teacher/list__}}__mywc/fashion/costumes/teacher/do__
       list:
         - " "
         - __mywc/fashion/costumes/teacher/accessories/do__
@@ -590,30 +535,26 @@ foot-fetish:
         - pencil skirt
         - pants
     thief:
-      do: >-
-        ${costume-list={0-1$$__mywc/nsfw/foot-fetish/fashion/thief/list__}}
-        __mywc/fashion/costumes/thief/do__
+      do:
+        - ${costume-list={0-1$$__mywc/nsfw/foot-fetish/fashion/thief/list__}}__mywc/fashion/costumes/thief/do__
       list:
         - " "
         - __mywc/fashion/costumes/thief/accessories/do__
     travel-attendant:
-      do: >-
-        ${costume-list={0-2$$__mywc/nsfw/foot-fetish/fashion/travel-attendant/list__}}
-        __mywc/fashion/costumes/travel-attendant/do__
+      do:
+        - ${costume-list={0-2$$__mywc/nsfw/foot-fetish/fashion/travel-attendant/list__}}__mywc/fashion/costumes/travel-attendant/do__
       list:
         - __mywc/fashion/costumes/travel-attendant/gloves__
         - __mywc/fashion/costumes/travel-attendant/accessories/do__
     traveling-marchant:
-      do: >-
-        ${costume-list={0-2$$__mywc/nsfw/foot-fetish/fashion/traveling-marchant/list__}}
-        __mywc/fashion/costumes/traveling-marchant/do__
+      do:
+        - ${costume-list={0-2$$__mywc/nsfw/foot-fetish/fashion/traveling-marchant/list__}}__mywc/fashion/costumes/traveling-marchant/do__
       list:
         - __mywc/fashion/costumes/traveling-marchant/bottoms__
         - __mywc/fashion/costumes/traveling-marchant/accessories/do__
     waitress:
-      do: >-
-        ${costume-list={0-3$$__mywc/nsfw/foot-fetish/fashion/waitress/list__}}
-        __mywc/fashion/costumes/waitress/do__
+      do:
+        - ${costume-list={0-3$$__mywc/nsfw/foot-fetish/fashion/waitress/list__}}__mywc/fashion/costumes/waitress/do__
       list:
         - __mywc/fashion/costumes/waitress/tops__
         - __mywc/nsfw/foot-fetish/fashion/waitress/bottoms__
@@ -621,9 +562,8 @@ foot-fetish:
       bottoms:
         - "{|frilled }skirt"
     warm-sets:
-      do: >-
-        ${accessories=__mywc/nsfw/foot-fetish/fashion/warm-sets/accessories/do__}
-        __mywc/fashion/costumes/warm-sets/do__
+      do:
+        - ${accessories=__mywc/nsfw/foot-fetish/fashion/warm-sets/accessories/do__}__mywc/fashion/costumes/warm-sets/do__
       accessories:
         do:
           - "{1-1$$__mywc/nsfw/foot-fetish/fashion/warm-sets/accessories/list__}"
@@ -631,18 +571,15 @@ foot-fetish:
           - " "
           - glasses
     warrior:
-      do: >-
-        ${costume-list={0-3$$__mywc/nsfw/foot-fetish/fashion/warrior/list__}}
-        __mywc/fashion/costumes/warrior/do__
+      do:
+        - ${costume-list={0-3$$__mywc/nsfw/foot-fetish/fashion/warrior/list__}}__mywc/fashion/costumes/warrior/do__
       list:
         - __mywc/fashion/costumes/warrior/headwears__
         - __mywc/fashion/costumes/warrior/gloves__
         - __mywc/fashion/costumes/warrior/accessories/do__
     winter:
-      do: >-
-        ${bottoms=__mywc/nsfw/foot-fetish/fashion/winter/bottoms__}
-        ${costume-list={0-1$$__mywc/nsfw/foot-fetish/fashion/winter/list__}}
-        __mywc/fashion/costumes/winter/do__
+      do:
+        - ${bottoms=__mywc/nsfw/foot-fetish/fashion/winter/bottoms__}${costume-list={0-1$$__mywc/nsfw/foot-fetish/fashion/winter/list__}}__mywc/fashion/costumes/winter/do__
       list:
         - " "
         - __mywc/fashion/costumes/winter/accessories/do__
@@ -652,9 +589,8 @@ foot-fetish:
         - jeans
         - layered skirt
     witch:
-      do: >-
-        ${costume-list={0-1$$__mywc/nsfw/foot-fetish/fashion/witch/list__}}
-        __mywc/fashion/costumes/witch/do__
+      do:
+        - ${costume-list={0-1$$__mywc/nsfw/foot-fetish/fashion/witch/list__}}__mywc/fashion/costumes/witch/do__
       list:
         - " "
         - __mywc/fashion/costumes/witch/accessories/do__

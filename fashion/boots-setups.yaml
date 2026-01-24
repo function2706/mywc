@@ -2,109 +2,43 @@ boots-setups:
   random:
     - __mywc/fashion/boots-setups/list/*__
   list:
-    casual-dress: >-
-      ${footwears:{ankle {|cross-laced }boots{|,kneehighs|,thighhighs}|knee {|cross-laced }boots{|,thighhighs}|thigh {|cross-laced }boots}},
-      ${clothes:{{|black |white }camisole|knit|oversized shirt|pinafore|slip|sweater} dress},
-      ${accessories:{0-$$hat|{necklace|pendant}}}
-    formal-dress: >-
-      ${footwears:{ankle|knee} boots,stiletto heel},
-      ${clothes:{cocktail|halter|pencil|tube|turtleneck|v neck} dress},
-      ${socks:pantyhose},
-      ${accessories:{0-$${necklace|pendant}}}
-    hakama: >-
-      ${footwears:ankle {|cross-laced }boots,stiletto heel},
-      ${tops:kimono},
-      ${bottoms:hakama skirt},
-      ${accessories:{|kanzashi}}
-    pants: >-
-      ${footwears:{ankle|knee} boots},
-      ${tops:{down jacket|long coat{|,shirt|,sweater}|oversized cardigan|shirt}},
-      ${bottoms:{{|skinny }jeans|pants},pants tucked in},
-      ${accessories:{|belt}}
-    coat-skirt: >-
-      ${footwears:{black|brown} {ankle|knee} boots},
-      ${tops:{brown |grey |red |white }{long|trench} coat,{brown|grey|white} {shirt|sweater}},
-      ${bottoms:{{black|brown|white} {|plaid |pleated mini}skirt|{|denim }shorts{|,pants rolled up}}},
-      ${socks:{black|brown} pantyhose},
-      ${accessories:{0-$${|black |red |white }scarf|{necklace|pendant}|{black|brown|white} gloves|{black|brown|white} bag{|,strap between breasts}}}
-    shorts: >-
-      ${footwears:{thigh {|cross-laced |buckled }boots{|,zettai ryouiki}|knee {|cross-laced }boots}},
-      ${tops:{black leather jacket{|,sleeves {rolled|pushed} up},white short {|t-}shirt{|,navel}|black vest{|,open clothes},white {|t-}shirt{|,sleeves {rolled|pushed} up}{|,navel}|camisole}},
-      ${bottoms:{|black |blue }{|denim }shorts{|,pants rolled up}},
-      ${accessories:{0-$$belt|necklace}}
-    skirt: >-
-      ${footwears:{ankle {|cross-laced }boots{|,kneehighs|,thighhighs}|knee {|cross-laced }boots{|,thighhighs}|thigh {|cross-laced }boots}{|,platform boots}},
-      ${tops:{2::{{|frilled }shirt|{|oversized }sweater}{|,{off|single}-shoulder}|1::fur coat}},
-      ${bottoms:{flare|pleated} {|mini}skirt},
-      ${accessories:{0-$$belt|bag{|,strap between breasts}}}
-    after-rain: >-
-      ${footwears:{black|dark brown} knee {zipper|buckled} boots,platform heels},
-      ${tops:{navy|grey} trench coat},
-      ${bottoms:{black|denim} pants,pants rolled up},
-      ${socks:pantyhose},
-      ${accessories:{|{clear|white} umbrella}}
-    after-cooking-class: >-
-      ${footwears:{brown|cream} ankle zipper boots},
-      ${tops:{white|light brown} knit sweater},
-      ${bottoms:{navy|grey} wide pants},
-      ${accessories:{|{white|brown} eco bag}}
-    bakery: >-
-      ${footwears:{black|cream} ankle {zipper|buckled} boots},
-      ${tops:{white|light brown} knit sweater},
-      ${bottoms:{beige|navy} wide pants},
-      ${accessories:{0-$${brown|white} tote bag|necklace}}
-    bookstore: >-
-      ${footwears:{black|brown} knee {zipper|buckled} boots},
-      ${tops:{grey|white} long coat,{black|white} turtleneck sweater},
-      ${bottoms:{black|grey} skinny pants,pants tucked in},
-      ${accessories:{0-$${black|brown} shoulder bag|round glasses}}
-    cafe: >-
-      ${footwears:{brown|black} ankle {zipper|buckled} boots},
-      ${tops:{beige|brown|white} cardigan,{white|black} shirt},
-      ${bottoms:{denim|navy} straight pants},
-      ${accessories:{0-$${brown} glasses|simple bracelet}}
-    campus: >-
-      ${footwears:{black|brown} ankle {zipper|cross-laced} boots,wedge heels},
-      ${tops:{grey|navy|white} hoodie},
-      ${bottoms:denim shorts},
-      ${socks:{black|white} thighhigh socks},
-      ${accessories:{0-$${black|brown} backpack}}
-    illumination: >-
-      ${footwears:{black|white} {ankle|knee|thigh} {fur|buckled} boots,stiletto heels},
-      ${tops:{white|light grey} coat},
-      ${bottoms:{black|white} miniskirt},
-      ${accessories:{0-$$white scarf|bag}}
-    museum: >-
-      ${footwears:{black|dark brown} {ankle|knee} buckled boots},
-      ${tops:{black|white} turtleneck top,grey long coat},
-      ${bottoms:{black|dark green} pleated long skirt},
-      ${socks:black pantyhose},
-      ${accessories:{|black handbag}}
-    riverbed: >-
-      ${footwears:{brown|white} ankle cross-laced boots},
-      ${tops:{white|light pink} loose shirt},
-      ${bottoms:{beige|denim} shorts},
-      ${accessories:{0-$${white|pink} hat|bracelet}}
-    snap: >-
-      ${footwears:{black|white} {ankle|knee|thigh} {zipper|belt} boots,stiletto heel},
-      ${tops:{black|grey} cropped jacket},
-      ${bottoms:{black|white|red} miniskirt},
-      ${socks:black pantyhose},
-      ${accessories:{0-$$black sunglasses|choker}}
-    all-night: >-
-      ${footwears:{black|red} ankle {zipper|buckled} boots,stiletto heel},
-      ${tops:{black|red|white} cropped top},
-      ${bottoms:{black|red} miniskirt},
-      ${socks:{black|brown} pantyhose},
-      ${accessories:{0-$$necklace|bracelet}}
-    cherry-blossom: >-
-      ${footwears:{white|pink} knee cross-laced boots},
-      ${tops:{white|pink} cardigan},
-      ${bottoms:white pleated skirt},
-      ${socks:{|white pantyhose}},
-      ${accessories:{|white hair ribbon}}
-    library: >-
-      ${footwears:{brown|black} ankle {zipper|buckled} boots},
-      ${tops:{beige|brown} knit sweater},
-      ${bottoms:{black|navy} long skirt},
-      ${accessories:{|brown glasses}}
+    casual-dress:
+      - ${footwears:{ankle {|cross-laced }boots{|,kneehighs|,thighhighs}|knee {|cross-laced }boots{|,thighhighs}|thigh {|cross-laced }boots}},${clothes:{{|black |white }camisole|knit|oversized shirt|pinafore|slip|sweater} dress},${accessories:{0-$$hat|{necklace|pendant}}}
+    formal-dress:
+      - ${footwears:{ankle|knee} boots,stiletto heel},${clothes:{cocktail|halter|pencil|tube|turtleneck|v neck} dress},${socks:pantyhose},${accessories:{0-$${necklace|pendant}}}
+    hakama:
+      - ${footwears:ankle {|cross-laced }boots,stiletto heel},${tops:kimono},${bottoms:hakama skirt},${accessories:{|kanzashi}}
+    pants:
+      - ${footwears:{ankle|knee} boots},${tops:{down jacket|long coat{|,shirt|,sweater}|oversized cardigan|shirt}},${bottoms:{{|skinny }jeans|pants},pants tucked in},${accessories:{|belt}}
+    coat-skirt:
+      - ${footwears:{black|brown} {ankle|knee} boots},${tops:{brown |grey |red |white }{long|trench} coat,{brown|grey|white} {shirt|sweater}},${bottoms:{{black|brown|white} {|plaid |pleated mini}skirt|{|denim }shorts{|,pants rolled up}}},${socks:{black|brown} pantyhose},${accessories:{0-$${|black |red |white }scarf|{necklace|pendant}|{black|brown|white} gloves|{black|brown|white} bag{|,strap between breasts}}}
+    shorts:
+      - ${footwears:{thigh {|cross-laced |buckled }boots{|,zettai ryouiki}|knee {|cross-laced }boots}},${tops:{black leather jacket{|,sleeves {rolled|pushed} up},white short {|t-}shirt{|,navel}|black vest{|,open clothes},white {|t-}shirt{|,sleeves {rolled|pushed} up}{|,navel}|camisole}},${bottoms:{|black |blue }{|denim }shorts{|,pants rolled up}},${accessories:{0-$$belt|necklace}}
+    skirt:
+      - ${footwears:{ankle {|cross-laced }boots{|,kneehighs|,thighhighs}|knee {|cross-laced }boots{|,thighhighs}|thigh {|cross-laced }boots}{|,platform boots}},${tops:{2::{{|frilled }shirt|{|oversized }sweater}{|,{off|single}-shoulder}|1::fur coat}},${bottoms:{flare|pleated} {|mini}skirt},${accessories:{0-$$belt|bag{|,strap between breasts}}}
+    after-rain:
+      - ${footwears:{black|dark brown} knee {zipper|buckled} boots,platform heels},${tops:{navy|grey} trench coat},${bottoms:{black|denim} pants,pants rolled up},${socks:pantyhose},${accessories:{|{clear|white} umbrella}}
+    after-cooking-class:
+      - ${footwears:{brown|cream} ankle zipper boots},${tops:{white|light brown} knit sweater},${bottoms:{navy|grey} wide pants},${accessories:{|{white|brown} eco bag}}
+    bakery:
+      - ${footwears:{black|cream} ankle {zipper|buckled} boots},${tops:{white|light brown} knit sweater},${bottoms:{beige|navy} wide pants},${accessories:{0-$${brown|white} tote bag|necklace}}
+    bookstore:
+      - ${footwears:{black|brown} knee {zipper|buckled} boots},${tops:{grey|white} long coat,{black|white} turtleneck sweater},${bottoms:{black|grey} skinny pants,pants tucked in},${accessories:{0-$${black|brown} shoulder bag|round glasses}}
+    cafe:
+      - ${footwears:{brown|black} ankle {zipper|buckled} boots},${tops:{beige|brown|white} cardigan,{white|black} shirt},${bottoms:{denim|navy} straight pants},${accessories:{0-$${brown} glasses|simple bracelet}}
+    campus:
+      - ${footwears:{black|brown} ankle {zipper|cross-laced} boots,wedge heels},${tops:{grey|navy|white} hoodie},${bottoms:denim shorts},${socks:{black|white} thighhigh socks},${accessories:{0-$${black|brown} backpack}}
+    illumination:
+      - ${footwears:{black|white} {ankle|knee|thigh} {fur|buckled} boots,stiletto heels},${tops:{white|light grey} coat},${bottoms:{black|white} miniskirt},${accessories:{0-$$white scarf|bag}}
+    museum:
+      - ${footwears:{black|dark brown} {ankle|knee} buckled boots},${tops:{black|white} turtleneck top,grey long coat},${bottoms:{black|dark green} pleated long skirt},${socks:black pantyhose},${accessories:{|black handbag}}
+    riverbed:
+      - ${footwears:{brown|white} ankle cross-laced boots},${tops:{white|light pink} loose shirt},${bottoms:{beige|denim} shorts},${accessories:{0-$${white|pink} hat|bracelet}}
+    snap:
+      - ${footwears:{black|white} {ankle|knee|thigh} {zipper|belt} boots,stiletto heel},${tops:{black|grey} cropped jacket},${bottoms:{black|white|red} miniskirt},${socks:black pantyhose},${accessories:{0-$$black sunglasses|choker}}
+    all-night:
+      - ${footwears:{black|red} ankle {zipper|buckled} boots,stiletto heel},${tops:{black|red|white} cropped top},${bottoms:{black|red} miniskirt},${socks:{black|brown} pantyhose},${accessories:{0-$$necklace|bracelet}}
+    cherry-blossom:
+      - ${footwears:{white|pink} knee cross-laced boots},${tops:{white|pink} cardigan},${bottoms:white pleated skirt},${socks:{|white pantyhose}},${accessories:{|white hair ribbon}}
+    library:
+      - ${footwears:{brown|black} ankle {zipper|buckled} boots},${tops:{beige|brown} knit sweater},${bottoms:{black|navy} long skirt},${accessories:{|brown glasses}}

@@ -1,8 +1,6 @@
 costumes:
-  random: >-
-    {3::__mywc/fashion/costumes/list/mundane__|
-     1::__mywc/fashion/costumes/list/unusual__|
-     2::__mywc/fashion/costumes/list/fantastical__}
+  random:
+    - "{3::__mywc/fashion/costumes/list/mundane__|1::__mywc/fashion/costumes/list/unusual__|2::__mywc/fashion/costumes/list/fantastical__}"
   list:
     mundane:
       - __mywc/fashion/costumes/bathing/do__
@@ -70,10 +68,8 @@ costumes:
       - __mywc/fashion/costumes/witch/do__
       - __mywc/fashion/costumes/wizard/do__
   artist:
-    do: >-
-      artist painter,
-      ${costume-minimum:{brown|green} apron},
-      ${costume-list:{0-3$$__mywc/fashion/costumes/artist/list__}}
+    do:
+      - artist painter,${costume-minimum:{brown|green} apron},${costume-list:{0-3$$__mywc/fashion/costumes/artist/list__}}
     list:
       - ${tops:__mywc/fashion/costumes/artist/tops__}
       - ${bottoms:__mywc/fashion/costumes/artist/bottoms__}
@@ -91,10 +87,8 @@ costumes:
         - glasses
         - paint on clothes
   assassin:
-    do: >-
-      assassin,
-      ${costume-minimum:${accessories:__mywc/fashion/costumes/assassin/accessories/do__}},
-      ${costume-list:{0-3$$__mywc/fashion/costumes/assassin/list__}}
+    do:
+      - assassin,${costume-minimum:${accessories:__mywc/fashion/costumes/assassin/accessories/do__}},${costume-list:{0-3$$__mywc/fashion/costumes/assassin/list__}}
     list:
       - ${tops:__mywc/fashion/costumes/assassin/color__ shirt,__mywc/fashion/costumes/assassin/tops__}
       - ${gloves:__mywc/fashion/costumes/assassin/gloves__}
@@ -119,10 +113,8 @@ costumes:
       - black
       - purple
   ballerina:
-    do: >-
-      ballerina,
-      ${costume-minimum:__mywc/fashion/costumes/ballerina/color__ ${clothes:__mywc/fashion/costumes/ballerina/clothes__}},
-      ${costume-list:{0-3$$__mywc/fashion/costumes/ballerina/list__}}
+    do:
+      - ballerina,${costume-minimum:__mywc/fashion/costumes/ballerina/color__ ${clothes:__mywc/fashion/costumes/ballerina/clothes__}},${costume-list:{0-3$$__mywc/fashion/costumes/ballerina/list__}}
     list:
       - ${socks:__mywc/fashion/costumes/ballerina/socks__}
       - ${footwears:__mywc/fashion/costumes/ballerina/footwears__}
@@ -146,10 +138,8 @@ costumes:
       - light pink
       - white
   barista:
-    do: >-
-      barista,
-      ${costume-minimum:apron},
-      ${costume-list:{0-3$$__mywc/fashion/costumes/barista/list__}}
+    do:
+      - barista,${costume-minimum:apron},${costume-list:{0-3$$__mywc/fashion/costumes/barista/list__}}
     list:
       - ${tops:__mywc/fashion/costumes/barista/tops__}
       - ${bottoms:__mywc/fashion/costumes/barista/bottoms__}
@@ -167,10 +157,8 @@ costumes:
         - cap
         - sleeves rolled up
   bartender:
-    do: >-
-      bartender,
-      ${costume-minimum:white shirt,pants},
-      ${costume-list:{0-2$$__mywc/fashion/costumes/bartender/list__}}
+    do:
+      - bartender,${costume-minimum:white shirt,pants},${costume-list:{0-2$$__mywc/fashion/costumes/bartender/list__}}
     list:
       - ${tops:__mywc/fashion/costumes/bartender/tops__}
       - ${accessories:__mywc/fashion/costumes/bartender/accessories/do__}
@@ -183,9 +171,8 @@ costumes:
         - "{bow|neck}tie"
         - sleeves rolled up
   bathing:
-    do: >-
-      ${costume-minimum:${clothes:__mywc/fashion/costumes/bathing/clothes__}},
-      ${costume-list:{0-2$$__mywc/fashion/costumes/bathing/list__}}
+    do:
+      - ${costume-minimum:${clothes:__mywc/fashion/costumes/bathing/clothes__}},${costume-list:{0-2$$__mywc/fashion/costumes/bathing/list__}}
     list:
       - ${footwears:__mywc/fashion/costumes/bathing/footwears__}
       - ${accessories:__mywc/fashion/costumes/bathing/accessories/do__}
@@ -201,11 +188,8 @@ costumes:
         - towel on head
         - towel on neck
   bdsm:
-    do: >-
-      ${color=!__mywc/fashion/costumes/bdsm/color__}
-      ${element=!__mywc/fashion/costumes/bdsm/element__}
-      ${costume-minimum:${color:black} ${tops:__mywc/fashion/costumes/bdsm/tops__},${color:black} ${bottoms:__mywc/fashion/costumes/bdsm/bottoms__}},
-      ${costume-list:{0-4$$__mywc/fashion/costumes/bdsm/list__}}
+    do:
+      - ${color=!__mywc/fashion/costumes/bdsm/color__}${element=!__mywc/fashion/costumes/bdsm/element__}${costume-minimum:${color:black} ${tops:__mywc/fashion/costumes/bdsm/tops__},${color:black} ${bottoms:__mywc/fashion/costumes/bdsm/bottoms__}},${costume-list:{0-4$$__mywc/fashion/costumes/bdsm/list__}}
     list:
       - ${color:black} __mywc/fashion/costumes/bdsm/gloves__
       - __mywc/fashion/costumes/bdsm/socks__
@@ -263,9 +247,8 @@ costumes:
       - latex
       - leather
   bedding:
-    do: >-
-      ${costume-minimum:${clothes:__mywc/fashion/costumes/bedding/clothes__}},
-      ${costume-list:{0-2$$__mywc/fashion/costumes/bedding/list__}}
+    do:
+      - ${costume-minimum:${clothes:__mywc/fashion/costumes/bedding/clothes__}},${costume-list:{0-2$$__mywc/fashion/costumes/bedding/list__}}
     list:
       - ${footwears:__mywc/fashion/costumes/bedding/footwears__}
       - ${accessories:__mywc/fashion/costumes/bedding/accessories/do__}
@@ -282,10 +265,8 @@ costumes:
         - mob cap
         - nightcap
   bunny-girl:
-    do: >-
-      ${color=!__mywc/fashion/costumes/bunny-girl/color__}
-      playboy bunny,
-      ${costume-list:{0-4$$__mywc/fashion/costumes/bunny-girl/list__}}
+    do:
+      - ${color=!__mywc/fashion/costumes/bunny-girl/color__}playboy bunny,${costume-list:{0-4$$__mywc/fashion/costumes/bunny-girl/list__}}
     list:
       - ${clothes:${color:black} __mywc/fashion/costumes/bunny-girl/clothes__}
       - ${socks:__mywc/fashion/costumes/bunny-girl/socks__}
@@ -314,9 +295,8 @@ costumes:
       - red
       - white
   cheerleader:
-    do: >-
-      cheerleader,
-      ${costume-list:{0-5$$__mywc/fashion/costumes/cheerleader/list__}}
+    do:
+      - cheerleader,${costume-list:{0-5$$__mywc/fashion/costumes/cheerleader/list__}}
     list:
       - ${tops:__mywc/fashion/costumes/cheerleader/tops__}
       - ${bottoms:__mywc/fashion/costumes/cheerleader/bottoms__}
@@ -340,10 +320,8 @@ costumes:
         - hair bow
         - wristband
   chef:
-    do: >-
-      chef,
-      ${costume-minimum:white clothes},
-      ${costume-list:{0-1$$__mywc/fashion/costumes/chef/list__}}
+    do:
+      - chef,${costume-minimum:white clothes},${costume-list:{0-1$$__mywc/fashion/costumes/chef/list__}}
     list:
       - " "
       - ${accessories:__mywc/fashion/costumes/chef/accessories/do__}
@@ -355,9 +333,8 @@ costumes:
         - chef hat
         - neckerchief
   china:
-    do: >-
-      __mywc/fashion/costumes/china/color__ china dress,
-      ${costume-list:{0-3$$__mywc/fashion/costumes/china/list__}}
+    do:
+      - __mywc/fashion/costumes/china/color__ china dress,${costume-list:{0-3$$__mywc/fashion/costumes/china/list__}}
     list:
       - ${gloves:__mywc/fashion/costumes/china/gloves__}
       - ${footwears:__mywc/fashion/costumes/china/footwears__}
@@ -383,9 +360,8 @@ costumes:
       - red
       - yellow
   commander:
-    do: >-
-      military uniform,
-      ${costume-list:{0-5$$__mywc/fashion/costumes/commander/list__}}
+    do:
+      - military uniform,${costume-list:{0-5$$__mywc/fashion/costumes/commander/list__}}
     list:
       - ${tops:__mywc/fashion/costumes/commander/tops__}
       - ${bottoms:__mywc/fashion/costumes/commander/bottoms__}
@@ -414,9 +390,8 @@ costumes:
         - peaked cap
         - ribbon bar
   cool-sets:
-    do: >-
-      ${costume-minimum:${clothes:__mywc/fashion/costumes/cool-sets/clothes/do__}},
-      ${costume-list:{0-1$$__mywc/fashion/costumes/cool-sets/list__}}
+    do:
+      - ${costume-minimum:${clothes:__mywc/fashion/costumes/cool-sets/clothes/do__}},${costume-list:{0-1$$__mywc/fashion/costumes/cool-sets/list__}}
     list:
       - " "
       - ${accessories:__mywc/fashion/costumes/cool-sets/accessories/do__}
@@ -442,10 +417,8 @@ costumes:
         - glasses
         - slippers
   cross-dressing:
-    do: >-
-      __mywc/fashion/costumes/cross-dressing/color__ formal clothes,
-      ${costume-minimum:pants},
-      ${costume-list:{0-3$$__mywc/fashion/costumes/cross-dressing/list__}}
+    do:
+      - __mywc/fashion/costumes/cross-dressing/color__ formal clothes,${costume-minimum:pants},${costume-list:{0-3$$__mywc/fashion/costumes/cross-dressing/list__}}
     list:
       - ${tops:__mywc/fashion/costumes/cross-dressing/tops__}
       - ${gloves:__mywc/fashion/costumes/cross-dressing/gloves__}
@@ -473,10 +446,8 @@ costumes:
       - black
       - white
   dancer:
-    do: >-
-      dancer,
-      ${costume-minimum:${clothes:__mywc/fashion/costumes/dancer/clothes__}},
-      ${costume-list:{0-1$$__mywc/fashion/costumes/dancer/list__}}
+    do:
+      - dancer,${costume-minimum:${clothes:__mywc/fashion/costumes/dancer/clothes__}},${costume-list:{0-1$$__mywc/fashion/costumes/dancer/list__}}
     list:
       - " "
       - ${accessories:__mywc/fashion/costumes/dancer/accessories/do__}
@@ -496,10 +467,8 @@ costumes:
         - necklace
         - pelvic curtain
   detective:
-    do: >-
-      detective,
-      ${costume-minimum:trench coat},
-      ${costume-list:{0-2$$__mywc/fashion/costumes/detective/list__}}
+    do:
+      - detective,${costume-minimum:trench coat},${costume-list:{0-2$$__mywc/fashion/costumes/detective/list__}}
     list:
       - ${tops:__mywc/fashion/costumes/detective/tops__}
       - ${accessories:__mywc/fashion/costumes/detective/accessories/do__}
@@ -514,10 +483,8 @@ costumes:
         - hat
         - pen in pocket
   doctor:
-    do: >-
-      doctor,
-      ${costume-minimum:lab coat},
-      ${costume-list:{0-2$$__mywc/fashion/costumes/doctor/list__}}
+    do:
+      - doctor,${costume-minimum:lab coat},${costume-list:{0-2$$__mywc/fashion/costumes/doctor/list__}}
     list:
       - ${bottoms:__mywc/fashion/costumes/doctor/bottoms__}
       - ${accessories:__mywc/fashion/costumes/doctor/accessories/do__}
@@ -533,10 +500,8 @@ costumes:
         - lanyard
         - stethoscope on neck
   dress:
-    do: >-
-      ${color=!__mywc/fashion/costumes/dress/color__}
-      ${costume-minimum:${color:black} ${clothes:__mywc/fashion/costumes/dress/clothes__}},
-      ${costume-list:{0-4$$__mywc/fashion/costumes/dress/list__}}
+    do:
+      - ${color=!__mywc/fashion/costumes/dress/color__}${costume-minimum:${color:black} ${clothes:__mywc/fashion/costumes/dress/clothes__}},${costume-list:{0-4$$__mywc/fashion/costumes/dress/list__}}
     list:
       - ${gloves:__mywc/fashion/costumes/dress/gloves/do__}
       - ${socks:__mywc/fashion/costumes/dress/socks/do__}
@@ -609,9 +574,8 @@ costumes:
       - scarlet
       - white
   employee:
-    do: >-
-      employee uniform,
-      ${costume-list:{0-3$$__mywc/fashion/costumes/employee/list__}}
+    do:
+      - employee uniform,${costume-list:{0-3$$__mywc/fashion/costumes/employee/list__}}
     list:
       - ${tops:__mywc/fashion/costumes/employee/tops__}
       - ${bottoms:__mywc/fashion/costumes/employee/bottoms__}
@@ -632,9 +596,8 @@ costumes:
         - sleeves rolled up
         - watch
   explorer:
-    do: >-
-      ${costume-minimum:${tops:__mywc/fashion/costumes/explorer/tops/do__},${bottoms:__mywc/fashion/costumes/explorer/bottoms__},hat},
-      ${costume-list:{0-2$$__mywc/fashion/costumes/explorer/list__}}
+    do:
+      - ${costume-minimum:${tops:__mywc/fashion/costumes/explorer/tops/do__},${bottoms:__mywc/fashion/costumes/explorer/bottoms__},hat},${costume-list:{0-2$$__mywc/fashion/costumes/explorer/list__}}
     list:
       - ${footwears:__mywc/fashion/costumes/explorer/footwears/do__}
       - ${accessories:__mywc/fashion/costumes/explorer/accessories/do__}
@@ -664,10 +627,8 @@ costumes:
         - goggles on head
         - neckerchief
   farmer:
-    do: >-
-      farmer,
-      ${costume-minimum:${clothes:__mywc/fashion/costumes/farmer/clothes__}},
-      ${costume-list:{0-2$$__mywc/fashion/costumes/farmer/list__}}
+    do:
+      - farmer,${costume-minimum:${clothes:__mywc/fashion/costumes/farmer/clothes__}},${costume-list:{0-2$$__mywc/fashion/costumes/farmer/list__}}
     list:
       - ${footwears:__mywc/fashion/costumes/farmer/footwears__}
       - ${accessories:__mywc/fashion/costumes/farmer/accessories/do__}
@@ -684,9 +645,8 @@ costumes:
         - gloves
         - straw hat
   goth-roli:
-    do: >-
-      {goth fashion|gothic lolita},
-      ${costume-list:{0-6$$__mywc/fashion/costumes/goth-roli/list__}}
+    do:
+      - "{goth fashion|gothic lolita},${costume-list:{0-6$$__mywc/fashion/costumes/goth-roli/list__}}"
     list:
       - ${tops:__mywc/fashion/costumes/goth-roli/tops__}
       - ${bottoms:__mywc/fashion/costumes/goth-roli/bottoms__}
@@ -717,9 +677,8 @@ costumes:
         - lace headband
         - ribbons
   gym:
-    do: >-
-      gym uniform,
-      ${costume-list:{0-5$$__mywc/fashion/costumes/gym/list__}}
+    do:
+      - gym uniform,${costume-list:{0-5$$__mywc/fashion/costumes/gym/list__}}
     list:
       - ${tops:__mywc/fashion/costumes/gym/tops__}
       - ${bottoms:__mywc/fashion/costumes/gym/bottoms__}
@@ -754,10 +713,8 @@ costumes:
       - white
       - yellow
   hunter:
-    do: >-
-      hunter,
-      ${costume-minimum:__mywc/fashion/costumes/hunter/color__ ${tops:__mywc/fashion/costumes/hunter/tops__}},
-      ${costume-list:{0-5$$__mywc/fashion/costumes/hunter/list__}}
+    do:
+      - hunter,${costume-minimum:__mywc/fashion/costumes/hunter/color__ ${tops:__mywc/fashion/costumes/hunter/tops__}},${costume-list:{0-5$$__mywc/fashion/costumes/hunter/list__}}
     list:
       - ${bottoms:__mywc/fashion/costumes/hunter/bottoms__}
       - ${gloves:__mywc/fashion/costumes/hunter/gloves__}
@@ -785,10 +742,8 @@ costumes:
       - brown
       - green
   idol:
-    do: >-
-      __mywc/fashion/costumes/idol/color__ idol clothes,
-      ${costume-minimum:${tops:__mywc/fashion/costumes/idol/tops/do__},${bottoms:__mywc/fashion/costumes/idol/bottoms__}},
-      ${costume-list:{0-4$$__mywc/fashion/costumes/idol/list__}}
+    do:
+      - __mywc/fashion/costumes/idol/color__ idol clothes,${costume-minimum:${tops:__mywc/fashion/costumes/idol/tops/do__},${bottoms:__mywc/fashion/costumes/idol/bottoms__}},${costume-list:{0-4$$__mywc/fashion/costumes/idol/list__}}
     list:
       - ${gloves:__mywc/fashion/costumes/idol/gloves__}
       - ${socks:__mywc/fashion/costumes/idol/socks__}
@@ -833,9 +788,8 @@ costumes:
       - black
       - white
   japan:
-    do: >-
-      ${costume-minimum:${clothes:__mywc/fashion/costumes/japan/clothes__}},
-      ${costume-list:{0-2$$__mywc/fashion/costumes/japan/list__}}
+    do:
+      - ${costume-minimum:${clothes:__mywc/fashion/costumes/japan/clothes__}},${costume-list:{0-2$$__mywc/fashion/costumes/japan/list__}}
     list:
       - ${footwears:__mywc/fashion/costumes/japan/footwears__}
       - ${accessories:__mywc/fashion/costumes/japan/accessories/do__}
@@ -863,10 +817,8 @@ costumes:
       - "{|light }red"
       - "{|light }yellow"
   magical:
-    do: >-
-      magical girl,
-      ${costume-minimum:${accessories:__mywc/fashion/costumes/magical/accessories/do__}},
-      ${costume-list:{0-5$$__mywc/fashion/costumes/magical/list__}}
+    do:
+      - magical girl,${costume-minimum:${accessories:__mywc/fashion/costumes/magical/accessories/do__}},${costume-list:{0-5$$__mywc/fashion/costumes/magical/list__}}
     list:
       - __mywc/fashion/costumes/magical/color__ ${tops:__mywc/fashion/costumes/magical/tops__}
       - ${bottoms:__mywc/fashion/costumes/magical/bottoms__}
@@ -914,10 +866,8 @@ costumes:
       - black
       - white
   maid:
-    do: >-
-      maid,
-      ${costume-minimum:apron},
-      ${costume-list:{0-6$$__mywc/fashion/costumes/maid/list__}}
+    do:
+      - maid,${costume-minimum:apron},${costume-list:{0-6$$__mywc/fashion/costumes/maid/list__}}
     list:
       - ${tops:__mywc/fashion/costumes/maid/tops__}
       - ${bottoms:__mywc/fashion/costumes/maid/bottoms__}
@@ -949,10 +899,8 @@ costumes:
         - headdress
         - ribbon
   marching-band:
-    do: >-
-      marching band,
-      ${costume-minimum:${accessories:__mywc/fashion/costumes/marching-band/accessories/do__}},
-      ${costume-list:{0-3$$__mywc/fashion/costumes/marching-band/list__}}
+    do:
+      - marching band,${costume-minimum:${accessories:__mywc/fashion/costumes/marching-band/accessories/do__}},${costume-list:{0-3$$__mywc/fashion/costumes/marching-band/list__}}
     list:
       - ${tops:__mywc/fashion/costumes/marching-band/tops__}
       - ${bottoms:__mywc/fashion/costumes/marching-band/bottoms__}
@@ -973,9 +921,8 @@ costumes:
         - sash
         - shako cap
   musician:
-    do: >-
-      musician costume,
-      ${costume-list:{0-3$$__mywc/fashion/costumes/musician/list__}}
+    do:
+      - musician costume,${costume-list:{0-3$$__mywc/fashion/costumes/musician/list__}}
     list:
       - ${tops:__mywc/fashion/costumes/musician/tops__}
       - ${bottoms:__mywc/fashion/costumes/musician/bottoms/do__}
@@ -1006,11 +953,8 @@ costumes:
         - headset
         - wristbands
   ninja:
-    do: >-
-      ${color=!__mywc/fashion/costumes/ninja/color__ }
-      ninja,
-      ${costume-minimum:${accessories:__mywc/fashion/costumes/ninja/accessories/do__}},
-      ${costume-list:{0-4$$__mywc/fashion/costumes/ninja/list__}}
+    do:
+      - ${color=!__mywc/fashion/costumes/ninja/color__ }ninja,${costume-minimum:${accessories:__mywc/fashion/costumes/ninja/accessories/do__}},${costume-list:{0-4$$__mywc/fashion/costumes/ninja/list__}}
     list:
       - ${color:black} ${tops:__mywc/fashion/costumes/ninja/tops__}
       - ${color:black} ${bottoms:__mywc/fashion/costumes/ninja/bottoms__}
@@ -1037,10 +981,8 @@ costumes:
       - purple
       - red
   nun:
-    do: >-
-      nun,
-      ${costume-minimum:__mywc/fashion/costumes/nun/color__ wimple},
-      ${costume-list:{0-4$$__mywc/fashion/costumes/nun/list__}}
+    do:
+      - nun,${costume-minimum:__mywc/fashion/costumes/nun/color__ wimple},${costume-list:{0-4$$__mywc/fashion/costumes/nun/list__}}
     list:
       - ${gloves:__mywc/fashion/costumes/nun/gloves__}
       - ${socks:__mywc/fashion/costumes/nun/socks__}
@@ -1065,11 +1007,8 @@ costumes:
       - blue
       - white
   nurse:
-    do: >-
-      ${color=!__mywc/fashion/costumes/nurse/color__}
-      nurse,
-      ${costume-minimum:${tops:${color:white} __mywc/fashion/costumes/nurse/tops__}},
-      ${costume-list:{0-3$$__mywc/fashion/costumes/nurse/list__}}
+    do:
+      - ${color=!__mywc/fashion/costumes/nurse/color__}nurse,${costume-minimum:${tops:${color:white} __mywc/fashion/costumes/nurse/tops__}},${costume-list:{0-3$$__mywc/fashion/costumes/nurse/list__}}
     list:
       - ${bottoms:${color:white} __mywc/fashion/costumes/nurse/bottoms__}
       - ${footwears:__mywc/fashion/costumes/nurse/footwears__}
@@ -1096,9 +1035,8 @@ costumes:
       - light pink
       - light green
   office-lady:
-    do: >-
-      office lady,
-      ${costume-list:{0-4$$__mywc/fashion/costumes/office-lady/list__}}
+    do:
+      - office lady,${costume-list:{0-4$$__mywc/fashion/costumes/office-lady/list__}}
     list:
       - ${tops:__mywc/fashion/costumes/office-lady/tops__}
       - ${bottoms:__mywc/fashion/costumes/office-lady/bottoms__}
@@ -1123,10 +1061,8 @@ costumes:
         - lanyard
         - watch
   pilot:
-    do: >-
-      pilot,
-      ${costume-minimum:${tops:__mywc/fashion/costumes/pilot/tops__},${bottoms:__mywc/fashion/costumes/pilot/bottoms__}},
-      ${costume-list:{0-2$$__mywc/fashion/costumes/pilot/list__}}
+    do:
+      - pilot,${costume-minimum:${tops:__mywc/fashion/costumes/pilot/tops__},${bottoms:__mywc/fashion/costumes/pilot/bottoms__}},${costume-list:{0-2$$__mywc/fashion/costumes/pilot/list__}}
     list:
       - ${gloves:__mywc/fashion/costumes/pilot/gloves__}
       - ${accessories:__mywc/fashion/costumes/pilot/accessories/do__}
@@ -1147,10 +1083,8 @@ costumes:
         - hat
         - necktie
   pirate:
-    do: >-
-      pirate,
-      ${costume-minimum:${headwears:__mywc/fashion/costumes/pirate/headwears__},${tops:__mywc/fashion/costumes/pirate/tops__}},
-      ${costume-list:{0-2$$__mywc/fashion/costumes/pirate/list__}}
+    do:
+      - pirate,${costume-minimum:${headwears:__mywc/fashion/costumes/pirate/headwears__},${tops:__mywc/fashion/costumes/pirate/tops__}},${costume-list:{0-2$$__mywc/fashion/costumes/pirate/list__}}
     list:
       - ${footwears:__mywc/fashion/costumes/pirate/footwears__}
       - ${accessories:__mywc/fashion/costumes/pirate/accessories/do__}
@@ -1170,10 +1104,8 @@ costumes:
         - eye patch
         - sash
   police:
-    do: >-
-      police uniform,
-      ${costume-minimum:${tops:__mywc/fashion/costumes/police/tops__},${bottoms:__mywc/fashion/costumes/police/bottoms__}},
-      ${costume-list:{0-2$$__mywc/fashion/costumes/police/list__}}
+    do:
+      - police uniform,${costume-minimum:${tops:__mywc/fashion/costumes/police/tops__},${bottoms:__mywc/fashion/costumes/police/bottoms__}},${costume-list:{0-2$$__mywc/fashion/costumes/police/list__}}
     list:
       - ${gloves:__mywc/fashion/costumes/police/gloves__}
       - ${accessories:__mywc/fashion/costumes/police/accessories/do__}
@@ -1194,10 +1126,8 @@ costumes:
         - badge
         - necktie
   priest:
-    do: >-
-      priest,
-      ${costume-minimum:${clothes:__mywc/fashion/costumes/priest/clothes__}},
-      ${costume-list:{0-1$$__mywc/fashion/costumes/priest/list__}}
+    do:
+      - priest,${costume-minimum:${clothes:__mywc/fashion/costumes/priest/clothes__}},${costume-list:{0-1$$__mywc/fashion/costumes/priest/list__}}
     list:
       - " "
       - ${accessories:__mywc/fashion/costumes/priest/accessories/do__}
@@ -1212,10 +1142,8 @@ costumes:
         - mitre
         - rosary
   prince:
-    do: >-
-      prince costume,
-      ${costume-minimum:{deep green|white|wine red} jacket,epaulettes,pants},
-      ${costume-list:{0-1$$__mywc/fashion/costumes/prince/list__}}
+    do:
+      - prince costume,${costume-minimum:{deep green|white|wine red} jacket,epaulettes,pants},${costume-list:{0-1$$__mywc/fashion/costumes/prince/list__}}
     list:
       - " "
       - __mywc/fashion/costumes/prince/accessories/do__
@@ -1227,10 +1155,8 @@ costumes:
         - ascot
         - gloves
   princess:
-    do: >-
-      princess,
-      ${costume-minimum:${tops:__mywc/fashion/costumes/princess/tops/do__},${accessories:__mywc/fashion/costumes/princess/accessories/do__}},
-      ${costume-list:{0-2$$__mywc/fashion/costumes/princess/list__}}
+    do:
+      - princess,${costume-minimum:${tops:__mywc/fashion/costumes/princess/tops/do__},${accessories:__mywc/fashion/costumes/princess/accessories/do__}},${costume-list:{0-2$$__mywc/fashion/costumes/princess/list__}}
     list:
       - ${bottoms:__mywc/fashion/costumes/princess/bottoms__}
       - ${gloves:__mywc/fashion/costumes/princess/gloves__}
@@ -1261,10 +1187,8 @@ costumes:
         - "{tiara|crown}"
         - jewelry
   race-queen:
-    do: >-
-      race queen,
-      ${costume-minimum:miniskirt},
-      ${costume-list:{0-3$$__mywc/fashion/costumes/race-queen/list__}}
+    do:
+      - race queen,${costume-minimum:miniskirt},${costume-list:{0-3$$__mywc/fashion/costumes/race-queen/list__}}
     list:
       - ${tops:__mywc/fashion/costumes/race-queen/tops__}
       - ${footwears:__mywc/fashion/costumes/race-queen/footwears__}
@@ -1284,19 +1208,16 @@ costumes:
         - gloves
         - sunglasses on head
   rainy:
-    do: >-
-      raincoat,
-      ${costume-list:{0-1$$__mywc/fashion/costumes/rainy/list__}}
+    do:
+      - raincoat,${costume-list:{0-1$$__mywc/fashion/costumes/rainy/list__}}
     list:
       - " "
       - ${footwears:__mywc/fashion/costumes/rainy/footwears__}
     footwears:
       - rain boots
   sailor:
-    do: >-
-      {naval|sailor} uniform,
-      ${costume-minimum:${tops:__mywc/fashion/costumes/sailor/tops__},naval pants},
-      ${costume-list:{0-1$$__mywc/fashion/costumes/sailor/list__}}
+    do:
+      - "{naval|sailor} uniform,${costume-minimum:${tops:__mywc/fashion/costumes/sailor/tops__},naval pants},${costume-list:{0-1$$__mywc/fashion/costumes/sailor/list__}}"
     list:
       - " "
       - ${accessories:__mywc/fashion/costumes/sailor/accessories/do__}
@@ -1310,10 +1231,8 @@ costumes:
         - insignia
         - sailor cap
   santa:
-    do: >-
-      ${color=!__mywc/fashion/costumes/santa/color__}
-      ${color:red} santa costume,
-      ${costume-list:{0-3$$__mywc/fashion/costumes/santa/list__}}
+    do:
+      - ${color=!__mywc/fashion/costumes/santa/color__}${color:red} santa costume,${costume-list:{0-3$$__mywc/fashion/costumes/santa/list__}}
     list:
       - ${socks:__mywc/fashion/costumes/santa/socks__}
       - ${footwears:__mywc/fashion/costumes/santa/footwears__}
@@ -1332,10 +1251,8 @@ costumes:
       - red
       - black
   school:
-    do: >-
-      school uniform,
-      ${costume-minimum:${tops:__mywc/fashion/costumes/school/tops/do__},${bottoms:__mywc/fashion/costumes/school/bottoms__}},
-      ${costume-list:{0-2$$__mywc/fashion/costumes/school/list__}}
+    do:
+      - school uniform,${costume-minimum:${tops:__mywc/fashion/costumes/school/tops/do__},${bottoms:__mywc/fashion/costumes/school/bottoms__}},${costume-list:{0-2$$__mywc/fashion/costumes/school/list__}}
     list:
       - ${footwears:__mywc/fashion/costumes/school/footwears/do__}
       - ${accessories:__mywc/fashion/costumes/school/accessories/do__}
@@ -1375,10 +1292,8 @@ costumes:
         - glasses
         - name tag
   scientist:
-    do: >-
-      scientist,
-      ${costume-minimum:lab coat},
-      ${costume-list:{0-3$$__mywc/fashion/costumes/scientist/list__}}
+    do:
+      - scientist,${costume-minimum:lab coat},${costume-list:{0-3$$__mywc/fashion/costumes/scientist/list__}}
     list:
       - ${bottoms:__mywc/fashion/costumes/scientist/bottoms__}
       - ${footwears:__mywc/fashion/costumes/scientist/footwears__}
@@ -1397,9 +1312,8 @@ costumes:
         - lanyard
         - safety goggles
   soldier:
-    do: >-
-      military uniform,soldier,
-      ${costume-list:{0-5$$__mywc/fashion/costumes/soldier/list__}}
+    do:
+      - military uniform,soldier,${costume-list:{0-5$$__mywc/fashion/costumes/soldier/list__}}
     list:
       - ${tops:__mywc/fashion/costumes/soldier/tops__}
       - ${bottoms:__mywc/fashion/costumes/soldier/bottoms__}
@@ -1428,9 +1342,8 @@ costumes:
       - camouflage
       - green
   sports:
-    do: >-
-      __mywc/fashion/costumes/sports/type__ uniform,
-      ${costume-list:{0-1$$__mywc/fashion/costumes/sports/list__}}
+    do:
+      - __mywc/fashion/costumes/sports/type__ uniform,${costume-list:{0-1$$__mywc/fashion/costumes/sports/list__}}
     list:
       - " "
       - ${accessories:__mywc/fashion/costumes/sports/accessories/do__}
@@ -1447,9 +1360,8 @@ costumes:
       list:
         - towel on neck
   summer:
-    do: >-
-      ${costume-minimum:${clothes:__mywc/fashion/costumes/summer/clothes/do__}},
-      ${costume-list:{0-2$$__mywc/fashion/costumes/summer/list__}}
+    do:
+      - ${costume-minimum:${clothes:__mywc/fashion/costumes/summer/clothes/do__}},${costume-list:{0-2$$__mywc/fashion/costumes/summer/list__}}
     list:
       - ${footwears:__mywc/fashion/costumes/summer/footwears/do__}
       - ${accessories:__mywc/fashion/costumes/summer/accessories/do__}
@@ -1511,9 +1423,8 @@ costumes:
       face:
         - "{|sunglasses{|on head}}"
   swimwear:
-    do: >-
-      ${costume-minimum:${clothes:__mywc/fashion/costumes/swimwear/clothes/do__}},
-      ${costume-list:{0-2$$__mywc/fashion/costumes/swimwear/list__}}
+    do:
+      - ${costume-minimum:${clothes:__mywc/fashion/costumes/swimwear/clothes/do__}},${costume-list:{0-2$$__mywc/fashion/costumes/swimwear/list__}}
     list:
       - ${footwears:__mywc/fashion/costumes/swimwear/footwears__}
       - ${accessories:__mywc/fashion/costumes/swimwear/accessories/do__}
@@ -1582,10 +1493,8 @@ costumes:
           - "{|heart-shaped |star-shaped }sunglasses"
           - goggles
   teacher:
-    do: >-
-      teacher,
-      ${costume-minimum:${tops:__mywc/fashion/costumes/teacher/tops__},${bottoms:__mywc/fashion/costumes/teacher/bottoms__}},
-      ${costume-list:{0-2$$__mywc/fashion/costumes/teacher/list__}}
+    do:
+      - teacher,${costume-minimum:${tops:__mywc/fashion/costumes/teacher/tops__},${bottoms:__mywc/fashion/costumes/teacher/bottoms__}},${costume-list:{0-2$$__mywc/fashion/costumes/teacher/list__}}
     list:
       - ${footwears:__mywc/fashion/costumes/teacher/footwears__}
       - ${accessories:__mywc/fashion/costumes/teacher/accessories/do__}
@@ -1609,10 +1518,8 @@ costumes:
         - lanyard
         - necktie
   thief:
-    do: >-
-      thief,
-      ${costume-minimum:__mywc/fashion/costumes/thief/color__ ${tops:__mywc/fashion/costumes/thief/tops__}},
-      ${costume-list:{0-2$$__mywc/fashion/costumes/thief/list__}}
+    do:
+      - thief,${costume-minimum:__mywc/fashion/costumes/thief/color__ ${tops:__mywc/fashion/costumes/thief/tops__}},${costume-list:{0-2$$__mywc/fashion/costumes/thief/list__}}
     list:
       - __mywc/fashion/costumes/thief/footwears__
       - __mywc/fashion/costumes/thief/accessories/do__
@@ -1637,10 +1544,8 @@ costumes:
       - black
       - brown
   travel-attendant:
-    do: >-
-      travel attendant,
-      ${costume-minimum:pencil skirt},
-      ${costume-list:{0-4$$__mywc/fashion/costumes/travel-attendant/list__}}
+    do:
+      - travel attendant,${costume-minimum:pencil skirt},${costume-list:{0-4$$__mywc/fashion/costumes/travel-attendant/list__}}
     list:
       - ${gloves:__mywc/fashion/costumes/travel-attendant/gloves__}
       - ${socks:__mywc/fashion/costumes/travel-attendant/socks__}
@@ -1664,10 +1569,8 @@ costumes:
         - neckerchief
         - sash on waist
   traveling-marchant:
-    do: >-
-      marchant,__mywc/fashion/costumes/traveling-marchant/bags/do__,
-      ${costume-minimum:__mywc/fashion/costumes/traveling-marchant/color__ ${tops:__mywc/fashion/costumes/traveling-marchant/tops__}},
-      ${costume-list:{0-3$$__mywc/fashion/costumes/traveling-marchant/list__}}
+    do:
+      - marchant,__mywc/fashion/costumes/traveling-marchant/bags/do__,${costume-minimum:__mywc/fashion/costumes/traveling-marchant/color__ ${tops:__mywc/fashion/costumes/traveling-marchant/tops__}},${costume-list:{0-3$$__mywc/fashion/costumes/traveling-marchant/list__}}
     list:
       - ${bottoms:__mywc/fashion/costumes/traveling-marchant/bottoms__}
       - ${footwears:__mywc/fashion/costumes/traveling-marchant/footwears__}
@@ -1698,10 +1601,8 @@ costumes:
       - blue
       - brown
   waitress:
-    do: >-
-      waitress,
-      ${costume-minimum:apron},
-      ${costume-list:{0-4$$__mywc/fashion/costumes/waitress/list__}}
+    do:
+      - waitress,${costume-minimum:apron},${costume-list:{0-4$$__mywc/fashion/costumes/waitress/list__}}
     list:
       - ${tops:__mywc/fashion/costumes/waitress/tops__}
       - ${bottoms:__mywc/fashion/costumes/waitress/bottoms__}
@@ -1723,9 +1624,8 @@ costumes:
         - name tag
         - sleeves rolled up
   warm-sets:
-    do: >-
-      ${costume-minimum:${tops:__mywc/fashion/costumes/warm-sets/tops__},${bottoms:__mywc/fashion/costumes/warm-sets/bottoms__}},
-      ${costume-list:{0-1$$__mywc/fashion/costumes/warm-sets/list__}}
+    do:
+      - ${costume-minimum:${tops:__mywc/fashion/costumes/warm-sets/tops__},${bottoms:__mywc/fashion/costumes/warm-sets/bottoms__}},${costume-list:{0-1$$__mywc/fashion/costumes/warm-sets/list__}}
     list:
       - " "
       - ${accessories:__mywc/fashion/costumes/warm-sets/accessories/do__}
@@ -1748,10 +1648,8 @@ costumes:
         - slippers
         - socks
   warrior:
-    do: >-
-      __mywc/fashion/costumes/warrior/color__ warrior,
-      ${costume-minimum:__mywc/fashion/costumes/warrior/armors/do__},
-      ${costume-list:{0-4$$__mywc/fashion/costumes/warrior/list__}}
+    do:
+      - __mywc/fashion/costumes/warrior/color__ warrior,${costume-minimum:__mywc/fashion/costumes/warrior/armors/do__},${costume-list:{0-4$$__mywc/fashion/costumes/warrior/list__}}
     list:
       - ${headwears:__mywc/fashion/costumes/warrior/headwears__}
       - ${gloves:__mywc/fashion/costumes/warrior/gloves__}
@@ -1786,9 +1684,8 @@ costumes:
       - silver
       - white
   wedding:
-    do: >-
-      ${costume-minimum:${clothes:__mywc/fashion/costumes/wedding/clothes/do__}},
-      ${costume-list:{0-1$$__mywc/fashion/costumes/wedding/list__}}
+    do:
+      - ${costume-minimum:${clothes:__mywc/fashion/costumes/wedding/clothes/do__}},${costume-list:{0-1$$__mywc/fashion/costumes/wedding/list__}}
     list:
       - " "
       - ${accessories:__mywc/fashion/costumes/wedding/accessories/do__}
@@ -1814,9 +1711,8 @@ costumes:
       - light pink
       - white
   winter:
-    do: >-
-      ${costume-minimum:${clothes:__mywc/fashion/costumes/winter/clothes/do__}},
-      ${costume-list:{0-2$$__mywc/fashion/costumes/winter/list__}}
+    do:
+      - ${costume-minimum:${clothes:__mywc/fashion/costumes/winter/clothes/do__}},${costume-list:{0-2$$__mywc/fashion/costumes/winter/list__}}
     list:
       - ${footwears:__mywc/fashion/costumes/winter/footwears/do__}
       - ${accessories:__mywc/fashion/costumes/winter/accessories/do__}
@@ -1878,10 +1774,8 @@ costumes:
       body:
         - gloves
   witch:
-    do: >-
-      witch,
-      ${costume-minimum:witch hat,${clothes:__mywc/fashion/costumes/witch/clothes/do__}},
-      ${costume-list:{0-2$$__mywc/fashion/costumes/witch/list__}}
+    do:
+      - witch,${costume-minimum:witch hat,${clothes:__mywc/fashion/costumes/witch/clothes/do__}},${costume-list:{0-2$$__mywc/fashion/costumes/witch/list__}}
     list:
       - ${footwears:__mywc/fashion/costumes/witch/footwears/do__}
       - ${accessories:__mywc/fashion/costumes/witch/accessories/do__}
@@ -1928,10 +1822,8 @@ costumes:
         - purple
         - red
   wizard:
-    do: >-
-      wizard,
-      ${costume-minimum:wizard hat,${tops:__mywc/fashion/costumes/wizard/tops__}},
-      ${costume-list:{0-1$$__mywc/fashion/costumes/wizard/list__}}
+    do:
+      - wizard,${costume-minimum:wizard hat,${tops:__mywc/fashion/costumes/wizard/tops__}},${costume-list:{0-1$$__mywc/fashion/costumes/wizard/list__}}
     list:
       - " "
       - ${accessories:__mywc/fashion/costumes/wizard/accessories/do__}
@@ -1947,10 +1839,8 @@ costumes:
         - "{|leather {|cuirass }}gloves"
         - hood up
   sample:
-    do: >-
-      sample,
-      ${costume-minimum:minimum},
-      ${costume-list:{0-6$$__mywc/fashion/costumes/sample/list__}}
+    do:
+      - sample,${costume-minimum:minimum},${costume-list:{0-6$$__mywc/fashion/costumes/sample/list__}}
     list:
       - ${tops:__mywc/fashion/costumes/sample/tops__}
       - ${bottoms:__mywc/fashion/costumes/sample/bottoms__}
